@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="cooling-with-factors_fossil_coal_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_coal_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_coal_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_coal_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_other_marine\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_other_hydroelectric\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_other_geothermal\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_solar_pv\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_solar_csp\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_wind_onshore\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_wind_offshore\[m3/GWh\]|wat_correction-factor_energy\[-\]|"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="cooling-with-factors_fossil_coal_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_coal_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_coal_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_coal_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_oil_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_nuclear_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_gas_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_1thru-fresh\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_1thru-sea\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_WT\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_fossil_biomass_dry\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_other_marine\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_other_hydroelectric\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_other_geothermal\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_solar_pv\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_solar_csp\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_wind_onshore\[m3/GWh\]|wat_correction-factor_energy\[-\]|cooling-with-factors_RES_wind_offshore\[m3/GWh\]|wat_correction-factor_energy\[-\]|"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="rules">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="// enter ordered set of rules, e.g.:"/>
+<entry key="1" type="xstring" value="// $${Ddouble variable name}$$ &gt; 5.0 =&gt; &quot;large&quot;"/>
+<entry key="2" type="xstring" value="// $${Sstring column name}$$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
+<entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
+<entry key="4" type="xstring" value="$${Iaggregation-remove}$$ = 1 =&gt; $${Sfilter}$$"/>
+<entry key="5" type="xstring" value="$${Iaggregation-remove}$$ = 0 =&gt; &quot;&quot;"/>
+</config>
+<entry key="new-column-name" type="xstring" value="filter"/>
+<entry key="replace-column-name" type="xstring" value=""/>
+<entry key="append-column" type="xboolean" value="true"/>
+<entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.rules.engine.RuleEngineVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="Rule Engine Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Rule Engine Variable"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="cc293805-89a4-4c7d-b0b5-586c9bcc994d"/>
+</config>
+</config>

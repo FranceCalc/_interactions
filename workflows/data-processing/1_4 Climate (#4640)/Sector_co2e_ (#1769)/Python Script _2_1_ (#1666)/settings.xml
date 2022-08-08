@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="#----------------------------------------------------------------------%%00010# Libraries%%00010#----------------------------------------------------------------------%%00010import numpy as np%%00010import pandas as pd%%00010#----------------------------------------------------------------------%%00010# Global parameters%%00010#----------------------------------------------------------------------%%00010# NUM_YEARS = 111%%00010GWP_N2O = 265%%00010GWP_CH4 = 28%%00010GWP_SO2 = -40.0%%00010H = 100%%00010#----------------------------------------------------------------------%%00010# Functions%%00010#----------------------------------------------------------------------%%00010# Updates single country emissions in place for given CH4 column%%00010def calc_CH4_col_(sc, col):%%00010%%00010    ch4_co2e = 0.25 * sc[col].values * GWP_CH4 * 12 / 44%%00010    _xx = (0.75 * H / 20) * (%%00010            sc[col] - np.roll(sc[col].rolling(20).mean(), 1)%%00010    ) * GWP_CH4 * 12 / 44%%00010    ch4_co2e[20:] += _xx.values[20:]%%00010    sc[col] = ch4_co2e%%00010  %%00010# Updates single country emissions in place for given SO2 column%%00010def calc_SO2_col_(sc, col):%%00010    sc[col] = (H * GWP_SO2 * 12 / 44) * (sc[col].values - np.roll(sc[col].values, 1))%%00010    sc[col][0] = 0.%%00010#----------------------------------------------------------------------%%00010# Main body%%00010#----------------------------------------------------------------------%%00010# input tables%%00010all_ems = pd.DataFrame(input_table_1)%%00010all_factor = pd.DataFrame(input_table_2)%%00010%%00010# convert to long table%%00010all_ems = all_ems.melt(id_vars = ['Country', 'Years'])%%00010%%00010# create a column containing a concat of variable and country_name%%00010all_ems['conc_name'] = all_ems['variable'] + '$' + all_ems['Country']%%00010%%00010# remove columns no longer needed%%00010all_ems = all_ems.drop(['variable', 'Country'], axis = 1)%%00010%%00010# convert back to wide table%%00010all_ems = all_ems.pivot_table(index = ['Years'], columns = 'conc_name', values = 'value').reset_index()%%00010%%00010# interpolate%%00010all_ems = all_ems.set_index('Years').reindex(range(1990, 2101)).interpolate(method='quadratic')%%00010%%00010# calculate gradient%%00010gradient_all_ems = (all_ems.loc[2035:2050].mean() - all_ems.loc[2035]) / 15%%00010%%00010gg = pd.DataFrame(gradient_all_ems)%%00010gg['Index'] = 1%%00010gg = gg.pivot_table(index = ['Index'], columns = 'conc_name', values = 0).reset_index(drop=True).reindex()%%00010col_names = gg.columns.values%%00010%%00010# calculate gradient coef%%00010grad_coef = np.arange(51) %%00010%%00010# create timeseries based on gradient coef and year 2050 value%%00010col_count = len(gradient_all_ems)%%00010col_count = gradient_all_ems.size%%00010xx = gradient_all_ems[:, np.newaxis] * np.tile(grad_coef, [col_count, 1])%%00010%%00010yy = pd.DataFrame(xx.transpose(), columns=col_names)%%00010yy['Years'] = np.arange(2050,2101)%%00010yy = yy.melt(id_vars='Years')%%00010yy['Country'] = yy['variable'].str.split('$', expand = True)[1]%%00010yy = yy.merge(all_factor, left_on = ['Years', 'Country'], right_on = ['Years', 'Country'])%%00010yy['value'] = yy['value'] * 0.01 * yy['clm_ems-after-2050_rate[%]']%%00010yy = yy.drop(['clm_ems-after-2050_rate[%]', 'Country'], axis = 1)%%00010yy = yy.pivot_table(index = ['Years'], columns = ['variable'], values = 'value')%%00010%%00010xx = np.repeat(all_ems.loc[2050], 51).values.reshape(col_count, 51).transpose()%%00010xx = xx + yy%%00010%%00010all_ems.loc[2050:] = xx%%00010%%00010all_ems = all_ems.reset_index()%%00010%%00010# get columns by GHG type%%00010column_keys = {k: [x for x in all_ems.columns if k in x] for k in ('CH4', 'N2O', 'CO2', 'SO2')}%%00010%%00010# CO2%%00010cols = column_keys[&quot;CO2&quot;]%%00010all_ems[cols] = all_ems[cols] * (12 / 44)%%00010%%00010# N2O%%00010cols = column_keys[&quot;N2O&quot;]%%00010all_ems[cols] = all_ems[cols] * GWP_N2O * (12 / 44)%%00010%%00010# CH4%%00010cols = column_keys[&quot;CH4&quot;]%%00010[calc_CH4_col_(all_ems, col) for col in cols]%%00010%%00010# SO2%%00010cols = column_keys[&quot;SO2&quot;]%%00010[calc_SO2_col_(all_ems, col) for col in cols]%%00010%%00010# convert to long table%%00010all_ems = all_ems.reset_index()%%00010all_ems = all_ems.drop('index', axis = 1)%%00010all_ems = all_ems.melt(id_vars=['Years'])%%00010%%00010# restore Country column%%00010all_ems['variable'], all_ems['Country'] = all_ems['conc_name'].str.split('$', 1).str%%00010all_ems = all_ems.drop('conc_name', axis=1)%%00010%%00010## We take this out, as we acutally do not need this here- ---%%00010## calculate EU total%%00010#eu_total = all_ems.groupby(['Years', 'variable']).sum().reset_index()%%00010# create country entry for eu total%%00010#eu_total['Country'] = &quot;EU total&quot;%%00010# reorder columns%%00010#eu_total = eu_total[all_ems.columns]%%00010%%00010# append EU total%%00010#all_ems = all_ems.append(eu_total)%%00010##----------------------------------------------%%00010%%00010# convert to original format%%00010all_ems.Country = all_ems.Country.astype(str)%%00010all_ems.value = all_ems.value.astype('float64')%%00010all_ems = all_ems.pivot_table(index=['Country', 'Years'], columns='variable', values='value').reset_index()%%00010%%00010all_ems.Years = all_ems.Years.astype('float64')%%00010# output%%00010output_table = all_ems%%00010"/>
+<entry key="rowLimit" type="xint" value="100000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="calculate %%00010warming-equivalent %%00010emissions"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="828"/>
+<entry key="y-coordinate" type="xint" value="219"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="36"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3219, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="ee50c933-1493-48ad-ad8b-7d9b38c10089"/>
+</config>
+</config>

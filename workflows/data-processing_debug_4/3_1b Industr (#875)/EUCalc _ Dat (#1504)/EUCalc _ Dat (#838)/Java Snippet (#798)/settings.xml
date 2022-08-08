@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010import java.util.ArrayList;%%00010import java.util.List;%%00010import java.util.Arrays;%%00010"/>
+<entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
+<entry key="scriptBody" type="xstring" value="// Enter your code here:%%00010logInfo(&quot;COLUMN VALIDATOR&quot;); %%00010Integer c = getColumnCount();%%00010ArrayList&lt;String&gt; out1 = new ArrayList&lt;String&gt;();%%00010ArrayList&lt;String&gt; out2 = new ArrayList&lt;String&gt;();%%00010List&lt;String&gt; countsList = new ArrayList&lt;String&gt;(Arrays.asList(c_PossibleCounts.split(&quot;,&quot;)));%%00010%%00010Integer numIterations=0;%%00010// First search loop : check values in REFERENCES and references in VALUES%%00010Boolean isMatching1 = true;%%00010Boolean isMatching2 = true;%%00010for (int i=0;i&lt;c;i++) {%%00010%%00009numIterations++;%%00010%%00009String colName = getColumnName(i);%%00010%%00009if (!isMissing(colName)){%%00010%%00009%%00009if (colName.contains(&quot;REFERENCE_&quot;)){%%00010%%00009%%00009%%00009if (!c_PossibleValues.contains(getCell(colName,tString))){%%00010%%00009%%00009%%00009%%00009out1.add(getCell(colName,tString));%%00010%%00009%%00009%%00009%%00009isMatching1 = false;%%00010%%00009%%00009%%00009}%%00010%%00009%%00009%%00009logInfo(&quot;Iteration &quot; + i + &quot;: &quot; + getCell(colName,tString) + &quot; in VALUES : &quot; + c_PossibleValues.contains(getCell(colName,tString))); %%00010%%00009%%00009}%%00010%%00009%%00009else if (colName.contains(&quot;VALUES_&quot;)) {%%00010%%00009%%00009%%00009if (!c_PossibleReferences.contains(getCell(colName,tString))) {%%00010%%00009%%00009%%00009%%00009out2.add(getCell(colName,tString));%%00010%%00009%%00009%%00009%%00009isMatching2 = false;%%00010%%00009%%00009%%00009}%%00010%%00009%%00009%%00009logInfo(&quot;Iteration &quot; + i + &quot;: &quot; + getCell(colName,tString) + &quot; in REFERENCE : &quot; + c_PossibleReferences.contains(getCell(colName,tString))); %%00010%%00009%%00009}%%00010%%00009}%%00010}%%00010%%00010if (!isMatching1) {%%00010%%00009logFatal(&quot;There is missing value(s) in the \&quot;&quot;+v_currentColumnName+&quot;\&quot; column: \&quot;&quot;+out1+&quot;\&quot;&quot;);%%00010}%%00010if (!isMatching2) {%%00010%%00009logError(&quot;There is extra value(s) in the \&quot;&quot;+v_currentColumnName+&quot;\&quot; column: \&quot;&quot;+out2+&quot;\&quot;&quot;);%%00010}%%00010%%00010// Second search loop : check the count of the different values%%00010if (countsList.size()&gt;1){%%00010%%00009logError(&quot;The number of values in the \&quot;&quot;+ v_currentColumnName+&quot;\&quot; column doesn't match for each group&quot;);%%00010}%%00010%%00010out_output = out1.toArray(new String[0]);%%00010logInfo(ROWINDEX);%%00010%%00010"/>
+<config key="jarFiles">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="outCols">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="Name" type="xstring" value="check"/>
+<entry key="JavaName" type="xstring" value="out_output"/>
+<entry key="JavaType" type="xstring" value="[Ljava.lang.String;"/>
+<config key="Type">
+<config key="collection_element_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.collection.ListCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.datacell.ArrayToCollectionConverterFactory(org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String))"/>
+<entry key="replaceExisting" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="outVars">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="inCols">
+<entry key="array-size" type="xint" value="3"/>
+<config key="0">
+<entry key="Name" type="xstring" value="PossibleValues"/>
+<entry key="JavaName" type="xstring" value="c_PossibleValues"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<config key="Type">
+<config key="collection_element_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.collection.SetCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DataValue,class java.lang.String,String (toString()))"/>
+</config>
+<config key="1">
+<entry key="Name" type="xstring" value="PossibleReferences"/>
+<entry key="JavaName" type="xstring" value="c_PossibleReferences"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<config key="Type">
+<config key="collection_element_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.collection.SetCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DataValue,class java.lang.String,String (toString()))"/>
+</config>
+<config key="2">
+<entry key="Name" type="xstring" value="PossibleCounts"/>
+<entry key="JavaName" type="xstring" value="c_PossibleCounts"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<config key="Type">
+<config key="collection_element_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+</config>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.collection.SetCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DataValue,class java.lang.String,String (toString()))"/>
+</config>
+</config>
+<config key="inVars">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="Name" type="xstring" value="currentColumnName"/>
+<entry key="JavaName" type="xstring" value="v_currentColumnName"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+</config>
+</config>
+<entry key="version" type="xstring" value="version 1.x"/>
+<entry key="templateUUID" type="xstring" value="1e40c7f7-673d-4023-8c7e-df116734837a"/>
+<entry key="runOnExecute" type="xboolean" value="false"/>
+<config key="bundles">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.jsnippet.JavaSnippetNodeFactory"/>
+<entry key="node-name" type="xstring" value="Java Snippet"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Java Snippet"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

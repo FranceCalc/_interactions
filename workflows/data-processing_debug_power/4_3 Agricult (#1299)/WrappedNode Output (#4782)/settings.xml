@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="variable-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+</config>
+<entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+<config key="port-names">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="0.2 Pathway Explorer"/>
+<entry key="1" type="xstring" value="1.4 Climate Emissions"/>
+<entry key="2" type="xstring" value="3.1b Industry Ammonoa"/>
+<entry key="3" type="xstring" value="4.1 Land-use"/>
+<entry key="4" type="xstring" value="4.4 Water"/>
+<entry key="5" type="xstring" value="5.3 Storage"/>
+<entry key="6" type="xstring" value="6.2 Air Pollution "/>
+<entry key="7" type="xstring" value="6.4 Employement "/>
+<entry key="8" type="xstring" value="7.1 GTAP"/>
+<entry key="9" type="xstring" value="4.2 Minerals"/>
+<entry key="10" type="xstring" value="Calibration rates"/>
+</config>
+<config key="port-descriptions">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="agr_liv-population_abp_hens-egg[lsu]%%00010agr_liv-population_abp_dairy-milk[lsu]%%00010agr_liv-population_meat_bovine[lsu]%%00010agr_liv-population_meat_pig[lsu]%%00010agr_liv-population_meat_sheep[lsu]%%00010agr_liv-population_meat_poultry[lsu]%%00010agr_liv-population_meat_oth-animals[lsu]%%00010agr_demand_feed_aps_algae_meal[kcal]%%00010agr_demand_feed_aps_insect_meal[kcal]%%00010agr_liquid_bioenergy_fdk_voil_algae[kcal]%%00010agr_liquid_bioenergy_fdk_voil_insect[kcal]%%00010agr_liquid_bioenergy_fdk_eth_bev[kcal]%%00010bld_fuel-cost_solid-bio[MEUR]%%00010ind_fuel-cost_solid-bio[MEUR]%%00010bld_fuel-cost_gas-bio[MEUR]%%00010ind_fuel-cost_gas-bio[MEUR]%%00010tra_fuel-cost_gas-bio[MEUR]%%00010tra_fuel-cost_liquid-bio[MEUR]%%00010agr_liquid_bioenergy_fdk_eth_sugarcrop[kcal]%%00010agr_liquid_bioenergy_fdk_eth_cereal[kcal]%%00010agr_liquid_bioenergy_fdk_voil_oilcrop[kcal]%%00010agr_demand_feed_crop_cereal[kcal]%%00010agr_demand_feed_crop_oilcrop[kcal]%%00010agr_demand_feed_crop_pulse[kcal]%%00010agr_demand_feed_crop_fruit[kcal]%%00010agr_demand_feed_crop_veg[kcal]%%00010agr_demand_feed_crop_starch[kcal]%%00010agr_demand_feed_abf_fish_meal[kcal]%%00010agr_demand_feed_abf_meat_meal[kcal]%%00010agr_demand_feed_abf_oth[kcal]%%00010agr_demand_feed_processed_molasse_sugarcrop[kcal]%%00010agr_demand_feed_processed_cake_oilcrop[kcal]%%00010agr_demand_feed_processed_voil_oilcrop[kcal]%%00010agr_domestic-production_afw_algae[kcal]%%00010agr_domestic-production_afw_insect[kcal]%%00010agr_domestic-production_afw_rice[kcal]%%00010agr_domestic-production_afw_cereal[kcal]%%00010agr_domestic-production_afw_oilcrop[kcal]%%00010agr_domestic-production_afw_pulse[kcal]%%00010agr_domestic-production_afw_fruit[kcal]%%00010agr_domestic-production_afw_veg[kcal]%%00010agr_domestic-production_afw_starch[kcal]%%00010agr_domestic-production_afw_sugarcrop[kcal]%%00010agr_liquid_bioenergy_fdk_lgn_agr-residues[kcal]%%00010agr_emissions-N2O_crop_residues_soil[Mt]%%00010agr_emissions-N2O_crop_residues_burnt[Mt]%%00010agr_emissions-CH4_crop_residues_burnt[Mt]%%00010agr_gas_bioenergy_fdk_digester_manure[kcal]%%00010agr_gas_bioenergy_fdk_digester_energycrop[kcal]%%00010agr_gas_bioenergy_fdk_digester_biowastes[kcal]%%00010agr_domestic-production_afw_gas_energycrop[kcal]%%00010agr_liquid_bioenergy_fdk_lgn_fst-residues[kcal]%%00010agr_domestic-production_afw_lgn_energycrop[kcal]%%00010agr_liquid_bioenergy_fdk_gas_energycrop[kcal]%%00010agr_liquid_bioenergy_fdk_lgn_energycrop[kcal]%%00010agr_emissions-CH4_crop_rice[Mt]%%00010agr_crop-cons_non-food[kcal]%%00010agr_crop-cons_feed[kcal]%%00010agr_crop-cons_food[kcal]%%00010agr_crop-cons_bioenergy[kcal]%%00010agr_emissions-N2O_crop_fertilizer[Mt]%%00010agr_energy-demand_diesel[TWh]%%00010agr_energy-demand_gasoline[TWh]%%00010agr_energy-demand_coal[TWh]%%00010agr_energy-demand_fuel-oil[TWh]%%00010agr_energy-demand_el[TWh]%%00010agr_energy-demand_gas[TWh]%%00010agr_emissions-CO2_energy-demand_diesel[Mt]%%00010agr_emissions-CO2_energy-demand_gasoline[Mt]%%00010agr_emissions-CO2_energy-demand_coal[Mt]%%00010agr_emissions-CO2_energy-demand_fuel-oil[Mt]%%00010agr_emissions-CO2_energy-demand_el[Mt]%%00010agr_emissions-CO2_energy-demand_gas[Mt]%%00010agr_emissions-CO2e[Mt]%%00010agr_emissions-N2O_liv_manure_treated[Mt]%%00010agr_emissions-CH4_liv_manure_treated[Mt]%%00010agr_emissions-N2O_liv_manure_applied[Mt]%%00010agr_emissions-N2O_liv_manure_pasture[Mt]%%00010agr_emissions-CH4_liv_enteric-fermentation[Mt]%%00010agr_emissions-CO2_lkg_crop_cereal[Mt]%%00010agr_emissions-CO2_lkg_crop_oilcrop[Mt]%%00010agr_emissions-CO2_lkg_crop_pulse[Mt]%%00010agr_emissions-CO2_lkg_crop_sugarcrop[Mt]%%00010agr_emissions-CO2_lkg_crop_starch[Mt]%%00010agr_emissions-CO2_lkg_crop_veg[Mt]%%00010agr_emissions-CO2_lkg_crop_fruit[Mt]%%00010agr_emissions-CO2_lkg_crop_cake[Mt]%%00010agr_emissions-CO2_lkg_crop_bovine[Mt]%%00010agr_emissions-CO2_lkg_crop_pig[Mt]%%00010agr_emissions-CO2_lkg_crop_sheep[Mt]"/>
+<entry key="1" type="xstring" value=""/>
+<entry key="2" type="xstring" value=""/>
+<entry key="3" type="xstring" value="agr_lus_land_pasture[ha]%%00010agr_fst_demand_rwe[Mm3]%%00010agr_lus_land_cropland[ha]"/>
+<entry key="4" type="xstring" value="agr_liv-population_abp_hens-egg[lsu]%%00010agr_liv-population_abp_dairy-milk[lsu]%%00010agr_liv-population_meat_bovine[lsu]%%00010agr_liv-population_meat_pig[lsu]%%00010agr_liv-population_meat_sheep[lsu]%%00010agr_liv-population_meat_poultry[lsu]%%00010agr_liv-population_meat_oth-animals[lsu]%%00010agr_domestic-production_afw_algae[kcal]%%00010agr_domestic-production_afw_insect[kcal]%%00010agr_domestic-production_afw_oilcrop[kcal]%%00010agr_domestic-production_afw_pulse[kcal]%%00010agr_domestic-production_afw_fruit[kcal]%%00010agr_domestic-production_afw_veg[kcal]%%00010agr_domestic-production_afw_starch[kcal]%%00010agr_domestic-production_afw_sugarcrop[kcal]%%00010agr_domestic-production_afw_gas_energycrop[kcal]%%00010agr_domestic-production_afw_lgn_energycrop[kcal]%%00010agr_domestic-production_afw_cereal[kcal]"/>
+<entry key="5" type="xstring" value=""/>
+<entry key="6" type="xstring" value=""/>
+<entry key="7" type="xstring" value="agr_food-net-import_crop_stm[%]%%00010agr_food-net-import_pro_bev_beer[%]%%00010agr_food-net-import_pro_bev_bev-alc[%]%%00010agr_food-net-import_pro_bev_bev-fer[%]%%00010agr_food-net-import_pro_bev_wine[%]%%00010agr_food-net-import_pro_crop_processed_voil[%]%%00010agr_food-net-import_pro_crop_processed_molasse[%]%%00010agr_food-net-import_pro_crop_processed_sweet[%]%%00010agr_food-net-import_pro_crop_processed_sugar[%]%%00010agr_food-net-import_pro_crop_processeced_cake[%]%%00010agr_food-net-import_pro_liv_abp_hens-egg[%]%%00010agr_food-net-import_pro_liv_meat_oth-animals[%]%%00010agr_food-net-import_pro_liv_meat_poultry[%]%%00010agr_food-net-import_pro_liv_abp_dairy-milk[%]%%00010agr_food-net-import_pro_liv_meat_bovine[%]%%00010agr_food-net-import_pro_liv_meat_pig[%]%%00010agr_food-net-import_pro_liv_meat_sheep[%]%%00010agr_food-net-import_pro_liv_abp_processed_afat[%]%%00010agr_food-net-import_pro_liv_abp_processed_offal[%]%%00010agr_fertilizer_chemicals[t]%%00010agr_energy-demand_diesel[TWh]%%00010agr_energy-demand_gasoline[TWh]%%00010agr_energy-demand_coal[TWh]%%00010agr_energy-demand_fuel-oil[TWh]%%00010agr_energy-demand_el[TWh]%%00010agr_energy-demand_gas[TWh]%%00010agr_bioenergy-liquid_crops  [kcal]%%00010agr_bioenergy-liquid_processed-crops-veg[kcal]%%00010agr_bioenergy-liquid_processed-animal[kcal]%%00010agr_bioenergy-gas_crops[kcal]%%00010agr_bioenergy-gas_livestock[kcal]%%00010agr_liv-food_processed-fishery[kcal]%%00010agr_liv-food_processed-animal[kcal]%%00010agr_fertilizer_livestock[Mt]%%00010agr_liv-food_crops[kcal]%%00010agr_liv-food_processed-crops-veg[kcal]"/>
+<entry key="8" type="xstring" value="agr_domestic-production_liv_abp_processed_afat[kcal]%%00010agr_domestic-production_liv_abp_hens-egg[kcal]%%00010agr_domestic-production_liv_abp_dairy-milk[kcal]%%00010agr_domestic-production_liv_abp_processed_offal[kcal]%%00010agr_domestic-production_liv_meat_bovine[kcal]%%00010agr_domestic-production_liv_meat_sheep[kcal]%%00010agr_domestic-production_liv_meat_pig[kcal]%%00010agr_domestic-production_liv_meat_poultry[kcal]%%00010agr_domestic-production_liv_meat_oth-animals[kcal]%%00010agr_liv-population_abp_dairy-milk[lsu]%%00010agr_liv-population_abp_hens-egg[lsu]%%00010agr_liv-population_meat_bovine[lsu]%%00010agr_liv-population_meat_pig[lsu]%%00010agr_liv-population_meat_poultry[lsu]%%00010agr_liv-population_meat_sheep[lsu]%%00010agr_liv-population_meat_oth-animals[lsu]%%00010agr_input-use_nitrogen[t]%%00010agr_input-use_phosphate[t]%%00010agr_input-use_potash[t]%%00010agr_input-use_pesticide[t]%%00010agr_energy-demand_liquid-ff-diesel[ktoe]%%00010agr_energy-demand_liquid-ff-gasoline[ktoe]%%00010agr_energy-demand_electricity[ktoe]%%00010agr_energy-demand_gas-ff-natural[ktoe]%%00010agr_energy-demand_solid-ff-coal[ktoe]%%00010agr_energy-demand_bioenergy-solid-wood[ktoe]%%00010agr_energy-demand_heat[ktoe]%%00010agr_energy-demand_oth[ktoe]%%00010agr_energy-demand_bioenergy-liquid_biodiesels[ktoe]%%00010agr_energy-demand_bioenergy-gas_biogas[ktoe]%%00010agr_energy-demand_bioenergy-liquid_ethanol[ktoe]%%00010agr_energy-demand_liquid-ff-lpg[ktoe]%%00010agr_energy-demand_bioenergy-liquid_oth[ktoe]%%00010agr_energy-demand_liquid-ff-fuel-oil[ktoe]"/>
+<entry key="9" type="xstring" value=""/>
+<entry key="10" type="xstring" value=""/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="isDeletable" type="xboolean" value="false"/>
+<entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
+<entry key="node-name" type="xstring" value="WrappedNode Output"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings">
+<config key="port_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_4">
+<entry key="index" type="xint" value="4"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_5">
+<entry key="index" type="xint" value="5"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_6">
+<entry key="index" type="xint" value="6"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_7">
+<entry key="index" type="xint" value="7"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_8">
+<entry key="index" type="xint" value="8"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_9">
+<entry key="index" type="xint" value="9"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_10">
+<entry key="index" type="xint" value="10"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="name" type="xstring" value="WrappedNode Output"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

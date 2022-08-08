@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="grouByColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="grouByColumns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Years"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="371"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="lfs_pop_population[inhabitants]"/>
+<entry key="2" type="xstring" value="lfs_pop_world[inhabitants]"/>
+<entry key="3" type="xstring" value="ind_material-production_glass[Mt]"/>
+<entry key="4" type="xstring" value="ind_product-net-import_infra-pipe[%]"/>
+<entry key="5" type="xstring" value="ind_product-net-import_dom-appliance-fridge[%]"/>
+<entry key="6" type="xstring" value="ind_product-net-import_dom-appliance-dishwasher[%]"/>
+<entry key="7" type="xstring" value="ind_product-net-import_dom-appliance-wmachine[%]"/>
+<entry key="8" type="xstring" value="ind_product-net-import_LDV-ICE[%]"/>
+<entry key="9" type="xstring" value="ind_product-net-import_HDVL-ICE[%]"/>
+<entry key="10" type="xstring" value="ind_product-net-import_LDV-FCEV[%]"/>
+<entry key="11" type="xstring" value="ind_product-net-import_HDVL-FCEV[%]"/>
+<entry key="12" type="xstring" value="ind_product-net-import_LDV-EV[%]"/>
+<entry key="13" type="xstring" value="ind_product-net-import_HDVL-EV[%]"/>
+<entry key="14" type="xstring" value="ind_product-net-import_other-ships[%]"/>
+<entry key="15" type="xstring" value="ind_product-net-import_other-trains[%]"/>
+<entry key="16" type="xstring" value="ind_product-net-import_other-planes[%]"/>
+<entry key="17" type="xstring" value="ind_product-net-import_infra-road[%]"/>
+<entry key="18" type="xstring" value="ind_product-net-import_infra-rail[%]"/>
+<entry key="19" type="xstring" value="ind_product-net-import_infra-trolley-cables[%]"/>
+<entry key="20" type="xstring" value="ind_product-net-import_dom-appliance-freezer[%]"/>
+<entry key="21" type="xstring" value="ind_product-net-import_dom-appliance-dryer[%]"/>
+<entry key="22" type="xstring" value="ind_product-net-import_electronics-tv[%]"/>
+<entry key="23" type="xstring" value="ind_product-net-import_electronics-phone[%]"/>
+<entry key="24" type="xstring" value="ind_product-net-import_electronics-computer[%]"/>
+<entry key="25" type="xstring" value="ind_proportion_steel_BF-BOF[%]"/>
+<entry key="26" type="xstring" value="ind_proportion_steel_scrap-EAF[%]"/>
+<entry key="27" type="xstring" value="ind_proportion_steel_hydrog-DRI[%]"/>
+<entry key="28" type="xstring" value="ind_proportion_steel_hisarna[%]"/>
+<entry key="29" type="xstring" value="ind_proportion_aluminium_primary[%]"/>
+<entry key="30" type="xstring" value="ind_proportion_aluminium_secondary[%]"/>
+<entry key="31" type="xstring" value="ind_proportion_copper_secondary[%]"/>
+<entry key="32" type="xstring" value="ind_material-switch_cars_steel_other[%]"/>
+<entry key="33" type="xstring" value="ind_material-switch_trucks_steel_other[%]"/>
+<entry key="34" type="xstring" value="ind_material-switch_trucks_steel_aluminium[%]"/>
+<entry key="35" type="xstring" value="ind_material-switch_build_steel_timber[%]"/>
+<entry key="36" type="xstring" value="ind_material-efficiency_steel[%]"/>
+<entry key="37" type="xstring" value="ind_material-efficiency_aluminium[%]"/>
+<entry key="38" type="xstring" value="ind_material-efficiency_copper[%]"/>
+<entry key="39" type="xstring" value="ind_prod_aluminium-pack[t]"/>
+<entry key="40" type="xstring" value="min_row_proportion_steel_BF-BOF[%]"/>
+<entry key="41" type="xstring" value="min_row_proportion_steel_scrap-EAF[%]"/>
+<entry key="42" type="xstring" value="min_row_proportion_steel_hydrog-DRI[%]"/>
+<entry key="43" type="xstring" value="min_row_proportion_steel_hisarna[%]"/>
+<entry key="44" type="xstring" value="min_row_proportion_aluminium_primary[%]"/>
+<entry key="45" type="xstring" value="min_row_proportion_aluminium_secondary[%]"/>
+<entry key="46" type="xstring" value="min_row_proportion_copper_secondary[%]"/>
+<entry key="47" type="xstring" value="min_row_material-switch_cars_steel_other[%]"/>
+<entry key="48" type="xstring" value="min_row_material-switch_trucks_steel_other[%]"/>
+<entry key="49" type="xstring" value="min_row_material-switch_trucks_steel_aluminium[%]"/>
+<entry key="50" type="xstring" value="min_row_material-switch_build_steel_timber[%]"/>
+<entry key="51" type="xstring" value="min_row_material-efficiency_steel[%]"/>
+<entry key="52" type="xstring" value="min_row_material-efficiency_aluminium[%]"/>
+<entry key="53" type="xstring" value="min_row_material-efficiency_copper[%]"/>
+<entry key="54" type="xstring" value="min_row_proportion_steel_BF-BOF[%]_1"/>
+<entry key="55" type="xstring" value="min_proportion_steel_EAF[%]"/>
+<entry key="56" type="xstring" value="min_proportion_steel_BOF[%]"/>
+<entry key="57" type="xstring" value="min_proportion_aluminium_primary[%]"/>
+<entry key="58" type="xstring" value="min_proportion_aluminium_secondary[%]"/>
+<entry key="59" type="xstring" value="min_proportion_copper_primary[%]"/>
+<entry key="60" type="xstring" value="min_proportion_copper_secondary[%]"/>
+<entry key="61" type="xstring" value="tra_infra-road[km]"/>
+<entry key="62" type="xstring" value="tra_infra-rail[km]"/>
+<entry key="63" type="xstring" value="tra_infra-trolley-cables[km]"/>
+<entry key="64" type="xstring" value="tra_other-subways[num]"/>
+<entry key="65" type="xstring" value="tra_2W-ICE[num]"/>
+<entry key="66" type="xstring" value="tra_HDVH-ICE[num]"/>
+<entry key="67" type="xstring" value="tra_HDVL-ICE[num]"/>
+<entry key="68" type="xstring" value="tra_HDVM-ICE[num]"/>
+<entry key="69" type="xstring" value="tra_LDV-ICE[num]"/>
+<entry key="70" type="xstring" value="tra_bus-ICE[num]"/>
+<entry key="71" type="xstring" value="tra_2W-PHEV[num]"/>
+<entry key="72" type="xstring" value="tra_HDVH-PHEV[num]"/>
+<entry key="73" type="xstring" value="tra_HDVL-PHEV[num]"/>
+<entry key="74" type="xstring" value="tra_HDVM-PHEV[num]"/>
+<entry key="75" type="xstring" value="tra_LDV-PHEV[num]"/>
+<entry key="76" type="xstring" value="tra_bus-PHEV[num]"/>
+<entry key="77" type="xstring" value="tra_2W-EV[num]"/>
+<entry key="78" type="xstring" value="tra_HDVH-EV[num]"/>
+<entry key="79" type="xstring" value="tra_HDVL-EV[num]"/>
+<entry key="80" type="xstring" value="tra_HDVM-EV[num]"/>
+<entry key="81" type="xstring" value="tra_LDV-EV[num]"/>
+<entry key="82" type="xstring" value="tra_bus-EV[num]"/>
+<entry key="83" type="xstring" value="tra_2W-FCEV[num]"/>
+<entry key="84" type="xstring" value="tra_HDVH-FCEV[num]"/>
+<entry key="85" type="xstring" value="tra_HDVL-FCEV[num]"/>
+<entry key="86" type="xstring" value="tra_HDVM-FCEV[num]"/>
+<entry key="87" type="xstring" value="tra_LDV-FCEV[num]"/>
+<entry key="88" type="xstring" value="tra_bus-FCEV[num]"/>
+<entry key="89" type="xstring" value="tra_other-ships[num]"/>
+<entry key="90" type="xstring" value="tra_other-planes[num]"/>
+<entry key="91" type="xstring" value="tra_other-trains[num]"/>
+<entry key="92" type="xstring" value="min_eu_extdem_total_gas[Mt]"/>
+<entry key="93" type="xstring" value="min_eu_extdem_total_oil[TWh]"/>
+<entry key="94" type="xstring" value="min_eu_extdem_total_coal[Mt]"/>
+<entry key="95" type="xstring" value="tra_infra-pipe[km]"/>
+<entry key="96" type="xstring" value="bld_floor-area_energy-non-residential[m2]"/>
+<entry key="97" type="xstring" value="bld_floor-area_reno_non-residential[m2]"/>
+<entry key="98" type="xstring" value="bld_floor-area_energy-residential[m2]"/>
+<entry key="99" type="xstring" value="bld_floor-area_reno_residential[m2]"/>
+<entry key="100" type="xstring" value="tra_dom-appliance-fridge[num]"/>
+<entry key="101" type="xstring" value="tra_dom-appliance-freezer[num]"/>
+<entry key="102" type="xstring" value="tra_dom-appliance-wmachine[num]"/>
+<entry key="103" type="xstring" value="tra_dom-appliance-dishwasher[num]"/>
+<entry key="104" type="xstring" value="tra_dom-appliance-dryer[num]"/>
+<entry key="105" type="xstring" value="tra_electronics-tv[num]"/>
+<entry key="106" type="xstring" value="tra_electronics-computer[num]"/>
+<entry key="107" type="xstring" value="tra_electronics-phone[num]"/>
+<entry key="108" type="xstring" value="min_eu_ccus_gas-ff-natural[Mt]"/>
+<entry key="109" type="xstring" value="min_eu_extdem_total_phosphate[Mt]"/>
+<entry key="110" type="xstring" value="min_eu_extdem_total_potash[Mt]"/>
+<entry key="111" type="xstring" value="elc_electricity-demand_total[GWh]"/>
+<entry key="112" type="xstring" value="min_reserve_bauxite[Mt]"/>
+<entry key="113" type="xstring" value="min_reserve_iron[Mt]"/>
+<entry key="114" type="xstring" value="min_reserve_copper[Mt]"/>
+<entry key="115" type="xstring" value="min_reserve_phosphate[Mt]"/>
+<entry key="116" type="xstring" value="min_reserve_potash[Mt]"/>
+<entry key="117" type="xstring" value="min_reserve_oil[Mt]"/>
+<entry key="118" type="xstring" value="min_reserve_gas[Mt]"/>
+<entry key="119" type="xstring" value="min_reserve_coal[Mt]"/>
+<entry key="120" type="xstring" value="min_share_pv_csi[%]"/>
+<entry key="121" type="xstring" value="min_share_pv_thinfilm[%]"/>
+<entry key="122" type="xstring" value="min_trade_energy-pv_dir[%]"/>
+<entry key="123" type="xstring" value="min_trade_energy-off-wind_dir[%]"/>
+<entry key="124" type="xstring" value="min_trade_energy-on-wind_dir[%]"/>
+<entry key="125" type="xstring" value="min_trade_energy-hydro_dir[%]"/>
+<entry key="126" type="xstring" value="min_trade_energy-nuclear_dir[%]"/>
+<entry key="127" type="xstring" value="min_trade_energy-oil_dir[%]"/>
+<entry key="128" type="xstring" value="min_trade_energy-coal_dir[%]"/>
+<entry key="129" type="xstring" value="min_trade_energy-gas_dir[%]"/>
+<entry key="130" type="xstring" value="min_trade_energy-geo_dir[%]"/>
+<entry key="131" type="xstring" value="min_trade_energy-marine_dir[%]"/>
+<entry key="132" type="xstring" value="min_trade_energy-csp_dir[%]"/>
+<entry key="133" type="xstring" value="min_trade_energy-pv_indir[%]"/>
+<entry key="134" type="xstring" value="min_trade_energy-off-wind_indir[%]"/>
+<entry key="135" type="xstring" value="min_trade_energy-on-wind_indir[%]"/>
+<entry key="136" type="xstring" value="min_trade_energy-hydro_indir[%]"/>
+<entry key="137" type="xstring" value="min_trade_energy-nuclear_indir[%]"/>
+<entry key="138" type="xstring" value="min_trade_energy-oil_indir[%]"/>
+<entry key="139" type="xstring" value="min_trade_energy-coal_indir[%]"/>
+<entry key="140" type="xstring" value="min_trade_energy-gas_indir[%]"/>
+<entry key="141" type="xstring" value="min_trade_energy-geo_indir[%]"/>
+<entry key="142" type="xstring" value="min_trade_energy-marine_indir[%]"/>
+<entry key="143" type="xstring" value="min_trade_energy-csp_indir[%]"/>
+<entry key="144" type="xstring" value="min_trade_energy-pv_exp[%]"/>
+<entry key="145" type="xstring" value="min_trade_energy-off-wind_exp[%]"/>
+<entry key="146" type="xstring" value="min_trade_energy-on-wind_exp[%]"/>
+<entry key="147" type="xstring" value="min_trade_energy-hydro_exp[%]"/>
+<entry key="148" type="xstring" value="min_trade_energy-nuclear_exp[%]"/>
+<entry key="149" type="xstring" value="min_trade_energy-oil_exp[%]"/>
+<entry key="150" type="xstring" value="min_trade_energy-coal_exp[%]"/>
+<entry key="151" type="xstring" value="min_trade_energy-gas_exp[%]"/>
+<entry key="152" type="xstring" value="min_trade_energy-geo_exp[%]"/>
+<entry key="153" type="xstring" value="min_trade_energy-marine_exp[%]"/>
+<entry key="154" type="xstring" value="min_trade_energy-csp_exp[%]"/>
+<entry key="155" type="xstring" value="min_car_LDV-EV_steel[kg/unit]"/>
+<entry key="156" type="xstring" value="min_car_LDV-FCEV_steel[kg/unit]"/>
+<entry key="157" type="xstring" value="min_car_LDV-ICE_steel[kg/unit]"/>
+<entry key="158" type="xstring" value="min_car_LDV-PHEV_steel[kg/unit]"/>
+<entry key="159" type="xstring" value="min_car_LDV-EV_aluminium[kg/unit]"/>
+<entry key="160" type="xstring" value="min_car_LDV-FCEV_aluminium[kg/unit]"/>
+<entry key="161" type="xstring" value="min_car_LDV-ICE_aluminium[kg/unit]"/>
+<entry key="162" type="xstring" value="min_car_LDV-PHEV_aluminium[kg/unit]"/>
+<entry key="163" type="xstring" value="min_car_LDV-EV_copper[kg/unit]"/>
+<entry key="164" type="xstring" value="min_car_LDV-FCEV_copper[kg/unit]"/>
+<entry key="165" type="xstring" value="min_car_LDV-ICE_copper[kg/unit]"/>
+<entry key="166" type="xstring" value="min_car_LDV-PHEV_copper[kg/unit]"/>
+<entry key="167" type="xstring" value="min_truck_HDVL-ICE_steel[kg/unit]"/>
+<entry key="168" type="xstring" value="min_truck_HDVL-FCEV_steel[kg/unit]"/>
+<entry key="169" type="xstring" value="min_truck_HDVL-EV_steel[kg/unit]"/>
+<entry key="170" type="xstring" value="min_truck_HDVL-PHEV_steel[kg/unit]"/>
+<entry key="171" type="xstring" value="min_truck_HDVM-ICE_steel[kg/unit]"/>
+<entry key="172" type="xstring" value="min_truck_HDVM-FCEV_steel[kg/unit]"/>
+<entry key="173" type="xstring" value="min_truck_HDVM-EV_steel[kg/unit]"/>
+<entry key="174" type="xstring" value="min_truck_HDVM-PHEV_steel[kg/unit]"/>
+<entry key="175" type="xstring" value="min_truck_HDVH-ICE_steel[kg/unit]"/>
+<entry key="176" type="xstring" value="min_truck_HDVH-FCEV_steel[kg/unit]"/>
+<entry key="177" type="xstring" value="min_truck_HDVH-EV_steel[kg/unit]"/>
+<entry key="178" type="xstring" value="min_truck_HDVH-PHEV_steel[kg/unit]"/>
+<entry key="179" type="xstring" value="min_truck_HDVH-ICE_aluminium[kg/unit]"/>
+<entry key="180" type="xstring" value="min_truck_HDVH-FCEV_aluminium[kg/unit]"/>
+<entry key="181" type="xstring" value="min_truck_HDVH-EV_aluminium[kg/unit]"/>
+<entry key="182" type="xstring" value="min_truck_HDVH-PHEV_aluminium[kg/unit]"/>
+<entry key="183" type="xstring" value="min_truck_HDVL-ICE_aluminium[kg/unit]"/>
+<entry key="184" type="xstring" value="min_truck_HDVL-FCEV_aluminium[kg/unit]"/>
+<entry key="185" type="xstring" value="min_truck_HDVL-EV_aluminium[kg/unit]"/>
+<entry key="186" type="xstring" value="min_truck_HDVL-PHEV_aluminium[kg/unit]"/>
+<entry key="187" type="xstring" value="min_truck_HDVM-ICE_aluminium[kg/unit]"/>
+<entry key="188" type="xstring" value="min_truck_HDVM-FCEV_aluminium[kg/unit]"/>
+<entry key="189" type="xstring" value="min_truck_HDVM-EV_aluminium[kg/unit]"/>
+<entry key="190" type="xstring" value="min_truck_HDVM-PHEV_aluminium[kg/unit]"/>
+<entry key="191" type="xstring" value="min_truck_HDVL-ICE_copper[kg/unit]"/>
+<entry key="192" type="xstring" value="min_truck_HDVL-FCEV_copper[kg/unit]"/>
+<entry key="193" type="xstring" value="min_truck_HDVL-EV_copper[kg/unit]"/>
+<entry key="194" type="xstring" value="min_truck_HDVL-PHEV_copper[kg/unit]"/>
+<entry key="195" type="xstring" value="min_truck_HDVM-ICE_copper[kg/unit]"/>
+<entry key="196" type="xstring" value="min_truck_HDVM-FCEV_copper[kg/unit]"/>
+<entry key="197" type="xstring" value="min_truck_HDVM-EV_copper[kg/unit]"/>
+<entry key="198" type="xstring" value="min_truck_HDVM-PHEV_copper[kg/unit]"/>
+<entry key="199" type="xstring" value="min_truck_HDVH-ICE_copper[kg/unit]"/>
+<entry key="200" type="xstring" value="min_truck_HDVH-FCEV_copper[kg/unit]"/>
+<entry key="201" type="xstring" value="min_truck_HDVH-EV_copper[kg/unit]"/>
+<entry key="202" type="xstring" value="min_truck_HDVH-PHEV_copper[kg/unit]"/>
+<entry key="203" type="xstring" value="min_vehicle_bus-EV_steel[kg/unit]"/>
+<entry key="204" type="xstring" value="min_vehicle_bus-FCEV_steel[kg/unit]"/>
+<entry key="205" type="xstring" value="min_vehicle_bus-ICE_steel[kg/unit]"/>
+<entry key="206" type="xstring" value="min_vehicle_bus-PHEV_steel[kg/unit]"/>
+<entry key="207" type="xstring" value="min_vehicle_2W-ICE_steel[kg/unit]"/>
+<entry key="208" type="xstring" value="min_vehicle_2W-FCEV_steel[kg/unit]"/>
+<entry key="209" type="xstring" value="min_vehicle_2W-EV_steel[kg/unit]"/>
+<entry key="210" type="xstring" value="min_vehicle_2W-PHEV_steel[kg/unit]"/>
+<entry key="211" type="xstring" value="min_vehicle_bus-EV_aluminium[kg/unit]"/>
+<entry key="212" type="xstring" value="min_vehicle_bus-FCEV_aluminium[kg/unit]"/>
+<entry key="213" type="xstring" value="min_vehicle_bus-ICE_aluminium[kg/unit]"/>
+<entry key="214" type="xstring" value="min_vehicle_bus-PHEV_aluminium[kg/unit]"/>
+<entry key="215" type="xstring" value="min_vehicle_2W-ICE_aluminium[kg/unit]"/>
+<entry key="216" type="xstring" value="min_vehicle_2W-FCEV_aluminium[kg/unit]"/>
+<entry key="217" type="xstring" value="min_vehicle_2W-EV_aluminium[kg/unit]"/>
+<entry key="218" type="xstring" value="min_vehicle_2W-PHEV_aluminium[kg/unit]"/>
+<entry key="219" type="xstring" value="min_vehicle_bus-EV_copper[kg/unit]"/>
+<entry key="220" type="xstring" value="min_vehicle_bus-FCEV_copper[kg/unit]"/>
+<entry key="221" type="xstring" value="min_vehicle_bus-ICE_copper[kg/unit]"/>
+<entry key="222" type="xstring" value="min_vehicle_bus-PHEV_copper[kg/unit]"/>
+<entry key="223" type="xstring" value="min_vehicle_2W-ICE_copper[kg/unit]"/>
+<entry key="224" type="xstring" value="min_vehicle_2W-FCEV_copper[kg/unit]"/>
+<entry key="225" type="xstring" value="min_vehicle_2W-EV_copper[kg/unit]"/>
+<entry key="226" type="xstring" value="min_vehicle_2W-PHEV_copper[kg/unit]"/>
+<entry key="227" type="xstring" value="min_vehicle_other-ships_steel[kg/unit]"/>
+<entry key="228" type="xstring" value="min_vehicle_other-trains_steel[kg/unit]"/>
+<entry key="229" type="xstring" value="min_vehicle_other-subways_steel[kg/unit]"/>
+<entry key="230" type="xstring" value="min_vehicle_other-planes_steel[kg/unit]"/>
+<entry key="231" type="xstring" value="min_vehicle_other-ships_aluminium[kg/unit]"/>
+<entry key="232" type="xstring" value="min_vehicle_other-trains_aluminium[kg/unit]"/>
+<entry key="233" type="xstring" value="min_vehicle_other-subways_aluminium[kg/unit]"/>
+<entry key="234" type="xstring" value="min_vehicle_other-planes_aluminium[kg/unit]"/>
+<entry key="235" type="xstring" value="min_vehicle_other-ships_copper[kg/unit]"/>
+<entry key="236" type="xstring" value="min_vehicle_other-trains_copper[kg/unit]"/>
+<entry key="237" type="xstring" value="min_vehicle_other-subways_copper[kg/unit]"/>
+<entry key="238" type="xstring" value="min_vehicle_other-planes_copper[kg/unit]"/>
+<entry key="239" type="xstring" value="min_infra_road_steel[kg/km]"/>
+<entry key="240" type="xstring" value="min_infra_rail_steel[kg/km]"/>
+<entry key="241" type="xstring" value="min_infra_trolley-cables_steel[kg/km]"/>
+<entry key="242" type="xstring" value="min_infra_road_aluminium[kg/km]"/>
+<entry key="243" type="xstring" value="min_infra_rail_aluminium[kg/km]"/>
+<entry key="244" type="xstring" value="min_infra_trolley-cables_aluminium[kg/km]"/>
+<entry key="245" type="xstring" value="min_infra_road_copper[kg/km]"/>
+<entry key="246" type="xstring" value="min_infra_rail_copper[kg/km]"/>
+<entry key="247" type="xstring" value="min_infra_trolley-cables_copper[kg/km]"/>
+<entry key="248" type="xstring" value="min_infra_pipe_steel[kg/km]"/>
+<entry key="249" type="xstring" value="min_infra_pipe_aluminium[kg/km]"/>
+<entry key="250" type="xstring" value="min_infra_pipe_copper[kg/km]"/>
+<entry key="251" type="xstring" value="min_energytech_energy-pv-csi_steel[kg/GW]"/>
+<entry key="252" type="xstring" value="min_energytech_energy-pv-thinfilm_steel[kg/GW]"/>
+<entry key="253" type="xstring" value="min_energytech_energy-csp_steel[kg/GW]"/>
+<entry key="254" type="xstring" value="min_energytech_energy-on-wind_steel[kg/GW]"/>
+<entry key="255" type="xstring" value="min_energytech_energy-off-wind_steel[kg/GW]"/>
+<entry key="256" type="xstring" value="min_energytech_energy-hydro_steel[kg/GW]"/>
+<entry key="257" type="xstring" value="min_energytech_energy-marine_steel[kg/GW]"/>
+<entry key="258" type="xstring" value="min_energytech_energy-geo_steel[kg/GW]"/>
+<entry key="259" type="xstring" value="min_energytech_energy-oil_steel[kg/GW]"/>
+<entry key="260" type="xstring" value="min_energytech_energy-gas_steel[kg/GW]"/>
+<entry key="261" type="xstring" value="min_energytech_energy-coal_steel[kg/GW]"/>
+<entry key="262" type="xstring" value="min_energytech_energy-nuclear_steel[kg/GW]"/>
+<entry key="263" type="xstring" value="min_energytech_energy-pv-csi_aluminium[kg/GW]"/>
+<entry key="264" type="xstring" value="min_energytech_energy-pv-thinfilm_aluminium[kg/GW]"/>
+<entry key="265" type="xstring" value="min_energytech_energy-csp_aluminium[kg/GW]"/>
+<entry key="266" type="xstring" value="min_energytech_energy-on-wind_aluminium[kg/GW]"/>
+<entry key="267" type="xstring" value="min_energytech_energy-off-wind_aluminium[kg/GW]"/>
+<entry key="268" type="xstring" value="min_energytech_energy-hydro_aluminium[kg/GW]"/>
+<entry key="269" type="xstring" value="min_energytech_energy-marine_aluminium[kg/GW]"/>
+<entry key="270" type="xstring" value="min_energytech_energy-geo_aluminium[kg/GW]"/>
+<entry key="271" type="xstring" value="min_energytech_energy-oil_aluminium[kg/GW]"/>
+<entry key="272" type="xstring" value="min_energytech_energy-gas_aluminium[kg/GW]"/>
+<entry key="273" type="xstring" value="min_energytech_energy-coal_aluminium[kg/GW]"/>
+<entry key="274" type="xstring" value="min_energytech_energy-nuclear_aluminium[kg/GW]"/>
+<entry key="275" type="xstring" value="min_energytech_energy-pv-csi_copper[kg/GW]"/>
+<entry key="276" type="xstring" value="min_energytech_energy-pv-thinfilm_copper[kg/GW]"/>
+<entry key="277" type="xstring" value="min_energytech_energy-csp_copper[kg/GW]"/>
+<entry key="278" type="xstring" value="min_energytech_energy-on-wind_copper[kg/GW]"/>
+<entry key="279" type="xstring" value="min_energytech_energy-off-wind_copper[kg/GW]"/>
+<entry key="280" type="xstring" value="min_energytech_energy-hydro_copper[kg/GW]"/>
+<entry key="281" type="xstring" value="min_energytech_energy-marine_copper[kg/GW]"/>
+<entry key="282" type="xstring" value="min_energytech_energy-geo_copper[kg/GW]"/>
+<entry key="283" type="xstring" value="min_energytech_energy-oil_copper[kg/GW]"/>
+<entry key="284" type="xstring" value="min_energytech_energy-gas_copper[kg/GW]"/>
+<entry key="285" type="xstring" value="min_energytech_energy-coal_copper[kg/GW]"/>
+<entry key="286" type="xstring" value="min_energytech_energy-nuclear_copper[kg/GW]"/>
+<entry key="287" type="xstring" value="min_building_energy-non-residential_steel[kg/m2]"/>
+<entry key="288" type="xstring" value="min_building_reno_non-residential_steel[kg/m2]"/>
+<entry key="289" type="xstring" value="min_building_energy-residential_steel[kg/m2]"/>
+<entry key="290" type="xstring" value="min_building_reno_residential_steel[kg/m2]"/>
+<entry key="291" type="xstring" value="min_building_energy-non-residential_aluminium[kg/m2]"/>
+<entry key="292" type="xstring" value="min_building_reno_non-residential_aluminium[kg/m2]"/>
+<entry key="293" type="xstring" value="min_building_energy-residential_aluminium[kg/m2]"/>
+<entry key="294" type="xstring" value="min_building_reno_residential_aluminium[kg/m2]"/>
+<entry key="295" type="xstring" value="min_building_energy-non-residential_copper[kg/m2]"/>
+<entry key="296" type="xstring" value="min_building_reno_non-residential_copper[kg/m2]"/>
+<entry key="297" type="xstring" value="min_building_energy-residential_copper[kg/m2]"/>
+<entry key="298" type="xstring" value="min_building_reno_residential_copper[kg/m2]"/>
+<entry key="299" type="xstring" value="min_appliance_fridge_steel[kg/unit]"/>
+<entry key="300" type="xstring" value="min_appliance_freezer_steel[kg/unit]"/>
+<entry key="301" type="xstring" value="min_appliance_wmachine_steel[kg/unit]"/>
+<entry key="302" type="xstring" value="min_appliance_dishwasher_steel[kg/unit]"/>
+<entry key="303" type="xstring" value="min_appliance_dryer_steel[kg/unit]"/>
+<entry key="304" type="xstring" value="min_appliance_fridge_aluminium[kg/unit]"/>
+<entry key="305" type="xstring" value="min_appliance_freezer_aluminium[kg/unit]"/>
+<entry key="306" type="xstring" value="min_appliance_wmachine_aluminium[kg/unit]"/>
+<entry key="307" type="xstring" value="min_appliance_dishwasher_aluminium[kg/unit]"/>
+<entry key="308" type="xstring" value="min_appliance_dryer_aluminium[kg/unit]"/>
+<entry key="309" type="xstring" value="min_appliance_fridge_copper[kg/unit]"/>
+<entry key="310" type="xstring" value="min_appliance_freezer_copper[kg/unit]"/>
+<entry key="311" type="xstring" value="min_appliance_wmachine_copper[kg/unit]"/>
+<entry key="312" type="xstring" value="min_appliance_dishwasher_copper[kg/unit]"/>
+<entry key="313" type="xstring" value="min_appliance_dryer_copper[kg/unit]"/>
+<entry key="314" type="xstring" value="min_electronics_tv_steel[kg/unit]"/>
+<entry key="315" type="xstring" value="min_electronics_phone_steel[kg/unit]"/>
+<entry key="316" type="xstring" value="min_electronics_computer_steel[kg/unit]"/>
+<entry key="317" type="xstring" value="min_electronics_tv_aluminium[kg/unit]"/>
+<entry key="318" type="xstring" value="min_electronics_phone_aluminium[kg/unit]"/>
+<entry key="319" type="xstring" value="min_electronics_computer_aluminium[kg/unit]"/>
+<entry key="320" type="xstring" value="min_electronics_tv_copper[kg/unit]"/>
+<entry key="321" type="xstring" value="min_electronics_phone_copper[kg/unit]"/>
+<entry key="322" type="xstring" value="min_electronics_computer_copper[kg/unit]"/>
+<entry key="323" type="xstring" value="min_parameters_steel[unit]"/>
+<entry key="324" type="xstring" value="min_parameters_aluminium[unit]"/>
+<entry key="325" type="xstring" value="min_parameters_copper[unit]"/>
+<entry key="326" type="xstring" value="min_other_steel[%]"/>
+<entry key="327" type="xstring" value="min_other_aluminium[%]"/>
+<entry key="328" type="xstring" value="min_other_copper[%]"/>
+<entry key="329" type="xstring" value="min_other_dom-appliances_steel[%]"/>
+<entry key="330" type="xstring" value="min_other_dom-appliances_aluminium[%]"/>
+<entry key="331" type="xstring" value="min_other_dom-appliances_copper[%]"/>
+<entry key="332" type="xstring" value="min_recy_steel_EAF[%]"/>
+<entry key="333" type="xstring" value="min_recy_steel_BOF[%]"/>
+<entry key="334" type="xstring" value="min_recy_steel_DRI[%]"/>
+<entry key="335" type="xstring" value="min_recy_steel_hisarna[%]"/>
+<entry key="336" type="xstring" value="min_recy_aluminium_primary[%]"/>
+<entry key="337" type="xstring" value="min_recy_aluminium_secondary[%]"/>
+<entry key="338" type="xstring" value="min_recy_copper_primary[%]"/>
+<entry key="339" type="xstring" value="min_recy_copper_secondary[%]"/>
+<entry key="340" type="xstring" value="min_wire_copper[kg/GWh]"/>
+<entry key="341" type="xstring" value="elc_energy-coal[GW]"/>
+<entry key="342" type="xstring" value="elc_energy-csp[GW]"/>
+<entry key="343" type="xstring" value="elc_energy-gas[GW]"/>
+<entry key="344" type="xstring" value="elc_energy-geo[GW]"/>
+<entry key="345" type="xstring" value="elc_energy-hydro[GW]"/>
+<entry key="346" type="xstring" value="elc_energy-marine[GW]"/>
+<entry key="347" type="xstring" value="elc_energy-nuclear[GW]"/>
+<entry key="348" type="xstring" value="elc_energy-off-wind[GW]"/>
+<entry key="349" type="xstring" value="elc_energy-oil[GW]"/>
+<entry key="350" type="xstring" value="elc_energy-on-wind[GW]"/>
+<entry key="351" type="xstring" value="elc_energy-pv[GW]"/>
+<entry key="352" type="xstring" value="ind_product-net-import_LDV-PHEV[%]"/>
+<entry key="353" type="xstring" value="ind_product-net-import_HDVL-PHEV[%]"/>
+<entry key="354" type="xstring" value="ind_product-net-import_other-subways[%]"/>
+<entry key="355" type="xstring" value="ind_product-net-import_2W-EV[%]"/>
+<entry key="356" type="xstring" value="ind_product-net-import_2W-ICE[%]"/>
+<entry key="357" type="xstring" value="ind_product-net-import_2W-FCEV[%]"/>
+<entry key="358" type="xstring" value="ind_product-net-import_2W-PHEV[%]"/>
+<entry key="359" type="xstring" value="ind_product-net-import_bus-EV[%]"/>
+<entry key="360" type="xstring" value="ind_product-net-import_bus-ICE[%]"/>
+<entry key="361" type="xstring" value="ind_product-net-import_bus-FCEV[%]"/>
+<entry key="362" type="xstring" value="ind_product-net-import_bus-PHEV[%]"/>
+<entry key="363" type="xstring" value="ind_product-net-import_HDVM-EV[%]"/>
+<entry key="364" type="xstring" value="ind_product-net-import_HDVM-ICE[%]"/>
+<entry key="365" type="xstring" value="ind_product-net-import_HDVM-FCEV[%]"/>
+<entry key="366" type="xstring" value="ind_product-net-import_HDVM-PHEV[%]"/>
+<entry key="367" type="xstring" value="ind_product-net-import_HDVH-EV[%]"/>
+<entry key="368" type="xstring" value="ind_product-net-import_HDVH-ICE[%]"/>
+<entry key="369" type="xstring" value="ind_product-net-import_HDVH-FCEV[%]"/>
+<entry key="370" type="xstring" value="ind_product-net-import_HDVH-PHEV[%]"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="maxNoneNumericalVals_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="maxNoneNumericalVals" type="xint" value="10000"/>
+<config key="enableHilite_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableHilite" type="xboolean" value="false"/>
+<config key="sortInMemory_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="sortInMemory" type="xboolean" value="false"/>
+<config key="aggregationColumn">
+<config key="columnNames">
+<entry key="array-size" type="xint" value="40"/>
+<entry key="0" type="xstring" value="tra_other-subways[num]"/>
+<entry key="1" type="xstring" value="tra_2W-ICE[num]"/>
+<entry key="2" type="xstring" value="tra_HDVH-ICE[num]"/>
+<entry key="3" type="xstring" value="tra_HDVL-ICE[num]"/>
+<entry key="4" type="xstring" value="tra_HDVM-ICE[num]"/>
+<entry key="5" type="xstring" value="tra_LDV-ICE[num]"/>
+<entry key="6" type="xstring" value="tra_bus-ICE[num]"/>
+<entry key="7" type="xstring" value="tra_HDVH-PHEV[num]"/>
+<entry key="8" type="xstring" value="tra_HDVL-PHEV[num]"/>
+<entry key="9" type="xstring" value="tra_HDVM-PHEV[num]"/>
+<entry key="10" type="xstring" value="tra_LDV-PHEV[num]"/>
+<entry key="11" type="xstring" value="tra_bus-PHEV[num]"/>
+<entry key="12" type="xstring" value="tra_2W-EV[num]"/>
+<entry key="13" type="xstring" value="tra_HDVH-EV[num]"/>
+<entry key="14" type="xstring" value="tra_HDVL-EV[num]"/>
+<entry key="15" type="xstring" value="tra_HDVM-EV[num]"/>
+<entry key="16" type="xstring" value="tra_LDV-EV[num]"/>
+<entry key="17" type="xstring" value="tra_bus-EV[num]"/>
+<entry key="18" type="xstring" value="tra_2W-FCEV[num]"/>
+<entry key="19" type="xstring" value="tra_HDVH-FCEV[num]"/>
+<entry key="20" type="xstring" value="tra_HDVL-FCEV[num]"/>
+<entry key="21" type="xstring" value="tra_HDVM-FCEV[num]"/>
+<entry key="22" type="xstring" value="tra_LDV-FCEV[num]"/>
+<entry key="23" type="xstring" value="tra_bus-FCEV[num]"/>
+<entry key="24" type="xstring" value="tra_other-ships[num]"/>
+<entry key="25" type="xstring" value="tra_other-planes[num]"/>
+<entry key="26" type="xstring" value="tra_other-trains[num]"/>
+<entry key="27" type="xstring" value="tra_infra-rail[km]"/>
+<entry key="28" type="xstring" value="tra_infra-road[km]"/>
+<entry key="29" type="xstring" value="tra_infra-pipe[km]"/>
+<entry key="30" type="xstring" value="tra_infra-trolley-cables[km]"/>
+<entry key="31" type="xstring" value="tra_2W-PHEV[num]"/>
+<entry key="32" type="xstring" value="tra_dom-appliance-fridge[num]"/>
+<entry key="33" type="xstring" value="tra_dom-appliance-freezer[num]"/>
+<entry key="34" type="xstring" value="tra_dom-appliance-wmachine[num]"/>
+<entry key="35" type="xstring" value="tra_dom-appliance-dishwasher[num]"/>
+<entry key="36" type="xstring" value="tra_dom-appliance-dryer[num]"/>
+<entry key="37" type="xstring" value="tra_electronics-tv[num]"/>
+<entry key="38" type="xstring" value="tra_electronics-computer[num]"/>
+<entry key="39" type="xstring" value="tra_electronics-phone[num]"/>
+</config>
+<config key="columnTypes">
+<entry key="array-size" type="xint" value="40"/>
+<config key="0">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="1">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="2">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="3">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="4">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="5">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="6">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="7">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="8">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="9">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="10">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="11">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="12">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="13">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="14">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="15">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="16">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="17">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="18">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="19">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="20">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="21">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="22">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="23">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="24">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="25">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="26">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="27">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="28">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="29">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="30">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="31">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="32">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="33">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="34">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="35">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="36">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="37">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="38">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="39">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="aggregationMethod">
+<entry key="array-size" type="xint" value="40"/>
+<entry key="0" type="xstring" value="Sum_V2.5.2"/>
+<entry key="1" type="xstring" value="Sum_V2.5.2"/>
+<entry key="2" type="xstring" value="Sum_V2.5.2"/>
+<entry key="3" type="xstring" value="Sum_V2.5.2"/>
+<entry key="4" type="xstring" value="Sum_V2.5.2"/>
+<entry key="5" type="xstring" value="Sum_V2.5.2"/>
+<entry key="6" type="xstring" value="Sum_V2.5.2"/>
+<entry key="7" type="xstring" value="Sum_V2.5.2"/>
+<entry key="8" type="xstring" value="Sum_V2.5.2"/>
+<entry key="9" type="xstring" value="Sum_V2.5.2"/>
+<entry key="10" type="xstring" value="Sum_V2.5.2"/>
+<entry key="11" type="xstring" value="Sum_V2.5.2"/>
+<entry key="12" type="xstring" value="Sum_V2.5.2"/>
+<entry key="13" type="xstring" value="Sum_V2.5.2"/>
+<entry key="14" type="xstring" value="Sum_V2.5.2"/>
+<entry key="15" type="xstring" value="Sum_V2.5.2"/>
+<entry key="16" type="xstring" value="Sum_V2.5.2"/>
+<entry key="17" type="xstring" value="Sum_V2.5.2"/>
+<entry key="18" type="xstring" value="Sum_V2.5.2"/>
+<entry key="19" type="xstring" value="Sum_V2.5.2"/>
+<entry key="20" type="xstring" value="Sum_V2.5.2"/>
+<entry key="21" type="xstring" value="Sum_V2.5.2"/>
+<entry key="22" type="xstring" value="Sum_V2.5.2"/>
+<entry key="23" type="xstring" value="Sum_V2.5.2"/>
+<entry key="24" type="xstring" value="Sum_V2.5.2"/>
+<entry key="25" type="xstring" value="Sum_V2.5.2"/>
+<entry key="26" type="xstring" value="Sum_V2.5.2"/>
+<entry key="27" type="xstring" value="Sum_V2.5.2"/>
+<entry key="28" type="xstring" value="Sum_V2.5.2"/>
+<entry key="29" type="xstring" value="Sum_V2.5.2"/>
+<entry key="30" type="xstring" value="Sum_V2.5.2"/>
+<entry key="31" type="xstring" value="Sum_V2.5.2"/>
+<entry key="32" type="xstring" value="Sum_V2.5.2"/>
+<entry key="33" type="xstring" value="Sum_V2.5.2"/>
+<entry key="34" type="xstring" value="Sum_V2.5.2"/>
+<entry key="35" type="xstring" value="Sum_V2.5.2"/>
+<entry key="36" type="xstring" value="Sum_V2.5.2"/>
+<entry key="37" type="xstring" value="Sum_V2.5.2"/>
+<entry key="38" type="xstring" value="Sum_V2.5.2"/>
+<entry key="39" type="xstring" value="Sum_V2.5.2"/>
+</config>
+<config key="inclMissingVals">
+<entry key="array-size" type="xint" value="40"/>
+<entry key="0" type="xboolean" value="false"/>
+<entry key="1" type="xboolean" value="false"/>
+<entry key="2" type="xboolean" value="false"/>
+<entry key="3" type="xboolean" value="false"/>
+<entry key="4" type="xboolean" value="false"/>
+<entry key="5" type="xboolean" value="false"/>
+<entry key="6" type="xboolean" value="false"/>
+<entry key="7" type="xboolean" value="false"/>
+<entry key="8" type="xboolean" value="false"/>
+<entry key="9" type="xboolean" value="false"/>
+<entry key="10" type="xboolean" value="false"/>
+<entry key="11" type="xboolean" value="false"/>
+<entry key="12" type="xboolean" value="false"/>
+<entry key="13" type="xboolean" value="false"/>
+<entry key="14" type="xboolean" value="false"/>
+<entry key="15" type="xboolean" value="false"/>
+<entry key="16" type="xboolean" value="false"/>
+<entry key="17" type="xboolean" value="false"/>
+<entry key="18" type="xboolean" value="false"/>
+<entry key="19" type="xboolean" value="false"/>
+<entry key="20" type="xboolean" value="false"/>
+<entry key="21" type="xboolean" value="false"/>
+<entry key="22" type="xboolean" value="false"/>
+<entry key="23" type="xboolean" value="false"/>
+<entry key="24" type="xboolean" value="false"/>
+<entry key="25" type="xboolean" value="false"/>
+<entry key="26" type="xboolean" value="false"/>
+<entry key="27" type="xboolean" value="false"/>
+<entry key="28" type="xboolean" value="false"/>
+<entry key="29" type="xboolean" value="false"/>
+<entry key="30" type="xboolean" value="false"/>
+<entry key="31" type="xboolean" value="false"/>
+<entry key="32" type="xboolean" value="false"/>
+<entry key="33" type="xboolean" value="false"/>
+<entry key="34" type="xboolean" value="false"/>
+<entry key="35" type="xboolean" value="false"/>
+<entry key="36" type="xboolean" value="false"/>
+<entry key="37" type="xboolean" value="false"/>
+<entry key="38" type="xboolean" value="false"/>
+<entry key="39" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="aggregationOperatorSettings"/>
+<config key="patternAggregators"/>
+<config key="dataTypeAggregators"/>
+<config key="columnNamePolicy_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
+<config key="retainOrder_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="retainOrder" type="xboolean" value="false"/>
+<config key="inMemory_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inMemory" type="xboolean" value="false"/>
+<config key="valueDelimiter_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="valueDelimiter" type="xstring" value=", "/>
+<config key="nodeVersion_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="nodeVersion" type="xint" value="1"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.groupby.GroupByNodeFactory"/>
+<entry key="node-name" type="xstring" value="GroupBy"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="GroupBy"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 33, Cols: 41"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="f19069af-bce2-41b4-bb7c-3caa4b73546e"/>
+</config>
+</config>

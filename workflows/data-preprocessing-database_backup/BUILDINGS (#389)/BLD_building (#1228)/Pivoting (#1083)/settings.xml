@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="grouByColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="grouByColumns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="lever_building-renovation-rate"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="153"/>
+<entry key="0" type="xstring" value="category"/>
+<entry key="1" type="xstring" value="fts_bld_building-renovation-rate_sfh-exi[%]"/>
+<entry key="2" type="xstring" value="fts_bld_building-renovation-rate_mfh-exi[%]"/>
+<entry key="3" type="xstring" value="fts_bld_building-renovation-rate_trade-exi[%]"/>
+<entry key="4" type="xstring" value="fts_bld_building-renovation-rate_education-exi[%]"/>
+<entry key="5" type="xstring" value="fts_bld_building-renovation-rate_hotels-exi[%]"/>
+<entry key="6" type="xstring" value="fts_bld_building-renovation-rate_health-exi[%]"/>
+<entry key="7" type="xstring" value="fts_bld_building-renovation-rate_offices-exi[%]"/>
+<entry key="8" type="xstring" value="fts_bld_building-renovation-rate_other-exi[%]"/>
+<entry key="9" type="xstring" value="fts_bld_building-renovation-rate_sfh-shl[%]"/>
+<entry key="10" type="xstring" value="fts_bld_building-renovation-rate_sfh-med[%]"/>
+<entry key="11" type="xstring" value="fts_bld_building-renovation-rate_sfh-dep[%]"/>
+<entry key="12" type="xstring" value="fts_bld_building-renovation-rate_mfh-shl[%]"/>
+<entry key="13" type="xstring" value="fts_bld_building-renovation-rate_mfh-med[%]"/>
+<entry key="14" type="xstring" value="fts_bld_building-renovation-rate_mfh-dep[%]"/>
+<entry key="15" type="xstring" value="fts_bld_building-renovation-rate_offices-shl[%]"/>
+<entry key="16" type="xstring" value="fts_bld_building-renovation-rate_offices-med[%]"/>
+<entry key="17" type="xstring" value="fts_bld_building-renovation-rate_offices-dep[%]"/>
+<entry key="18" type="xstring" value="fts_bld_building-renovation-rate_trade-shl[%]"/>
+<entry key="19" type="xstring" value="fts_bld_building-renovation-rate_trade-med[%]"/>
+<entry key="20" type="xstring" value="fts_bld_building-renovation-rate_trade-dep[%]"/>
+<entry key="21" type="xstring" value="fts_bld_building-renovation-rate_hotels-shl[%]"/>
+<entry key="22" type="xstring" value="fts_bld_building-renovation-rate_hotels-med[%]"/>
+<entry key="23" type="xstring" value="fts_bld_building-renovation-rate_hotels-dep[%]"/>
+<entry key="24" type="xstring" value="fts_bld_building-renovation-rate_health-shl[%]"/>
+<entry key="25" type="xstring" value="fts_bld_building-renovation-rate_health-med[%]"/>
+<entry key="26" type="xstring" value="fts_bld_building-renovation-rate_health-dep[%]"/>
+<entry key="27" type="xstring" value="fts_bld_building-renovation-rate_education-shl[%]"/>
+<entry key="28" type="xstring" value="fts_bld_building-renovation-rate_education-med[%]"/>
+<entry key="29" type="xstring" value="fts_bld_building-renovation-rate_education-dep[%]"/>
+<entry key="30" type="xstring" value="fts_bld_building-renovation-rate_other-shl[%]"/>
+<entry key="31" type="xstring" value="fts_bld_building-renovation-rate_other-med[%]"/>
+<entry key="32" type="xstring" value="fts_bld_building-renovation-rate_other-dep[%]"/>
+<entry key="33" type="xstring" value="fts_bld_building-demolition-rate_sfh-exi[%]"/>
+<entry key="34" type="xstring" value="fts_bld_building-demolition-rate_mfh-exi[%]"/>
+<entry key="35" type="xstring" value="fts_bld_building-demolition-rate_trade-exi[%]"/>
+<entry key="36" type="xstring" value="fts_bld_building-demolition-rate_education-exi[%]"/>
+<entry key="37" type="xstring" value="fts_bld_building-demolition-rate_hotels-exi[%]"/>
+<entry key="38" type="xstring" value="fts_bld_building-demolition-rate_health-exi[%]"/>
+<entry key="39" type="xstring" value="fts_bld_building-demolition-rate_offices-exi[%]"/>
+<entry key="40" type="xstring" value="fts_bld_building-demolition-rate_other-exi[%]"/>
+<entry key="41" type="xstring" value="fts_bld_building-demolition-rate_sfh-shl[%]"/>
+<entry key="42" type="xstring" value="fts_bld_building-demolition-rate_sfh-med[%]"/>
+<entry key="43" type="xstring" value="fts_bld_building-demolition-rate_sfh-dep[%]"/>
+<entry key="44" type="xstring" value="fts_bld_building-demolition-rate_mfh-shl[%]"/>
+<entry key="45" type="xstring" value="fts_bld_building-demolition-rate_mfh-med[%]"/>
+<entry key="46" type="xstring" value="fts_bld_building-demolition-rate_mfh-dep[%]"/>
+<entry key="47" type="xstring" value="fts_bld_building-demolition-rate_offices-shl[%]"/>
+<entry key="48" type="xstring" value="fts_bld_building-demolition-rate_offices-med[%]"/>
+<entry key="49" type="xstring" value="fts_bld_building-demolition-rate_offices-dep[%]"/>
+<entry key="50" type="xstring" value="fts_bld_building-demolition-rate_trade-shl[%]"/>
+<entry key="51" type="xstring" value="fts_bld_building-demolition-rate_trade-med[%]"/>
+<entry key="52" type="xstring" value="fts_bld_building-demolition-rate_trade-dep[%]"/>
+<entry key="53" type="xstring" value="fts_bld_building-demolition-rate_hotels-shl[%]"/>
+<entry key="54" type="xstring" value="fts_bld_building-demolition-rate_hotels-med[%]"/>
+<entry key="55" type="xstring" value="fts_bld_building-demolition-rate_hotels-dep[%]"/>
+<entry key="56" type="xstring" value="fts_bld_building-demolition-rate_health-shl[%]"/>
+<entry key="57" type="xstring" value="fts_bld_building-demolition-rate_health-med[%]"/>
+<entry key="58" type="xstring" value="fts_bld_building-demolition-rate_health-dep[%]"/>
+<entry key="59" type="xstring" value="fts_bld_building-demolition-rate_education-shl[%]"/>
+<entry key="60" type="xstring" value="fts_bld_building-demolition-rate_education-med[%]"/>
+<entry key="61" type="xstring" value="fts_bld_building-demolition-rate_education-dep[%]"/>
+<entry key="62" type="xstring" value="fts_bld_building-demolition-rate_other-shl[%]"/>
+<entry key="63" type="xstring" value="fts_bld_building-demolition-rate_other-med[%]"/>
+<entry key="64" type="xstring" value="fts_bld_building-demolition-rate_other-dep[%]"/>
+<entry key="65" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="66" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="67" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="68" type="xstring" value="fts_bld_energy-need-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="69" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="70" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="71" type="xstring" value="fts_bld_energy-need-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="72" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="73" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="74" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="75" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="76" type="xstring" value="fts_bld_energy-need-cooling-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="77" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="78" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="79" type="xstring" value="fts_bld_energy-need-cooling-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="80" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="81" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="82" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="83" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="84" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="85" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="86" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="87" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="88" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="89" type="xstring" value="fts_bld_building-renovation-mix_sfh-exi[%]"/>
+<entry key="90" type="xstring" value="fts_bld_building-renovation-mix_mfh-exi[%]"/>
+<entry key="91" type="xstring" value="fts_bld_building-renovation-mix_trade-exi[%]"/>
+<entry key="92" type="xstring" value="fts_bld_building-renovation-mix_education-exi[%]"/>
+<entry key="93" type="xstring" value="fts_bld_building-renovation-mix_hotels-exi[%]"/>
+<entry key="94" type="xstring" value="fts_bld_building-renovation-mix_health-exi[%]"/>
+<entry key="95" type="xstring" value="fts_bld_building-renovation-mix_offices-exi[%]"/>
+<entry key="96" type="xstring" value="fts_bld_building-renovation-mix_other-exi[%]"/>
+<entry key="97" type="xstring" value="fts_bld_building-renovation-mix_sfh-shl[%]"/>
+<entry key="98" type="xstring" value="fts_bld_building-renovation-mix_sfh-med[%]"/>
+<entry key="99" type="xstring" value="fts_bld_building-renovation-mix_sfh-dep[%]"/>
+<entry key="100" type="xstring" value="fts_bld_building-renovation-mix_mfh-shl[%]"/>
+<entry key="101" type="xstring" value="fts_bld_building-renovation-mix_mfh-med[%]"/>
+<entry key="102" type="xstring" value="fts_bld_building-renovation-mix_mfh-dep[%]"/>
+<entry key="103" type="xstring" value="fts_bld_building-renovation-mix_offices-shl[%]"/>
+<entry key="104" type="xstring" value="fts_bld_building-renovation-mix_offices-med[%]"/>
+<entry key="105" type="xstring" value="fts_bld_building-renovation-mix_offices-dep[%]"/>
+<entry key="106" type="xstring" value="fts_bld_building-renovation-mix_trade-shl[%]"/>
+<entry key="107" type="xstring" value="fts_bld_building-renovation-mix_trade-med[%]"/>
+<entry key="108" type="xstring" value="fts_bld_building-renovation-mix_trade-dep[%]"/>
+<entry key="109" type="xstring" value="fts_bld_building-renovation-mix_hotels-shl[%]"/>
+<entry key="110" type="xstring" value="fts_bld_building-renovation-mix_hotels-med[%]"/>
+<entry key="111" type="xstring" value="fts_bld_building-renovation-mix_hotels-dep[%]"/>
+<entry key="112" type="xstring" value="fts_bld_building-renovation-mix_health-shl[%]"/>
+<entry key="113" type="xstring" value="fts_bld_building-renovation-mix_health-med[%]"/>
+<entry key="114" type="xstring" value="fts_bld_building-renovation-mix_health-dep[%]"/>
+<entry key="115" type="xstring" value="fts_bld_building-renovation-mix_education-shl[%]"/>
+<entry key="116" type="xstring" value="fts_bld_building-renovation-mix_education-med[%]"/>
+<entry key="117" type="xstring" value="fts_bld_building-renovation-mix_education-dep[%]"/>
+<entry key="118" type="xstring" value="fts_bld_building-renovation-mix_other-shl[%]"/>
+<entry key="119" type="xstring" value="fts_bld_building-renovation-mix_other-med[%]"/>
+<entry key="120" type="xstring" value="fts_bld_building-renovation-mix_other-dep[%]"/>
+<entry key="121" type="xstring" value="fts_bld_building-construction-mix_sfh-exi[%]"/>
+<entry key="122" type="xstring" value="fts_bld_building-construction-mix_mfh-exi[%]"/>
+<entry key="123" type="xstring" value="fts_bld_building-construction-mix_trade-exi[%]"/>
+<entry key="124" type="xstring" value="fts_bld_building-construction-mix_education-exi[%]"/>
+<entry key="125" type="xstring" value="fts_bld_building-construction-mix_hotels-exi[%]"/>
+<entry key="126" type="xstring" value="fts_bld_building-construction-mix_health-exi[%]"/>
+<entry key="127" type="xstring" value="fts_bld_building-construction-mix_offices-exi[%]"/>
+<entry key="128" type="xstring" value="fts_bld_building-construction-mix_other-exi[%]"/>
+<entry key="129" type="xstring" value="fts_bld_building-construction-mix_sfh-shl[%]"/>
+<entry key="130" type="xstring" value="fts_bld_building-construction-mix_sfh-med[%]"/>
+<entry key="131" type="xstring" value="fts_bld_building-construction-mix_sfh-dep[%]"/>
+<entry key="132" type="xstring" value="fts_bld_building-construction-mix_mfh-shl[%]"/>
+<entry key="133" type="xstring" value="fts_bld_building-construction-mix_mfh-med[%]"/>
+<entry key="134" type="xstring" value="fts_bld_building-construction-mix_mfh-dep[%]"/>
+<entry key="135" type="xstring" value="fts_bld_building-construction-mix_offices-shl[%]"/>
+<entry key="136" type="xstring" value="fts_bld_building-construction-mix_offices-med[%]"/>
+<entry key="137" type="xstring" value="fts_bld_building-construction-mix_offices-dep[%]"/>
+<entry key="138" type="xstring" value="fts_bld_building-construction-mix_trade-shl[%]"/>
+<entry key="139" type="xstring" value="fts_bld_building-construction-mix_trade-med[%]"/>
+<entry key="140" type="xstring" value="fts_bld_building-construction-mix_trade-dep[%]"/>
+<entry key="141" type="xstring" value="fts_bld_building-construction-mix_hotels-shl[%]"/>
+<entry key="142" type="xstring" value="fts_bld_building-construction-mix_hotels-med[%]"/>
+<entry key="143" type="xstring" value="fts_bld_building-construction-mix_hotels-dep[%]"/>
+<entry key="144" type="xstring" value="fts_bld_building-construction-mix_health-shl[%]"/>
+<entry key="145" type="xstring" value="fts_bld_building-construction-mix_health-med[%]"/>
+<entry key="146" type="xstring" value="fts_bld_building-construction-mix_health-dep[%]"/>
+<entry key="147" type="xstring" value="fts_bld_building-construction-mix_education-shl[%]"/>
+<entry key="148" type="xstring" value="fts_bld_building-construction-mix_education-med[%]"/>
+<entry key="149" type="xstring" value="fts_bld_building-construction-mix_education-dep[%]"/>
+<entry key="150" type="xstring" value="fts_bld_building-construction-mix_other-shl[%]"/>
+<entry key="151" type="xstring" value="fts_bld_building-construction-mix_other-med[%]"/>
+<entry key="152" type="xstring" value="fts_bld_building-construction-mix_other-dep[%]"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="maxNoneNumericalVals_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="maxNoneNumericalVals" type="xint" value="10000"/>
+<config key="enableHilite_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableHilite" type="xboolean" value="false"/>
+<config key="sortInMemory_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="sortInMemory" type="xboolean" value="false"/>
+<config key="aggregationColumn">
+<config key="columnNames">
+<entry key="array-size" type="xint" value="152"/>
+<entry key="0" type="xstring" value="fts_bld_building-renovation-rate_sfh-exi[%]"/>
+<entry key="1" type="xstring" value="fts_bld_building-renovation-rate_mfh-exi[%]"/>
+<entry key="2" type="xstring" value="fts_bld_building-renovation-rate_trade-exi[%]"/>
+<entry key="3" type="xstring" value="fts_bld_building-renovation-rate_education-exi[%]"/>
+<entry key="4" type="xstring" value="fts_bld_building-renovation-rate_hotels-exi[%]"/>
+<entry key="5" type="xstring" value="fts_bld_building-renovation-rate_health-exi[%]"/>
+<entry key="6" type="xstring" value="fts_bld_building-renovation-rate_offices-exi[%]"/>
+<entry key="7" type="xstring" value="fts_bld_building-renovation-rate_other-exi[%]"/>
+<entry key="8" type="xstring" value="fts_bld_building-renovation-rate_sfh-shl[%]"/>
+<entry key="9" type="xstring" value="fts_bld_building-renovation-rate_sfh-med[%]"/>
+<entry key="10" type="xstring" value="fts_bld_building-renovation-rate_sfh-dep[%]"/>
+<entry key="11" type="xstring" value="fts_bld_building-renovation-rate_mfh-shl[%]"/>
+<entry key="12" type="xstring" value="fts_bld_building-renovation-rate_mfh-med[%]"/>
+<entry key="13" type="xstring" value="fts_bld_building-renovation-rate_mfh-dep[%]"/>
+<entry key="14" type="xstring" value="fts_bld_building-renovation-rate_offices-shl[%]"/>
+<entry key="15" type="xstring" value="fts_bld_building-renovation-rate_offices-med[%]"/>
+<entry key="16" type="xstring" value="fts_bld_building-renovation-rate_offices-dep[%]"/>
+<entry key="17" type="xstring" value="fts_bld_building-renovation-rate_trade-shl[%]"/>
+<entry key="18" type="xstring" value="fts_bld_building-renovation-rate_trade-med[%]"/>
+<entry key="19" type="xstring" value="fts_bld_building-renovation-rate_trade-dep[%]"/>
+<entry key="20" type="xstring" value="fts_bld_building-renovation-rate_hotels-shl[%]"/>
+<entry key="21" type="xstring" value="fts_bld_building-renovation-rate_hotels-med[%]"/>
+<entry key="22" type="xstring" value="fts_bld_building-renovation-rate_hotels-dep[%]"/>
+<entry key="23" type="xstring" value="fts_bld_building-renovation-rate_health-shl[%]"/>
+<entry key="24" type="xstring" value="fts_bld_building-renovation-rate_health-med[%]"/>
+<entry key="25" type="xstring" value="fts_bld_building-renovation-rate_health-dep[%]"/>
+<entry key="26" type="xstring" value="fts_bld_building-renovation-rate_education-shl[%]"/>
+<entry key="27" type="xstring" value="fts_bld_building-renovation-rate_education-med[%]"/>
+<entry key="28" type="xstring" value="fts_bld_building-renovation-rate_education-dep[%]"/>
+<entry key="29" type="xstring" value="fts_bld_building-renovation-rate_other-shl[%]"/>
+<entry key="30" type="xstring" value="fts_bld_building-renovation-rate_other-med[%]"/>
+<entry key="31" type="xstring" value="fts_bld_building-renovation-rate_other-dep[%]"/>
+<entry key="32" type="xstring" value="fts_bld_building-demolition-rate_sfh-exi[%]"/>
+<entry key="33" type="xstring" value="fts_bld_building-demolition-rate_mfh-exi[%]"/>
+<entry key="34" type="xstring" value="fts_bld_building-demolition-rate_trade-exi[%]"/>
+<entry key="35" type="xstring" value="fts_bld_building-demolition-rate_education-exi[%]"/>
+<entry key="36" type="xstring" value="fts_bld_building-demolition-rate_hotels-exi[%]"/>
+<entry key="37" type="xstring" value="fts_bld_building-demolition-rate_health-exi[%]"/>
+<entry key="38" type="xstring" value="fts_bld_building-demolition-rate_offices-exi[%]"/>
+<entry key="39" type="xstring" value="fts_bld_building-demolition-rate_other-exi[%]"/>
+<entry key="40" type="xstring" value="fts_bld_building-demolition-rate_sfh-shl[%]"/>
+<entry key="41" type="xstring" value="fts_bld_building-demolition-rate_sfh-med[%]"/>
+<entry key="42" type="xstring" value="fts_bld_building-demolition-rate_sfh-dep[%]"/>
+<entry key="43" type="xstring" value="fts_bld_building-demolition-rate_mfh-shl[%]"/>
+<entry key="44" type="xstring" value="fts_bld_building-demolition-rate_mfh-med[%]"/>
+<entry key="45" type="xstring" value="fts_bld_building-demolition-rate_mfh-dep[%]"/>
+<entry key="46" type="xstring" value="fts_bld_building-demolition-rate_offices-shl[%]"/>
+<entry key="47" type="xstring" value="fts_bld_building-demolition-rate_offices-med[%]"/>
+<entry key="48" type="xstring" value="fts_bld_building-demolition-rate_offices-dep[%]"/>
+<entry key="49" type="xstring" value="fts_bld_building-demolition-rate_trade-shl[%]"/>
+<entry key="50" type="xstring" value="fts_bld_building-demolition-rate_trade-med[%]"/>
+<entry key="51" type="xstring" value="fts_bld_building-demolition-rate_trade-dep[%]"/>
+<entry key="52" type="xstring" value="fts_bld_building-demolition-rate_hotels-shl[%]"/>
+<entry key="53" type="xstring" value="fts_bld_building-demolition-rate_hotels-med[%]"/>
+<entry key="54" type="xstring" value="fts_bld_building-demolition-rate_hotels-dep[%]"/>
+<entry key="55" type="xstring" value="fts_bld_building-demolition-rate_health-shl[%]"/>
+<entry key="56" type="xstring" value="fts_bld_building-demolition-rate_health-med[%]"/>
+<entry key="57" type="xstring" value="fts_bld_building-demolition-rate_health-dep[%]"/>
+<entry key="58" type="xstring" value="fts_bld_building-demolition-rate_education-shl[%]"/>
+<entry key="59" type="xstring" value="fts_bld_building-demolition-rate_education-med[%]"/>
+<entry key="60" type="xstring" value="fts_bld_building-demolition-rate_education-dep[%]"/>
+<entry key="61" type="xstring" value="fts_bld_building-demolition-rate_other-shl[%]"/>
+<entry key="62" type="xstring" value="fts_bld_building-demolition-rate_other-med[%]"/>
+<entry key="63" type="xstring" value="fts_bld_building-demolition-rate_other-dep[%]"/>
+<entry key="64" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="65" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="66" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="67" type="xstring" value="fts_bld_energy-need-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="68" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="69" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="70" type="xstring" value="fts_bld_energy-need-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="71" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="72" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="73" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="74" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="75" type="xstring" value="fts_bld_energy-need-cooling-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="76" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="77" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="78" type="xstring" value="fts_bld_energy-need-cooling-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="79" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="80" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="81" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="82" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="83" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="84" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="85" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="86" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="87" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="88" type="xstring" value="fts_bld_building-renovation-mix_sfh-exi[%]"/>
+<entry key="89" type="xstring" value="fts_bld_building-renovation-mix_mfh-exi[%]"/>
+<entry key="90" type="xstring" value="fts_bld_building-renovation-mix_trade-exi[%]"/>
+<entry key="91" type="xstring" value="fts_bld_building-renovation-mix_education-exi[%]"/>
+<entry key="92" type="xstring" value="fts_bld_building-renovation-mix_hotels-exi[%]"/>
+<entry key="93" type="xstring" value="fts_bld_building-renovation-mix_health-exi[%]"/>
+<entry key="94" type="xstring" value="fts_bld_building-renovation-mix_offices-exi[%]"/>
+<entry key="95" type="xstring" value="fts_bld_building-renovation-mix_other-exi[%]"/>
+<entry key="96" type="xstring" value="fts_bld_building-renovation-mix_sfh-shl[%]"/>
+<entry key="97" type="xstring" value="fts_bld_building-renovation-mix_sfh-med[%]"/>
+<entry key="98" type="xstring" value="fts_bld_building-renovation-mix_sfh-dep[%]"/>
+<entry key="99" type="xstring" value="fts_bld_building-renovation-mix_mfh-shl[%]"/>
+<entry key="100" type="xstring" value="fts_bld_building-renovation-mix_mfh-med[%]"/>
+<entry key="101" type="xstring" value="fts_bld_building-renovation-mix_mfh-dep[%]"/>
+<entry key="102" type="xstring" value="fts_bld_building-renovation-mix_offices-shl[%]"/>
+<entry key="103" type="xstring" value="fts_bld_building-renovation-mix_offices-med[%]"/>
+<entry key="104" type="xstring" value="fts_bld_building-renovation-mix_offices-dep[%]"/>
+<entry key="105" type="xstring" value="fts_bld_building-renovation-mix_trade-shl[%]"/>
+<entry key="106" type="xstring" value="fts_bld_building-renovation-mix_trade-med[%]"/>
+<entry key="107" type="xstring" value="fts_bld_building-renovation-mix_trade-dep[%]"/>
+<entry key="108" type="xstring" value="fts_bld_building-renovation-mix_hotels-shl[%]"/>
+<entry key="109" type="xstring" value="fts_bld_building-renovation-mix_hotels-med[%]"/>
+<entry key="110" type="xstring" value="fts_bld_building-renovation-mix_hotels-dep[%]"/>
+<entry key="111" type="xstring" value="fts_bld_building-renovation-mix_health-shl[%]"/>
+<entry key="112" type="xstring" value="fts_bld_building-renovation-mix_health-med[%]"/>
+<entry key="113" type="xstring" value="fts_bld_building-renovation-mix_health-dep[%]"/>
+<entry key="114" type="xstring" value="fts_bld_building-renovation-mix_education-shl[%]"/>
+<entry key="115" type="xstring" value="fts_bld_building-renovation-mix_education-med[%]"/>
+<entry key="116" type="xstring" value="fts_bld_building-renovation-mix_education-dep[%]"/>
+<entry key="117" type="xstring" value="fts_bld_building-renovation-mix_other-shl[%]"/>
+<entry key="118" type="xstring" value="fts_bld_building-renovation-mix_other-med[%]"/>
+<entry key="119" type="xstring" value="fts_bld_building-renovation-mix_other-dep[%]"/>
+<entry key="120" type="xstring" value="fts_bld_building-construction-mix_sfh-exi[%]"/>
+<entry key="121" type="xstring" value="fts_bld_building-construction-mix_mfh-exi[%]"/>
+<entry key="122" type="xstring" value="fts_bld_building-construction-mix_trade-exi[%]"/>
+<entry key="123" type="xstring" value="fts_bld_building-construction-mix_education-exi[%]"/>
+<entry key="124" type="xstring" value="fts_bld_building-construction-mix_hotels-exi[%]"/>
+<entry key="125" type="xstring" value="fts_bld_building-construction-mix_health-exi[%]"/>
+<entry key="126" type="xstring" value="fts_bld_building-construction-mix_offices-exi[%]"/>
+<entry key="127" type="xstring" value="fts_bld_building-construction-mix_other-exi[%]"/>
+<entry key="128" type="xstring" value="fts_bld_building-construction-mix_sfh-shl[%]"/>
+<entry key="129" type="xstring" value="fts_bld_building-construction-mix_sfh-med[%]"/>
+<entry key="130" type="xstring" value="fts_bld_building-construction-mix_sfh-dep[%]"/>
+<entry key="131" type="xstring" value="fts_bld_building-construction-mix_mfh-shl[%]"/>
+<entry key="132" type="xstring" value="fts_bld_building-construction-mix_mfh-med[%]"/>
+<entry key="133" type="xstring" value="fts_bld_building-construction-mix_mfh-dep[%]"/>
+<entry key="134" type="xstring" value="fts_bld_building-construction-mix_offices-shl[%]"/>
+<entry key="135" type="xstring" value="fts_bld_building-construction-mix_offices-med[%]"/>
+<entry key="136" type="xstring" value="fts_bld_building-construction-mix_offices-dep[%]"/>
+<entry key="137" type="xstring" value="fts_bld_building-construction-mix_trade-shl[%]"/>
+<entry key="138" type="xstring" value="fts_bld_building-construction-mix_trade-med[%]"/>
+<entry key="139" type="xstring" value="fts_bld_building-construction-mix_trade-dep[%]"/>
+<entry key="140" type="xstring" value="fts_bld_building-construction-mix_hotels-shl[%]"/>
+<entry key="141" type="xstring" value="fts_bld_building-construction-mix_hotels-med[%]"/>
+<entry key="142" type="xstring" value="fts_bld_building-construction-mix_hotels-dep[%]"/>
+<entry key="143" type="xstring" value="fts_bld_building-construction-mix_health-shl[%]"/>
+<entry key="144" type="xstring" value="fts_bld_building-construction-mix_health-med[%]"/>
+<entry key="145" type="xstring" value="fts_bld_building-construction-mix_health-dep[%]"/>
+<entry key="146" type="xstring" value="fts_bld_building-construction-mix_education-shl[%]"/>
+<entry key="147" type="xstring" value="fts_bld_building-construction-mix_education-med[%]"/>
+<entry key="148" type="xstring" value="fts_bld_building-construction-mix_education-dep[%]"/>
+<entry key="149" type="xstring" value="fts_bld_building-construction-mix_other-shl[%]"/>
+<entry key="150" type="xstring" value="fts_bld_building-construction-mix_other-med[%]"/>
+<entry key="151" type="xstring" value="fts_bld_building-construction-mix_other-dep[%]"/>
+</config>
+<config key="columnTypes">
+<entry key="array-size" type="xint" value="152"/>
+<config key="0">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="1">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="2">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="3">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="4">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="5">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="6">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="7">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="8">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="9">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="10">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="11">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="12">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="13">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="14">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="15">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="16">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="17">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="18">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="19">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="20">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="21">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="22">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="23">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="24">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="25">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="26">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="27">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="28">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="29">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="30">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="31">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="32">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="33">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="34">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="35">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="36">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="37">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="38">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="39">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="40">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="41">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="42">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="43">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="44">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="45">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="46">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="47">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="48">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="49">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="50">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="51">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="52">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="53">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="54">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="55">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="56">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="57">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="58">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="59">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="60">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="61">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="62">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="63">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="64">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="65">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="66">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="67">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="68">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="69">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="70">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="71">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="72">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="73">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="74">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="75">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="76">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="77">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="78">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="79">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="80">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="81">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="82">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="83">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="84">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="85">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="86">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="87">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="88">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="89">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="90">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="91">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="92">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="93">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="94">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="95">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="96">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="97">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="98">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="99">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="100">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="101">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="102">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="103">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="104">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="105">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="106">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="107">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="108">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="109">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="110">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="111">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="112">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="113">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="114">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="115">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="116">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="117">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="118">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="119">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="120">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="121">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="122">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="123">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="124">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="125">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="126">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="127">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="128">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="129">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="130">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="131">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="132">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="133">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="134">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="135">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="136">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="137">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="138">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="139">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="140">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="141">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="142">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="143">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="144">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="145">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="146">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="147">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="148">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="149">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="150">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="151">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="aggregationMethod">
+<entry key="array-size" type="xint" value="152"/>
+<entry key="0" type="xstring" value="Mean"/>
+<entry key="1" type="xstring" value="Mean"/>
+<entry key="2" type="xstring" value="Mean"/>
+<entry key="3" type="xstring" value="Mean"/>
+<entry key="4" type="xstring" value="Mean"/>
+<entry key="5" type="xstring" value="Mean"/>
+<entry key="6" type="xstring" value="Mean"/>
+<entry key="7" type="xstring" value="Mean"/>
+<entry key="8" type="xstring" value="Mean"/>
+<entry key="9" type="xstring" value="Mean"/>
+<entry key="10" type="xstring" value="Mean"/>
+<entry key="11" type="xstring" value="Mean"/>
+<entry key="12" type="xstring" value="Mean"/>
+<entry key="13" type="xstring" value="Mean"/>
+<entry key="14" type="xstring" value="Mean"/>
+<entry key="15" type="xstring" value="Mean"/>
+<entry key="16" type="xstring" value="Mean"/>
+<entry key="17" type="xstring" value="Mean"/>
+<entry key="18" type="xstring" value="Mean"/>
+<entry key="19" type="xstring" value="Mean"/>
+<entry key="20" type="xstring" value="Mean"/>
+<entry key="21" type="xstring" value="Mean"/>
+<entry key="22" type="xstring" value="Mean"/>
+<entry key="23" type="xstring" value="Mean"/>
+<entry key="24" type="xstring" value="Mean"/>
+<entry key="25" type="xstring" value="Mean"/>
+<entry key="26" type="xstring" value="Mean"/>
+<entry key="27" type="xstring" value="Mean"/>
+<entry key="28" type="xstring" value="Mean"/>
+<entry key="29" type="xstring" value="Mean"/>
+<entry key="30" type="xstring" value="Mean"/>
+<entry key="31" type="xstring" value="Mean"/>
+<entry key="32" type="xstring" value="Mean"/>
+<entry key="33" type="xstring" value="Mean"/>
+<entry key="34" type="xstring" value="Mean"/>
+<entry key="35" type="xstring" value="Mean"/>
+<entry key="36" type="xstring" value="Mean"/>
+<entry key="37" type="xstring" value="Mean"/>
+<entry key="38" type="xstring" value="Mean"/>
+<entry key="39" type="xstring" value="Mean"/>
+<entry key="40" type="xstring" value="Mean"/>
+<entry key="41" type="xstring" value="Mean"/>
+<entry key="42" type="xstring" value="Mean"/>
+<entry key="43" type="xstring" value="Mean"/>
+<entry key="44" type="xstring" value="Mean"/>
+<entry key="45" type="xstring" value="Mean"/>
+<entry key="46" type="xstring" value="Mean"/>
+<entry key="47" type="xstring" value="Mean"/>
+<entry key="48" type="xstring" value="Mean"/>
+<entry key="49" type="xstring" value="Mean"/>
+<entry key="50" type="xstring" value="Mean"/>
+<entry key="51" type="xstring" value="Mean"/>
+<entry key="52" type="xstring" value="Mean"/>
+<entry key="53" type="xstring" value="Mean"/>
+<entry key="54" type="xstring" value="Mean"/>
+<entry key="55" type="xstring" value="Mean"/>
+<entry key="56" type="xstring" value="Mean"/>
+<entry key="57" type="xstring" value="Mean"/>
+<entry key="58" type="xstring" value="Mean"/>
+<entry key="59" type="xstring" value="Mean"/>
+<entry key="60" type="xstring" value="Mean"/>
+<entry key="61" type="xstring" value="Mean"/>
+<entry key="62" type="xstring" value="Mean"/>
+<entry key="63" type="xstring" value="Mean"/>
+<entry key="64" type="xstring" value="Mean"/>
+<entry key="65" type="xstring" value="Mean"/>
+<entry key="66" type="xstring" value="Mean"/>
+<entry key="67" type="xstring" value="Mean"/>
+<entry key="68" type="xstring" value="Mean"/>
+<entry key="69" type="xstring" value="Mean"/>
+<entry key="70" type="xstring" value="Mean"/>
+<entry key="71" type="xstring" value="Mean"/>
+<entry key="72" type="xstring" value="Mean"/>
+<entry key="73" type="xstring" value="Mean"/>
+<entry key="74" type="xstring" value="Mean"/>
+<entry key="75" type="xstring" value="Mean"/>
+<entry key="76" type="xstring" value="Mean"/>
+<entry key="77" type="xstring" value="Mean"/>
+<entry key="78" type="xstring" value="Mean"/>
+<entry key="79" type="xstring" value="Mean"/>
+<entry key="80" type="xstring" value="Mean"/>
+<entry key="81" type="xstring" value="Mean"/>
+<entry key="82" type="xstring" value="Mean"/>
+<entry key="83" type="xstring" value="Mean"/>
+<entry key="84" type="xstring" value="Mean"/>
+<entry key="85" type="xstring" value="Mean"/>
+<entry key="86" type="xstring" value="Mean"/>
+<entry key="87" type="xstring" value="Mean"/>
+<entry key="88" type="xstring" value="Mean"/>
+<entry key="89" type="xstring" value="Mean"/>
+<entry key="90" type="xstring" value="Mean"/>
+<entry key="91" type="xstring" value="Mean"/>
+<entry key="92" type="xstring" value="Mean"/>
+<entry key="93" type="xstring" value="Mean"/>
+<entry key="94" type="xstring" value="Mean"/>
+<entry key="95" type="xstring" value="Mean"/>
+<entry key="96" type="xstring" value="Mean"/>
+<entry key="97" type="xstring" value="Mean"/>
+<entry key="98" type="xstring" value="Mean"/>
+<entry key="99" type="xstring" value="Mean"/>
+<entry key="100" type="xstring" value="Mean"/>
+<entry key="101" type="xstring" value="Mean"/>
+<entry key="102" type="xstring" value="Mean"/>
+<entry key="103" type="xstring" value="Mean"/>
+<entry key="104" type="xstring" value="Mean"/>
+<entry key="105" type="xstring" value="Mean"/>
+<entry key="106" type="xstring" value="Mean"/>
+<entry key="107" type="xstring" value="Mean"/>
+<entry key="108" type="xstring" value="Mean"/>
+<entry key="109" type="xstring" value="Mean"/>
+<entry key="110" type="xstring" value="Mean"/>
+<entry key="111" type="xstring" value="Mean"/>
+<entry key="112" type="xstring" value="Mean"/>
+<entry key="113" type="xstring" value="Mean"/>
+<entry key="114" type="xstring" value="Mean"/>
+<entry key="115" type="xstring" value="Mean"/>
+<entry key="116" type="xstring" value="Mean"/>
+<entry key="117" type="xstring" value="Mean"/>
+<entry key="118" type="xstring" value="Mean"/>
+<entry key="119" type="xstring" value="Mean"/>
+<entry key="120" type="xstring" value="Mean"/>
+<entry key="121" type="xstring" value="Mean"/>
+<entry key="122" type="xstring" value="Mean"/>
+<entry key="123" type="xstring" value="Mean"/>
+<entry key="124" type="xstring" value="Mean"/>
+<entry key="125" type="xstring" value="Mean"/>
+<entry key="126" type="xstring" value="Mean"/>
+<entry key="127" type="xstring" value="Mean"/>
+<entry key="128" type="xstring" value="Mean"/>
+<entry key="129" type="xstring" value="Mean"/>
+<entry key="130" type="xstring" value="Mean"/>
+<entry key="131" type="xstring" value="Mean"/>
+<entry key="132" type="xstring" value="Mean"/>
+<entry key="133" type="xstring" value="Mean"/>
+<entry key="134" type="xstring" value="Mean"/>
+<entry key="135" type="xstring" value="Mean"/>
+<entry key="136" type="xstring" value="Mean"/>
+<entry key="137" type="xstring" value="Mean"/>
+<entry key="138" type="xstring" value="Mean"/>
+<entry key="139" type="xstring" value="Mean"/>
+<entry key="140" type="xstring" value="Mean"/>
+<entry key="141" type="xstring" value="Mean"/>
+<entry key="142" type="xstring" value="Mean"/>
+<entry key="143" type="xstring" value="Mean"/>
+<entry key="144" type="xstring" value="Mean"/>
+<entry key="145" type="xstring" value="Mean"/>
+<entry key="146" type="xstring" value="Mean"/>
+<entry key="147" type="xstring" value="Mean"/>
+<entry key="148" type="xstring" value="Mean"/>
+<entry key="149" type="xstring" value="Mean"/>
+<entry key="150" type="xstring" value="Mean"/>
+<entry key="151" type="xstring" value="Mean"/>
+</config>
+<config key="inclMissingVals">
+<entry key="array-size" type="xint" value="152"/>
+<entry key="0" type="xboolean" value="false"/>
+<entry key="1" type="xboolean" value="false"/>
+<entry key="2" type="xboolean" value="false"/>
+<entry key="3" type="xboolean" value="false"/>
+<entry key="4" type="xboolean" value="false"/>
+<entry key="5" type="xboolean" value="false"/>
+<entry key="6" type="xboolean" value="false"/>
+<entry key="7" type="xboolean" value="false"/>
+<entry key="8" type="xboolean" value="false"/>
+<entry key="9" type="xboolean" value="false"/>
+<entry key="10" type="xboolean" value="false"/>
+<entry key="11" type="xboolean" value="false"/>
+<entry key="12" type="xboolean" value="false"/>
+<entry key="13" type="xboolean" value="false"/>
+<entry key="14" type="xboolean" value="false"/>
+<entry key="15" type="xboolean" value="false"/>
+<entry key="16" type="xboolean" value="false"/>
+<entry key="17" type="xboolean" value="false"/>
+<entry key="18" type="xboolean" value="false"/>
+<entry key="19" type="xboolean" value="false"/>
+<entry key="20" type="xboolean" value="false"/>
+<entry key="21" type="xboolean" value="false"/>
+<entry key="22" type="xboolean" value="false"/>
+<entry key="23" type="xboolean" value="false"/>
+<entry key="24" type="xboolean" value="false"/>
+<entry key="25" type="xboolean" value="false"/>
+<entry key="26" type="xboolean" value="false"/>
+<entry key="27" type="xboolean" value="false"/>
+<entry key="28" type="xboolean" value="false"/>
+<entry key="29" type="xboolean" value="false"/>
+<entry key="30" type="xboolean" value="false"/>
+<entry key="31" type="xboolean" value="false"/>
+<entry key="32" type="xboolean" value="false"/>
+<entry key="33" type="xboolean" value="false"/>
+<entry key="34" type="xboolean" value="false"/>
+<entry key="35" type="xboolean" value="false"/>
+<entry key="36" type="xboolean" value="false"/>
+<entry key="37" type="xboolean" value="false"/>
+<entry key="38" type="xboolean" value="false"/>
+<entry key="39" type="xboolean" value="false"/>
+<entry key="40" type="xboolean" value="false"/>
+<entry key="41" type="xboolean" value="false"/>
+<entry key="42" type="xboolean" value="false"/>
+<entry key="43" type="xboolean" value="false"/>
+<entry key="44" type="xboolean" value="false"/>
+<entry key="45" type="xboolean" value="false"/>
+<entry key="46" type="xboolean" value="false"/>
+<entry key="47" type="xboolean" value="false"/>
+<entry key="48" type="xboolean" value="false"/>
+<entry key="49" type="xboolean" value="false"/>
+<entry key="50" type="xboolean" value="false"/>
+<entry key="51" type="xboolean" value="false"/>
+<entry key="52" type="xboolean" value="false"/>
+<entry key="53" type="xboolean" value="false"/>
+<entry key="54" type="xboolean" value="false"/>
+<entry key="55" type="xboolean" value="false"/>
+<entry key="56" type="xboolean" value="false"/>
+<entry key="57" type="xboolean" value="false"/>
+<entry key="58" type="xboolean" value="false"/>
+<entry key="59" type="xboolean" value="false"/>
+<entry key="60" type="xboolean" value="false"/>
+<entry key="61" type="xboolean" value="false"/>
+<entry key="62" type="xboolean" value="false"/>
+<entry key="63" type="xboolean" value="false"/>
+<entry key="64" type="xboolean" value="false"/>
+<entry key="65" type="xboolean" value="false"/>
+<entry key="66" type="xboolean" value="false"/>
+<entry key="67" type="xboolean" value="false"/>
+<entry key="68" type="xboolean" value="false"/>
+<entry key="69" type="xboolean" value="false"/>
+<entry key="70" type="xboolean" value="false"/>
+<entry key="71" type="xboolean" value="false"/>
+<entry key="72" type="xboolean" value="false"/>
+<entry key="73" type="xboolean" value="false"/>
+<entry key="74" type="xboolean" value="false"/>
+<entry key="75" type="xboolean" value="false"/>
+<entry key="76" type="xboolean" value="false"/>
+<entry key="77" type="xboolean" value="false"/>
+<entry key="78" type="xboolean" value="false"/>
+<entry key="79" type="xboolean" value="false"/>
+<entry key="80" type="xboolean" value="false"/>
+<entry key="81" type="xboolean" value="false"/>
+<entry key="82" type="xboolean" value="false"/>
+<entry key="83" type="xboolean" value="false"/>
+<entry key="84" type="xboolean" value="false"/>
+<entry key="85" type="xboolean" value="false"/>
+<entry key="86" type="xboolean" value="false"/>
+<entry key="87" type="xboolean" value="false"/>
+<entry key="88" type="xboolean" value="false"/>
+<entry key="89" type="xboolean" value="false"/>
+<entry key="90" type="xboolean" value="false"/>
+<entry key="91" type="xboolean" value="false"/>
+<entry key="92" type="xboolean" value="false"/>
+<entry key="93" type="xboolean" value="false"/>
+<entry key="94" type="xboolean" value="false"/>
+<entry key="95" type="xboolean" value="false"/>
+<entry key="96" type="xboolean" value="false"/>
+<entry key="97" type="xboolean" value="false"/>
+<entry key="98" type="xboolean" value="false"/>
+<entry key="99" type="xboolean" value="false"/>
+<entry key="100" type="xboolean" value="false"/>
+<entry key="101" type="xboolean" value="false"/>
+<entry key="102" type="xboolean" value="false"/>
+<entry key="103" type="xboolean" value="false"/>
+<entry key="104" type="xboolean" value="false"/>
+<entry key="105" type="xboolean" value="false"/>
+<entry key="106" type="xboolean" value="false"/>
+<entry key="107" type="xboolean" value="false"/>
+<entry key="108" type="xboolean" value="false"/>
+<entry key="109" type="xboolean" value="false"/>
+<entry key="110" type="xboolean" value="false"/>
+<entry key="111" type="xboolean" value="false"/>
+<entry key="112" type="xboolean" value="false"/>
+<entry key="113" type="xboolean" value="false"/>
+<entry key="114" type="xboolean" value="false"/>
+<entry key="115" type="xboolean" value="false"/>
+<entry key="116" type="xboolean" value="false"/>
+<entry key="117" type="xboolean" value="false"/>
+<entry key="118" type="xboolean" value="false"/>
+<entry key="119" type="xboolean" value="false"/>
+<entry key="120" type="xboolean" value="false"/>
+<entry key="121" type="xboolean" value="false"/>
+<entry key="122" type="xboolean" value="false"/>
+<entry key="123" type="xboolean" value="false"/>
+<entry key="124" type="xboolean" value="false"/>
+<entry key="125" type="xboolean" value="false"/>
+<entry key="126" type="xboolean" value="false"/>
+<entry key="127" type="xboolean" value="false"/>
+<entry key="128" type="xboolean" value="false"/>
+<entry key="129" type="xboolean" value="false"/>
+<entry key="130" type="xboolean" value="false"/>
+<entry key="131" type="xboolean" value="false"/>
+<entry key="132" type="xboolean" value="false"/>
+<entry key="133" type="xboolean" value="false"/>
+<entry key="134" type="xboolean" value="false"/>
+<entry key="135" type="xboolean" value="false"/>
+<entry key="136" type="xboolean" value="false"/>
+<entry key="137" type="xboolean" value="false"/>
+<entry key="138" type="xboolean" value="false"/>
+<entry key="139" type="xboolean" value="false"/>
+<entry key="140" type="xboolean" value="false"/>
+<entry key="141" type="xboolean" value="false"/>
+<entry key="142" type="xboolean" value="false"/>
+<entry key="143" type="xboolean" value="false"/>
+<entry key="144" type="xboolean" value="false"/>
+<entry key="145" type="xboolean" value="false"/>
+<entry key="146" type="xboolean" value="false"/>
+<entry key="147" type="xboolean" value="false"/>
+<entry key="148" type="xboolean" value="false"/>
+<entry key="149" type="xboolean" value="false"/>
+<entry key="150" type="xboolean" value="false"/>
+<entry key="151" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="aggregationOperatorSettings"/>
+<config key="patternAggregators"/>
+<config key="dataTypeAggregators"/>
+<config key="columnNamePolicy_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
+<config key="retainOrder_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="retainOrder" type="xboolean" value="false"/>
+<config key="inMemory_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inMemory" type="xboolean" value="false"/>
+<config key="valueDelimiter_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="valueDelimiter" type="xstring" value=", "/>
+<config key="nodeVersion_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="nodeVersion" type="xint" value="1"/>
+<config key="pivotColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="pivotColumns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="category"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="155"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="lever_building-renovation-rate"/>
+<entry key="3" type="xstring" value="fts_bld_building-renovation-rate_sfh-exi[%]"/>
+<entry key="4" type="xstring" value="fts_bld_building-renovation-rate_mfh-exi[%]"/>
+<entry key="5" type="xstring" value="fts_bld_building-renovation-rate_trade-exi[%]"/>
+<entry key="6" type="xstring" value="fts_bld_building-renovation-rate_education-exi[%]"/>
+<entry key="7" type="xstring" value="fts_bld_building-renovation-rate_hotels-exi[%]"/>
+<entry key="8" type="xstring" value="fts_bld_building-renovation-rate_health-exi[%]"/>
+<entry key="9" type="xstring" value="fts_bld_building-renovation-rate_offices-exi[%]"/>
+<entry key="10" type="xstring" value="fts_bld_building-renovation-rate_other-exi[%]"/>
+<entry key="11" type="xstring" value="fts_bld_building-renovation-rate_sfh-shl[%]"/>
+<entry key="12" type="xstring" value="fts_bld_building-renovation-rate_sfh-med[%]"/>
+<entry key="13" type="xstring" value="fts_bld_building-renovation-rate_sfh-dep[%]"/>
+<entry key="14" type="xstring" value="fts_bld_building-renovation-rate_mfh-shl[%]"/>
+<entry key="15" type="xstring" value="fts_bld_building-renovation-rate_mfh-med[%]"/>
+<entry key="16" type="xstring" value="fts_bld_building-renovation-rate_mfh-dep[%]"/>
+<entry key="17" type="xstring" value="fts_bld_building-renovation-rate_offices-shl[%]"/>
+<entry key="18" type="xstring" value="fts_bld_building-renovation-rate_offices-med[%]"/>
+<entry key="19" type="xstring" value="fts_bld_building-renovation-rate_offices-dep[%]"/>
+<entry key="20" type="xstring" value="fts_bld_building-renovation-rate_trade-shl[%]"/>
+<entry key="21" type="xstring" value="fts_bld_building-renovation-rate_trade-med[%]"/>
+<entry key="22" type="xstring" value="fts_bld_building-renovation-rate_trade-dep[%]"/>
+<entry key="23" type="xstring" value="fts_bld_building-renovation-rate_hotels-shl[%]"/>
+<entry key="24" type="xstring" value="fts_bld_building-renovation-rate_hotels-med[%]"/>
+<entry key="25" type="xstring" value="fts_bld_building-renovation-rate_hotels-dep[%]"/>
+<entry key="26" type="xstring" value="fts_bld_building-renovation-rate_health-shl[%]"/>
+<entry key="27" type="xstring" value="fts_bld_building-renovation-rate_health-med[%]"/>
+<entry key="28" type="xstring" value="fts_bld_building-renovation-rate_health-dep[%]"/>
+<entry key="29" type="xstring" value="fts_bld_building-renovation-rate_education-shl[%]"/>
+<entry key="30" type="xstring" value="fts_bld_building-renovation-rate_education-med[%]"/>
+<entry key="31" type="xstring" value="fts_bld_building-renovation-rate_education-dep[%]"/>
+<entry key="32" type="xstring" value="fts_bld_building-renovation-rate_other-shl[%]"/>
+<entry key="33" type="xstring" value="fts_bld_building-renovation-rate_other-med[%]"/>
+<entry key="34" type="xstring" value="fts_bld_building-renovation-rate_other-dep[%]"/>
+<entry key="35" type="xstring" value="fts_bld_building-demolition-rate_sfh-exi[%]"/>
+<entry key="36" type="xstring" value="fts_bld_building-demolition-rate_mfh-exi[%]"/>
+<entry key="37" type="xstring" value="fts_bld_building-demolition-rate_trade-exi[%]"/>
+<entry key="38" type="xstring" value="fts_bld_building-demolition-rate_education-exi[%]"/>
+<entry key="39" type="xstring" value="fts_bld_building-demolition-rate_hotels-exi[%]"/>
+<entry key="40" type="xstring" value="fts_bld_building-demolition-rate_health-exi[%]"/>
+<entry key="41" type="xstring" value="fts_bld_building-demolition-rate_offices-exi[%]"/>
+<entry key="42" type="xstring" value="fts_bld_building-demolition-rate_other-exi[%]"/>
+<entry key="43" type="xstring" value="fts_bld_building-demolition-rate_sfh-shl[%]"/>
+<entry key="44" type="xstring" value="fts_bld_building-demolition-rate_sfh-med[%]"/>
+<entry key="45" type="xstring" value="fts_bld_building-demolition-rate_sfh-dep[%]"/>
+<entry key="46" type="xstring" value="fts_bld_building-demolition-rate_mfh-shl[%]"/>
+<entry key="47" type="xstring" value="fts_bld_building-demolition-rate_mfh-med[%]"/>
+<entry key="48" type="xstring" value="fts_bld_building-demolition-rate_mfh-dep[%]"/>
+<entry key="49" type="xstring" value="fts_bld_building-demolition-rate_offices-shl[%]"/>
+<entry key="50" type="xstring" value="fts_bld_building-demolition-rate_offices-med[%]"/>
+<entry key="51" type="xstring" value="fts_bld_building-demolition-rate_offices-dep[%]"/>
+<entry key="52" type="xstring" value="fts_bld_building-demolition-rate_trade-shl[%]"/>
+<entry key="53" type="xstring" value="fts_bld_building-demolition-rate_trade-med[%]"/>
+<entry key="54" type="xstring" value="fts_bld_building-demolition-rate_trade-dep[%]"/>
+<entry key="55" type="xstring" value="fts_bld_building-demolition-rate_hotels-shl[%]"/>
+<entry key="56" type="xstring" value="fts_bld_building-demolition-rate_hotels-med[%]"/>
+<entry key="57" type="xstring" value="fts_bld_building-demolition-rate_hotels-dep[%]"/>
+<entry key="58" type="xstring" value="fts_bld_building-demolition-rate_health-shl[%]"/>
+<entry key="59" type="xstring" value="fts_bld_building-demolition-rate_health-med[%]"/>
+<entry key="60" type="xstring" value="fts_bld_building-demolition-rate_health-dep[%]"/>
+<entry key="61" type="xstring" value="fts_bld_building-demolition-rate_education-shl[%]"/>
+<entry key="62" type="xstring" value="fts_bld_building-demolition-rate_education-med[%]"/>
+<entry key="63" type="xstring" value="fts_bld_building-demolition-rate_education-dep[%]"/>
+<entry key="64" type="xstring" value="fts_bld_building-demolition-rate_other-shl[%]"/>
+<entry key="65" type="xstring" value="fts_bld_building-demolition-rate_other-med[%]"/>
+<entry key="66" type="xstring" value="fts_bld_building-demolition-rate_other-dep[%]"/>
+<entry key="67" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="68" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="69" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="70" type="xstring" value="fts_bld_energy-need-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="71" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="72" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="73" type="xstring" value="fts_bld_energy-need-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="74" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="75" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="76" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="77" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="78" type="xstring" value="fts_bld_energy-need-cooling-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="79" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="80" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="81" type="xstring" value="fts_bld_energy-need-cooling-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="82" type="xstring" value="fts_bld_energy-need-cooling-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="83" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_education[kWh/m2 year]"/>
+<entry key="84" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_health[kWh/m2 year]"/>
+<entry key="85" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_hotels[kWh/m2 year]"/>
+<entry key="86" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_residential_mfh[kWh/m2 year]"/>
+<entry key="87" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_offices[kWh/m2 year]"/>
+<entry key="88" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_other[kWh/m2 year]"/>
+<entry key="89" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_residential_sfh[kWh/m2 year]"/>
+<entry key="90" type="xstring" value="fts_bld_energy-need-hotwater-per-m2_non-residential_trade[kWh/m2 year]"/>
+<entry key="91" type="xstring" value="fts_bld_building-renovation-mix_sfh-exi[%]"/>
+<entry key="92" type="xstring" value="fts_bld_building-renovation-mix_mfh-exi[%]"/>
+<entry key="93" type="xstring" value="fts_bld_building-renovation-mix_trade-exi[%]"/>
+<entry key="94" type="xstring" value="fts_bld_building-renovation-mix_education-exi[%]"/>
+<entry key="95" type="xstring" value="fts_bld_building-renovation-mix_hotels-exi[%]"/>
+<entry key="96" type="xstring" value="fts_bld_building-renovation-mix_health-exi[%]"/>
+<entry key="97" type="xstring" value="fts_bld_building-renovation-mix_offices-exi[%]"/>
+<entry key="98" type="xstring" value="fts_bld_building-renovation-mix_other-exi[%]"/>
+<entry key="99" type="xstring" value="fts_bld_building-renovation-mix_sfh-shl[%]"/>
+<entry key="100" type="xstring" value="fts_bld_building-renovation-mix_sfh-med[%]"/>
+<entry key="101" type="xstring" value="fts_bld_building-renovation-mix_sfh-dep[%]"/>
+<entry key="102" type="xstring" value="fts_bld_building-renovation-mix_mfh-shl[%]"/>
+<entry key="103" type="xstring" value="fts_bld_building-renovation-mix_mfh-med[%]"/>
+<entry key="104" type="xstring" value="fts_bld_building-renovation-mix_mfh-dep[%]"/>
+<entry key="105" type="xstring" value="fts_bld_building-renovation-mix_offices-shl[%]"/>
+<entry key="106" type="xstring" value="fts_bld_building-renovation-mix_offices-med[%]"/>
+<entry key="107" type="xstring" value="fts_bld_building-renovation-mix_offices-dep[%]"/>
+<entry key="108" type="xstring" value="fts_bld_building-renovation-mix_trade-shl[%]"/>
+<entry key="109" type="xstring" value="fts_bld_building-renovation-mix_trade-med[%]"/>
+<entry key="110" type="xstring" value="fts_bld_building-renovation-mix_trade-dep[%]"/>
+<entry key="111" type="xstring" value="fts_bld_building-renovation-mix_hotels-shl[%]"/>
+<entry key="112" type="xstring" value="fts_bld_building-renovation-mix_hotels-med[%]"/>
+<entry key="113" type="xstring" value="fts_bld_building-renovation-mix_hotels-dep[%]"/>
+<entry key="114" type="xstring" value="fts_bld_building-renovation-mix_health-shl[%]"/>
+<entry key="115" type="xstring" value="fts_bld_building-renovation-mix_health-med[%]"/>
+<entry key="116" type="xstring" value="fts_bld_building-renovation-mix_health-dep[%]"/>
+<entry key="117" type="xstring" value="fts_bld_building-renovation-mix_education-shl[%]"/>
+<entry key="118" type="xstring" value="fts_bld_building-renovation-mix_education-med[%]"/>
+<entry key="119" type="xstring" value="fts_bld_building-renovation-mix_education-dep[%]"/>
+<entry key="120" type="xstring" value="fts_bld_building-renovation-mix_other-shl[%]"/>
+<entry key="121" type="xstring" value="fts_bld_building-renovation-mix_other-med[%]"/>
+<entry key="122" type="xstring" value="fts_bld_building-renovation-mix_other-dep[%]"/>
+<entry key="123" type="xstring" value="fts_bld_building-construction-mix_sfh-exi[%]"/>
+<entry key="124" type="xstring" value="fts_bld_building-construction-mix_mfh-exi[%]"/>
+<entry key="125" type="xstring" value="fts_bld_building-construction-mix_trade-exi[%]"/>
+<entry key="126" type="xstring" value="fts_bld_building-construction-mix_education-exi[%]"/>
+<entry key="127" type="xstring" value="fts_bld_building-construction-mix_hotels-exi[%]"/>
+<entry key="128" type="xstring" value="fts_bld_building-construction-mix_health-exi[%]"/>
+<entry key="129" type="xstring" value="fts_bld_building-construction-mix_offices-exi[%]"/>
+<entry key="130" type="xstring" value="fts_bld_building-construction-mix_other-exi[%]"/>
+<entry key="131" type="xstring" value="fts_bld_building-construction-mix_sfh-shl[%]"/>
+<entry key="132" type="xstring" value="fts_bld_building-construction-mix_sfh-med[%]"/>
+<entry key="133" type="xstring" value="fts_bld_building-construction-mix_sfh-dep[%]"/>
+<entry key="134" type="xstring" value="fts_bld_building-construction-mix_mfh-shl[%]"/>
+<entry key="135" type="xstring" value="fts_bld_building-construction-mix_mfh-med[%]"/>
+<entry key="136" type="xstring" value="fts_bld_building-construction-mix_mfh-dep[%]"/>
+<entry key="137" type="xstring" value="fts_bld_building-construction-mix_offices-shl[%]"/>
+<entry key="138" type="xstring" value="fts_bld_building-construction-mix_offices-med[%]"/>
+<entry key="139" type="xstring" value="fts_bld_building-construction-mix_offices-dep[%]"/>
+<entry key="140" type="xstring" value="fts_bld_building-construction-mix_trade-shl[%]"/>
+<entry key="141" type="xstring" value="fts_bld_building-construction-mix_trade-med[%]"/>
+<entry key="142" type="xstring" value="fts_bld_building-construction-mix_trade-dep[%]"/>
+<entry key="143" type="xstring" value="fts_bld_building-construction-mix_hotels-shl[%]"/>
+<entry key="144" type="xstring" value="fts_bld_building-construction-mix_hotels-med[%]"/>
+<entry key="145" type="xstring" value="fts_bld_building-construction-mix_hotels-dep[%]"/>
+<entry key="146" type="xstring" value="fts_bld_building-construction-mix_health-shl[%]"/>
+<entry key="147" type="xstring" value="fts_bld_building-construction-mix_health-med[%]"/>
+<entry key="148" type="xstring" value="fts_bld_building-construction-mix_health-dep[%]"/>
+<entry key="149" type="xstring" value="fts_bld_building-construction-mix_education-shl[%]"/>
+<entry key="150" type="xstring" value="fts_bld_building-construction-mix_education-med[%]"/>
+<entry key="151" type="xstring" value="fts_bld_building-construction-mix_education-dep[%]"/>
+<entry key="152" type="xstring" value="fts_bld_building-construction-mix_other-shl[%]"/>
+<entry key="153" type="xstring" value="fts_bld_building-construction-mix_other-med[%]"/>
+<entry key="154" type="xstring" value="fts_bld_building-construction-mix_other-dep[%]"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="missing_values_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="missing_values" type="xboolean" value="true"/>
+<config key="total_aggregation_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="total_aggregation" type="xboolean" value="false"/>
+<config key="ignore_domain_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ignore_domain" type="xboolean" value="true"/>
+<config key="column_name_option_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="column_name_option" type="xstring" value="Pivot name+Aggregation name"/>
+<config key="sort_lexicographical_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="sort_lexicographical" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="by category"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1496"/>
+<entry key="y-coordinate" type="xint" value="674"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.pivot.Pivot2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Pivoting"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Pivoting"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 928, Cols: 131"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 928, Cols: 131"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 131"/>
+<entry key="port_dir_location" type="xstring" value="port_3"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="63dee596-7c08-4354-ab8a-adc138f39f0f"/>
+</config>
+</config>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="all_columns">
+<config key="0">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_abp_dairy-milk_treated[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_treated_abp_dairy-milk[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="1">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_abp_hens-egg_treated[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_treated_abp_hens-egg[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="2">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_bovine_treated[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_treated_meat_bovine[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="3">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_pig_treated[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_treated_meat_pig[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="4">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_poultry_treated[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_treated_meat_poultry[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="5">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_sheep_treated[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_treated_meat_sheep[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="6">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_oth-animals_treated[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_treated_meat_oth-animals[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="7">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_abp_dairy-milk_applied[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_applied_abp_dairy-milk[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="8">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_abp_hens-egg_applied[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_applied_abp_hens-egg[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="9">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_bovine_applied[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_applied_meat_bovine[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="10">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_pig_applied[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_applied_meat_pig[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="11">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_poultry_applied[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_applied_meat_poultry[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="12">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_sheep_applied[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_applied_meat_sheep[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="13">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_oth-animals_applied[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_applied_meat_oth-animals[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="14">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_abp_dairy-milk_pasture[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_pasture_abp_dairy-milk[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="15">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_abp_hens-egg_pasture[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_pasture_abp_hens-egg[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="16">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_bovine_pasture[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_bovine[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="17">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_pig_pasture[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_pig[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="18">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_poultry_pasture[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_poultry[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="19">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_sheep_pasture[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_sheep[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="20">
+<entry key="old_column_name" type="xstring" value="agr_liv_N2O-emission_meat_oth-animals_pasture[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_oth-animals[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="21">
+<entry key="old_column_name" type="xstring" value="agr_crop_emission_soil-residues_N2O-emission[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_crop_soil-residues[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="22">
+<entry key="old_column_name" type="xstring" value="agr_crop_emission_burnt-residues_N2O-emission[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_crop_burnt-residues[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="23">
+<entry key="old_column_name" type="xstring" value="agr_crop_emission_burnt-residues_CH4-emission[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_crop_burnt-residues[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="24">
+<entry key="old_column_name" type="xstring" value="agr_rice_crop_CH4-emission[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_crop_rice[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="25">
+<entry key="old_column_name" type="xstring" value="agr_crop_emission_N2O-emission_fertilizer[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-N2O_crop_fertilizer[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="26">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_enteric_abp_dairy-milk[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_enteric_abp_dairy-milk[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="27">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_enteric_abp_hens-egg[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_enteric_abp_hens-egg[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="28">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_enteric_meat_bovine[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_bovine[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="29">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_enteric_meat_pig[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_pig[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="30">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_enteric_meat_poultry[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_poultry[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="31">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_enteric_meat_sheep[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_sheep[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="32">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_enteric_meat_oth-animals[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_oth-animals[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="33">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_treated_abp_dairy-milk[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_treated_abp_dairy-milk[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="34">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_treated_abp_hens-egg[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_treated_abp_hens-egg[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="35">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_treated_meat_bovine[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_treated_meat_bovine[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="36">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_treated_meat_pig[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_treated_meat_pig[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="37">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_treated_meat_poultry[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_treated_meat_poultry[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="38">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_treated_meat_sheep[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_treated_meat_sheep[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="39">
+<entry key="old_column_name" type="xstring" value="agr_liv_CH4-emission_treated_meat_oth-animals[Mt]"/>
+<entry key="new_column_name" type="xstring" value="agr_emissions-CH4_liv_treated_meat_oth-animals[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Rename to standard%%00013%%00010vector names"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="504"/>
+<entry key="y-coordinate" type="xint" value="179"/>
+<entry key="width" type="xint" value="113"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Rename"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Rename"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

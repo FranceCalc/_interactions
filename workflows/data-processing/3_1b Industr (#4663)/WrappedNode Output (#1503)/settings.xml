@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="variable-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+</config>
+<entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+<config key="port-names">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="0.2 Pathway Explorer"/>
+<entry key="1" type="xstring" value="5.3 Storage"/>
+<entry key="2" type="xstring" value="4.4 Water"/>
+<entry key="3" type="xstring" value="Calibration"/>
+<entry key="4" type="xstring" value="3.2 CCUS"/>
+<entry key="5" type="xstring" value="6.4 Employment"/>
+<entry key="6" type="xstring" value="1.4 Climate Emissions"/>
+<entry key="7" type="xstring" value="6.2 Air Pollution"/>
+</config>
+<config key="port-descriptions">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="0.2 Pathway Explorer%%00010-fts_ind_production_steel[Mt]: steel production%%00010-fts_ind_energy_steel[TWh]: fuel use (feedstock+energy) in the steel industry%%00010-fts_ind_emissions_steel[Mt]: CO2 equivalent emissions in the steel industry%%00010-fts_ind_production_cement[Mt]: cement production%%00010-fts_ind_energy_cement[TWh]: fuel use (feedstock+energy) in the cement industry%%00010-fts_ind_emissions_cement[Mt]: CO2 equivalent emissions in the cement industry%%00010-fts_ind_production_chem[Mt]: chemicals production%%00010-fts_ind_energy_chem[TWh]: fuel use (feedstock+energy) in the chemical industry%%00010-fts_ind_emissions_chem[Mt]: CO2 equivalent emissions in the chemical industry%%00010-fts_ind_production_paper[Mt]: paper production%%00010-fts_ind_energy_paper[TWh]: fuel use (feedstock+energy) in the paper industry%%00010-fts_ind_emissions_paper[Mt]: CO2 equivalent emissions in the paper industry"/>
+<entry key="1" type="xstring" value="5.3 Storage%%00010- amm_energy-demand_electricity[TWh]: Energy demand (Electricity)%%00010- amm_energy-demand_solid-ff-coal[TWh]: Energy + feedstock demand (Coal)%%00010- amm_energy-demand_liquid-ff-oil[TWh]: Energy + feedstock demand (Oil)%%00010- amm_energy-demand_gas-ff-natural[TWh]: Energy + feedstock demand (Natural Gas)%%00010- amm_energy-demand_hydrogen[TWh]: Energy + feedstock demand (Hydrogen)%%00010- ind_capex_amm-tech[MEUR]"/>
+<entry key="2" type="xstring" value="4.4 Water"/>
+<entry key="3" type="xstring" value="Calibration"/>
+<entry key="4" type="xstring" value="3.2 CCUS"/>
+<entry key="5" type="xstring" value="6.4 Employment"/>
+<entry key="6" type="xstring" value="1.4 Climate Emissions"/>
+<entry key="7" type="xstring" value="6.2 Air Pollution"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="isDeletable" type="xboolean" value="false"/>
+<entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
+<entry key="node-name" type="xstring" value="WrappedNode Output"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings">
+<config key="port_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_4">
+<entry key="index" type="xint" value="4"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_5">
+<entry key="index" type="xint" value="5"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_6">
+<entry key="index" type="xint" value="6"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_7">
+<entry key="index" type="xint" value="7"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="name" type="xstring" value="WrappedNode Output"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_0"/>
+</config>
+<config key="object_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_1"/>
+</config>
+<config key="object_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_2"/>
+</config>
+<config key="object_3">
+<entry key="index" type="xint" value="3"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_3"/>
+</config>
+<config key="object_4">
+<entry key="index" type="xint" value="4"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_4"/>
+</config>
+<config key="object_5">
+<entry key="index" type="xint" value="5"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_5"/>
+</config>
+<config key="object_6">
+<entry key="index" type="xint" value="6"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_6"/>
+</config>
+<config key="object_7">
+<entry key="index" type="xint" value="7"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_7"/>
+</config>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="c24b5b18-bd34-4e75-9936-d7066c9aa323"/>
+</config>
+</config>

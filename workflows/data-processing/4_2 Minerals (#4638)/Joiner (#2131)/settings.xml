@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="duplicateHandling" type="xstring" value="AppendSuffixAutomatic"/>
+<entry key="compositionMode" type="xstring" value="MatchAll"/>
+<entry key="joinMode" type="xstring" value="InnerJoin"/>
+<config key="leftTableJoinPredicate">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+</config>
+<config key="rightTableJoinPredicate">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+</config>
+<entry key="suffix" type="xstring" value="(*)"/>
+<config key="leftIncludeCols">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="min_extraction_demand_phosphate[Mt]"/>
+<entry key="3" type="xstring" value="min_extraction_demand_potash[Mt]"/>
+<entry key="4" type="xstring" value="min_extraction_demand_bauxite[Mt]"/>
+<entry key="5" type="xstring" value="min_extraction_demand_cobalt[Mt]"/>
+<entry key="6" type="xstring" value="min_extraction_demand_copper[Mt]"/>
+<entry key="7" type="xstring" value="min_extraction_demand_graphite[Mt]"/>
+<entry key="8" type="xstring" value="min_extraction_demand_lead[Mt]"/>
+<entry key="9" type="xstring" value="min_extraction_demand_lithium[Mt]"/>
+<entry key="10" type="xstring" value="min_extraction_demand_manganese[Mt]"/>
+<entry key="11" type="xstring" value="min_extraction_demand_nickel[Mt]"/>
+<entry key="12" type="xstring" value="min_extraction_demand_iron[Mt]"/>
+</config>
+<config key="rightIncludeCols">
+<entry key="array-size" type="xint" value="64"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="min_other_phosphate[Mt]"/>
+<entry key="3" type="xstring" value="min_other_potash[Mt]"/>
+<entry key="4" type="xstring" value="min_energy_gas[Mt]"/>
+<entry key="5" type="xstring" value="min_energy_oil[Mt]"/>
+<entry key="6" type="xstring" value="min_energy_coal[Mt]"/>
+<entry key="7" type="xstring" value="min_agr_phosphate[Mt]"/>
+<entry key="8" type="xstring" value="min_agr_potash[Mt]"/>
+<entry key="9" type="xstring" value="min_indirect_graphite[Mt]"/>
+<entry key="10" type="xstring" value="min_indirect_nickel[Mt]"/>
+<entry key="11" type="xstring" value="min_indirect_copper[Mt]"/>
+<entry key="12" type="xstring" value="min_indirect_bauxite[Mt]"/>
+<entry key="13" type="xstring" value="min_indirect_cobalt[Mt]"/>
+<entry key="14" type="xstring" value="min_indirect_lithium[Mt]"/>
+<entry key="15" type="xstring" value="min_indirect_iron[Mt]"/>
+<entry key="16" type="xstring" value="min_indirect_lead[Mt]"/>
+<entry key="17" type="xstring" value="min_indirect_manganese[Mt]"/>
+<entry key="18" type="xstring" value="min_industry_manganese[Mt]"/>
+<entry key="19" type="xstring" value="min_other_manganese[Mt]"/>
+<entry key="20" type="xstring" value="min_other_nickel[Mt]"/>
+<entry key="21" type="xstring" value="min_industry_nickel[Mt]"/>
+<entry key="22" type="xstring" value="min_other_iron[Mt]"/>
+<entry key="23" type="xstring" value="min_building_iron[Mt]"/>
+<entry key="24" type="xstring" value="min_other_bauxite[Mt]"/>
+<entry key="25" type="xstring" value="min_building_bauxite[Mt]"/>
+<entry key="26" type="xstring" value="min_other_cobalt[Mt]"/>
+<entry key="27" type="xstring" value="min_industry_lithium[Mt]"/>
+<entry key="28" type="xstring" value="min_other_lithium[Mt]"/>
+<entry key="29" type="xstring" value="min_other_graphite[Mt]"/>
+<entry key="30" type="xstring" value="min_industry_graphite[Mt]"/>
+<entry key="31" type="xstring" value="min_building_copper[Mt]"/>
+<entry key="32" type="xstring" value="min_other_copper[Mt]"/>
+<entry key="33" type="xstring" value="min_other_lead[Mt]"/>
+<entry key="34" type="xstring" value="min_energy_cobalt[Mt]"/>
+<entry key="35" type="xstring" value="min_electronics_cobalt[Mt]"/>
+<entry key="36" type="xstring" value="min_transport_lead[Mt]"/>
+<entry key="37" type="xstring" value="min_infra_copper[Mt]"/>
+<entry key="38" type="xstring" value="min_infra_iron[Mt]"/>
+<entry key="39" type="xstring" value="min_electronics_bauxite[Mt]"/>
+<entry key="40" type="xstring" value="min_dom-appliances_copper[Mt]"/>
+<entry key="41" type="xstring" value="min_energy_graphite[Mt]"/>
+<entry key="42" type="xstring" value="min_electronics_graphite[Mt]"/>
+<entry key="43" type="xstring" value="min_electronics_lithium[Mt]"/>
+<entry key="44" type="xstring" value="min_transport_nickel[Mt]"/>
+<entry key="45" type="xstring" value="min_dom-appliances_bauxite[Mt]"/>
+<entry key="46" type="xstring" value="min_transport_lithium[Mt]"/>
+<entry key="47" type="xstring" value="min_energy_manganese[Mt]"/>
+<entry key="48" type="xstring" value="min_transport_manganese[Mt]"/>
+<entry key="49" type="xstring" value="min_dom-appliances_iron[Mt]"/>
+<entry key="50" type="xstring" value="min_infra_bauxite[Mt]"/>
+<entry key="51" type="xstring" value="min_transport_bauxite[Mt]"/>
+<entry key="52" type="xstring" value="min_energy_copper[Mt]"/>
+<entry key="53" type="xstring" value="min_transport_copper[Mt]"/>
+<entry key="54" type="xstring" value="min_electronics_copper[Mt]"/>
+<entry key="55" type="xstring" value="min_energy_bauxite[Mt]"/>
+<entry key="56" type="xstring" value="min_energy_lithium[Mt]"/>
+<entry key="57" type="xstring" value="min_electronics_nickel[Mt]"/>
+<entry key="58" type="xstring" value="min_electronics_manganese[Mt]"/>
+<entry key="59" type="xstring" value="min_transport_iron[Mt]"/>
+<entry key="60" type="xstring" value="min_transport_graphite[Mt]"/>
+<entry key="61" type="xstring" value="min_energy_nickel[Mt]"/>
+<entry key="62" type="xstring" value="min_transport_cobalt[Mt]"/>
+<entry key="63" type="xstring" value="min_energy_iron[Mt]"/>
+</config>
+<entry key="leftIncludeAll" type="xboolean" value="true"/>
+<entry key="rightIncludeAll" type="xboolean" value="true"/>
+<entry key="rmLeftJoinCols" type="xboolean" value="false"/>
+<entry key="rmRightJoinCols" type="xboolean" value="true"/>
+<entry key="maxOpenFiles" type="xint" value="200"/>
+<entry key="rowKeySeparator" type="xstring" value="_"/>
+<entry key="enableHiLite" type="xboolean" value="false"/>
+<entry key="numBitsInitial" type="xint" value="6"/>
+<entry key="numBitsMaximal" type="xint" value="32"/>
+<entry key="usedMemoryThreshold" type="xdouble" value="0.85"/>
+<entry key="minAvailableMemory" type="xlong" value="10000000"/>
+<entry key="memUseCollectionUsage" type="xboolean" value="true"/>
+<entry key="version" type="xstring" value="version_3"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.joiner.Joiner2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Joiner"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Joiner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 78"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="d37ad655-95a0-4746-a5e0-138dd0def60c"/>
+</config>
+</config>

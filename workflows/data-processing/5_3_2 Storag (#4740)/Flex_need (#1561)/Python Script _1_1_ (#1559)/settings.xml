@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010#import zipfile%%00010#import lxml.etree%%00010import numpy as np%%00010import datetime as dt%%00010%%00010hourly_res_tr_=input_table%%00010hourly_res_trz=hourly_res_tr_.copy(deep=True)%%00010hourly_res_trz.reset_index(inplace=True, drop=True)%%00010hourly_res_trz.set_index(['Trade_zone', 'Years' ], inplace=True)%%00010%%00010hourly_res_loa_=hourly_res_trz.T%%00010%%00010fl_need=pd.DataFrame(index=hourly_res_trz.index, columns=['Fld_w', 'Fld_d', 'Fld_s'])%%00010#print('ennyi')%%00010Years_l=['2020', '2025', '2030', '2035', '2040', '2045', '2050']%%00010#Years_l=['2020']%%00010%%00010for year in Years_l:%%00010%%00009#print('year', year)%%00010%%00010%%00009#datatime indexing%%00009%%00010%%00009nd=pd.date_range(start='1/1/'+year, end='1/1/'+str(int(year)+1),freq='H', closed='left')%%00010%%00009%%00010%%00009#leap years%%00010%%00009if year=='2020' or year=='2040':%%00010%%00010%%00009%%00009#weekly_flex_need%%00010%%00009%%00009year_str=str(year)%%00010%%00009%%00009%%00010%%00009%%00009hourly_res_load=hourly_res_loa_.loc[:,(slice(None), year)]%%00010%%00009%%00009hourly_res_load.index=nd%%00010        %%00010%%00009%%00009yearly_avg=hourly_res_load.mean()%%00010%%00009%%00009#print(hourly_res_load.shape, yearly_avg.shape)%%00010%%00009%%00009weekly_avg=hourly_res_load.resample('W').mean()%%00010%%00009%%00009week_len=hourly_res_load.resample('W').count()%%00010%%00009%%00009#print(weekly_avg.shape)%%00010%%00009%%00009fl_n_=weekly_avg-yearly_avg%%00010%%00009%%00009fl_n_=fl_n_.multiply(week_len)%%00010%%00009%%00009fl_n_.columns=hourly_res_load.columns%%00010%%00009%%00009#print(1, year, fl_n_.info())%%00010%%00009%%00009#print(fl_n_.shape)%%00010%%00009%%00009fl_n_1=fl_n_[fl_n_&gt;0]%%00009%%00009%%00010%%00009%%00009fl_n_1.fillna(0, inplace=True)%%00010%%00009%%00009fl_w=fl_n_1.sum()%%00010%%00009%%00009#daily_flex_need%%00010%%00009%%00009#daily averages%%00010%%00009%%00009daily_avg=hourly_res_load.resample('D').mean()%%00010%%00009%%00009%%00010%%00009%%00009#weekly average upsampling for later substraction vectorization%%00009%%00009%%00010%%00009%%00009weekly_avg_resamp=weekly_avg.resample('D').ffill()%%00010%%00009%%00009#print(weekly_avg_resamp.shape)%%00010%%00010%%00009%%00009# determination for calendar week shifting%%00010%%00009%%00009weekday_length=week_len//24%%00010%%00009%%00009len_w_first=weekday_length.iloc[0,0]%%00010%%00009%%00009len_w_last=weekday_length.iloc[-1,0]%%00010%%00010%%00009%%00009#calendar week shift at the begining%%00010%%00009%%00009np_weekly_avg_f_days=weekly_avg_resamp.iloc[7-len_w_first:,:].values%%00010%%00009%%00009#print(np_weekly_avg_f_days.shape)%%00010%%00009%%00009# calendar shift at the end%%00010%%00009%%00009np_shift=np.ones((len_w_last-1,1))*weekly_avg_resamp.iloc[-1,:].values%%00010%%00009%%00009np_weekly_avg_f_days=np.vstack((np_weekly_avg_f_days, np_shift))%%00010%%00010%%00009%%00009#difference of daily and weekly average (hourly values)%%00010%%00009%%00009#print(np_weekly_avg_f_days.shape, daily_avg.shape)%%00010%%00009%%00009weekly_avg_f_days=pd.DataFrame(np_weekly_avg_f_days,\%%00010                                 index=daily_avg.index, columns=daily_avg.columns)%%00010        %%00010%%00009%%00009fl2_n_=(daily_avg-weekly_avg_f_days)*24%%00010%%00009%%00009%%00010%%00009%%00009fl_n_2=fl2_n_[fl2_n_&gt;0]%%00009%%00009%%00010%%00009%%00009fl_n_2.fillna(0, inplace=True)%%00010%%00009%%00009fl_d=fl_n_2.sum()%%00010%%00009%%00009# subdaily flex need%%00010%%00009%%00009#daily average upsampling for later substraction vectorization%%00009%%00010%%00009%%00009daily_avg_f_hours=daily_avg.resample('H').ffill()%%00010%%00010%%00009%%00009# repating the last 23 hours for complete data sheet%%00010%%00009%%00009np_repeated_2=np.ones((23,1))*daily_avg_f_hours.iloc[-1,:].values%%00010%%00009%%00009np_daily_avg_f_hours=np.vstack((daily_avg_f_hours.values, np_repeated_2))%%00010%%00010%%00009%%00009#difference of hourly values and daily average (hourly values)%%00010%%00009%%00009fl3_n_=(hourly_res_load-np_daily_avg_f_hours)%%00010%%00009%%00009fl_n_3=fl3_n_[fl3_n_&gt;0]%%00010%%00009%%00009fl_n_3.fillna(0, inplace=True)%%00010%%00009%%00009fl_s=fl_n_3.sum()%%00010%%00010%%00009%%00009%%00010%%00010%%00009#normal years%%00010%%00009else:%%00010%%00009%%00009#print(year)%%00010%%00009%%00009hourly_res_load_n=hourly_res_loa_.loc[hourly_res_loa_.index[0:8760],(slice(None), year)]%%00010%%00009%%00009hourly_res_load_n.index=nd%%00010%%00009%%00009#weekly fleyibility need%%00010%%00009%%00009#hourly_res_load_n=pd.DataFrame(hourly_res_loa_.iloc[:8760, ii*country_len : (ii+1)*country_len].values, index=nd)%%00010%%00009%%00009yearly_avg=hourly_res_load_n.mean()%%00010%%00009%%00009weekly_avg=hourly_res_load_n.resample('W').mean()%%00010%%00009%%00009week_len=hourly_res_load_n.resample('W').count()%%00010%%00009%%00009%%00010%%00009%%00009fl_n_=weekly_avg-yearly_avg%%00010%%00009%%00009fl_n_=fl_n_.multiply(week_len)%%00010%%00009%%00009fl_n_.columns=hourly_res_load_n.columns%%00010%%00009%%00009#print(2, year, fl_n_.info())%%00010        %%00010%%00009%%00009fl_n_1=fl_n_[fl_n_&gt;0]%%00010%%00009%%00009fl_n_1.fillna(0, inplace=True)%%00010%%00009%%00009fl_w=fl_n_1.sum()%%00010%%00009%%00009#fl_n_1.columns=hourly_res_load_n.columns%%00010%%00010%%00009%%00009#daily_flex_need%%00010%%00009%%00009#daily averages%%00010%%00009%%00009daily_avg=hourly_res_load_n.resample('D').mean()%%00010%%00009%%00009%%00010%%00009%%00009#weekly average upsampling for later substraction vectorization%%00009%%00009%%00010%%00009%%00009weekly_avg_resamp=weekly_avg.resample('D').ffill()%%00010%%00009%%00009#print(weekly_avg_resamp.shape)%%00010%%00010%%00009%%00009# determination for calendar week shifting%%00010%%00009%%00009weekday_length=week_len//24%%00010%%00009%%00009len_w_first=weekday_length.iloc[0,0]%%00010%%00009%%00009len_w_last=weekday_length.iloc[-1,0]%%00010%%00010%%00009%%00009#calendar week shift at the begining%%00010%%00009%%00009np_weekly_avg_f_days=weekly_avg_resamp.iloc[7-len_w_first:,:].values%%00010%%00009%%00009#print(np_weekly_avg_f_days.shape)%%00010%%00009%%00009# calendar shift at the end%%00010%%00009%%00009np_shift=np.ones((len_w_last-1,1))*weekly_avg_resamp.iloc[-1,:].values%%00010%%00009%%00009np_weekly_avg_f_days=np.vstack((np_weekly_avg_f_days, np_shift))%%00010%%00010%%00009%%00009#difference of daily and weekly average (hourly values)%%00010%%00009%%00009#print(np_weekly_avg_f_days.shape, daily_avg.shape)%%00010%%00009%%00009%%00010%%00009%%00009weekly_avg_f_days=pd.DataFrame(np_weekly_avg_f_days,\%%00010                                 index=daily_avg.index, columns=daily_avg.columns)%%00010%%00009%%00009fl2_n_=(daily_avg-weekly_avg_f_days)*24%%00010%%00009%%00009fl_n_2=fl2_n_[fl2_n_&gt;0]%%00009%%00009%%00010%%00009%%00009fl_n_2.fillna(0,inplace=True)%%00010%%00009%%00009fl_d=fl_n_2.sum()%%00010%%00009%%00009# subdaily flex need%%00010%%00009%%00009#daily average upsampling for later substraction vectorization%%00009%%00010%%00009%%00009daily_avg_f_hours=daily_avg.resample('H').ffill()%%00010%%00010%%00009%%00009# repating the last 23 hours for complete data sheet%%00010%%00009%%00009np_repeated_2=np.ones((23,1))*daily_avg_f_hours.iloc[-1,:].values%%00010%%00009%%00009np_daily_avg_f_hours=np.vstack((daily_avg_f_hours.values, np_repeated_2))%%00010%%00010%%00009%%00009#difference of hourly values and daily average (hourly values)%%00010%%00009%%00009fl3_n_=(hourly_res_load_n-np_daily_avg_f_hours)%%00010%%00009%%00009fl_n_3=fl3_n_[fl3_n_&gt;0]%%00010%%00009%%00009fl_n_3.fillna(0, inplace=True)%%00010%%00009%%00009fl_s=fl_n_3.sum()%%00010%%00009ind_year=hourly_res_loa_.loc[:,(slice(None), year)]%%00010%%00009fl_need.loc[(slice(None), year),'Fld_w']=fl_w/1000%%00010%%00009fl_need.loc[(slice(None), year),'Fld_d']=fl_d/1000%%00010%%00009fl_need.loc[(slice(None), year),'Fld_s']=fl_s/1000%%00010%%00009fl_need.loc[:,['Fld_w','Fld_d','Fld_s']]=fl_need.loc[:,['Fld_w','Fld_d','Fld_s']].astype(float)%%00010    %%00010%%00010fl_need.reset_index(inplace=True) %%00010#print(fl_need.info(), fl_need.head())%%00010output_table=fl_need%%00010%%00010"/>
+<entry key="rowLimit" type="xint" value="10000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="STEP_3%%00013%%00010Calculate flexibility_needs"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="455"/>
+<entry key="y-coordinate" type="xint" value="222"/>
+<entry key="width" type="xint" value="142"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script.Python2ScriptNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 63, Cols: 5"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="57e50895-b99c-4eee-b0cd-bd52f5c6cc34"/>
+</config>
+</config>

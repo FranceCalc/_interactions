@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import numpy as np%%00010%%00010sd_ngas=pd.DataFrame()%%00010sd_ngas=input_table%%00010%%00010calc_vstep0=pd.DataFrame()%%00010%%00010calc_vstep0.loc[:,'Country']=sd_ngas.loc[:,'Country']%%00010calc_vstep0['Years']=sd_ngas['Years']%%00010%%00010# Production%%00010calc_vstep0['st0_supply_fossil_coal[TWh]']=-1*sd_ngas['Fossil_coal_reduce[TWh]']%%00010calc_vstep0['st0_supply_fossil_gas[TWh]']=sd_ngas['Nat_gas_prod_inc[TWh]']%%00010%%00010%%00010# Nominal capacity nat_gas%%00010calc_vstep0['st0_cap_fossil_gas[GW]']=sd_ngas['Nat_gas_gross_sum_invest_power[GW]']%%00010%%00010# New capacity nat_gas%%00010calc_vstep0['st0_new_inv_nat[GW]']=sd_ngas['Nat_gas_gross_invest_power[GW]']%%00010%%00010# Fuel_consumption%%00010#Coal%%00010calc_vstep0['st0_fuel_fossil_coal[TWh]']=sd_ngas['coal_fuel_consumption_decr[TWh]']%%00010#Nat_gas%%00010calc_vstep0['st0_fuel_fossil_gas[TWh]']=sd_ngas['Nat_gas_fuel_consumption_old[TWh]']+\%%00010sd_ngas['Nat_gas_fuel_consumption_new[TWh]']%%00010%%00010# Emission nat gas%%00010calc_vstep0['st0_CO2e_fossil_gas[Gt]']=sd_ngas['Nat_gas_CO2_emission_old[kt]']+\%%00010sd_ngas['Nat_gas_CO2_emission_new[kt]']%%00010%%00010calc_vstep0['st0_CO2e_fossil_gas[Gt]']=\%%00010calc_vstep0['st0_CO2e_fossil_gas[Gt]'].divide(1000000)%%00010%%00010%%00010# Emission coal reduce%%00010calc_vstep0['st0_CO2e_fossil_coal[Gt]']=sd_ngas['Coal_CO2_emission_decr[kt]']%%00010# unit calc (Gt)%%00010calc_vstep0['st0_CO2e_fossil_coal[Gt]']=\%%00010calc_vstep0['st0_CO2e_fossil_coal[Gt]'].divide(1000000)%%00010%%00010%%00010output_table = calc_vstep0%%00010%%00010%%00010"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Summation %%00013%%00010fuel consumption (ngas, coal), %%00013%%00010CO2 emission (ngas, coal)%%00013%%00010new investments (ngas)%%00013%%00010new nominal capacities (ngas)"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="4197"/>
+<entry key="y-coordinate" type="xint" value="-621"/>
+<entry key="width" type="xint" value="169"/>
+<entry key="height" type="xint" value="75"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script.Python2ScriptNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 203, Cols: 10"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5e35172b-a285-4459-831d-5b4600ca728e"/>
+</config>
+</config>

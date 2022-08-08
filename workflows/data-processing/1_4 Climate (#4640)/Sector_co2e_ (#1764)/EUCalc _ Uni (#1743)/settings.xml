@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="string-input-1245">
+<entry key="string" type="xstring" value=".*emissions.*\[Mt\]"/>
+</config>
+<config key="string-input-1246">
+<entry key="string" type="xstring" value="MtC/yr"/>
+</config>
+<config key="column-filter-1253">
+<config key="columns">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="35"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="tra_emissions-CH4_freight_HDV[Mt]"/>
+<entry key="3" type="xstring" value="tra_emissions-CH4_freight_IWW[Mt]"/>
+<entry key="4" type="xstring" value="tra_emissions-CH4_freight_aviation[Mt]"/>
+<entry key="5" type="xstring" value="tra_emissions-CH4_freight_marine[Mt]"/>
+<entry key="6" type="xstring" value="tra_emissions-CH4_freight_rail[Mt]"/>
+<entry key="7" type="xstring" value="tra_emissions-CH4_passenger_2W[Mt]"/>
+<entry key="8" type="xstring" value="tra_emissions-CH4_passenger_LDV[Mt]"/>
+<entry key="9" type="xstring" value="tra_emissions-CH4_passenger_aviation[Mt]"/>
+<entry key="10" type="xstring" value="tra_emissions-CH4_passenger_bus[Mt]"/>
+<entry key="11" type="xstring" value="tra_emissions-CH4_passenger_metro-tram[Mt]"/>
+<entry key="12" type="xstring" value="tra_emissions-CH4_passenger_rail[Mt]"/>
+<entry key="13" type="xstring" value="tra_emissions-CO2_freight_HDV[Mt]"/>
+<entry key="14" type="xstring" value="tra_emissions-CO2_freight_IWW[Mt]"/>
+<entry key="15" type="xstring" value="tra_emissions-CO2_freight_aviation[Mt]"/>
+<entry key="16" type="xstring" value="tra_emissions-CO2_freight_marine[Mt]"/>
+<entry key="17" type="xstring" value="tra_emissions-CO2_freight_rail[Mt]"/>
+<entry key="18" type="xstring" value="tra_emissions-CO2_passenger_2W[Mt]"/>
+<entry key="19" type="xstring" value="tra_emissions-CO2_passenger_LDV[Mt]"/>
+<entry key="20" type="xstring" value="tra_emissions-CO2_passenger_aviation[Mt]"/>
+<entry key="21" type="xstring" value="tra_emissions-CO2_passenger_bus[Mt]"/>
+<entry key="22" type="xstring" value="tra_emissions-CO2_passenger_metro-tram[Mt]"/>
+<entry key="23" type="xstring" value="tra_emissions-CO2_passenger_rail[Mt]"/>
+<entry key="24" type="xstring" value="tra_emissions-N2O_freight_HDV[Mt]"/>
+<entry key="25" type="xstring" value="tra_emissions-N2O_freight_IWW[Mt]"/>
+<entry key="26" type="xstring" value="tra_emissions-N2O_freight_aviation[Mt]"/>
+<entry key="27" type="xstring" value="tra_emissions-N2O_freight_marine[Mt]"/>
+<entry key="28" type="xstring" value="tra_emissions-N2O_freight_rail[Mt]"/>
+<entry key="29" type="xstring" value="tra_emissions-N2O_passenger_2W[Mt]"/>
+<entry key="30" type="xstring" value="tra_emissions-N2O_passenger_LDV[Mt]"/>
+<entry key="31" type="xstring" value="tra_emissions-N2O_passenger_aviation[Mt]"/>
+<entry key="32" type="xstring" value="tra_emissions-N2O_passenger_bus[Mt]"/>
+<entry key="33" type="xstring" value="tra_emissions-N2O_passenger_metro-tram[Mt]"/>
+<entry key="34" type="xstring" value="tra_emissions-N2O_passenger_rail[Mt]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=".*emissions-(CH4|CO2|N2O|SO2)*\[Mt\]"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Unit conversion%%00013%%00010[Mt] to [MtC/yr]"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1028"/>
+<entry key="y-coordinate" type="xint" value="239"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="24"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="1242"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="1243"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-05-16 10:42:15"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Unit%20conversion"/>
+</config>
+<entry key="layoutJSON" type="xstring" value=""/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mod_tri"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="elc"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import zipfile%%00010import lxml.etree%%00010import numpy as np%%00010import re%%00010%%00010sector_folder = flow_variables['module']%%00010if sector_folder == &quot;district heating&quot;:%%00010%%00009sector_folder = &quot;buildings&quot;%%00010datafolder = sector_folder+'/data'%%00010conffolder = sector_folder+'/configuration'%%00010trigrams = {'agriculture':'agr',%%00010%%00009%%00009%%00009'buildings':'bld',%%00010%%00009%%00009%%00009'district heating':'dhg',%%00010%%00009%%00009%%00009'climate':'clm',%%00010%%00009%%00009%%00009'electricity_supply':'elc',%%00010%%00009%%00009%%00009'employment':'emp',%%00010%%00009%%00009%%00009'industry':'ind',%%00010%%00009%%00009%%00009'lifestyles':'lfs',%%00010%%00009%%00009%%00009'materials':'mat',%%00010%%00009%%00009%%00009'social impacts':'sip',%%00010%%00009%%00009%%00009'transboundary':'trb',%%00010%%00009%%00009%%00009'transport':'tra',%%00010%%00009%%00009%%00009'water':'wat',%%00010%%00009%%00009%%00009'technology':'tec'%%00010}%%00010mod_tri = trigrams.get(flow_variables['module'])%%00010flow_variables['mod_tri'] = mod_tri %%00010%%00010#--------------------#%%00010#OUTPUT TABLE 1 = OTS%%00010#--------------------#%%00010# the filepath is made by retrieving the global variables from the KNIME environment ('right-click&gt;KNIME variables' on the KNIME workflow)%%00010filepath = flow_variables['knime.workspace']+'/'+datafolder+'/cal_'+mod_tri+&quot;_&quot;+flow_variables['name']+&quot;.xlsx&quot;%%00010%%00010# read the excel files%%00010xl = pd.ExcelFile(filepath)#excel file containing data%%00010md = pd.ExcelFile(filepath.split(&quot;.&quot;,1)[0]+'_md.xlsx')#excel file containing metadata%%00010%%00010# retrieve metadatas%%00010metadata = md.parse('metadata')%%00010metadata = metadata.set_index('name')%%00010title = metadata.loc['Title'].value%%00010unit = metadata.loc['Unit'].value%%00010category = metadata.loc['data type'].value%%00010levername = metadata.loc['Variable'].value%%00010reg = metadata.loc['Sheets selection (Regex)'].value%%00010r = re.compile(reg)%%00010%%00010s = list(filter(r.match,xl.sheet_names)) # Include only sheets selected by the regex%%00010%%00010init = 0%%00010# loop through all the excel sheets%%00010for i in s:%%00010%%00009df = xl.parse(i)#parsing the data of the sheet inside a dataframe%%00010%%00009df.columns = df.columns.astype(str)%%00010%%00009filter_col = [col for col in list(df) if col.startswith('2') or col.startswith('1')]#selecting all the columns that start with '2'. Those columns are the values of the pivot table. WARNING: if the name of the column are not converted in STRINGS, there will be an error running this line. To convert to string, 2 options: 1. str(col).startwith() 2. df.Years = df.Years.astype(str) %%00010%%00010%%00009# Note: this section modified to use any extra column as pivoting column.%%00010%%00009ID_VARS = list(set(df.columns) - set(filter_col))%%00010%%00009ID_MERGE = ID_VARS + ['Years']%%00010%%00009column_name = category+&quot;_&quot;+mod_tri+&quot;_&quot;+levername+&quot;_&quot;+i+&quot;[&quot;+unit+&quot;]&quot;%%00010%%00009df = pd.melt(df, id_vars=ID_VARS, value_vars=filter_col ,var_name='Years',value_name=column_name)#pivoting the columns using 'Country' as pivot.%%00010%%00009%%00010%%00009if (df[column_name].dtypes == &quot;object&quot;) :%%00010%%00009%%00009df[column_name] = pd.to_numeric(df[column_name], errors='coerce')%%00010%%00009%%00010%%00009if init == 0:%%00010%%00009%%00009output_table = df%%00010%%00009%%00009init = 1%%00010%%00009else:%%00010%%00009%%00009output_table = pd.merge(output_table, df, on=ID_MERGE)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script.Python2ScriptNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 754, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="2b8c123e-b6a8-4875-bbc7-f34485e222d9"/>
+</config>
+</config>

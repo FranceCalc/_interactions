@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="$$CURRENT_COLUMN$$"/>
+<entry key="replaced_column" type="xstring" value="_suffix"/>
+<entry key="append_column" type="xboolean" value="true"/>
+<entry key="convert_to_int" type="xboolean" value="false"/>
+<config key="column_selection">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="256"/>
+<entry key="0" type="xstring" value="indicator_household_beverages[%]"/>
+<entry key="1" type="xstring" value="indicator_household_veg-fruits-crops[%]"/>
+<entry key="2" type="xstring" value="indicator_household_other-veg[%]"/>
+<entry key="3" type="xstring" value="indicator_household_animals[%]"/>
+<entry key="4" type="xstring" value="indicator_household_fish[%]"/>
+<entry key="5" type="xstring" value="indicator_household_processed-veg[%]"/>
+<entry key="6" type="xstring" value="indicator_household_oil[%]"/>
+<entry key="7" type="xstring" value="indicator_household_gas[%]"/>
+<entry key="8" type="xstring" value="indicator_household_electricity[%]"/>
+<entry key="9" type="xstring" value="indicator_household_solid-bio-pellets[%]"/>
+<entry key="10" type="xstring" value="indicator_household_solid-bio-woodlog[%]"/>
+<entry key="11" type="xstring" value="indicator_household_solid-ff-coal[%]"/>
+<entry key="12" type="xstring" value="indicator_household_aviation[%]"/>
+<entry key="13" type="xstring" value="indicator_household_bus[%]"/>
+<entry key="14" type="xstring" value="indicator_household_LDV-2W[%]"/>
+<entry key="15" type="xstring" value="indicator_household_rail-metro-tram[%]"/>
+<entry key="16" type="xstring" value="indicator_household_paper[%]"/>
+<entry key="17" type="xstring" value="indicator_construction_investment[%]"/>
+<entry key="18" type="xstring" value="indicator_household_purchase_LDV-2W[%]"/>
+<entry key="19" type="xstring" value="indicator_investment_tra-machinery[%]"/>
+<entry key="20" type="xstring" value="indicator_appliances_purchase[%]"/>
+<entry key="21" type="xstring" value="indicator_investment_steel[%]"/>
+<entry key="22" type="xstring" value="indicator_investment_paper[%]"/>
+<entry key="23" type="xstring" value="indicator_investment_cement[MEUR]"/>
+<entry key="24" type="xstring" value="indicator_investment_glass[%]"/>
+<entry key="25" type="xstring" value="indicator_investment_amm[%]"/>
+<entry key="26" type="xstring" value="indicator_education_electricity[%]"/>
+<entry key="27" type="xstring" value="indicator_education_gas-ff-natural[%]"/>
+<entry key="28" type="xstring" value="indicator_education_liquid-ff-heatingoil[%]"/>
+<entry key="29" type="xstring" value="indicator_education_solid-bio-pellets[%]"/>
+<entry key="30" type="xstring" value="indicator_education_solid-bio-woodlog[%]"/>
+<entry key="31" type="xstring" value="indicator_education_solid-ff-coal[%]"/>
+<entry key="32" type="xstring" value="indicator_health_electricity[%]"/>
+<entry key="33" type="xstring" value="indicator_health_gas-ff-natural[%]"/>
+<entry key="34" type="xstring" value="indicator_health_liquid-ff-heatingoil[%]"/>
+<entry key="35" type="xstring" value="indicator_health_solid-bio-pellets[%]"/>
+<entry key="36" type="xstring" value="indicator_health_solid-bio-woodlog[%]"/>
+<entry key="37" type="xstring" value="indicator_health_solid-ff-coal[%]"/>
+<entry key="38" type="xstring" value="indicator_hotels_electricity[%]"/>
+<entry key="39" type="xstring" value="indicator_hotels_gas-ff-natural[%]"/>
+<entry key="40" type="xstring" value="indicator_hotels_liquid-ff-heatingoil[%]"/>
+<entry key="41" type="xstring" value="indicator_hotels_solid-bio-pellets[%]"/>
+<entry key="42" type="xstring" value="indicator_hotels_solid-bio-woodlog[%]"/>
+<entry key="43" type="xstring" value="indicator_hotels_solid-ff-coal[%]"/>
+<entry key="44" type="xstring" value="indicator_offices_electricity[%]"/>
+<entry key="45" type="xstring" value="indicator_offices_gas-ff-natural[%]"/>
+<entry key="46" type="xstring" value="indicator_offices_liquid-ff-heatingoil[%]"/>
+<entry key="47" type="xstring" value="indicator_offices_solid-bio-pellets[%]"/>
+<entry key="48" type="xstring" value="indicator_offices_solid-bio-woodlog[%]"/>
+<entry key="49" type="xstring" value="indicator_offices_solid-ff-coal[%]"/>
+<entry key="50" type="xstring" value="indicator_other_electricity[%]"/>
+<entry key="51" type="xstring" value="indicator_other_gas-ff-natural[%]"/>
+<entry key="52" type="xstring" value="indicator_other_liquid-ff-heatingoil[%]"/>
+<entry key="53" type="xstring" value="indicator_other_solid-bio-pellets[%]"/>
+<entry key="54" type="xstring" value="indicator_other_solid-bio-woodlog[%]"/>
+<entry key="55" type="xstring" value="indicator_other_solid-ff-coal[%]"/>
+<entry key="56" type="xstring" value="indicator_trade_electricity[%]"/>
+<entry key="57" type="xstring" value="indicator_trade_gas-ff-natural[%]"/>
+<entry key="58" type="xstring" value="indicator_trade_liquid-ff-heatingoil[%]"/>
+<entry key="59" type="xstring" value="indicator_trade_solid-bio-pellets[%]"/>
+<entry key="60" type="xstring" value="indicator_trade_solid-bio-woodlog[%]"/>
+<entry key="61" type="xstring" value="indicator_trade_solid-ff-coal[%]"/>
+<entry key="62" type="xstring" value="indicator_rail-metro-tram_oil[%]"/>
+<entry key="63" type="xstring" value="indicator_rail-metro-tram_electricity[%]"/>
+<entry key="64" type="xstring" value="indicator_bus-trucks_oil[%]"/>
+<entry key="65" type="xstring" value="indicator_bus-trucks_gas[%]"/>
+<entry key="66" type="xstring" value="indicator_bus-trucks_electricity[%]"/>
+<entry key="67" type="xstring" value="indicator_planes_electricity[%]"/>
+<entry key="68" type="xstring" value="indicator_planes_oil[%]"/>
+<entry key="69" type="xstring" value="indicator_rail-metro-tram_hydrogen[%]"/>
+<entry key="70" type="xstring" value="indicator_bus-trucks_hydrogen[%]"/>
+<entry key="71" type="xstring" value="indicator_water_oil[%]"/>
+<entry key="72" type="xstring" value="indicator_water_hydrogen[%]"/>
+<entry key="73" type="xstring" value="indicator_water_electricity[%]"/>
+<entry key="74" type="xstring" value="indicator_freight-activity_aviation[%]"/>
+<entry key="75" type="xstring" value="indicator_freight-activity_rail[%]"/>
+<entry key="76" type="xstring" value="indicator_freight-activity_water[%]"/>
+<entry key="77" type="xstring" value="indicator_freight-activity_HDV[%]"/>
+<entry key="78" type="xstring" value="indicator_steel_electricity[%]"/>
+<entry key="79" type="xstring" value="indicator_steel_solid-ff-coal[%]"/>
+<entry key="80" type="xstring" value="indicator_steel_liquid-ff-oil[%]"/>
+<entry key="81" type="xstring" value="indicator_steel_gas-ff-natural[%]"/>
+<entry key="82" type="xstring" value="indicator_steel_solid-bio[%]"/>
+<entry key="83" type="xstring" value="indicator_steel_liquid-bio[%]"/>
+<entry key="84" type="xstring" value="indicator_steel_gas-bio[%]"/>
+<entry key="85" type="xstring" value="indicator_steel_solid-waste[%]"/>
+<entry key="86" type="xstring" value="indicator_steel_hydrogen[%]"/>
+<entry key="87" type="xstring" value="indicator_cement_electricity[%]"/>
+<entry key="88" type="xstring" value="indicator_cement_solid-ff-coal[%]"/>
+<entry key="89" type="xstring" value="indicator_cement_liquid-ff-oil[%]"/>
+<entry key="90" type="xstring" value="indicator_cement_gas-ff-natural[%]"/>
+<entry key="91" type="xstring" value="indicator_cement_solid-bio[%]"/>
+<entry key="92" type="xstring" value="indicator_cement_liquid-bio[%]"/>
+<entry key="93" type="xstring" value="indicator_cement_gas-bio[%]"/>
+<entry key="94" type="xstring" value="indicator_cement_solid-waste[%]"/>
+<entry key="95" type="xstring" value="indicator_cement_hydrogen[%]"/>
+<entry key="96" type="xstring" value="indicator_chem_electricity[%]"/>
+<entry key="97" type="xstring" value="indicator_chem_solid-ff-coal[%]"/>
+<entry key="98" type="xstring" value="indicator_chem_liquid-ff-oil[%]"/>
+<entry key="99" type="xstring" value="indicator_chem_gas-ff-natural[%]"/>
+<entry key="100" type="xstring" value="indicator_chem_solid-bio[%]"/>
+<entry key="101" type="xstring" value="indicator_chem_liquid-bio[%]"/>
+<entry key="102" type="xstring" value="indicator_chem_gas-bio[%]"/>
+<entry key="103" type="xstring" value="indicator_chem_solid-waste[%]"/>
+<entry key="104" type="xstring" value="indicator_chem_hydrogen[%]"/>
+<entry key="105" type="xstring" value="indicator_paper_electricity[%]"/>
+<entry key="106" type="xstring" value="indicator_paper_solid-ff-coal[%]"/>
+<entry key="107" type="xstring" value="indicator_paper_liquid-ff-oil[%]"/>
+<entry key="108" type="xstring" value="indicator_paper_gas-ff-natural[%]"/>
+<entry key="109" type="xstring" value="indicator_paper_solid-bio[%]"/>
+<entry key="110" type="xstring" value="indicator_paper_liquid-bio[%]"/>
+<entry key="111" type="xstring" value="indicator_paper_gas-bio[%]"/>
+<entry key="112" type="xstring" value="indicator_paper_solid-waste[%]"/>
+<entry key="113" type="xstring" value="indicator_paper_hydrogen[%]"/>
+<entry key="114" type="xstring" value="indicator_aluminium_electricity[%]"/>
+<entry key="115" type="xstring" value="indicator_aluminium_solid-ff-coal[%]"/>
+<entry key="116" type="xstring" value="indicator_aluminium_liquid-ff-oil[%]"/>
+<entry key="117" type="xstring" value="indicator_aluminium_gas-ff-natural[%]"/>
+<entry key="118" type="xstring" value="indicator_aluminium_solid-bio[%]"/>
+<entry key="119" type="xstring" value="indicator_aluminium_liquid-bio[%]"/>
+<entry key="120" type="xstring" value="indicator_aluminium_gas-bio[%]"/>
+<entry key="121" type="xstring" value="indicator_aluminium_solid-waste[%]"/>
+<entry key="122" type="xstring" value="indicator_aluminium_hydrogen[%]"/>
+<entry key="123" type="xstring" value="indicator_glass_electricity[%]"/>
+<entry key="124" type="xstring" value="indicator_glass_solid-ff-coal[%]"/>
+<entry key="125" type="xstring" value="indicator_glass_liquid-ff-oil[%]"/>
+<entry key="126" type="xstring" value="indicator_glass_gas-ff-natural[%]"/>
+<entry key="127" type="xstring" value="indicator_glass_solid-bio[%]"/>
+<entry key="128" type="xstring" value="indicator_glass_liquid-bio[%]"/>
+<entry key="129" type="xstring" value="indicator_glass_gas-bio[%]"/>
+<entry key="130" type="xstring" value="indicator_glass_solid-waste[%]"/>
+<entry key="131" type="xstring" value="indicator_glass_hydrogen[%]"/>
+<entry key="132" type="xstring" value="indicator_lime_electricity[%]"/>
+<entry key="133" type="xstring" value="indicator_lime_solid-ff-coal[%]"/>
+<entry key="134" type="xstring" value="indicator_lime_liquid-ff-oil[%]"/>
+<entry key="135" type="xstring" value="indicator_lime_gas-ff-natural[%]"/>
+<entry key="136" type="xstring" value="indicator_lime_solid-bio[%]"/>
+<entry key="137" type="xstring" value="indicator_lime_liquid-bio[%]"/>
+<entry key="138" type="xstring" value="indicator_lime_gas-bio[%]"/>
+<entry key="139" type="xstring" value="indicator_lime_solid-waste[%]"/>
+<entry key="140" type="xstring" value="indicator_lime_hydrogen[%]"/>
+<entry key="141" type="xstring" value="indicator_tra-equip_electricity[%]"/>
+<entry key="142" type="xstring" value="indicator_tra-equip_solid-ff-coal[%]"/>
+<entry key="143" type="xstring" value="indicator_tra-equip_liquid-ff-oil[%]"/>
+<entry key="144" type="xstring" value="indicator_tra-equip_gas-ff-natural[%]"/>
+<entry key="145" type="xstring" value="indicator_tra-equip_solid-bio[%]"/>
+<entry key="146" type="xstring" value="indicator_tra-equip_liquid-bio[%]"/>
+<entry key="147" type="xstring" value="indicator_tra-equip_gas-bio[%]"/>
+<entry key="148" type="xstring" value="indicator_tra-equip_solid-waste[%]"/>
+<entry key="149" type="xstring" value="indicator_tra-equip_hydrogen[%]"/>
+<entry key="150" type="xstring" value="indicator_fbt_electricity[%]"/>
+<entry key="151" type="xstring" value="indicator_fbt_solid-ff-coal[%]"/>
+<entry key="152" type="xstring" value="indicator_fbt_liquid-ff-oil[%]"/>
+<entry key="153" type="xstring" value="indicator_fbt_gas-ff-natural[%]"/>
+<entry key="154" type="xstring" value="indicator_fbt_solid-bio[%]"/>
+<entry key="155" type="xstring" value="indicator_fbt_liquid-bio[%]"/>
+<entry key="156" type="xstring" value="indicator_fbt_gas-bio[%]"/>
+<entry key="157" type="xstring" value="indicator_fbt_solid-waste[%]"/>
+<entry key="158" type="xstring" value="indicator_fbt_hydrogen[%]"/>
+<entry key="159" type="xstring" value="indicator_textiles_electricity[%]"/>
+<entry key="160" type="xstring" value="indicator_textiles_solid-ff-coal[%]"/>
+<entry key="161" type="xstring" value="indicator_textiles_liquid-ff-oil[%]"/>
+<entry key="162" type="xstring" value="indicator_textiles_gas-ff-natural[%]"/>
+<entry key="163" type="xstring" value="indicator_textiles_solid-bio[%]"/>
+<entry key="164" type="xstring" value="indicator_textiles_liquid-bio[%]"/>
+<entry key="165" type="xstring" value="indicator_textiles_gas-bio[%]"/>
+<entry key="166" type="xstring" value="indicator_textiles_solid-waste[%]"/>
+<entry key="167" type="xstring" value="indicator_textiles_hydrogen[%]"/>
+<entry key="168" type="xstring" value="indicator_mae_electricity[%]"/>
+<entry key="169" type="xstring" value="indicator_mae_solid-ff-coal[%]"/>
+<entry key="170" type="xstring" value="indicator_mae_liquid-ff-oil[%]"/>
+<entry key="171" type="xstring" value="indicator_mae_gas-ff-natural[%]"/>
+<entry key="172" type="xstring" value="indicator_mae_solid-bio[%]"/>
+<entry key="173" type="xstring" value="indicator_mae_liquid-bio[%]"/>
+<entry key="174" type="xstring" value="indicator_mae_gas-bio[%]"/>
+<entry key="175" type="xstring" value="indicator_mae_solid-waste[%]"/>
+<entry key="176" type="xstring" value="indicator_mae_hydrogen[%]"/>
+<entry key="177" type="xstring" value="indicator_wwp_electricity[%]"/>
+<entry key="178" type="xstring" value="indicator_wwp_solid-ff-coal[%]"/>
+<entry key="179" type="xstring" value="indicator_wwp_liquid-ff-oil[%]"/>
+<entry key="180" type="xstring" value="indicator_wwp_gas-ff-natural[%]"/>
+<entry key="181" type="xstring" value="indicator_wwp_solid-bio[%]"/>
+<entry key="182" type="xstring" value="indicator_wwp_liquid-bio[%]"/>
+<entry key="183" type="xstring" value="indicator_wwp_gas-bio[%]"/>
+<entry key="184" type="xstring" value="indicator_wwp_solid-waste[%]"/>
+<entry key="185" type="xstring" value="indicator_wwp_hydrogen[%]"/>
+<entry key="186" type="xstring" value="indicator_ois_electricity[%]"/>
+<entry key="187" type="xstring" value="indicator_ois_solid-ff-coal[%]"/>
+<entry key="188" type="xstring" value="indicator_ois_liquid-ff-oil[%]"/>
+<entry key="189" type="xstring" value="indicator_ois_gas-ff-natural[%]"/>
+<entry key="190" type="xstring" value="indicator_ois_solid-bio[%]"/>
+<entry key="191" type="xstring" value="indicator_ois_liquid-bio[%]"/>
+<entry key="192" type="xstring" value="indicator_ois_gas-bio[%]"/>
+<entry key="193" type="xstring" value="indicator_ois_solid-waste[%]"/>
+<entry key="194" type="xstring" value="indicator_ois_hydrogen[%]"/>
+<entry key="195" type="xstring" value="indicator_copper_electricity[%]"/>
+<entry key="196" type="xstring" value="indicator_copper_solid-ff-coal[%]"/>
+<entry key="197" type="xstring" value="indicator_copper_liquid-ff-oil[%]"/>
+<entry key="198" type="xstring" value="indicator_copper_gas-ff-natural[%]"/>
+<entry key="199" type="xstring" value="indicator_copper_solid-bio[%]"/>
+<entry key="200" type="xstring" value="indicator_copper_liquid-bio[%]"/>
+<entry key="201" type="xstring" value="indicator_copper_gas-bio[%]"/>
+<entry key="202" type="xstring" value="indicator_copper_solid-waste[%]"/>
+<entry key="203" type="xstring" value="indicator_copper_hydrogen[%]"/>
+<entry key="204" type="xstring" value="indicator_steel[%]"/>
+<entry key="205" type="xstring" value="indicator_cement[%]"/>
+<entry key="206" type="xstring" value="indicator_chem[%]"/>
+<entry key="207" type="xstring" value="indicator_paper[%]"/>
+<entry key="208" type="xstring" value="indicator_aluminium[%]"/>
+<entry key="209" type="xstring" value="indicator_glass[%]"/>
+<entry key="210" type="xstring" value="indicator_lime[%]"/>
+<entry key="211" type="xstring" value="indicator_copper[%]"/>
+<entry key="212" type="xstring" value="indicator_tra-equip[%]"/>
+<entry key="213" type="xstring" value="indicator_fbt[%]"/>
+<entry key="214" type="xstring" value="indicator_textiles[%]"/>
+<entry key="215" type="xstring" value="indicator_mae[%]"/>
+<entry key="216" type="xstring" value="indicator_wwp[%]"/>
+<entry key="217" type="xstring" value="indicator_ois[%]"/>
+<entry key="218" type="xstring" value="indicator_amm_electricity[%]"/>
+<entry key="219" type="xstring" value="indicator_amm_solid-ff-coal[%]"/>
+<entry key="220" type="xstring" value="indicator_amm_liquid-ff-oil[%]"/>
+<entry key="221" type="xstring" value="indicator_amm_gas-ff-natural[%]"/>
+<entry key="222" type="xstring" value="indicator_amm_hydrogen[%]"/>
+<entry key="223" type="xstring" value="indicator_material-demand_appliances_steel[%]"/>
+<entry key="224" type="xstring" value="indicator_material-demand_appliances_paper[%]"/>
+<entry key="225" type="xstring" value="indicator_material-demand_appliances_chem[%]"/>
+<entry key="226" type="xstring" value="indicator_material-demand_appliances_aluminium[%]"/>
+<entry key="227" type="xstring" value="indicator_material-demand_appliances_glass[%]"/>
+<entry key="228" type="xstring" value="indicator_material-demand_appliances_copper[%]"/>
+<entry key="229" type="xstring" value="indicator_material-demand_transport_steel[%]"/>
+<entry key="230" type="xstring" value="indicator_material-demand_transport_paper[%]"/>
+<entry key="231" type="xstring" value="indicator_material-demand_transport_chem[%]"/>
+<entry key="232" type="xstring" value="indicator_material-demand_transport_aluminium[%]"/>
+<entry key="233" type="xstring" value="indicator_material-demand_transport_glass[%]"/>
+<entry key="234" type="xstring" value="indicator_material-demand_transport_copper[%]"/>
+<entry key="235" type="xstring" value="indicator_material-demand_construction_steel[%]"/>
+<entry key="236" type="xstring" value="indicator_material-demand_construction_paper[%]"/>
+<entry key="237" type="xstring" value="indicator_material-demand_construction_chem[%]"/>
+<entry key="238" type="xstring" value="indicator_material-demand_construction_aluminium[%]"/>
+<entry key="239" type="xstring" value="indicator_material-demand_construction_glass[%]"/>
+<entry key="240" type="xstring" value="indicator_material-demand_construction_copper[%]"/>
+<entry key="241" type="xstring" value="indicator_material-demand_cement_appliances[%]"/>
+<entry key="242" type="xstring" value="indicator_material-demand_cement_transport[%]"/>
+<entry key="243" type="xstring" value="indicator_material-demand_cement_construction[%]"/>
+<entry key="244" type="xstring" value="indicator_agr_diesel[%]"/>
+<entry key="245" type="xstring" value="indicator_agr_gasoline[%]"/>
+<entry key="246" type="xstring" value="indicator_agr_coal[%]"/>
+<entry key="247" type="xstring" value="indicator_agr_fuel-oil[%]"/>
+<entry key="248" type="xstring" value="indicator_agr_el[%]"/>
+<entry key="249" type="xstring" value="indicator_agr_gas[%]"/>
+<entry key="250" type="xstring" value="indicator_liv-food_processed-fishery[%]"/>
+<entry key="251" type="xstring" value="indicator_liv-food_processed-animal[%]"/>
+<entry key="252" type="xstring" value="indicator_liv-food_crops[%]"/>
+<entry key="253" type="xstring" value="indicator_liv-food_processed-crops-veg[%]"/>
+<entry key="254" type="xstring" value="indicator_fertilizer_chemicals[%]"/>
+<entry key="255" type="xstring" value="indicator_fertilizer_livestock[%]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1291"/>
+<entry key="y-coordinate" type="xint" value="374"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory"/>
+<entry key="node-name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jep"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Math Expression (JEP)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jep.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 203, Cols: 260"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="a7da1a54-8c7d-4901-b58c-f8449151aa99"/>
+</config>
+</config>

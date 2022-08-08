@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="duplicateHandling" type="xstring" value="AppendSuffixAutomatic"/>
+<entry key="compositionMode" type="xstring" value="MatchAll"/>
+<entry key="joinMode" type="xstring" value="FullOuterJoin"/>
+<config key="leftTableJoinPredicate">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="ColumnNames"/>
+<entry key="1" type="xstring" value="Country"/>
+<entry key="2" type="xstring" value="level"/>
+</config>
+<config key="rightTableJoinPredicate">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="ColumnNames"/>
+<entry key="1" type="xstring" value="region"/>
+<entry key="2" type="xstring" value="level"/>
+</config>
+<entry key="suffix" type="xstring" value="_new"/>
+<config key="leftIncludeCols">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="ColumnNames"/>
+<entry key="1" type="xstring" value="2015"/>
+<entry key="2" type="xstring" value="Country"/>
+<entry key="3" type="xstring" value="level"/>
+<entry key="4" type="xstring" value="region"/>
+<entry key="5" type="xstring" value="convergence"/>
+<entry key="6" type="xstring" value="EU_2015"/>
+<entry key="7" type="xstring" value="curve-type"/>
+<entry key="8" type="xstring" value="target"/>
+<entry key="9" type="xstring" value="start-year"/>
+<entry key="10" type="xstring" value="end-year"/>
+<entry key="11" type="xstring" value="EU_2050"/>
+</config>
+<config key="rightIncludeCols">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="level"/>
+<entry key="1" type="xstring" value="region"/>
+<entry key="2" type="xstring" value="convergence"/>
+<entry key="3" type="xstring" value="EU_2015"/>
+<entry key="4" type="xstring" value="curve-type"/>
+<entry key="5" type="xstring" value="ColumnNames"/>
+<entry key="6" type="xstring" value="target"/>
+<entry key="7" type="xstring" value="start-year"/>
+<entry key="8" type="xstring" value="end-year"/>
+<entry key="9" type="xstring" value="EU_2050"/>
+</config>
+<entry key="leftIncludeAll" type="xboolean" value="true"/>
+<entry key="rightIncludeAll" type="xboolean" value="true"/>
+<entry key="rmLeftJoinCols" type="xboolean" value="false"/>
+<entry key="rmRightJoinCols" type="xboolean" value="true"/>
+<entry key="maxOpenFiles" type="xint" value="200"/>
+<entry key="rowKeySeparator" type="xstring" value="_"/>
+<entry key="enableHiLite" type="xboolean" value="false"/>
+<entry key="numBitsInitial" type="xint" value="6"/>
+<entry key="numBitsMaximal" type="xint" value="32"/>
+<entry key="usedMemoryThreshold" type="xdouble" value="0.85"/>
+<entry key="minAvailableMemory" type="xlong" value="10000000"/>
+<entry key="memUseCollectionUsage" type="xboolean" value="true"/>
+<entry key="version" type="xstring" value="version_3"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.joiner.Joiner2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Joiner"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Joiner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 116, Cols: 19"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="97297cd1-51f8-4be3-b031-b5a82f8f0ffa"/>
+</config>
+</config>

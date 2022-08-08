@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mod_tri"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="bld"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="historical_switch"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="top"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="scenario_switch"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="bottom"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="levername_column"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="no-scenario"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import zipfile%%00010import lxml.etree%%00010import numpy as np%%00010%%00010datafolder = flow_variables['module']+'/data'%%00010trigrams = {'agriculture':'agr',%%00010%%00009%%00009%%00009'buildings':'bld',%%00010%%00009%%00009%%00009'climate':'clm',%%00010%%00009%%00009%%00009'electricity_supply':'elc',%%00010%%00009%%00009%%00009'employment':'emp',%%00010%%00009%%00009%%00009'industry':'ind',%%00010%%00009%%00009%%00009'lifestyles':'lfs',%%00010%%00009%%00009%%00009'materials':'mat',%%00010%%00009%%00009%%00009'social impacts':'sip',%%00010%%00009%%00009%%00009'transboundary':'trb',%%00010%%00009%%00009%%00009'transport':'tra',%%00010%%00009%%00009%%00009'technology':'tec'%%00010}%%00010mod_tri = trigrams.get(flow_variables['module'])%%00010flow_variables['mod_tri'] = mod_tri %%00010%%00010datalist = flow_variables['data-type'].split(&quot;,&quot;)%%00010%%00010%%00010#--------------------#%%00010#OUTPUT TABLE 1 = OTS%%00010#--------------------#%%00010if 'historical' in datalist:%%00010%%00009flow_variables['historical_switch'] = 'top'%%00010%%00009# the filepath is made by retrieving the global variables from the KNIME environment ('right-click&gt;KNIME variables' on the KNIME workflow)%%00010%%00009filepath = flow_variables['knime.workspace']+'/'+datafolder+'/ots_'+mod_tri+&quot;_&quot;+flow_variables['name']+&quot;.xlsx&quot;%%00010%%00009%%00010%%00009# read the excel files%%00010%%00009xl = pd.ExcelFile(filepath)#excel file containing data%%00010%%00009md = pd.ExcelFile(filepath.split(&quot;.&quot;,1)[0]+'_md.xlsx')#excel file containing metadata%%00010%%00009#l = len(xl.sheet_names)#number of sheets%%00010%%00009%%00010%%00009s = [n for n in xl.sheet_names if n[0:1] != '_'] # Excludes sheets starting with an underscore%%00010%%00009%%00010%%00009# retrieve metadatas%%00010%%00009metadata = md.parse('metadata')%%00010%%00009metadata = metadata.set_index('name')%%00010%%00009title = metadata.loc['Title'].value%%00010%%00009unit = metadata.loc['Unit'].value%%00010%%00009category = metadata.loc['data type'].value%%00010%%00009levername = metadata.loc['Variable'].value%%00010%%00009%%00010%%00009levername_column = &quot;lever_&quot;+levername%%00010%%00009%%00009%%00010%%00009init = 0%%00010%%00009# loop through all the excel sheets%%00010%%00009for i in s:%%00010%%00009%%00009df = xl.parse(i)#parsing the data of the sheet inside a dataframe%%00010%%00009%%00009df.columns = df.columns.astype(str)%%00010%%00009%%00009filter_col = [col for col in list(df) if col.startswith('2') or col.startswith('1')]#selecting all the columns that start with '2'. Those columns are the values of the pivot table. WARNING: if the name of the column are not converted in STRINGS, there will be an error running this line. To convert to string, 2 options: 1. str(col).startwith() 2. df.Years = df.Years.astype(str) %%00010%%00010%%00009%%00009# Note: this section modified to use any extra column as pivoting column.%%00010%%00009%%00009ID_VARS = list(set(df.columns) - set(filter_col))%%00010%%00009%%00009ID_MERGE = ID_VARS + ['Years']%%00010%%00009%%00009%%00009%%00010%%00009%%00009df = pd.melt(df, id_vars=ID_VARS, value_vars=filter_col ,var_name='Years',value_name=category+&quot;_&quot;+mod_tri+&quot;_&quot;+levername+&quot;_&quot;+i+&quot;[&quot;+unit+&quot;]&quot;)#pivoting the columns using 'Country' as pivot.%%00010%%00009%%00009if init == 0:%%00010%%00009%%00009%%00009output_table_1 = df%%00010%%00009%%00009%%00009init = 1%%00010%%00009%%00009else:%%00010%%00009%%00009%%00009output_table_1 = pd.merge(output_table_1, df, on=ID_MERGE)%%00010else:%%00010%%00009flow_variables['historical_switch'] = 'bottom'%%00010%%00009output_table_1 = pd.DataFrame()%%00010%%00010%%00010%%00009#--------------------#%%00010%%00009#OUTPUT TABLE 2 = LL%%00010%%00009#--------------------#%%00009%%00010if 'scenario' in datalist:%%00010%%00009flow_variables['scenario_switch'] = 'top'%%00010%%00009# the filepath is made by retrieving the global variables from the KNIME environment ('right-click&gt;KNIME variables' on the KNIME workflow)%%00010%%00009filepath = flow_variables['knime.workspace']+'/'+datafolder+'/ll_'+mod_tri+&quot;_&quot;+flow_variables['name']+&quot;.xlsx&quot;%%00010%%00009%%00010%%00009# read the excel files%%00010%%00009xl = pd.ExcelFile(filepath)#excel file containing data%%00010%%00009md = pd.ExcelFile(filepath.split(&quot;.&quot;,1)[0]+'_md.xlsx')#excel file containing metadata%%00010%%00009#l = len(xl.sheet_names)#number of sheets%%00010%%00010%%00009s = [n for n in xl.sheet_names if n[0:1] != '_'] # Excludes sheets starting with an underscore%%00010%%00010%%00009%%00010%%00009# retrieve metadatas%%00010%%00009metadata = md.parse('metadata')%%00010%%00009metadata = metadata.set_index('name')%%00010%%00009title = metadata.loc['Title'].value%%00010%%00009unit = metadata.loc['Unit'].value%%00010%%00009category = metadata.loc['data type'].value%%00010%%00009levername = metadata.loc['Variable'].value%%00010%%00009%%00010%%00009levername_column = &quot;lever_&quot;+levername%%00010%%00009flow_variables[&quot;levername_column&quot;] = levername_column%%00010%%00009%%00009%%00010%%00009init = 0%%00010%%00009# loop through all the excel sheets%%00010%%00009for i in s:%%00010%%00009%%00009df = xl.parse(i)#parsing the data of the sheet inside a dataframe%%00010%%00009%%00009df.columns = df.columns.astype(str)%%00010%%00009%%00009filter_col = [col for col in list(df) if col.startswith('2')]#selecting all the columns that start with '2'. Those columns are the values of the pivot table. WARNING: if the name of the column are not converted in STRINGS, there will be an error running this line. To convert to string, 2 options: 1. str(col).startwith() 2. df.Years = df.Years.astype(str) %%00010%%00009%%00009%%00010%%00009%%00009# Note: this section modified to use any extra column as pivoting column.%%00010%%00009%%00009ID_VARS = list(set(df.columns) - set(filter_col))%%00010%%00009%%00009ID_MERGE = ID_VARS + ['Years']%%00010%%00009%%00009%%00010%%00009%%00009%%00009%%00010%%00009%%00009df = pd.melt(df, id_vars=ID_VARS, value_vars=filter_col ,var_name='Years',value_name=category+&quot;_&quot;+mod_tri+&quot;_&quot;+levername+&quot;_&quot;+i+&quot;[&quot;+unit+&quot;]&quot;)%%00010%%00009%%00009if init == 0:%%00010%%00009%%00009%%00009output_table_2 = df%%00010%%00009%%00009%%00009init = 1%%00010%%00009%%00009else:%%00010%%00009%%00009%%00009output_table_2 = pd.merge(output_table_2, df, on=ID_MERGE)%%00010%%00009%%00010%%00009output_table_2.rename(columns = {'Level':levername_column}, inplace = True)%%00010%%00010else:%%00010%%00009flow_variables['scenario_switch'] = 'bottom'%%00010%%00009flow_variables['levername_column'] = 'no-scenario'%%00010%%00009output_table_2 = pd.DataFrame()%%00009%%00009"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script1in2out.Python2Script1In2OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 0"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="8cdacdc7-bec7-4005-818c-31745764015d"/>
+</config>
+</config>

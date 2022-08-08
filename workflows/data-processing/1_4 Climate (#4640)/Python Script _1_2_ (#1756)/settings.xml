@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010## Start by calculating the impacts in 2100%%00010# Copy input to output%%00010output_table_1 = input_table.copy()%%00010%%00010# Calculate the expected damages in 2100%%00010output_table_1['Country'] = 'World'%%00010## 1. Drought%%00010output_table_1['clt_drought-max[people]'] = round((-149504905.17 * (input_table['clt_global-temp[degC]'])**2 + 1793955729.1 * input_table['clt_global-temp[degC]'] - 187599248.56)/1000000, 1) * 1000000%%00010output_table_1['clt_drought-mean[people]'] = round((-65009695.58 * (input_table['clt_global-temp[degC]'])**2 + 1122367969.63 * input_table['clt_global-temp[degC]'] + 44183632.29)/1000000, 1) * 1000000%%00010output_table_1['clt_drought-min[people]'] = round((-45114687.13 * (input_table['clt_global-temp[degC]'])**2 + 838728815.28 * input_table['clt_global-temp[degC]'] + 143216690.37)/1000000, 1) * 1000000%%00010%%00010## 2. Fluvial flooding%%00010output_table_1['clt_flvflooding-max[people]'] = round((6838955.56 * (input_table['clt_global-temp[degC]'])**2 + 29091707.62 * input_table['clt_global-temp[degC]'] - 6080375.65)/1000000, 1) * 1000000%%00010output_table_1['clt_flvflooding-mean[people]'] = round((7262981.69 * (input_table['clt_global-temp[degC]'])**2 + 14389006.47 * input_table['clt_global-temp[degC]'] - 955585.89)/1000000, 1) * 1000000%%00010output_table_1['clt_flvflooding-min[people]'] = round((5210231.35 * (input_table['clt_global-temp[degC]'])**2 + 1415227.74 * input_table['clt_global-temp[degC]'] +4510579.87)/1000000, 1) * 1000000%%00010%%00010## 3. Coastal flooding%%00010output_table_1['clt_cstlflooding-max[people]'] = round((15766129.03 * input_table['clt_global-temp[degC]'] + 68055645.16)/1000000, 1) * 1000000%%00010output_table_1['clt_cstlflooding-mean[people]'] = round((14334677.42 * input_table['clt_global-temp[degC]'] + 49185887.10)/1000000, 1) * 1000000%%00010output_table_1['clt_cstlflooding-min[people]'] = round((10995967.74 * input_table['clt_global-temp[degC]'] + 26942338.71)/1000000, 1) * 1000000%%00010%%00010## Vertebrates%%00010output_table_1['clt_vertebrates-max[%]'] = round((-0.90 * (input_table['clt_global-temp[degC]'])**2 + 22.51 * input_table['clt_global-temp[degC]'] - 23.71),0)%%00010output_table_1['clt_vertebrates-mean[%]'] = round((0.55 * (input_table['clt_global-temp[degC]'])**2 + 10.39 * input_table['clt_global-temp[degC]'] - 13.62),0)%%00010output_table_1['clt_vertebrates-min[%]'] = round((1.26 * (input_table['clt_global-temp[degC]'])**2 + 2.34 * input_table['clt_global-temp[degC]'] - 4.85),0)%%00010%%00010## Plants%%00010output_table_1['clt_plants-max[%]'] = round((-4.61 *(input_table['clt_global-temp[degC]'])**2 + 49.94 * input_table['clt_global-temp[degC]'] - 50.98),0)%%00010output_table_1['clt_plants-mean[%]'] = round((-0.81 * (input_table['clt_global-temp[degC]'])**2 + 25.02 * input_table['clt_global-temp[degC]'] - 28.84),0)%%00010output_table_1['clt_plants-min[%]'] = round((0.70 * (input_table['clt_global-temp[degC]'])**2 + 11.42 * input_table['clt_global-temp[degC]'] - 15.43),0)%%00010%%00010## Mammals%%00010output_table_1['clt_mammals-max[%]'] = round((17.06 * input_table['clt_global-temp[degC]'] - 18.78),0)%%00010output_table_1['clt_mammals-mean[%]'] = round((12.51 * input_table['clt_global-temp[degC]'] - 16.03),0)%%00010output_table_1['clt_mammals-min[%]'] = round((9.20 * input_table['clt_global-temp[degC]'] - 13.26),0)%%00010%%00010## Birds%%00010output_table_1['clt_birds-max[%]'] = round((16.36 * input_table['clt_global-temp[degC]'] - 18.55),0)%%00010output_table_1['clt_birds-mean[%]'] = round((12.90 * input_table['clt_global-temp[degC]'] - 18.62),0)%%00010output_table_1['clt_birds-min[%]'] = round((9.13 * input_table['clt_global-temp[degC]'] - 14.30),0)%%00010%%00010## Invertebrates%%00010output_table_1['clt_invertebrates-max[%]'] = round((-5.76 * (input_table['clt_global-temp[degC]'])**2 + 55.30 * input_table['clt_global-temp[degC]'] - 52.21), 0)%%00010output_table_1['clt_invertebrates-mean[%]'] = round((-3.26 * (input_table['clt_global-temp[degC]'])**2 + 40.65 * input_table['clt_global-temp[degC]'] - 48.61), 0)%%00010output_table_1['clt_invertebrates-min[%]'] = round((-0.06 * (input_table['clt_global-temp[degC]'])**2 + 17.95 * input_table['clt_global-temp[degC]'] - 27.24), 0)%%00010%%00010##remove the temperature column%%00010output_table_1 = output_table_1.drop('clt_global-temp[degC]', axis = 1)%%00010%%00010%%00010## Create the tables with the warnings%%00010if input_table['clt_global-temp[degC]'].values[0] &gt; 3:%%00010    warn_dat = {'Years':'2100', 'Country':'Warning', 'clm_drought-warning':'2', 'clm_flood-warning':'2'}%%00010elif input_table['clt_global-temp[degC]'].values[0] &gt; 2: %%00010    warn_dat = {'Years':'2100', 'Country':'Warning','clm_drought-warning':'1', 'clm_flood-warning':'1'}%%00010else:%%00010    warn_dat = {'Years':'2100', 'Country':'Warning','clm_drought-warning':'0', 'clm_flood-warning':'0'}%%00010%%00010output_table_2 = pd.DataFrame(warn_dat, index = [0])%%00010    %%00010%%00010"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script1in2out.Python2Script1In2OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 25"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="f1b841f1-26d8-4888-86b7-72a16da17ca1"/>
+</config>
+</config>

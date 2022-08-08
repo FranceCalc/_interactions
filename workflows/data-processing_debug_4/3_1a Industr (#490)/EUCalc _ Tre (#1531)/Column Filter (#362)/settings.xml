@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="var-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ind_dem_new_dhg_pipe_aluminium[t],ind_dem_new_dhg_pipe_cement[t],ind_dem_new_dhg_pipe_chem[t],ind_dem_new_dhg_pipe_copper[t],ind_dem_new_dhg_pipe_glass[t],ind_dem_new_dhg_pipe_lime[t],ind_dem_new_dhg_pipe_paper[t],ind_dem_new_dhg_pipe_steel[t],ind_dem_new_dhg_pipe_timber[t],ind_dem_floor-area_new_non-residential_aluminium[t],ind_dem_floor-area_new_non-residential_cement[t],ind_dem_floor-area_new_non-residential_chem[t],ind_dem_floor-area_new_non-residential_copper[t],ind_dem_floor-area_new_non-residential_glass[t],ind_dem_floor-area_new_non-residential_lime[t],ind_dem_floor-area_new_non-residential_paper[t],ind_dem_floor-area_new_non-residential_steel[t],ind_dem_floor-area_new_non-residential_timber[t],ind_dem_floor-area_reno_non-residential_aluminium[t],ind_dem_floor-area_reno_non-residential_cement[t],ind_dem_floor-area_reno_non-residential_chem[t],ind_dem_floor-area_reno_non-residential_copper[t],ind_dem_floor-area_reno_non-residential_glass[t],ind_dem_floor-area_reno_non-residential_lime[t],ind_dem_floor-area_reno_non-residential_paper[t],ind_dem_floor-area_reno_non-residential_steel[t],ind_dem_floor-area_reno_non-residential_timber[t],ind_dem_floor-area_new_residential_aluminium[t],ind_dem_floor-area_new_residential_cement[t],ind_dem_floor-area_new_residential_chem[t],ind_dem_floor-area_new_residential_copper[t],ind_dem_floor-area_new_residential_glass[t],ind_dem_floor-area_new_residential_lime[t],ind_dem_floor-area_new_residential_paper[t],ind_dem_floor-area_new_residential_steel[t],ind_dem_floor-area_new_residential_timber[t],ind_dem_floor-area_reno_residential_aluminium[t],ind_dem_floor-area_reno_residential_cement[t],ind_dem_floor-area_reno_residential_chem[t],ind_dem_floor-area_reno_residential_copper[t],ind_dem_floor-area_reno_residential_glass[t],ind_dem_floor-area_reno_residential_lime[t],ind_dem_floor-area_reno_residential_paper[t],ind_dem_floor-area_reno_residential_steel[t],ind_dem_floor-area_reno_residential_timber[t],ind_dem_fridge_aluminium[t],ind_dem_fridge_cement[t],ind_dem_fridge_chem[t],ind_dem_fridge_copper[t],ind_dem_fridge_glass[t],ind_dem_fridge_lime[t],ind_dem_fridge_paper[t],ind_dem_fridge_steel[t],ind_dem_fridge_timber[t],ind_dem_freezer_aluminium[t],ind_dem_freezer_cement[t],ind_dem_freezer_chem[t],ind_dem_freezer_copper[t],ind_dem_freezer_glass[t],ind_dem_freezer_lime[t],ind_dem_freezer_paper[t],ind_dem_freezer_steel[t],ind_dem_freezer_timber[t],ind_dem_wmachine_aluminium[t],ind_dem_wmachine_cement[t],ind_dem_wmachine_chem[t],ind_dem_wmachine_copper[t],ind_dem_wmachine_glass[t],ind_dem_wmachine_lime[t],ind_dem_wmachine_paper[t],ind_dem_wmachine_steel[t],ind_dem_wmachine_timber[t],ind_dem_dishwasher_aluminium[t],ind_dem_dishwasher_cement[t],ind_dem_dishwasher_chem[t],ind_dem_dishwasher_copper[t],ind_dem_dishwasher_glass[t],ind_dem_dishwasher_lime[t],ind_dem_dishwasher_paper[t],ind_dem_dishwasher_steel[t],ind_dem_dishwasher_timber[t],ind_dem_dryer_aluminium[t],ind_dem_dryer_cement[t],ind_dem_dryer_chem[t],ind_dem_dryer_copper[t],ind_dem_dryer_glass[t],ind_dem_dryer_lime[t],ind_dem_dryer_paper[t],ind_dem_dryer_steel[t],ind_dem_dryer_timber[t],ind_dem_tv_aluminium[t],ind_dem_tv_cement[t],ind_dem_tv_chem[t],ind_dem_tv_copper[t],ind_dem_tv_glass[t],ind_dem_tv_lime[t],ind_dem_tv_paper[t],ind_dem_tv_steel[t],ind_dem_tv_timber[t],ind_dem_computer_aluminium[t],ind_dem_computer_cement[t],ind_dem_computer_chem[t],ind_dem_computer_copper[t],ind_dem_computer_glass[t],ind_dem_computer_lime[t],ind_dem_computer_paper[t],ind_dem_computer_steel[t],ind_dem_computer_timber[t],ind_dem_phone_aluminium[t],ind_dem_phone_cement[t],ind_dem_phone_chem[t],ind_dem_phone_copper[t],ind_dem_phone_glass[t],ind_dem_phone_lime[t],ind_dem_phone_paper[t],ind_dem_phone_steel[t],ind_dem_phone_timber[t],ind_dem_cars-EV_aluminium[t],ind_dem_cars-EV_cement[t],ind_dem_cars-EV_chem[t],ind_dem_cars-EV_copper[t],ind_dem_cars-EV_glass[t],ind_dem_cars-EV_lime[t],ind_dem_cars-EV_paper[t],ind_dem_cars-EV_steel[t],ind_dem_cars-EV_timber[t],ind_dem_cars-FCV_aluminium[t],ind_dem_cars-FCV_cement[t],ind_dem_cars-FCV_chem[t],ind_dem_cars-FCV_copper[t],ind_dem_cars-FCV_glass[t],ind_dem_cars-FCV_lime[t],ind_dem_cars-FCV_paper[t],ind_dem_cars-FCV_steel[t],ind_dem_cars-FCV_timber[t],ind_dem_cars-ICE_aluminium[t],ind_dem_cars-ICE_cement[t],ind_dem_cars-ICE_chem[t],ind_dem_cars-ICE_copper[t],ind_dem_cars-ICE_glass[t],ind_dem_cars-ICE_lime[t],ind_dem_cars-ICE_paper[t],ind_dem_cars-ICE_steel[t],ind_dem_cars-ICE_timber[t],ind_dem_trucks-ICE_aluminium[t],ind_dem_trucks-ICE_cement[t],ind_dem_trucks-ICE_chem[t],ind_dem_trucks-ICE_copper[t],ind_dem_trucks-ICE_glass[t],ind_dem_trucks-ICE_lime[t],ind_dem_trucks-ICE_paper[t],ind_dem_trucks-ICE_steel[t],ind_dem_trucks-ICE_timber[t],ind_dem_trucks-FCV_aluminium[t],ind_dem_trucks-FCV_cement[t],ind_dem_trucks-FCV_chem[t],ind_dem_trucks-FCV_copper[t],ind_dem_trucks-FCV_glass[t],ind_dem_trucks-FCV_lime[t],ind_dem_trucks-FCV_paper[t],ind_dem_trucks-FCV_steel[t],ind_dem_trucks-FCV_timber[t],ind_dem_trucks-EV_aluminium[t],ind_dem_trucks-EV_cement[t],ind_dem_trucks-EV_chem[t],ind_dem_trucks-EV_copper[t],ind_dem_trucks-EV_glass[t],ind_dem_trucks-EV_lime[t],ind_dem_trucks-EV_paper[t],ind_dem_trucks-EV_steel[t],ind_dem_trucks-EV_timber[t],ind_dem_ships_aluminium[t],ind_dem_ships_cement[t],ind_dem_ships_chem[t],ind_dem_ships_copper[t],ind_dem_ships_glass[t],ind_dem_ships_lime[t],ind_dem_ships_paper[t],ind_dem_ships_steel[t],ind_dem_ships_timber[t],ind_dem_trains_aluminium[t],ind_dem_trains_cement[t],ind_dem_trains_chem[t],ind_dem_trains_copper[t],ind_dem_trains_glass[t],ind_dem_trains_lime[t],ind_dem_trains_paper[t],ind_dem_trains_steel[t],ind_dem_trains_timber[t],ind_dem_planes_aluminium[t],ind_dem_planes_cement[t],ind_dem_planes_chem[t],ind_dem_planes_copper[t],ind_dem_planes_glass[t],ind_dem_planes_lime[t],ind_dem_planes_paper[t],ind_dem_planes_steel[t],ind_dem_planes_timber[t],ind_dem_road_aluminium[t],ind_dem_road_cement[t],ind_dem_road_chem[t],ind_dem_road_copper[t],ind_dem_road_glass[t],ind_dem_road_lime[t],ind_dem_road_paper[t],ind_dem_road_steel[t],ind_dem_road_timber[t],ind_dem_rail_aluminium[t],ind_dem_rail_cement[t],ind_dem_rail_chem[t],ind_dem_rail_copper[t],ind_dem_rail_glass[t],ind_dem_rail_lime[t],ind_dem_rail_paper[t],ind_dem_rail_steel[t],ind_dem_rail_timber[t],ind_dem_trolley-cables_aluminium[t],ind_dem_trolley-cables_cement[t],ind_dem_trolley-cables_chem[t],ind_dem_trolley-cables_copper[t],ind_dem_trolley-cables_glass[t],ind_dem_trolley-cables_lime[t],ind_dem_trolley-cables_paper[t],ind_dem_trolley-cables_steel[t],ind_dem_trolley-cables_timber[t],ind_dem_paper-san_aluminium[t],ind_dem_paper-san_cement[t],ind_dem_paper-san_chem[t],ind_dem_paper-san_copper[t],ind_dem_paper-san_glass[t],ind_dem_paper-san_lime[t],ind_dem_paper-san_paper[t],ind_dem_paper-san_steel[t],ind_dem_paper-san_timber[t],ind_dem_paper-print_aluminium[t],ind_dem_paper-print_cement[t],ind_dem_paper-print_chem[t],ind_dem_paper-print_copper[t],ind_dem_paper-print_glass[t],ind_dem_paper-print_lime[t],ind_dem_paper-print_paper[t],ind_dem_paper-print_steel[t],ind_dem_paper-print_timber[t],ind_dem_plast-pack_aluminium[t],ind_dem_plast-pack_cement[t],ind_dem_plast-pack_chem[t],ind_dem_plast-pack_copper[t],ind_dem_plast-pack_glass[t],ind_dem_plast-pack_lime[t],ind_dem_plast-pack_paper[t],ind_dem_plast-pack_steel[t],ind_dem_plast-pack_timber[t],ind_dem_paper-pack_aluminium[t],ind_dem_paper-pack_cement[t],ind_dem_paper-pack_chem[t],ind_dem_paper-pack_copper[t],ind_dem_paper-pack_glass[t],ind_dem_paper-pack_lime[t],ind_dem_paper-pack_paper[t],ind_dem_paper-pack_steel[t],ind_dem_paper-pack_timber[t],ind_dem_glass-pack_aluminium[t],ind_dem_glass-pack_ammonia[t],ind_dem_glass-pack_cement[t],ind_dem_glass-pack_chem[t],ind_dem_glass-pack_copper[t],ind_dem_glass-pack_glass[t],ind_dem_glass-pack_lime[t],ind_dem_glass-pack_other[t],ind_dem_glass-pack_paper[t],ind_dem_glass-pack_steel[t],ind_dem_glass-pack_timber[t],ind_dem_floor-area_reno_residential_natfibers[t],ind_dem_floor-area_reno_non-residential_natfibers[t]"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="pattern-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="var-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ind_dem_new_dhg_pipe_aluminium[t],ind_dem_new_dhg_pipe_cement[t],ind_dem_new_dhg_pipe_chem[t],ind_dem_new_dhg_pipe_copper[t],ind_dem_new_dhg_pipe_glass[t],ind_dem_new_dhg_pipe_lime[t],ind_dem_new_dhg_pipe_paper[t],ind_dem_new_dhg_pipe_steel[t],ind_dem_new_dhg_pipe_timber[t],ind_dem_floor-area_new_non-residential_aluminium[t],ind_dem_floor-area_new_non-residential_cement[t],ind_dem_floor-area_new_non-residential_chem[t],ind_dem_floor-area_new_non-residential_copper[t],ind_dem_floor-area_new_non-residential_glass[t],ind_dem_floor-area_new_non-residential_lime[t],ind_dem_floor-area_new_non-residential_paper[t],ind_dem_floor-area_new_non-residential_steel[t],ind_dem_floor-area_new_non-residential_timber[t],ind_dem_floor-area_reno_non-residential_aluminium[t],ind_dem_floor-area_reno_non-residential_cement[t],ind_dem_floor-area_reno_non-residential_chem[t],ind_dem_floor-area_reno_non-residential_copper[t],ind_dem_floor-area_reno_non-residential_glass[t],ind_dem_floor-area_reno_non-residential_lime[t],ind_dem_floor-area_reno_non-residential_paper[t],ind_dem_floor-area_reno_non-residential_steel[t],ind_dem_floor-area_reno_non-residential_timber[t],ind_dem_floor-area_new_residential_aluminium[t],ind_dem_floor-area_new_residential_cement[t],ind_dem_floor-area_new_residential_chem[t],ind_dem_floor-area_new_residential_copper[t],ind_dem_floor-area_new_residential_glass[t],ind_dem_floor-area_new_residential_lime[t],ind_dem_floor-area_new_residential_paper[t],ind_dem_floor-area_new_residential_steel[t],ind_dem_floor-area_new_residential_timber[t],ind_dem_floor-area_reno_residential_aluminium[t],ind_dem_floor-area_reno_residential_cement[t],ind_dem_floor-area_reno_residential_chem[t],ind_dem_floor-area_reno_residential_copper[t],ind_dem_floor-area_reno_residential_glass[t],ind_dem_floor-area_reno_residential_lime[t],ind_dem_floor-area_reno_residential_paper[t],ind_dem_floor-area_reno_residential_steel[t],ind_dem_floor-area_reno_residential_timber[t],ind_dem_fridge_aluminium[t],ind_dem_fridge_cement[t],ind_dem_fridge_chem[t],ind_dem_fridge_copper[t],ind_dem_fridge_glass[t],ind_dem_fridge_lime[t],ind_dem_fridge_paper[t],ind_dem_fridge_steel[t],ind_dem_fridge_timber[t],ind_dem_freezer_aluminium[t],ind_dem_freezer_cement[t],ind_dem_freezer_chem[t],ind_dem_freezer_copper[t],ind_dem_freezer_glass[t],ind_dem_freezer_lime[t],ind_dem_freezer_paper[t],ind_dem_freezer_steel[t],ind_dem_freezer_timber[t],ind_dem_wmachine_aluminium[t],ind_dem_wmachine_cement[t],ind_dem_wmachine_chem[t],ind_dem_wmachine_copper[t],ind_dem_wmachine_glass[t],ind_dem_wmachine_lime[t],ind_dem_wmachine_paper[t],ind_dem_wmachine_steel[t],ind_dem_wmachine_timber[t],ind_dem_dishwasher_aluminium[t],ind_dem_dishwasher_cement[t],ind_dem_dishwasher_chem[t],ind_dem_dishwasher_copper[t],ind_dem_dishwasher_glass[t],ind_dem_dishwasher_lime[t],ind_dem_dishwasher_paper[t],ind_dem_dishwasher_steel[t],ind_dem_dishwasher_timber[t],ind_dem_dryer_aluminium[t],ind_dem_dryer_cement[t],ind_dem_dryer_chem[t],ind_dem_dryer_copper[t],ind_dem_dryer_glass[t],ind_dem_dryer_lime[t],ind_dem_dryer_paper[t],ind_dem_dryer_steel[t],ind_dem_dryer_timber[t],ind_dem_tv_aluminium[t],ind_dem_tv_cement[t],ind_dem_tv_chem[t],ind_dem_tv_copper[t],ind_dem_tv_glass[t],ind_dem_tv_lime[t],ind_dem_tv_paper[t],ind_dem_tv_steel[t],ind_dem_tv_timber[t],ind_dem_computer_aluminium[t],ind_dem_computer_cement[t],ind_dem_computer_chem[t],ind_dem_computer_copper[t],ind_dem_computer_glass[t],ind_dem_computer_lime[t],ind_dem_computer_paper[t],ind_dem_computer_steel[t],ind_dem_computer_timber[t],ind_dem_phone_aluminium[t],ind_dem_phone_cement[t],ind_dem_phone_chem[t],ind_dem_phone_copper[t],ind_dem_phone_glass[t],ind_dem_phone_lime[t],ind_dem_phone_paper[t],ind_dem_phone_steel[t],ind_dem_phone_timber[t],ind_dem_cars-EV_aluminium[t],ind_dem_cars-EV_cement[t],ind_dem_cars-EV_chem[t],ind_dem_cars-EV_copper[t],ind_dem_cars-EV_glass[t],ind_dem_cars-EV_lime[t],ind_dem_cars-EV_paper[t],ind_dem_cars-EV_steel[t],ind_dem_cars-EV_timber[t],ind_dem_cars-FCV_aluminium[t],ind_dem_cars-FCV_cement[t],ind_dem_cars-FCV_chem[t],ind_dem_cars-FCV_copper[t],ind_dem_cars-FCV_glass[t],ind_dem_cars-FCV_lime[t],ind_dem_cars-FCV_paper[t],ind_dem_cars-FCV_steel[t],ind_dem_cars-FCV_timber[t],ind_dem_cars-ICE_aluminium[t],ind_dem_cars-ICE_cement[t],ind_dem_cars-ICE_chem[t],ind_dem_cars-ICE_copper[t],ind_dem_cars-ICE_glass[t],ind_dem_cars-ICE_lime[t],ind_dem_cars-ICE_paper[t],ind_dem_cars-ICE_steel[t],ind_dem_cars-ICE_timber[t],ind_dem_trucks-ICE_aluminium[t],ind_dem_trucks-ICE_cement[t],ind_dem_trucks-ICE_chem[t],ind_dem_trucks-ICE_copper[t],ind_dem_trucks-ICE_glass[t],ind_dem_trucks-ICE_lime[t],ind_dem_trucks-ICE_paper[t],ind_dem_trucks-ICE_steel[t],ind_dem_trucks-ICE_timber[t],ind_dem_trucks-FCV_aluminium[t],ind_dem_trucks-FCV_cement[t],ind_dem_trucks-FCV_chem[t],ind_dem_trucks-FCV_copper[t],ind_dem_trucks-FCV_glass[t],ind_dem_trucks-FCV_lime[t],ind_dem_trucks-FCV_paper[t],ind_dem_trucks-FCV_steel[t],ind_dem_trucks-FCV_timber[t],ind_dem_trucks-EV_aluminium[t],ind_dem_trucks-EV_cement[t],ind_dem_trucks-EV_chem[t],ind_dem_trucks-EV_copper[t],ind_dem_trucks-EV_glass[t],ind_dem_trucks-EV_lime[t],ind_dem_trucks-EV_paper[t],ind_dem_trucks-EV_steel[t],ind_dem_trucks-EV_timber[t],ind_dem_ships_aluminium[t],ind_dem_ships_cement[t],ind_dem_ships_chem[t],ind_dem_ships_copper[t],ind_dem_ships_glass[t],ind_dem_ships_lime[t],ind_dem_ships_paper[t],ind_dem_ships_steel[t],ind_dem_ships_timber[t],ind_dem_trains_aluminium[t],ind_dem_trains_cement[t],ind_dem_trains_chem[t],ind_dem_trains_copper[t],ind_dem_trains_glass[t],ind_dem_trains_lime[t],ind_dem_trains_paper[t],ind_dem_trains_steel[t],ind_dem_trains_timber[t],ind_dem_planes_aluminium[t],ind_dem_planes_cement[t],ind_dem_planes_chem[t],ind_dem_planes_copper[t],ind_dem_planes_glass[t],ind_dem_planes_lime[t],ind_dem_planes_paper[t],ind_dem_planes_steel[t],ind_dem_planes_timber[t],ind_dem_road_aluminium[t],ind_dem_road_cement[t],ind_dem_road_chem[t],ind_dem_road_copper[t],ind_dem_road_glass[t],ind_dem_road_lime[t],ind_dem_road_paper[t],ind_dem_road_steel[t],ind_dem_road_timber[t],ind_dem_rail_aluminium[t],ind_dem_rail_cement[t],ind_dem_rail_chem[t],ind_dem_rail_copper[t],ind_dem_rail_glass[t],ind_dem_rail_lime[t],ind_dem_rail_paper[t],ind_dem_rail_steel[t],ind_dem_rail_timber[t],ind_dem_trolley-cables_aluminium[t],ind_dem_trolley-cables_cement[t],ind_dem_trolley-cables_chem[t],ind_dem_trolley-cables_copper[t],ind_dem_trolley-cables_glass[t],ind_dem_trolley-cables_lime[t],ind_dem_trolley-cables_paper[t],ind_dem_trolley-cables_steel[t],ind_dem_trolley-cables_timber[t],ind_dem_paper-san_aluminium[t],ind_dem_paper-san_cement[t],ind_dem_paper-san_chem[t],ind_dem_paper-san_copper[t],ind_dem_paper-san_glass[t],ind_dem_paper-san_lime[t],ind_dem_paper-san_paper[t],ind_dem_paper-san_steel[t],ind_dem_paper-san_timber[t],ind_dem_paper-print_aluminium[t],ind_dem_paper-print_cement[t],ind_dem_paper-print_chem[t],ind_dem_paper-print_copper[t],ind_dem_paper-print_glass[t],ind_dem_paper-print_lime[t],ind_dem_paper-print_paper[t],ind_dem_paper-print_steel[t],ind_dem_paper-print_timber[t],ind_dem_plast-pack_aluminium[t],ind_dem_plast-pack_cement[t],ind_dem_plast-pack_chem[t],ind_dem_plast-pack_copper[t],ind_dem_plast-pack_glass[t],ind_dem_plast-pack_lime[t],ind_dem_plast-pack_paper[t],ind_dem_plast-pack_steel[t],ind_dem_plast-pack_timber[t],ind_dem_paper-pack_aluminium[t],ind_dem_paper-pack_cement[t],ind_dem_paper-pack_chem[t],ind_dem_paper-pack_copper[t],ind_dem_paper-pack_glass[t],ind_dem_paper-pack_lime[t],ind_dem_paper-pack_paper[t],ind_dem_paper-pack_steel[t],ind_dem_paper-pack_timber[t],ind_dem_glass-pack_aluminium[t],ind_dem_glass-pack_ammonia[t],ind_dem_glass-pack_cement[t],ind_dem_glass-pack_chem[t],ind_dem_glass-pack_copper[t],ind_dem_glass-pack_glass[t],ind_dem_glass-pack_lime[t],ind_dem_glass-pack_other[t],ind_dem_glass-pack_paper[t],ind_dem_glass-pack_steel[t],ind_dem_glass-pack_timber[t],ind_dem_floor-area_reno_residential_natfibers[t],ind_dem_floor-area_reno_non-residential_natfibers[t]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="defaultValue">
+<config key="columns">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="tec_eff-gas-low[kWht/kWhc]"/>
+<entry key="3" type="xstring" value="tec_eff-gas-condens[kWht/kWhc]"/>
+<entry key="4" type="xstring" value="tec_eff-oil-low[kWht/kWhc]"/>
+<entry key="5" type="xstring" value="tec_eff-oil-condens[kWht/kWhc]"/>
+<entry key="6" type="xstring" value="tec_eff-coal[kWht/kWhc]"/>
+<entry key="7" type="xstring" value="tec_eff-biomass[kWht/kWhc]"/>
+<entry key="8" type="xstring" value="tec_eff-solarthermal[kWht/kWhc]"/>
+<entry key="9" type="xstring" value="tec_eff-heatpump[kWht/kWhc]"/>
+<entry key="10" type="xstring" value="tec_em-fact_coal[gCO2/kWh]"/>
+<entry key="11" type="xstring" value="tec_em-fact_gas[gCO2/kWh]"/>
+<entry key="12" type="xstring" value="tec_em-fact_oil[gCO2/kWh]"/>
+<entry key="13" type="xstring" value="tec_em-fact_biomass-liquid[gCO2/kWh]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+<entry key="label" type="xstring" value="WARNING !! This Section is only for testing your Regex pattern, it won't be used in the aggregation method !!"/>
+<entry key="description" type="xstring" value="This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section."/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="hideInDialog" type="xboolean" value="false"/>
+<entry key="required" type="xboolean" value="true"/>
+<entry key="parameterName" type="xstring" value="column-filter"/>
+<entry key="customCSS" type="xstring" value=""/>
+<entry key="flowvariablename" type="xstring" value="var-filter"/>
+<config key="possibleColumns">
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="tec_eff-gas-low[kWht/kWhc]"/>
+<entry key="3" type="xstring" value="tec_eff-gas-condens[kWht/kWhc]"/>
+<entry key="4" type="xstring" value="tec_eff-oil-low[kWht/kWhc]"/>
+<entry key="5" type="xstring" value="tec_eff-oil-condens[kWht/kWhc]"/>
+<entry key="6" type="xstring" value="tec_eff-coal[kWht/kWhc]"/>
+<entry key="7" type="xstring" value="tec_eff-biomass[kWht/kWhc]"/>
+<entry key="8" type="xstring" value="tec_eff-solarthermal[kWht/kWhc]"/>
+<entry key="9" type="xstring" value="tec_eff-heatpump[kWht/kWhc]"/>
+<entry key="10" type="xstring" value="tec_em-fact_coal[gCO2/kWh]"/>
+<entry key="11" type="xstring" value="tec_em-fact_gas[gCO2/kWh]"/>
+<entry key="12" type="xstring" value="tec_em-fact_oil[gCO2/kWh]"/>
+<entry key="13" type="xstring" value="tec_em-fact_biomass-liquid[gCO2/kWh]"/>
+</config>
+<entry key="type" type="xstring" value="Twinlist"/>
+<entry key="limit_number_visible_options" type="xboolean" value="false"/>
+<entry key="number_visible_options" type="xint" value="10"/>
+</config>
+<config key="variables">
+<config key="defaultValue">
+<config key="columnFilter">
+<config key="columnFilter">
+<config key="name_pattern">
+<config key="pattern">
+<entry key="used_variable" type="xstring" isnull="true" value=""/>
+<entry key="exposed_variable" type="xstring" value="pattern-filter"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 274"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_0"/>
+</config>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="0b1c2fc3-b188-46fd-b8db-2fe9e8dab699"/>
+</config>
+</config>

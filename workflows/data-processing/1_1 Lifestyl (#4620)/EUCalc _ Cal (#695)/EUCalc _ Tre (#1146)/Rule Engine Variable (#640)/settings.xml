@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="cal_rate_wine\[%\]|lfs_diet_wine\[kcal\]|cal_rate_beer\[%\]|lfs_diet_beer\[kcal\]|cal_rate_bev-fer\[%\]|lfs_diet_bev-fer\[kcal\]|cal_rate_bev-alc\[%\]|lfs_diet_bev-alc\[kcal\]|cal_rate_cereals\[%\]|lfs_diet_cereals\[kcal\]|cal_rate_fruits\[%\]|lfs_diet_fruits\[kcal\]|cal_rate_oilcrops\[%\]|lfs_diet_oilcrops\[kcal\]|cal_rate_pulses\[%\]|lfs_diet_pulses\[kcal\]|cal_rate_starch\[%\]|lfs_diet_starch\[kcal\]|cal_rate_coffee\[%\]|lfs_diet_coffee\[kcal\]|cal_rate_stm\[%\]|lfs_diet_stm\[kcal\]|cal_rate_sugar\[%\]|lfs_diet_sugar\[kcal\]|cal_rate_sweet\[%\]|lfs_diet_sweet\[kcal\]|cal_rate_voil\[%\]|lfs_diet_voil\[kcal\]|cal_rate_veg\[%\]|lfs_diet_veg\[kcal\]|cal_rate_dfish\[%\]|lfs_diet_dfish\[kcal\]|cal_rate_ffish\[%\]|lfs_diet_ffish\[kcal\]|cal_rate_pfish\[%\]|lfs_diet_pfish\[kcal\]|cal_rate_seafood\[%\]|lfs_diet_seafood\[kcal\]|cal_rate_oth-aq-animals\[%\]|lfs_diet_oth-aq-animals\[kcal\]|cal_rate_egg\[%\]|lfs_diet_egg\[kcal\]|cal_rate_milk\[%\]|lfs_diet_milk\[kcal\]|cal_rate_offal\[%\]|lfs_diet_offal\[kcal\]|cal_rate_bov\[%\]|lfs_diet_bov\[kcal\]|cal_rate_sheep\[%\]|lfs_diet_sheep\[kcal\]|cal_rate_pigs\[%\]|lfs_diet_pigs\[kcal\]|cal_rate_poultry\[%\]|lfs_diet_poultry\[kcal\]|cal_rate_oth-animals\[%\]|lfs_diet_oth-animals\[kcal\]|"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="cal_rate_wine\[%\]|lfs_diet_wine\[kcal\]|cal_rate_beer\[%\]|lfs_diet_beer\[kcal\]|cal_rate_bev-fer\[%\]|lfs_diet_bev-fer\[kcal\]|cal_rate_bev-alc\[%\]|lfs_diet_bev-alc\[kcal\]|cal_rate_cereals\[%\]|lfs_diet_cereals\[kcal\]|cal_rate_fruits\[%\]|lfs_diet_fruits\[kcal\]|cal_rate_oilcrops\[%\]|lfs_diet_oilcrops\[kcal\]|cal_rate_pulses\[%\]|lfs_diet_pulses\[kcal\]|cal_rate_starch\[%\]|lfs_diet_starch\[kcal\]|cal_rate_coffee\[%\]|lfs_diet_coffee\[kcal\]|cal_rate_stm\[%\]|lfs_diet_stm\[kcal\]|cal_rate_sugar\[%\]|lfs_diet_sugar\[kcal\]|cal_rate_sweet\[%\]|lfs_diet_sweet\[kcal\]|cal_rate_voil\[%\]|lfs_diet_voil\[kcal\]|cal_rate_veg\[%\]|lfs_diet_veg\[kcal\]|cal_rate_dfish\[%\]|lfs_diet_dfish\[kcal\]|cal_rate_ffish\[%\]|lfs_diet_ffish\[kcal\]|cal_rate_pfish\[%\]|lfs_diet_pfish\[kcal\]|cal_rate_seafood\[%\]|lfs_diet_seafood\[kcal\]|cal_rate_oth-aq-animals\[%\]|lfs_diet_oth-aq-animals\[kcal\]|cal_rate_egg\[%\]|lfs_diet_egg\[kcal\]|cal_rate_milk\[%\]|lfs_diet_milk\[kcal\]|cal_rate_offal\[%\]|lfs_diet_offal\[kcal\]|cal_rate_bov\[%\]|lfs_diet_bov\[kcal\]|cal_rate_sheep\[%\]|lfs_diet_sheep\[kcal\]|cal_rate_pigs\[%\]|lfs_diet_pigs\[kcal\]|cal_rate_poultry\[%\]|lfs_diet_poultry\[kcal\]|cal_rate_oth-animals\[%\]|lfs_diet_oth-animals\[kcal\]|"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="rules">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="// enter ordered set of rules, e.g.:"/>
+<entry key="1" type="xstring" value="// $${Ddouble variable name}$$ &gt; 5.0 =&gt; &quot;large&quot;"/>
+<entry key="2" type="xstring" value="// $${Sstring column name}$$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
+<entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
+<entry key="4" type="xstring" value="$${Iaggregation-remove}$$ = 1 =&gt; $${Sfilter}$$"/>
+<entry key="5" type="xstring" value="$${Iaggregation-remove}$$ = 0 =&gt; &quot;&quot;"/>
+</config>
+<entry key="new-column-name" type="xstring" value="filter"/>
+<entry key="replace-column-name" type="xstring" value=""/>
+<entry key="append-column" type="xboolean" value="true"/>
+<entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.rules.engine.RuleEngineVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="Rule Engine Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Rule Engine Variable"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="1c90d391-476c-47e9-a4a8-6badbb075ed5"/>
+</config>
+</config>

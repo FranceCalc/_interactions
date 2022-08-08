@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="variable-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="341"/>
+<entry key="0" type="xstring" value="baseyear"/>
+<entry key="1" type="xstring" value="name"/>
+<entry key="2" type="xstring" value="mod_tri"/>
+<entry key="3" type="xstring" value="min_reserve_unit[Mt]"/>
+<entry key="4" type="xstring" value="min_reserve_bauxite[Mt]"/>
+<entry key="5" type="xstring" value="min_reserve_iron[Mt]"/>
+<entry key="6" type="xstring" value="min_reserve_copper[Mt]"/>
+<entry key="7" type="xstring" value="min_share_unit[%]"/>
+<entry key="8" type="xstring" value="min_share_pv_csi[%]"/>
+<entry key="9" type="xstring" value="min_share_pv_thinfilm[%]"/>
+<entry key="10" type="xstring" value="min_netexp_unit[%]"/>
+<entry key="11" type="xstring" value="min_netexp_car_EV[%]"/>
+<entry key="12" type="xstring" value="min_netexp_car_FCEV[%]"/>
+<entry key="13" type="xstring" value="min_netexp_car_ICE[%]"/>
+<entry key="14" type="xstring" value="min_netexp_car_PHEV[%]"/>
+<entry key="15" type="xstring" value="min_netexp_truck_HDVL_ICE[%]"/>
+<entry key="16" type="xstring" value="min_netexp_truck_HDVL_FCEV[%]"/>
+<entry key="17" type="xstring" value="min_netexp_truck_HDVL_EV[%]"/>
+<entry key="18" type="xstring" value="min_netexp_truck_HDVL_PHEV[%]"/>
+<entry key="19" type="xstring" value="min_netexp_truck_HDVM_ICE[%]"/>
+<entry key="20" type="xstring" value="min_netexp_truck_HDVM_FCEV[%]"/>
+<entry key="21" type="xstring" value="min_netexp_truck_HDVM_EV[%]"/>
+<entry key="22" type="xstring" value="min_netexp_truck_HDVM_PHEV[%]"/>
+<entry key="23" type="xstring" value="min_netexp_truck_HDVH_ICE[%]"/>
+<entry key="24" type="xstring" value="min_netexp_truck_HDVH_FCEV[%]"/>
+<entry key="25" type="xstring" value="min_netexp_truck_HDVH_EV[%]"/>
+<entry key="26" type="xstring" value="min_netexp_truck_HDVH_PHEV[%]"/>
+<entry key="27" type="xstring" value="min_netexp_bus_EV[%]"/>
+<entry key="28" type="xstring" value="min_netexp_bus_FCEV[%]"/>
+<entry key="29" type="xstring" value="min_netexp_bus_ICE[%]"/>
+<entry key="30" type="xstring" value="min_netexp_bus_PHEV[%]"/>
+<entry key="31" type="xstring" value="min_netexp_moto_ICE[%]"/>
+<entry key="32" type="xstring" value="min_netexp_moto_FCEV[%]"/>
+<entry key="33" type="xstring" value="min_netexp_moto_EV[%]"/>
+<entry key="34" type="xstring" value="min_netexp_moto_PHEV[%]"/>
+<entry key="35" type="xstring" value="min_netexp_tra_ships[%]"/>
+<entry key="36" type="xstring" value="min_netexp_tra_trains[%]"/>
+<entry key="37" type="xstring" value="min_netexp_tra_planes[%]"/>
+<entry key="38" type="xstring" value="min_netexp_tra_subways[%]"/>
+<entry key="39" type="xstring" value="min_netexp_tra_infra_road[%]"/>
+<entry key="40" type="xstring" value="min_netexp_tra_infra_rail[%]"/>
+<entry key="41" type="xstring" value="min_netexp_tra_infra_trolley-cables[%]"/>
+<entry key="42" type="xstring" value="min_netexp_app_fridge[%]"/>
+<entry key="43" type="xstring" value="min_netexp_app_freezer[%]"/>
+<entry key="44" type="xstring" value="min_netexp_app_wmachine[%]"/>
+<entry key="45" type="xstring" value="min_netexp_app_dishwasher[%]"/>
+<entry key="46" type="xstring" value="min_netexp_app_dryer[%]"/>
+<entry key="47" type="xstring" value="min_netexp_elec_phone[%]"/>
+<entry key="48" type="xstring" value="min_netexp_elec_tv[%]"/>
+<entry key="49" type="xstring" value="min_netexp_elec_computer[%]"/>
+<entry key="50" type="xstring" value="min_netexp_elc_pv[%]"/>
+<entry key="51" type="xstring" value="min_netexp_elc_off-wind[%]"/>
+<entry key="52" type="xstring" value="min_netexp_elc_on-wind[%]"/>
+<entry key="53" type="xstring" value="min_netexp_tra_infra_pipe[%]"/>
+<entry key="54" type="xstring" value="min_expeur_unit[%]"/>
+<entry key="55" type="xstring" value="min_expeur_car_EV[%]"/>
+<entry key="56" type="xstring" value="min_expeur_car_FCEV[%]"/>
+<entry key="57" type="xstring" value="min_expeur_car_ICE[%]"/>
+<entry key="58" type="xstring" value="min_expeur_car_PHEV[%]"/>
+<entry key="59" type="xstring" value="min_expeur_truck_HDVL_ICE[%]"/>
+<entry key="60" type="xstring" value="min_expeur_truck_HDVL_FCEV[%]"/>
+<entry key="61" type="xstring" value="min_expeur_truck_HDVL_EV[%]"/>
+<entry key="62" type="xstring" value="min_expeur_truck_HDVL_PHEV[%]"/>
+<entry key="63" type="xstring" value="min_expeur_truck_HDVM_ICE[%]"/>
+<entry key="64" type="xstring" value="min_expeur_truck_HDVM_FCEV[%]"/>
+<entry key="65" type="xstring" value="min_expeur_truck_HDVM_EV[%]"/>
+<entry key="66" type="xstring" value="min_expeur_truck_HDVM_PHEV[%]"/>
+<entry key="67" type="xstring" value="min_expeur_truck_HDVH_ICE[%]"/>
+<entry key="68" type="xstring" value="min_expeur_truck_HDVH_FCEV[%]"/>
+<entry key="69" type="xstring" value="min_expeur_truck_HDVH_EV[%]"/>
+<entry key="70" type="xstring" value="min_expeur_truck_HDVH_PHEV[%]"/>
+<entry key="71" type="xstring" value="min_expeur_bus_EV[%]"/>
+<entry key="72" type="xstring" value="min_expeur_bus_FCEV[%]"/>
+<entry key="73" type="xstring" value="min_expeur_bus_ICE[%]"/>
+<entry key="74" type="xstring" value="min_expeur_bus_PHEV[%]"/>
+<entry key="75" type="xstring" value="min_expeur_moto_ICE[%]"/>
+<entry key="76" type="xstring" value="min_expeur_moto_FCEV[%]"/>
+<entry key="77" type="xstring" value="min_expeur_moto_EV[%]"/>
+<entry key="78" type="xstring" value="min_expeur_moto_PHEV[%]"/>
+<entry key="79" type="xstring" value="min_expeur_tra_ships[%]"/>
+<entry key="80" type="xstring" value="min_expeur_tra_trains[%]"/>
+<entry key="81" type="xstring" value="min_expeur_tra_planes[%]"/>
+<entry key="82" type="xstring" value="min_expeur_tra_subways[%]"/>
+<entry key="83" type="xstring" value="min_expeur_tra_infra_road[%]"/>
+<entry key="84" type="xstring" value="min_expeur_tra_infra_rail[%]"/>
+<entry key="85" type="xstring" value="min_expeur_tra_infra_trolley-cables[%]"/>
+<entry key="86" type="xstring" value="min_expeur_app_fridge[%]"/>
+<entry key="87" type="xstring" value="min_expeur_app_freezer[%]"/>
+<entry key="88" type="xstring" value="min_expeur_app_wmachine[%]"/>
+<entry key="89" type="xstring" value="min_expeur_app_dishwasher[%]"/>
+<entry key="90" type="xstring" value="min_expeur_app_dryer[%]"/>
+<entry key="91" type="xstring" value="min_expeur_elec_phone[%]"/>
+<entry key="92" type="xstring" value="min_expeur_elec_tv[%]"/>
+<entry key="93" type="xstring" value="min_expeur_elec_computer[%]"/>
+<entry key="94" type="xstring" value="min_expeur_elc_pv[%]"/>
+<entry key="95" type="xstring" value="min_expeur_elc_off-wind[%]"/>
+<entry key="96" type="xstring" value="min_expeur_elc_on-wind[%]"/>
+<entry key="97" type="xstring" value="min_expeur_tra_infra_pipe[%]"/>
+<entry key="98" type="xstring" value="min_netimp_unit[%]"/>
+<entry key="99" type="xstring" value="min_netimp_car_EV[%]"/>
+<entry key="100" type="xstring" value="min_netimp_car_FCEV[%]"/>
+<entry key="101" type="xstring" value="min_netimp_car_ICE[%]"/>
+<entry key="102" type="xstring" value="min_netimp_car_PHEV[%]"/>
+<entry key="103" type="xstring" value="min_netimp_truck_HDVL_ICE[%]"/>
+<entry key="104" type="xstring" value="min_netimp_truck_HDVL_FCEV[%]"/>
+<entry key="105" type="xstring" value="min_netimp_truck_HDVL_EV[%]"/>
+<entry key="106" type="xstring" value="min_netimp_truck_HDVL_PHEV[%]"/>
+<entry key="107" type="xstring" value="min_netimp_truck_HDVM_ICE[%]"/>
+<entry key="108" type="xstring" value="min_netimp_truck_HDVM_FCEV[%]"/>
+<entry key="109" type="xstring" value="min_netimp_truck_HDVM_EV[%]"/>
+<entry key="110" type="xstring" value="min_netimp_truck_HDVM_PHEV[%]"/>
+<entry key="111" type="xstring" value="min_netimp_truck_HDVH_ICE[%]"/>
+<entry key="112" type="xstring" value="min_netimp_truck_HDVH_FCEV[%]"/>
+<entry key="113" type="xstring" value="min_netimp_truck_HDVH_EV[%]"/>
+<entry key="114" type="xstring" value="min_netimp_truck_HDVH_PHEV[%]"/>
+<entry key="115" type="xstring" value="min_netimp_bus_EV[%]"/>
+<entry key="116" type="xstring" value="min_netimp_bus_FCEV[%]"/>
+<entry key="117" type="xstring" value="min_netimp_bus_ICE[%]"/>
+<entry key="118" type="xstring" value="min_netimp_bus_PHEV[%]"/>
+<entry key="119" type="xstring" value="min_netimp_moto_ICE[%]"/>
+<entry key="120" type="xstring" value="min_netimp_moto_FCEV[%]"/>
+<entry key="121" type="xstring" value="min_netimp_moto_EV[%]"/>
+<entry key="122" type="xstring" value="min_netimp_moto_PHEV[%]"/>
+<entry key="123" type="xstring" value="min_netimp_tra_ships[%]"/>
+<entry key="124" type="xstring" value="min_netimp_tra_trains[%]"/>
+<entry key="125" type="xstring" value="min_netimp_tra_planes[%]"/>
+<entry key="126" type="xstring" value="min_netimp_tra_subways[%]"/>
+<entry key="127" type="xstring" value="min_netimp_tra_infra_road[%]"/>
+<entry key="128" type="xstring" value="min_netimp_tra_infra_rail[%]"/>
+<entry key="129" type="xstring" value="min_netimp_tra_infra_trolley-cables[%]"/>
+<entry key="130" type="xstring" value="min_netimp_app_fridge[%]"/>
+<entry key="131" type="xstring" value="min_netimp_app_freezer[%]"/>
+<entry key="132" type="xstring" value="min_netimp_app_wmachine[%]"/>
+<entry key="133" type="xstring" value="min_netimp_app_dishwasher[%]"/>
+<entry key="134" type="xstring" value="min_netimp_app_dryer[%]"/>
+<entry key="135" type="xstring" value="min_netimp_elec_phone[%]"/>
+<entry key="136" type="xstring" value="min_netimp_elec_tv[%]"/>
+<entry key="137" type="xstring" value="min_netimp_elec_computer[%]"/>
+<entry key="138" type="xstring" value="min_netimp_elc_pv[%]"/>
+<entry key="139" type="xstring" value="min_netimp_elc_off-wind[%]"/>
+<entry key="140" type="xstring" value="min_netimp_elc_on-wind[%]"/>
+<entry key="141" type="xstring" value="min_netimp_tra_infra_pipe[%]"/>
+<entry key="142" type="xstring" value="min_vehicle_unit[kg/unit]"/>
+<entry key="143" type="xstring" value="min_vehicle_car_EV_steel[kg/unit]"/>
+<entry key="144" type="xstring" value="min_vehicle_car_FCEV_steel[kg/unit]"/>
+<entry key="145" type="xstring" value="min_vehicle_car_ICE_steel[kg/unit]"/>
+<entry key="146" type="xstring" value="min_vehicle_car_PHEV_steel[kg/unit]"/>
+<entry key="147" type="xstring" value="min_vehicle_truck_HDVL_ICE_steel[kg/unit]"/>
+<entry key="148" type="xstring" value="min_vehicle_truck_HDVL_FCEV_steel[kg/unit]"/>
+<entry key="149" type="xstring" value="min_vehicle_truck_HDVL_EV_steel[kg/unit]"/>
+<entry key="150" type="xstring" value="min_vehicle_truck_HDVL_PHEV_steel[kg/unit]"/>
+<entry key="151" type="xstring" value="min_vehicle_truck_HDVM_ICE_steel[kg/unit]"/>
+<entry key="152" type="xstring" value="min_vehicle_truck_HDVM_FCEV_steel[kg/unit]"/>
+<entry key="153" type="xstring" value="min_vehicle_truck_HDVM_EV_steel[kg/unit]"/>
+<entry key="154" type="xstring" value="min_vehicle_truck_HDVM_PHEV_steel[kg/unit]"/>
+<entry key="155" type="xstring" value="min_vehicle_truck_HDVH_ICE_steel[kg/unit]"/>
+<entry key="156" type="xstring" value="min_vehicle_truck_HDVH_FCEV_steel[kg/unit]"/>
+<entry key="157" type="xstring" value="min_vehicle_truck_HDVH_EV_steel[kg/unit]"/>
+<entry key="158" type="xstring" value="min_vehicle_truck_HDVH_PHEV_steel[kg/unit]"/>
+<entry key="159" type="xstring" value="min_vehicle_bus_EV_steel[kg/unit]"/>
+<entry key="160" type="xstring" value="min_vehicle_bus_FCEV_steel[kg/unit]"/>
+<entry key="161" type="xstring" value="min_vehicle_bus_ICE_steel[kg/unit]"/>
+<entry key="162" type="xstring" value="min_vehicle_bus_PHEV_steel[kg/unit]"/>
+<entry key="163" type="xstring" value="min_vehicle_moto_ICE_steel[kg/unit]"/>
+<entry key="164" type="xstring" value="min_vehicle_moto_FCEV_steel[kg/unit]"/>
+<entry key="165" type="xstring" value="min_vehicle_moto_EV_steel[kg/unit]"/>
+<entry key="166" type="xstring" value="min_vehicle_moto_PHEV_steel[kg/unit]"/>
+<entry key="167" type="xstring" value="min_vehicle_car_EV_aluminium[kg/unit]"/>
+<entry key="168" type="xstring" value="min_vehicle_car_FCEV_aluminium[kg/unit]"/>
+<entry key="169" type="xstring" value="min_vehicle_car_ICE_aluminium[kg/unit]"/>
+<entry key="170" type="xstring" value="min_vehicle_car_PHEV_aluminium[kg/unit]"/>
+<entry key="171" type="xstring" value="min_vehicle_truck_HDVH_ICE_aluminium[kg/unit]"/>
+<entry key="172" type="xstring" value="min_vehicle_truck_HDVH_FCEV_aluminium[kg/unit]"/>
+<entry key="173" type="xstring" value="min_vehicle_truck_HDVH_EV_aluminium[kg/unit]"/>
+<entry key="174" type="xstring" value="min_vehicle_truck_HDVH_PHEV_aluminium[kg/unit]"/>
+<entry key="175" type="xstring" value="min_vehicle_truck_HDVL_ICE_aluminium[kg/unit]"/>
+<entry key="176" type="xstring" value="min_vehicle_truck_HDVL_FCEV_aluminium[kg/unit]"/>
+<entry key="177" type="xstring" value="min_vehicle_truck_HDVL_EV_aluminium[kg/unit]"/>
+<entry key="178" type="xstring" value="min_vehicle_truck_HDVL_PHEV_aluminium[kg/unit]"/>
+<entry key="179" type="xstring" value="min_vehicle_truck_HDVM_ICE_aluminium[kg/unit]"/>
+<entry key="180" type="xstring" value="min_vehicle_truck_HDVM_FCEV_aluminium[kg/unit]"/>
+<entry key="181" type="xstring" value="min_vehicle_truck_HDVM_EV_aluminium[kg/unit]"/>
+<entry key="182" type="xstring" value="min_vehicle_truck_HDVM_PHEV_aluminium[kg/unit]"/>
+<entry key="183" type="xstring" value="min_vehicle_bus_EV_aluminium[kg/unit]"/>
+<entry key="184" type="xstring" value="min_vehicle_bus_FCEV_aluminium[kg/unit]"/>
+<entry key="185" type="xstring" value="min_vehicle_bus_ICE_aluminium[kg/unit]"/>
+<entry key="186" type="xstring" value="min_vehicle_bus_PHEV_aluminium[kg/unit]"/>
+<entry key="187" type="xstring" value="min_vehicle_moto_ICE_aluminium[kg/unit]"/>
+<entry key="188" type="xstring" value="min_vehicle_moto_FCEV_aluminium[kg/unit]"/>
+<entry key="189" type="xstring" value="min_vehicle_moto_EV_aluminium[kg/unit]"/>
+<entry key="190" type="xstring" value="min_vehicle_moto_PHEV_aluminium[kg/unit]"/>
+<entry key="191" type="xstring" value="min_vehicle_car_EV_copper[kg/unit]"/>
+<entry key="192" type="xstring" value="min_vehicle_car_FCEV_copper[kg/unit]"/>
+<entry key="193" type="xstring" value="min_vehicle_car_ICE_copper[kg/unit]"/>
+<entry key="194" type="xstring" value="min_vehicle_car_PHEV_copper[kg/unit]"/>
+<entry key="195" type="xstring" value="min_vehicle_truck_HDVL_ICE_copper[kg/unit]"/>
+<entry key="196" type="xstring" value="min_vehicle_truck_HDVL_FCEV_copper[kg/unit]"/>
+<entry key="197" type="xstring" value="min_vehicle_truck_HDVL_EV_copper[kg/unit]"/>
+<entry key="198" type="xstring" value="min_vehicle_truck_HDVL_PHEV_copper[kg/unit]"/>
+<entry key="199" type="xstring" value="min_vehicle_truck_HDVM_ICE_copper[kg/unit]"/>
+<entry key="200" type="xstring" value="min_vehicle_truck_HDVM_FCEV_copper[kg/unit]"/>
+<entry key="201" type="xstring" value="min_vehicle_truck_HDVM_EV_copper[kg/unit]"/>
+<entry key="202" type="xstring" value="min_vehicle_truck_HDVM_PHEV_copper[kg/unit]"/>
+<entry key="203" type="xstring" value="min_vehicle_truck_HDVH_ICE_copper[kg/unit]"/>
+<entry key="204" type="xstring" value="min_vehicle_truck_HDVH_FCEV_copper[kg/unit]"/>
+<entry key="205" type="xstring" value="min_vehicle_truck_HDVH_EV_copper[kg/unit]"/>
+<entry key="206" type="xstring" value="min_vehicle_truck_HDVH_PHEV_copper[kg/unit]"/>
+<entry key="207" type="xstring" value="min_vehicle_bus_EV_copper[kg/unit]"/>
+<entry key="208" type="xstring" value="min_vehicle_bus_FCEV_copper[kg/unit]"/>
+<entry key="209" type="xstring" value="min_vehicle_bus_ICE_copper[kg/unit]"/>
+<entry key="210" type="xstring" value="min_vehicle_bus_PHEV_copper[kg/unit]"/>
+<entry key="211" type="xstring" value="min_vehicle_moto_ICE_copper[kg/unit]"/>
+<entry key="212" type="xstring" value="min_vehicle_moto_FCEV_copper[kg/unit]"/>
+<entry key="213" type="xstring" value="min_vehicle_moto_EV_copper[kg/unit]"/>
+<entry key="214" type="xstring" value="min_vehicle_moto_PHEV_copper[kg/unit]"/>
+<entry key="215" type="xstring" value="min_largeveh_unit[kg/unit]"/>
+<entry key="216" type="xstring" value="min_largeveh_ships_steel[kg/unit]"/>
+<entry key="217" type="xstring" value="min_largeveh_trains_steel[kg/unit]"/>
+<entry key="218" type="xstring" value="min_largeveh_subways_steel[kg/unit]"/>
+<entry key="219" type="xstring" value="min_largeveh_planes_steel[kg/unit]"/>
+<entry key="220" type="xstring" value="min_largeveh_ships_aluminium[kg/unit]"/>
+<entry key="221" type="xstring" value="min_largeveh_trains_aluminium[kg/unit]"/>
+<entry key="222" type="xstring" value="min_largeveh_subways_aluminium[kg/unit]"/>
+<entry key="223" type="xstring" value="min_largeveh_planes_aluminium[kg/unit]"/>
+<entry key="224" type="xstring" value="min_largeveh_ships_copper[kg/unit]"/>
+<entry key="225" type="xstring" value="min_largeveh_trains_copper[kg/unit]"/>
+<entry key="226" type="xstring" value="min_largeveh_subways_copper[kg/unit]"/>
+<entry key="227" type="xstring" value="min_largeveh_planes_copper[kg/unit]"/>
+<entry key="228" type="xstring" value="min_infra_unit[kg/km]"/>
+<entry key="229" type="xstring" value="min_infra_road_steel[kg/km]"/>
+<entry key="230" type="xstring" value="min_infra_rail_steel[kg/km]"/>
+<entry key="231" type="xstring" value="min_infra_trolley-cables_steel[kg/km]"/>
+<entry key="232" type="xstring" value="min_infra_road_aluminium[kg/km]"/>
+<entry key="233" type="xstring" value="min_infra_rail_aluminium[kg/km]"/>
+<entry key="234" type="xstring" value="min_infra_trolley-cables_aluminium[kg/km]"/>
+<entry key="235" type="xstring" value="min_infra_road_copper[kg/km]"/>
+<entry key="236" type="xstring" value="min_infra_rail_copper[kg/km]"/>
+<entry key="237" type="xstring" value="min_infra_trolley-cables_copper[kg/km]"/>
+<entry key="238" type="xstring" value="min_infra_pipe_steel[kg/km]"/>
+<entry key="239" type="xstring" value="min_infra_pipe_aluminium[kg/km]"/>
+<entry key="240" type="xstring" value="min_infra_pipe_copper[kg/km]"/>
+<entry key="241" type="xstring" value="min_energytech_unit[kg/GW]"/>
+<entry key="242" type="xstring" value="min_energytech_new_pv_csi_steel[kg/GW]"/>
+<entry key="243" type="xstring" value="min_energytech_new_pv_thinfilm_steel[kg/GW]"/>
+<entry key="244" type="xstring" value="min_energytech_new_csp_steel[kg/GW]"/>
+<entry key="245" type="xstring" value="min_energytech_new_on-wind_steel[kg/GW]"/>
+<entry key="246" type="xstring" value="min_energytech_new_off-wind_steel[kg/GW]"/>
+<entry key="247" type="xstring" value="min_energytech_new_hydro_steel[kg/GW]"/>
+<entry key="248" type="xstring" value="min_energytech_new_marine_steel[kg/GW]"/>
+<entry key="249" type="xstring" value="min_energytech_new_geo_steel[kg/GW]"/>
+<entry key="250" type="xstring" value="min_energytech_new_oil_steel[kg/GW]"/>
+<entry key="251" type="xstring" value="min_energytech_new_gas_steel[kg/GW]"/>
+<entry key="252" type="xstring" value="min_energytech_new_coal_steel[kg/GW]"/>
+<entry key="253" type="xstring" value="min_energytech_new_nuclear_steel[kg/GW]"/>
+<entry key="254" type="xstring" value="min_energytech_new_pv_csi_aluminium[kg/GW]"/>
+<entry key="255" type="xstring" value="min_energytech_new_pv_thinfilm_aluminium[kg/GW]"/>
+<entry key="256" type="xstring" value="min_energytech_new_csp_aluminium[kg/GW]"/>
+<entry key="257" type="xstring" value="min_energytech_new_on-wind_aluminium[kg/GW]"/>
+<entry key="258" type="xstring" value="min_energytech_new_off-wind_aluminium[kg/GW]"/>
+<entry key="259" type="xstring" value="min_energytech_new_hydro_aluminium[kg/GW]"/>
+<entry key="260" type="xstring" value="min_energytech_new_marine_aluminium[kg/GW]"/>
+<entry key="261" type="xstring" value="min_energytech_new_geo_aluminium[kg/GW]"/>
+<entry key="262" type="xstring" value="min_energytech_new_oil_aluminium[kg/GW]"/>
+<entry key="263" type="xstring" value="min_energytech_new_gas_aluminium[kg/GW]"/>
+<entry key="264" type="xstring" value="min_energytech_new_coal_aluminium[kg/GW]"/>
+<entry key="265" type="xstring" value="min_energytech_new_nuclear_aluminium[kg/GW]"/>
+<entry key="266" type="xstring" value="min_energytech_new_pv_csi_copper[kg/GW]"/>
+<entry key="267" type="xstring" value="min_energytech_new_pv_thinfilm_copper[kg/GW]"/>
+<entry key="268" type="xstring" value="min_energytech_new_csp_copper[kg/GW]"/>
+<entry key="269" type="xstring" value="min_energytech_new_on-wind_copper[kg/GW]"/>
+<entry key="270" type="xstring" value="min_energytech_new_off-wind_copper[kg/GW]"/>
+<entry key="271" type="xstring" value="min_energytech_new_hydro_copper[kg/GW]"/>
+<entry key="272" type="xstring" value="min_energytech_new_marine_copper[kg/GW]"/>
+<entry key="273" type="xstring" value="min_energytech_new_geo_copper[kg/GW]"/>
+<entry key="274" type="xstring" value="min_energytech_new_oil_copper[kg/GW]"/>
+<entry key="275" type="xstring" value="min_energytech_new_gas_copper[kg/GW]"/>
+<entry key="276" type="xstring" value="min_energytech_new_coal_copper[kg/GW]"/>
+<entry key="277" type="xstring" value="min_energytech_new_nuclear_copper[kg/GW]"/>
+<entry key="278" type="xstring" value="min_building_unit[kg/m2]"/>
+<entry key="279" type="xstring" value="min_building_new_non-residential_steel[kg/m2]"/>
+<entry key="280" type="xstring" value="min_building_reno_non-residential_steel[kg/m2]"/>
+<entry key="281" type="xstring" value="min_building_new_residential_steel[kg/m2]"/>
+<entry key="282" type="xstring" value="min_building_reno_residential_steel[kg/m2]"/>
+<entry key="283" type="xstring" value="min_building_new_non-residential_aluminium[kg/m2]"/>
+<entry key="284" type="xstring" value="min_building_reno_non-residential_aluminium[kg/m2]"/>
+<entry key="285" type="xstring" value="min_building_new_residential_aluminium[kg/m2]"/>
+<entry key="286" type="xstring" value="min_building_reno_residential_aluminium[kg/m2]"/>
+<entry key="287" type="xstring" value="min_building_new_non-residential_copper[kg/m2]"/>
+<entry key="288" type="xstring" value="min_building_reno_non-residential_copper[kg/m2]"/>
+<entry key="289" type="xstring" value="min_building_new_residential_copper[kg/m2]"/>
+<entry key="290" type="xstring" value="min_building_reno_residential_copper[kg/m2]"/>
+<entry key="291" type="xstring" value="min_appliance_unit[kg/unit]"/>
+<entry key="292" type="xstring" value="min_appliance_fridge_steel[kg/unit]"/>
+<entry key="293" type="xstring" value="min_appliance_freezer_steel[kg/unit]"/>
+<entry key="294" type="xstring" value="min_appliance_wmachine_steel[kg/unit]"/>
+<entry key="295" type="xstring" value="min_appliance_dishwasher_steel[kg/unit]"/>
+<entry key="296" type="xstring" value="min_appliance_dryer_steel[kg/unit]"/>
+<entry key="297" type="xstring" value="min_appliance_fridge_aluminium[kg/unit]"/>
+<entry key="298" type="xstring" value="min_appliance_freezer_aluminium[kg/unit]"/>
+<entry key="299" type="xstring" value="min_appliance_wmachine_aluminium[kg/unit]"/>
+<entry key="300" type="xstring" value="min_appliance_dishwasher_aluminium[kg/unit]"/>
+<entry key="301" type="xstring" value="min_appliance_dryer_aluminium[kg/unit]"/>
+<entry key="302" type="xstring" value="min_appliance_fridge_copper[kg/unit]"/>
+<entry key="303" type="xstring" value="min_appliance_freezer_copper[kg/unit]"/>
+<entry key="304" type="xstring" value="min_appliance_wmachine_copper[kg/unit]"/>
+<entry key="305" type="xstring" value="min_appliance_dishwasher_copper[kg/unit]"/>
+<entry key="306" type="xstring" value="min_appliance_dryer_copper[kg/unit]"/>
+<entry key="307" type="xstring" value="min_electronics_unit[kg/unit]"/>
+<entry key="308" type="xstring" value="min_electronics_tv_steel[kg/unit]"/>
+<entry key="309" type="xstring" value="min_electronics_phone_steel[kg/unit]"/>
+<entry key="310" type="xstring" value="min_electronics_computer_steel[kg/unit]"/>
+<entry key="311" type="xstring" value="min_electronics_tv_aluminium[kg/unit]"/>
+<entry key="312" type="xstring" value="min_electronics_phone_aluminium[kg/unit]"/>
+<entry key="313" type="xstring" value="min_electronics_computer_aluminium[kg/unit]"/>
+<entry key="314" type="xstring" value="min_electronics_tv_copper[kg/unit]"/>
+<entry key="315" type="xstring" value="min_electronics_phone_copper[kg/unit]"/>
+<entry key="316" type="xstring" value="min_electronics_computer_copper[kg/unit]"/>
+<entry key="317" type="xstring" value="min_parameters_unit[unit]"/>
+<entry key="318" type="xstring" value="min_parameters_steel[unit]"/>
+<entry key="319" type="xstring" value="min_parameters_aluminium[unit]"/>
+<entry key="320" type="xstring" value="min_parameters_copper[unit]"/>
+<entry key="321" type="xstring" value="min_other_unit[%]"/>
+<entry key="322" type="xstring" value="min_other_steel[%]"/>
+<entry key="323" type="xstring" value="min_other_aluminium[%]"/>
+<entry key="324" type="xstring" value="min_other_copper[%]"/>
+<entry key="325" type="xstring" value="min_other_dom-appliances_unit[%]"/>
+<entry key="326" type="xstring" value="min_other_dom-appliances_steel[%]"/>
+<entry key="327" type="xstring" value="min_other_dom-appliances_aluminium[%]"/>
+<entry key="328" type="xstring" value="min_other_dom-appliances_copper[%]"/>
+<entry key="329" type="xstring" value="min_recy_unit[%]"/>
+<entry key="330" type="xstring" value="min_recy_steel_EAF[%]"/>
+<entry key="331" type="xstring" value="min_recy_steel_BOF[%]"/>
+<entry key="332" type="xstring" value="min_recy_steel_DRI[%]"/>
+<entry key="333" type="xstring" value="min_recy_steel_hisarna[%]"/>
+<entry key="334" type="xstring" value="min_recy_aluminium_primary[%]"/>
+<entry key="335" type="xstring" value="min_recy_aluminium_secondary[%]"/>
+<entry key="336" type="xstring" value="min_recy_copper_mined[%]"/>
+<entry key="337" type="xstring" value="min_recy_copper_recycled[%]"/>
+<entry key="338" type="xstring" value="min_wire_unit[mg/kWh]"/>
+<entry key="339" type="xstring" value="min_wire_copper[mg/kWh]"/>
+<entry key="340" type="xstring" value="Country"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+</config>
+<entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+<config key="port-names">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="0.2 Pathway Explorer"/>
+<entry key="1" type="xstring" value="Calibration"/>
+<entry key="2" type="xstring" value="0.2 Pathway Explorer - Warning and Reserves"/>
+</config>
+<config key="port-descriptions">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="0.2 Pathway Explorer"/>
+<entry key="1" type="xstring" value="Calibration"/>
+<entry key="2" type="xstring" value="0.2 Pathway Explorer - Warning and Reserves"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="isDeletable" type="xboolean" value="false"/>
+<entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
+<entry key="node-name" type="xstring" value="WrappedNode Output"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings">
+<config key="port_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="name" type="xstring" value="WrappedNode Output"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

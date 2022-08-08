@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="standardized_subsector_Austria\[TWhstd]|standardized_subsector_Belgium\[TWhstd]|standardized_subsector_Bulgaria\[TWhstd]|standardized_subsector_Croatia\[TWhstd]|standardized_subsector_Cyprus\[TWhstd]|standardized_subsector_Czech Republic\[TWhstd]|standardized_subsector_Denmark\[TWhstd]|standardized_subsector_Estonia\[TWhstd]|standardized_subsector_Finland\[TWhstd]|standardized_subsector_France\[TWhstd]|standardized_subsector_Germany\[TWhstd]|standardized_subsector_Greece\[TWhstd]|standardized_subsector_Hungary\[TWhstd]|standardized_subsector_Ireland\[TWhstd]|standardized_subsector_Italy\[TWhstd]|standardized_subsector_Latvia\[TWhstd]|standardized_subsector_Lithuania\[TWhstd]|standardized_subsector_Luxembourg\[TWhstd]|standardized_subsector_Malta\[TWhstd]|standardized_subsector_Netherlands\[TWhstd]|standardized_subsector_Poland\[TWhstd]|standardized_subsector_Portugal\[TWhstd]|standardized_subsector_Romania\[TWhstd]|standardized_subsector_Slovakia\[TWhstd]|standardized_subsector_Slovenia\[TWhstd]|standardized_subsector_Spain\[TWhstd]|standardized_subsector_Sweden\[TWhstd]|standardized_subsector_Switzerland\[TWhstd]|standardized_subsector_United Kingdom\[TWhstd]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace($${Svar-filter}$$,&quot;,&quot;,&quot;|&quot;),&quot;[&quot;,&quot;\\[&quot;)"/>
+<entry key="replaced_column" type="xstring" value="aggregation-pattern"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5b310a46-a3d9-482f-bda3-fea5f425d3af"/>
+</config>
+</config>

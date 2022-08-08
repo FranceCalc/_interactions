@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="load_hours-per-year[h]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="8760"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_rem_other[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_rem_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_rem_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_rem_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_rem_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_rem_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CH4_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-N2O_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CH4_fire[t/m3]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-N2O_fire[t/m3]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_soil[years]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_biomass[years]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_other_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_settlement_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_wetland_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="125"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_liv_sheep_brf_fdk_afat[kcal/lsu]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="389664"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_liv_bovine_brf_fdk_offal[kcal/lsu]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="280000"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_liv_sheep_brf_fdk_offal[kcal/lsu]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="117936"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_liv_oth-animals_brf_fdk_afat[kcal/lsu]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_liv_oth-animals_brf_fdk_offal[kcal/lsu]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_aps_insect_brf_fdk_manure[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_bovine_split_c1_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_sheep_split_c1_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_sheep_split_c1_proteins[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_sheep_split_c3_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_pig_split_c2_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_pig_split_c2_proteins[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_pig_split_c3_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_poultry_split_c1_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_poultry_split_c1_proteins[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_poultry_split_c2_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_poultry_split_c2_proteins[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_oth-animals_split_c1_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_oth-animals_split_c1_proteins[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_oth-animals_split_c2_afats[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="lbp_oth-animals_split_c2_proteins[t/kcal]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ecf_energycrop[kcal/t]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4299300"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_ethanol_fer_brf_cake_sgr[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_biodiesel_hvo_brf_cake[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_biodiesel_est_brf_crop_oil[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_ethanol_fer_brf_crop_sgr[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_biodiesel_hvo_brf_fdk_bionaphta[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_biodiesel_hvo_brf_fdk_propane[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_biodiesel_est_brf_fdk_glycerin[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ibp_bio_ethanol_ezm_brf_fdk_lignin[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="soil-emission-factors_cropland_conv[tCO2e/ha/an]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="biomass-emission-factors_cropland_conv[tCO2e/ha/an]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="bioenergy_yield_fer_sgr[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="bioenergy_yield_hvo_bionaphta[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="bioenergy_yield_hvo_propane[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="bioenergy_yield_est_glycerin[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="bioenergy_yield_ezm_lignin[TWh/TWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="meals-yield_insect-crop[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="meals-yield_insect-oil[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="meals-yield_insect-manure[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="meals-yield_oilcrops-crop[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="meals-yield_oilcrops-voil[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="shouse_poultry_afats[tons/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_61">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="shouse_oth-animals_afats[tons/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_62">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="shouse_poultry_offal[tons/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_63">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="shouse_oth-animals_offal[tons/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_64">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="shouse_oth-animals_manure[tons/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_65">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="shouse_oth-animals_feed[tons/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_66">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_lsu_oth-animals[lsu/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_67">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_energy_koe/TWh[#/#]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="85984500"/>
+</config>
+<config key="Variable_68">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_bov[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1050000"/>
+</config>
+<config key="Variable_69">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_sheep[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2630000"/>
+</config>
+<config key="Variable_70">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_pigs[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2200000"/>
+</config>
+<config key="Variable_71">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_poultry[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1220000"/>
+</config>
+<config key="Variable_72">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_oth-animals[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1260000"/>
+</config>
+<config key="Variable_73">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_offal[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1050000"/>
+</config>
+<config key="Variable_74">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_egg[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1390000"/>
+</config>
+<config key="Variable_75">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_milk[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="610000"/>
+</config>
+<config key="Variable_76">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_afats[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="847000000"/>
+</config>
+<config key="Variable_77">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_stm[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="400000"/>
+</config>
+<config key="Variable_78">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_tea[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="400000"/>
+</config>
+<config key="Variable_79">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_coffee[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="560000"/>
+</config>
+<config key="Variable_80">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_wine[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="680000"/>
+</config>
+<config key="Variable_81">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_beer[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="490000"/>
+</config>
+<config key="Variable_82">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_bev-fer[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="470000"/>
+</config>
+<config key="Variable_83">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_bev-alc[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2950000"/>
+</config>
+<config key="Variable_84">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_cereals[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3400000"/>
+</config>
+<config key="Variable_85">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_fruits[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1200000"/>
+</config>
+<config key="Variable_86">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_oilcrops[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3870000"/>
+</config>
+<config key="Variable_87">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_pulses[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3400000"/>
+</config>
+<config key="Variable_88">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_starch[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="910000"/>
+</config>
+<config key="Variable_89">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_sweet[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3100000"/>
+</config>
+<config key="Variable_90">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_sugar[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3870000"/>
+</config>
+<config key="Variable_91">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_voil[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="8840000"/>
+</config>
+<config key="Variable_92">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_veg[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="220000"/>
+</config>
+<config key="Variable_93">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_wheat[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3340000"/>
+</config>
+<config key="Variable_94">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_rye[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3190000"/>
+</config>
+<config key="Variable_95">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_barley[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3320000"/>
+</config>
+<config key="Variable_96">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_sugarcrops[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="700000"/>
+</config>
+<config key="Variable_97">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_maize[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3560000"/>
+</config>
+<config key="Variable_98">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_oats[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3850000"/>
+</config>
+<config key="Variable_99">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_brans[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2130000"/>
+</config>
+<config key="Variable_100">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_dfish[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="900000"/>
+</config>
+<config key="Variable_101">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_ffish[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1150000"/>
+</config>
+<config key="Variable_102">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_pfish[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1410000"/>
+</config>
+<config key="Variable_103">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_seafood[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="910000"/>
+</config>
+<config key="Variable_104">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_oth-aq-animals[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="710000"/>
+</config>
+<config key="Variable_105">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_fish-meals[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9920000"/>
+</config>
+<config key="Variable_106">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_algae-meals[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3500000"/>
+</config>
+<config key="Variable_107">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_insect-meals[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6730000"/>
+</config>
+<config key="Variable_108">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_oil-meals[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_109">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_grains[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_110">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_fodder[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_111">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_cake[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4630000"/>
+</config>
+<config key="Variable_112">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_grapes[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="53000"/>
+</config>
+<config key="Variable_113">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conv-factors_food_molasses[kcal/tonnes]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2320000"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import re%%00010import numpy as np%%00010%%00010def aggregate(df, unit_var, aggregation_method, index_pattern, aggregation_pattern, new_name_start, new_name_suffix, aggregation_remove,%%00010              caller):%%00010    # t_start = timer()%%00010    list_of_columns_1 = []%%00010    list_of_columns_2 = []%%00010    new_columns_list = &quot;&quot;%%00010    id_double = 1%%00010%%00010    column_names = list(df.columns.values)%%00010%%00010    pattern_i = re.compile(index_pattern + &quot;$&quot;)  # $ asserts position at the end of a line%%00010    pattern_a = re.compile(aggregation_pattern + &quot;$&quot;)  # $ asserts position at the end of a line%%00010    pattern_u = re.compile(&quot;.*\[(.*)\].*&quot;)%%00010%%00010    list_of_names_with_conflicts = []%%00010    dict_of_names_with_conflicts = {}%%00010%%00010    isMatching1 = False%%00010%%00010    matcher1_list = {col: re.match(pattern_i, col) for col in df.columns if re.match(pattern_i, col)}%%00010    matcher2_list = {col: re.match(pattern_a, col) for col in df.columns if re.match(pattern_a, col)}%%00010%%00010    total_list_col1 = []%%00010    total_list_col2 = []%%00010%%00010    for col1, match1 in matcher1_list.items():%%00010        matcher_unit = re.match(pattern_u, col1)%%00010        colUnit = unit_var%%00010        try:%%00010        %%00009iterator1 = match1.group('i')%%00010        except:%%00010        %%00009iterator1 = match1.group(1)%%00010%%00010        numberGroups1 = len(match1.groups())%%00010        matchingIterator = False%%00010%%00010        if matcher_unit and colUnit == &quot;unit&quot;:%%00010            colUnit = matcher_unit.group(1)%%00010%%00010        for col2, match2 in matcher2_list.items():%%00010            numberGroups2 = len(match2.groups())%%00010            if numberGroups2 == 0:%%00010                new_name = new_name_start + &quot;_&quot; + iterator1 + new_name_suffix + &quot;[&quot; + colUnit + &quot;]&quot;%%00010                if new_name in new_columns_list or new_name in column_names:%%00010                    # raise Exception(&quot;A column with name &quot; + new_name + &quot; already exists!&quot;)%%00010                    new_name_temp = new_name + &quot; (#&quot; + str(id_double) + &quot;)&quot;%%00010                    id_double += 1%%00010                    if new_name in column_names:%%00010                        list_of_names_with_conflicts.append(new_name_temp)%%00010                        dict_of_names_with_conflicts[new_name_temp] = new_name%%00010                    new_name = new_name_temp%%00010%%00010                new_columns_list = new_columns_list + new_name + &quot;,&quot;%%00010%%00010                if col1 not in list_of_columns_1:%%00010                    list_of_columns_1.append(col1)%%00010                if col2 not in list_of_columns_2:%%00010                    list_of_columns_2.append(col2)%%00010%%00010                total_list_col1.append(col1)%%00010                total_list_col2.append(col2)%%00010%%00010            elif numberGroups2 == 1 or numberGroups2 == 2:  # Parallel operation%%00010                           %%00010%%00010                try:%%00010        %%00009        iterator2 = match2.group('i')%%00010                except:%%00010        %%00009        iterator2 = match2.group(1)%%00010                #iterator2 = match2.group(1)%%00010                if iterator1 == iterator2:%%00010                    matchingIterator = True%%00010                    new_name = new_name_start + '_' + match2.group(1)%%00010                    if numberGroups1 == 2:%%00010#                        if len(pattern_i.groupindex)&gt;0:%%00010#                            if pattern_i.groupindex['iterator'] == 2:%%00010#                                name_extension_1 = match1.group(1)%%00010#                            else:%%00010#                                name_extension_1 = match1.group(2)%%00010#                        else:%%00010#                            name_extension_1 = match1.group(2)%%00010%%00010                        new_name = new_name + &quot;_&quot; + match1.group(2)%%00010                    elif numberGroups2 == 2:%%00010#                        if len(pattern_a.groupindex)&gt;0:%%00010#                            if pattern_a.groupindex['iterator'] == 2:%%00010#                                name_extension_2 = match1.group(1)%%00010#                            else:%%00010#                                name_extension_2 = match1.group(2)%%00010#                        else:%%00010#                            name_extension_2 = match1.group(2)%%00010                        new_name = new_name + &quot;_&quot; + match2.group(2)%%00010%%00010                    new_name = new_name + new_name_suffix + &quot;[&quot; + colUnit + &quot;]&quot;%%00010                    if new_name in new_columns_list or new_name in column_names:%%00010                        # raise Exception(&quot;A column with name &quot; + new_name + &quot; already exists!&quot;)%%00010                        new_name_temp = new_name + &quot; (#&quot; + str(id_double) + &quot;)&quot;%%00010                        id_double += 1%%00010                        if new_name in column_names:%%00010                            list_of_names_with_conflicts.append(new_name_temp)%%00010                            dict_of_names_with_conflicts[new_name_temp] = new_name%%00010                        new_name = new_name_temp%%00010                    new_columns_list = new_columns_list + new_name + &quot;,&quot;%%00010%%00010                    if col1 not in list_of_columns_1:%%00010                        list_of_columns_1.append(col1)%%00010                    if col2 not in list_of_columns_2:%%00010                        list_of_columns_2.append(col2)%%00010%%00010                    total_list_col1.append(col1)%%00010                    total_list_col2.append(col2)%%00010%%00010            else:%%00010                raise Exception(&quot;Number of capture groups in aggregation pattern cannot be more than 2&quot;)%%00010        if not matchingIterator and numberGroups2 == 1:%%00010            raise Exception(&quot;Iterator not found in second column group: '&quot; + iterator1 + &quot;'&quot;)%%00010%%00010    if not matcher2_list:%%00010        raise Exception(&quot;No match found in input columns for pattern '&quot; + aggregation_pattern + &quot;'&quot;)%%00010    if not matcher1_list:%%00010        raise Exception(&quot;No match found in input columns for pattern \&quot;&quot; + index_pattern + &quot;\&quot;&quot;)%%00010%%00010     # perform computations and store results:%%00010%%00010    df_subset1 = df[total_list_col1]%%00010    df_subset2 = df[total_list_col2]%%00010%%00010    if aggregation_method == 'Product':%%00010        output = df_subset1 * df_subset2.values%%00010    elif aggregation_method == 'Sum':%%00010        output = df_subset1 + df_subset2.values%%00010    elif aggregation_method == &quot;Division 1/2&quot;:%%00010        if caller == &quot;CAL&quot;:%%00010            output = df_subset1.copy()%%00010            mask1 = (df_subset1 != 0)%%00010            mask2 = (df_subset2 != 0)%%00010            mask21 = mask2.copy()%%00010            mask21.columns = output.columns%%00010            mask3 = df_subset1.isna()%%00010            output[mask21] = df_subset1[mask21]/ df_subset2[mask2].values%%00010            output[-mask21 &amp; -mask3] = 100%%00010            output[-mask1] = 0%%00010        else:%%00010            output = df_subset1 / df_subset2.values%%00010            output = output.replace([np.inf, -np.inf], np.nan)%%00010    elif aggregation_method == &quot;Division 2/1&quot;:%%00010        output = df_subset2.values / df_subset1%%00010    elif aggregation_method == &quot;Subtraction 1-2&quot;:%%00010        output = df_subset1 - df_subset2.values%%00010    elif aggregation_method == &quot;Subtraction 2-1&quot;:%%00010        output = df_subset2.values - df_subset1%%00010    else:%%00010        raise Exception(&quot;Unknown aggregation method!&quot;)%%00010%%00010    list_of_new_column_names = new_columns_list.split(&quot;,&quot;)%%00010    del list_of_new_column_names[-1]%%00010    output.columns = list_of_new_column_names%%00010    if aggregation_remove == 1:%%00010        df = df.drop(list_of_columns_1+list_of_columns_2, axis=1)%%00010        output = output.rename(columns=dict_of_names_with_conflicts)%%00010%%00010    # t3 = timer()%%00010    # logger.info(&quot;Third timer: &quot; +str(t3-t2))%%00010%%00010    output_table = df.join(output)%%00010    # logger.info('Final timer: ' + str(timer() - t3))%%00010    # logger.info(&quot;Total TIMER: &quot; +str(timer()-t_start))%%00010    return output_table%%00010%%00010name_components = flow_variables['new_name_start'].split(',')%%00010if len(name_components) == 1:%%00010%%00009new_name_start = name_components[0]%%00010%%00009new_name_suffix = ''%%00010elif len(name_components) == 2:%%00010%%00009new_name_start = name_components[0]%%00010%%00009new_name_suffix = '_' + name_components[1]%%00010%%00009%%00010output_table = aggregate(input_table, flow_variables['unit_var'],flow_variables['aggregation_method'],flow_variables['index_pattern'],flow_variables['aggregation_pattern'],new_name_start,new_name_suffix,flow_variables['aggregation-remove'],flow_variables['tree_caller'])"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script.Python2ScriptNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 98"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="2a0834b7-9713-4c80-81bd-ed4cc72a3fbd"/>
+</config>
+</config>

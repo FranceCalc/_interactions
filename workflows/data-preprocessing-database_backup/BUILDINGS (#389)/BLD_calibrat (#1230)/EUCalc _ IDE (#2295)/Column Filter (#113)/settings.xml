@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="166"/>
+<entry key="0" type="xstring" value="Years"/>
+<entry key="1" type="xstring" value="Additives / Oxygenates_Imports (ktoe)"/>
+<entry key="2" type="xstring" value="All Petroleum Products_Imports (ktoe)"/>
+<entry key="3" type="xstring" value="All Products_Imports (ktoe)"/>
+<entry key="4" type="xstring" value="Anthracite_Imports (ktoe)"/>
+<entry key="5" type="xstring" value="Aviation Gasoline_Imports (ktoe)"/>
+<entry key="6" type="xstring" value="BKB (browncoal briquettes)_Imports (ktoe)"/>
+<entry key="7" type="xstring" value="Bio jet kerosene_Imports (ktoe)"/>
+<entry key="8" type="xstring" value="Biodiesels_Imports (ktoe)"/>
+<entry key="9" type="xstring" value="Biogas_Imports (ktoe)"/>
+<entry key="10" type="xstring" value="Biogasoline_Imports (ktoe)"/>
+<entry key="11" type="xstring" value="Biomass and Renewable wastes_Imports (ktoe)"/>
+<entry key="12" type="xstring" value="Bitumen_Imports (ktoe)"/>
+<entry key="13" type="xstring" value="Blast Furnace Gas_Imports (ktoe)"/>
+<entry key="14" type="xstring" value="Charcoal_Imports (ktoe)"/>
+<entry key="15" type="xstring" value="Coal Tar_Imports (ktoe)"/>
+<entry key="16" type="xstring" value="Coke_Imports (ktoe)"/>
+<entry key="17" type="xstring" value="Coke Oven Coke_Imports (ktoe)"/>
+<entry key="18" type="xstring" value="Coke Oven Gas_Imports (ktoe)"/>
+<entry key="19" type="xstring" value="Coking Coal_Imports (ktoe)"/>
+<entry key="20" type="xstring" value="Crude Oil without NGL_Imports (ktoe)"/>
+<entry key="21" type="xstring" value="Crude oil and NGL_Imports (ktoe)"/>
+<entry key="22" type="xstring" value="Crude oil, feedstocks and other hydrocarbons_Imports (ktoe)"/>
+<entry key="23" type="xstring" value="Derived Gases_Imports (ktoe)"/>
+<entry key="24" type="xstring" value="Derived heat_Imports (ktoe)"/>
+<entry key="25" type="xstring" value="Electricity_Imports (ktoe)"/>
+<entry key="26" type="xstring" value="Ethane_Imports (ktoe)"/>
+<entry key="27" type="xstring" value="Feedstocks and other hydrocarbons_Imports (ktoe)"/>
+<entry key="28" type="xstring" value="Gas Coke_Imports (ktoe)"/>
+<entry key="29" type="xstring" value="Gas Works gas_Imports (ktoe)"/>
+<entry key="30" type="xstring" value="Gas/Diesel oil (without biofuels)_Imports (ktoe)"/>
+<entry key="31" type="xstring" value="Gases_Imports (ktoe)"/>
+<entry key="32" type="xstring" value="Gasoline (without biofuels)_Imports (ktoe)"/>
+<entry key="33" type="xstring" value="Gasoline Type Jet Fuel_Imports (ktoe)"/>
+<entry key="34" type="xstring" value="Geothermal_Imports (ktoe)"/>
+<entry key="35" type="xstring" value="Hard Coal_Imports (ktoe)"/>
+<entry key="36" type="xstring" value="Hard coal and derivatives_Imports (ktoe)"/>
+<entry key="37" type="xstring" value="Hydro power_Imports (ktoe)"/>
+<entry key="38" type="xstring" value="Industrial wastes_Imports (ktoe)"/>
+<entry key="39" type="xstring" value="Kerosene Type Jet Fuel_Imports (ktoe)"/>
+<entry key="40" type="xstring" value="Kerosenes - Jet Fuels_Imports (ktoe)"/>
+<entry key="41" type="xstring" value="Lignite and Derivatives_Imports (ktoe)"/>
+<entry key="42" type="xstring" value="Lignite/Brown Coal_Imports (ktoe)"/>
+<entry key="43" type="xstring" value="Liquid biofuels_Imports (ktoe)"/>
+<entry key="44" type="xstring" value="Liquified petroleum gas (LPG)_Imports (ktoe)"/>
+<entry key="45" type="xstring" value="Lubricants_Imports (ktoe)"/>
+<entry key="46" type="xstring" value="Motor spirit_Imports (ktoe)"/>
+<entry key="47" type="xstring" value="Municipal waste (non-renewable)_Imports (ktoe)"/>
+<entry key="48" type="xstring" value="Municipal waste (renewable)_Imports (ktoe)"/>
+<entry key="49" type="xstring" value="Naphtha_Imports (ktoe)"/>
+<entry key="50" type="xstring" value="Natural Gas Liquids (NGL)_Imports (ktoe)"/>
+<entry key="51" type="xstring" value="Natural gas_Imports (ktoe)"/>
+<entry key="52" type="xstring" value="Nuclear heat_Imports (ktoe)"/>
+<entry key="53" type="xstring" value="Oil Shale and Oil Sands_Imports (ktoe)"/>
+<entry key="54" type="xstring" value="Other Bituminous Coal_Imports (ktoe)"/>
+<entry key="55" type="xstring" value="Other Hydrocarbons (without biofuels)_Imports (ktoe)"/>
+<entry key="56" type="xstring" value="Other Kerosene_Imports (ktoe)"/>
+<entry key="57" type="xstring" value="Other Oil Products_Imports (ktoe)"/>
+<entry key="58" type="xstring" value="Other Petroleum Products_Imports (ktoe)"/>
+<entry key="59" type="xstring" value="Other liquid biofuels_Imports (ktoe)"/>
+<entry key="60" type="xstring" value="Other recovered gases_Imports (ktoe)"/>
+<entry key="61" type="xstring" value="Paraffin Waxes_Imports (ktoe)"/>
+<entry key="62" type="xstring" value="Patent Fuels_Imports (ktoe)"/>
+<entry key="63" type="xstring" value="Peat_Imports (ktoe)"/>
+<entry key="64" type="xstring" value="Peat Products_Imports (ktoe)"/>
+<entry key="65" type="xstring" value="Petroleum Coke_Imports (ktoe)"/>
+<entry key="66" type="xstring" value="Refinery Feedstocks_Imports (ktoe)"/>
+<entry key="67" type="xstring" value="Refinery Gas (not. Liquid)_Imports (ktoe)"/>
+<entry key="68" type="xstring" value="Refinery gas and Ethane_Imports (ktoe)"/>
+<entry key="69" type="xstring" value="Renewable energies_Imports (ktoe)"/>
+<entry key="70" type="xstring" value="Residual Fuel Oil_Imports (ktoe)"/>
+<entry key="71" type="xstring" value="Solar Photovoltaic_Imports (ktoe)"/>
+<entry key="72" type="xstring" value="Solar energy_Imports (ktoe)"/>
+<entry key="73" type="xstring" value="Solar thermal_Imports (ktoe)"/>
+<entry key="74" type="xstring" value="Solid Fuels_Imports (ktoe)"/>
+<entry key="75" type="xstring" value="Solid biofuels (Wood &amp; Wood waste)_Imports (ktoe)"/>
+<entry key="76" type="xstring" value="Sub-bituminous Coal_Imports (ktoe)"/>
+<entry key="77" type="xstring" value="Tide, Wave and Ocean_Imports (ktoe)"/>
+<entry key="78" type="xstring" value="Total petroleum products (without biofuels)_Imports (ktoe)"/>
+<entry key="79" type="xstring" value="Wastes (non-renewable)_Imports (ktoe)"/>
+<entry key="80" type="xstring" value="White Spirit and SBP_Imports (ktoe)"/>
+<entry key="81" type="xstring" value="Wind Power_Imports (ktoe)"/>
+<entry key="82" type="xstring" value="Years (Iter #1)"/>
+<entry key="83" type="xstring" value="Additives / Oxygenates_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="84" type="xstring" value="All Petroleum Products_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="85" type="xstring" value="All Products_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="86" type="xstring" value="Anthracite_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="87" type="xstring" value="Aviation Gasoline_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="88" type="xstring" value="BKB (browncoal briquettes)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="89" type="xstring" value="Bio jet kerosene_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="90" type="xstring" value="Biodiesels_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="91" type="xstring" value="Biogas_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="92" type="xstring" value="Biogasoline_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="93" type="xstring" value="Biomass and Renewable wastes_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="94" type="xstring" value="Bitumen_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="95" type="xstring" value="Blast Furnace Gas_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="96" type="xstring" value="Charcoal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="97" type="xstring" value="Coal Tar_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="98" type="xstring" value="Coke_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="99" type="xstring" value="Coke Oven Coke_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="100" type="xstring" value="Coke Oven Gas_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="101" type="xstring" value="Coking Coal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="102" type="xstring" value="Crude Oil without NGL_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="103" type="xstring" value="Crude oil and NGL_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="104" type="xstring" value="Crude oil, feedstocks and other hydrocarbons_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="105" type="xstring" value="Derived Gases_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="106" type="xstring" value="Derived heat_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="107" type="xstring" value="Electricity_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="108" type="xstring" value="Ethane_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="109" type="xstring" value="Feedstocks and other hydrocarbons_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="110" type="xstring" value="Gas Coke_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="111" type="xstring" value="Gas Works gas_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="112" type="xstring" value="Gas/Diesel oil (without biofuels)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="113" type="xstring" value="Gases_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="114" type="xstring" value="Gasoline (without biofuels)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="115" type="xstring" value="Gasoline Type Jet Fuel_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="116" type="xstring" value="Geothermal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="117" type="xstring" value="Hard Coal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="118" type="xstring" value="Hard coal and derivatives_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="119" type="xstring" value="Hydro power_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="120" type="xstring" value="Industrial wastes_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="121" type="xstring" value="Kerosene Type Jet Fuel_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="122" type="xstring" value="Kerosenes - Jet Fuels_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="123" type="xstring" value="Lignite and Derivatives_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="124" type="xstring" value="Lignite/Brown Coal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="125" type="xstring" value="Liquid biofuels_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="126" type="xstring" value="Liquified petroleum gas (LPG)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="127" type="xstring" value="Lubricants_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="128" type="xstring" value="Motor spirit_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="129" type="xstring" value="Municipal waste (non-renewable)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="130" type="xstring" value="Municipal waste (renewable)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="131" type="xstring" value="Naphtha_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="132" type="xstring" value="Natural Gas Liquids (NGL)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="133" type="xstring" value="Natural gas_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="134" type="xstring" value="Nuclear heat_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="135" type="xstring" value="Oil Shale and Oil Sands_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="136" type="xstring" value="Other Bituminous Coal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="137" type="xstring" value="Other Hydrocarbons (without biofuels)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="138" type="xstring" value="Other Kerosene_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="139" type="xstring" value="Other Oil Products_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="140" type="xstring" value="Other Petroleum Products_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="141" type="xstring" value="Other liquid biofuels_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="142" type="xstring" value="Other recovered gases_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="143" type="xstring" value="Paraffin Waxes_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="144" type="xstring" value="Patent Fuels_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="145" type="xstring" value="Peat_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="146" type="xstring" value="Peat Products_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="147" type="xstring" value="Petroleum Coke_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="148" type="xstring" value="Refinery Feedstocks_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="149" type="xstring" value="Refinery Gas (not. Liquid)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="150" type="xstring" value="Refinery gas and Ethane_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="151" type="xstring" value="Renewable energies_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="152" type="xstring" value="Residual Fuel Oil_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="153" type="xstring" value="Solar Photovoltaic_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="154" type="xstring" value="Solar energy_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="155" type="xstring" value="Solar thermal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="156" type="xstring" value="Solid Fuels_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="157" type="xstring" value="Solid biofuels (Wood &amp; Wood waste)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="158" type="xstring" value="Sub-bituminous Coal_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="159" type="xstring" value="Tide, Wave and Ocean_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="160" type="xstring" value="Total petroleum products (without biofuels)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="161" type="xstring" value="Wastes (non-renewable)_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="162" type="xstring" value="White Spirit and SBP_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="163" type="xstring" value="Wind Power_Direct use (feedstocks &amp; additives) (ktoe)"/>
+<entry key="164" type="xstring" value="Country"/>
+<entry key="165" type="xstring" value="Iteration"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="((?!(Iteration|#)).)*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 448, Cols: 218"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="42b94fe4-1bc4-4fd5-8a9e-2cd927467216"/>
+</config>
+</config>

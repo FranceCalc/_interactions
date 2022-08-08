@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="air_exposure_bld_energy_gas-ff-natural\[ug/m3]|air_exposure_bld_energy_liquid-ff-heatingoil\[ug/m3]|air_exposure_bld_energy_solid-bio\[ug/m3]|air_exposure_bld_energy_solid-ff-coal\[ug/m3]|air_exposure_dhg_energy_gas-ff-natural\[ug/m3]|air_exposure_dhg_energy_liquid-ff-heatingoil\[ug/m3]|air_exposure_dhg_energy_solid-bio\[ug/m3]|air_exposure_dhg_energy_solid-ff-coal\[ug/m3]|air_exposure_tra_energy_freight_HDV_ICE-diesel\[ug/m3]|air_exposure_tra_energy_freight_HDV_ICE-gasoline\[ug/m3]|air_exposure_tra_energy_freight_IWW_ICE\[ug/m3]|air_exposure_tra_energy_freight_aviation_ICE\[ug/m3]|air_exposure_tra_energy_freight_rail_ICE\[ug/m3]|air_exposure_tra_energy_passenger_2W_ICE-gasoline\[ug/m3]|air_exposure_tra_energy_passenger_LDV_ICE-diesel\[ug/m3]|air_exposure_tra_energy_passenger_LDV_ICE-gasoline\[ug/m3]|air_exposure_tra_energy_passenger_aviation_ICE\[ug/m3]|air_exposure_tra_energy_passenger_bus_ICE-diesel\[ug/m3]|air_exposure_tra_energy_passenger_rail_ICE\[ug/m3]|air_exposure_tra_energy_freight_HDV_ICE-gas\[ug/m3]|air_exposure_tra_energy_passenger_LDV_ICE-gas\[ug/m3]|air_exposure_tra_energy_passenger_bus_ICE-gas\[ug/m3]|air_exposure_tra_energy_passenger_bus_ICE-gasoline\[ug/m3]|air_exposure_tra_energy_freight_marine_ICE\[ug/m3]|air_exposure_tra_brakes_freight_HDV\[ug/m3]|air_exposure_tra_tyres_freight_HDV\[ug/m3]|air_exposure_tra_brakes_passenger_2W\[ug/m3]|air_exposure_tra_tyres_passenger_2W\[ug/m3]|air_exposure_tra_brakes_passenger_LDV\[ug/m3]|air_exposure_tra_tyres_passenger_LDV\[ug/m3]|air_exposure_tra_brakes_passenger_bus\[ug/m3]|air_exposure_tra_tyres_passenger_bus\[ug/m3]|air_exposure_ind_energy_aluminium_gas-ff-natural\[ug/m3]|air_exposure_ind_energy_aluminium_liquid-ff-oil\[ug/m3]|air_exposure_ind_energy_aluminium_solid-ff-coal\[ug/m3]|air_exposure_ind_energy_chemicals_gas-ff-natural\[ug/m3]|air_exposure_ind_energy_chemicals_liquid-ff-oil\[ug/m3]|air_exposure_ind_energy_chemicals_solid-ff-coal\[ug/m3]|air_exposure_ind_energy_copper_gas-ff-natural\[ug/m3]|air_exposure_ind_energy_copper_liquid-ff-oil\[ug/m3]|air_exposure_ind_energy_copper_solid-ff-coal\[ug/m3]|air_exposure_ind_energy_paper_gas-ff-natural\[ug/m3]|air_exposure_ind_energy_paper_liquid-ff-oil\[ug/m3]|air_exposure_ind_energy_paper_solid-ff-coal\[ug/m3]|air_exposure_ind_energy_steel_gas-ff-natural\[ug/m3]|air_exposure_ind_energy_steel_liquid-ff-oil\[ug/m3]|air_exposure_ind_energy_steel_solid-ff-coal\[ug/m3]|air_exposure_ind_energy_steel_solid-bio\[ug/m3]|air_exposure_ind_energy_aluminium_solid-bio\[ug/m3]|air_exposure_ind_energy_copper_solid-bio\[ug/m3]|air_exposure_ind_energy_chemicals_gas-bio\[ug/m3]|air_exposure_ind_energy_chemicals_solid-bio\[ug/m3]|air_exposure_ind_energy_chemicals_solid-waste\[ug/m3]|air_exposure_ind_energy_paper_gas-bio\[ug/m3]|air_exposure_ind_energy_paper_solid-bio\[ug/m3]|air_exposure_ind_energy_paper_solid-waste\[ug/m3]|air_exposure_ind_energy_aluminium_solid-waste\[ug/m3]|air_exposure_ind_energy_copper_solid-waste\[ug/m3]|air_exposure_ind_energy_steel_solid-waste\[ug/m3]|air_exposure_ind_feedstock_aluminium_sec\[ug/m3]|air_exposure_ind_feedstock_cement_dry-kiln\[ug/m3]|air_exposure_ind_feedstock_cement_geopolym\[ug/m3]|air_exposure_ind_feedstock_cement_wet-kiln\[ug/m3]|air_exposure_ind_feedstock_chemicals_chem-tech\[ug/m3]|air_exposure_ind_feedstock_copper_tech\[ug/m3]|air_exposure_ind_feedstock_glass_glass\[ug/m3]|air_exposure_ind_feedstock_lime_lime\[ug/m3]|air_exposure_ind_feedstock_paper_recycled\[ug/m3]|air_exposure_ind_feedstock_paper_woodpulp\[ug/m3]|air_exposure_ind_feedstock_steel_BF-BOF\[ug/m3]|air_exposure_ind_feedstock_steel_hisarna\[ug/m3]|air_exposure_ind_feedstock_steel_hydrog-DRI\[ug/m3]|air_exposure_ind_feedstock_steel_scrap-EAF\[ug/m3]|air_exposure_ind_feedstock_aluminium_prim\[ug/m3]|air_exposure_elc_energy_gas-ff-natural\[ug/m3]|air_exposure_elc_energy_liquid-ff-heatingoil\[ug/m3]|air_exposure_elc_energy_solid-bio\[ug/m3]|air_exposure_elc_energy_solid-ff-coal\[ug/m3]|air_exposure_agr_energy_gas-ff-natural\[ug/m3]|air_exposure_agr_energy_liquid-ff-diesel\[ug/m3]|air_exposure_agr_energy_liquid-ff-oil\[ug/m3]|air_exposure_agr_energy_solid-ff-coal\[ug/m3]|air_exposure_agr_energy_liquid-ff-gasoline\[ug/m3]|air_exposure_agr_livestock_abp_dairy-milk\[ug/m3]|air_exposure_agr_livestock_abp_hens-egg\[ug/m3]|air_exposure_agr_livestock_meat_bovine\[ug/m3]|air_exposure_agr_livestock_meat_oth-animals\[ug/m3]|air_exposure_agr_livestock_meat_pig\[ug/m3]|air_exposure_agr_livestock_meat_poultry\[ug/m3]|air_exposure_agr_livestock_meat_sheep\[ug/m3]|air_exposure_agr_fertilizer_nitrogen\[ug/m3]|air_exposure_other-contributions\[ug/m3]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace($${Svar-filter}$$,&quot;,&quot;,&quot;|&quot;),&quot;[&quot;,&quot;\\[&quot;)"/>
+<entry key="replaced_column" type="xstring" value="aggregation-pattern"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="a73f8d6c-c9c7-49df-8b55-f88dfd67be02"/>
+</config>
+</config>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="string-input-444">
+<entry key="string" type="xstring" value="wat_water-demand_liv"/>
+</config>
+<config key="string-input-445">
+<entry key="string" type="xstring" value="wat_water-factor_livestock_(.*)\[.*"/>
+</config>
+<config key="string-input-446">
+<entry key="string" type="xstring" value="agr_liv-population_(.*)\[.*"/>
+</config>
+<config key="string-input-460">
+<entry key="string" type="xstring" value="m3"/>
+</config>
+<config key="single-selection-463">
+<entry key="variable_value" type="xstring" value="Product"/>
+</config>
+<config key="boolean-input-586">
+<entry key="boolean" type="xboolean" value="true"/>
+</config>
+<config key="column-filter-652">
+<config key="columns">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="wat_water-factor_livestock_abp_dairy[m3/lsu]"/>
+<entry key="1" type="xstring" value="wat_water-factor_livestock_abp_hens[m3/lsu]"/>
+<entry key="2" type="xstring" value="wat_water-factor_livestock_bovine[m3/lsu]"/>
+<entry key="3" type="xstring" value="wat_water-factor_livestock_oth[m3/lsu]"/>
+<entry key="4" type="xstring" value="wat_water-factor_livestock_pig[m3/lsu]"/>
+<entry key="5" type="xstring" value="wat_water-factor_livestock_poultry[m3/lsu]"/>
+<entry key="6" type="xstring" value="wat_water-factor_livestock_sheep[m3/lsu]"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="40"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="wat_water-factor_irrigation_fruit[m3/kcal]"/>
+<entry key="3" type="xstring" value="wat_water-factor_irrigation_sugarcrop[m3/kcal]"/>
+<entry key="4" type="xstring" value="wat_water-factor_irrigation_veg[m3/kcal]"/>
+<entry key="5" type="xstring" value="wat_water-factor_irrigation_cereal[m3/kcal]"/>
+<entry key="6" type="xstring" value="wat_water-factor_irrigation_oilcrop[m3/kcal]"/>
+<entry key="7" type="xstring" value="wat_water-factor_irrigation_pulse[m3/kcal]"/>
+<entry key="8" type="xstring" value="wat_water-factor_irrigation_starch[m3/kcal]"/>
+<entry key="9" type="xstring" value="wat_blue-water-share_livestock[%]"/>
+<entry key="10" type="xstring" value="wat_drinking-water-share_livestock[%]"/>
+<entry key="11" type="xstring" value="wat_consumptive-factor_livestock[%]"/>
+<entry key="12" type="xstring" value="wat_irrigation-efficiency_irrigation[%]"/>
+<entry key="13" type="xstring" value="wat_irrigation-margin-factor_irrigation[%]"/>
+<entry key="14" type="xstring" value="wat_irrigation-conv-loss_irrigation[%]"/>
+<entry key="15" type="xstring" value="wat_water-factor_livestock_abp_dairy[m3/lsu]"/>
+<entry key="16" type="xstring" value="wat_water-factor_livestock_abp_hens[m3/lsu]"/>
+<entry key="17" type="xstring" value="wat_water-factor_livestock_bovine[m3/lsu]"/>
+<entry key="18" type="xstring" value="wat_water-factor_livestock_oth[m3/lsu]"/>
+<entry key="19" type="xstring" value="wat_water-factor_livestock_pig[m3/lsu]"/>
+<entry key="20" type="xstring" value="wat_water-factor_livestock_poultry[m3/lsu]"/>
+<entry key="21" type="xstring" value="wat_water-factor_livestock_sheep[m3/lsu]"/>
+<entry key="22" type="xstring" value="agr_liv-population_poultry[lsu]"/>
+<entry key="23" type="xstring" value="agr_liv-population_bovine[lsu]"/>
+<entry key="24" type="xstring" value="agr_liv-population_pig[lsu]"/>
+<entry key="25" type="xstring" value="agr_liv-population_oth[lsu]"/>
+<entry key="26" type="xstring" value="agr_liv-population_abp_dairy[lsu]"/>
+<entry key="27" type="xstring" value="agr_liv-population_abp_hens[lsu]"/>
+<entry key="28" type="xstring" value="agr_liv-population_sheep[lsu]"/>
+<entry key="29" type="xstring" value="agr_domestic-production_afw_algae[kcal]"/>
+<entry key="30" type="xstring" value="agr_domestic-production_afw_insect[kcal]"/>
+<entry key="31" type="xstring" value="agr_domestic-production_afw_oilcrop[kcal]"/>
+<entry key="32" type="xstring" value="agr_domestic-production_afw_sugarcrop[kcal]"/>
+<entry key="33" type="xstring" value="agr_domestic-production_afw_pulse[kcal]"/>
+<entry key="34" type="xstring" value="agr_domestic-production_afw_fruit[kcal]"/>
+<entry key="35" type="xstring" value="agr_domestic-production_afw_veg[kcal]"/>
+<entry key="36" type="xstring" value="agr_domestic-production_afw_starch[kcal]"/>
+<entry key="37" type="xstring" value="agr_domestic-production_afw_gas_energycrop[kcal]"/>
+<entry key="38" type="xstring" value="agr_domestic-production_afw_lgn_energycrop[kcal]"/>
+<entry key="39" type="xstring" value="agr_domestic-production_afw_cereal[kcal]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="wat_water-factor_livestock_(.*)\[.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="livestock water demand[m3]=%%00013%%00010livestock[LSU]%%00013%%00010*livestock water requirement[m3/LSU]"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1677"/>
+<entry key="y-coordinate" type="xint" value="1000"/>
+<entry key="width" type="xint" value="206"/>
+<entry key="height" type="xint" value="45"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" value="Execute an operation on two groups of columns, matching them one-to-one using a capture group defined in the regex expressions."/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="650"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="443"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-08-26 12:47:07"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Tree%20parallel%20operation"/>
+</config>
+<entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;444&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;445&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;446&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;454&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;460&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;463&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;359&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]}]}"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

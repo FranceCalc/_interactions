@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="Filter Column Settings">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="tra_others_share_intraeu-marine[%]"/>
+<entry key="1" type="xstring" value="tra_others_share_international-aviation[%]"/>
+<entry key="2" type="xstring" value="tra_others_share_international-marine[%]"/>
+<entry key="3" type="xstring" value="tra_others_share_intraeu-aviation[%]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="192"/>
+<entry key="0" type="xstring" value="agr_climate-smart-crop_conservation[%]"/>
+<entry key="1" type="xstring" value="agr_climate-smart-crop_agroforestry[%]"/>
+<entry key="2" type="xstring" value="agr_climate-smart-crop_precision[%]"/>
+<entry key="3" type="xstring" value="agr_climate-smart-crop_waste[%]"/>
+<entry key="4" type="xstring" value="agr_climate-smart-livestock_share[%]"/>
+<entry key="5" type="xstring" value="agr_climate-smart-livestock_waste[%]"/>
+<entry key="6" type="xstring" value="agr_food-net-import_ffish[kcal]"/>
+<entry key="7" type="xstring" value="agr_food-net-import_dfish[kcal]"/>
+<entry key="8" type="xstring" value="agr_food-net-import_pfish[kcal]"/>
+<entry key="9" type="xstring" value="agr_food-net-import_seafood[kcal]"/>
+<entry key="10" type="xstring" value="agr_food-net-import_oth-aq-animals[kcal]"/>
+<entry key="11" type="xstring" value="agr_food-net-import_oilcrops[kcal]"/>
+<entry key="12" type="xstring" value="agr_food-net-import_sweet[kcal]"/>
+<entry key="13" type="xstring" value="agr_food-net-import_veg[kcal]"/>
+<entry key="14" type="xstring" value="agr_food-net-import_fruits[kcal]"/>
+<entry key="15" type="xstring" value="agr_food-net-import_voil[kcal]"/>
+<entry key="16" type="xstring" value="agr_food-net-import_pulses[kcal]"/>
+<entry key="17" type="xstring" value="agr_food-net-import_starch[kcal]"/>
+<entry key="18" type="xstring" value="agr_food-net-import_sugar[kcal]"/>
+<entry key="19" type="xstring" value="agr_food-net-import_cereals[kcal]"/>
+<entry key="20" type="xstring" value="agr_food-net-import_wine[kcal]"/>
+<entry key="21" type="xstring" value="agr_food-net-import_stm[kcal]"/>
+<entry key="22" type="xstring" value="agr_food-net-import_bev-alc[kcal]"/>
+<entry key="23" type="xstring" value="agr_food-net-import_beer[kcal]"/>
+<entry key="24" type="xstring" value="agr_food-net-import_coffee[kcal]"/>
+<entry key="25" type="xstring" value="agr_food-net-import_bev-fer[kcal]"/>
+<entry key="26" type="xstring" value="agr_food-net-import_tea[kcal]"/>
+<entry key="27" type="xstring" value="agr_food-net-import_afats[kcal]"/>
+<entry key="28" type="xstring" value="agr_food-net-import_offal[kcal]"/>
+<entry key="29" type="xstring" value="agr_food-net-import_egg[kcal]"/>
+<entry key="30" type="xstring" value="agr_food-net-import_cakes[kcal]"/>
+<entry key="31" type="xstring" value="agr_food-net-import_grapes[kcal]"/>
+<entry key="32" type="xstring" value="agr_food-net-import_milk[kcal]"/>
+<entry key="33" type="xstring" value="agr_food-net-import_sheep[kcal]"/>
+<entry key="34" type="xstring" value="agr_food-net-import_pigs[kcal]"/>
+<entry key="35" type="xstring" value="agr_food-net-import_bov[kcal]"/>
+<entry key="36" type="xstring" value="agr_food-net-import_poultry[kcal]"/>
+<entry key="37" type="xstring" value="agr_food-net-import_oth-animals[kcal]"/>
+<entry key="38" type="xstring" value="agr_alt-protein_bov_insect[%]"/>
+<entry key="39" type="xstring" value="agr_alt-protein_sheep_insect[%]"/>
+<entry key="40" type="xstring" value="agr_alt-protein_pigs_insect[%]"/>
+<entry key="41" type="xstring" value="agr_alt-protein_poultry_insect[%]"/>
+<entry key="42" type="xstring" value="agr_alt-protein_oth-animals_insect[%]"/>
+<entry key="43" type="xstring" value="agr_alt-protein_bov_algae[%]"/>
+<entry key="44" type="xstring" value="agr_alt-protein_sheep_algae[%]"/>
+<entry key="45" type="xstring" value="agr_alt-protein_pigs_algae[%]"/>
+<entry key="46" type="xstring" value="agr_alt-protein_poultry_algae[%]"/>
+<entry key="47" type="xstring" value="agr_alt-protein_oth-animals_algae[%]"/>
+<entry key="48" type="xstring" value="agr_land-man_lus-ecosystem[%]"/>
+<entry key="49" type="xstring" value="agr_land-man_lus-commercial[%]"/>
+<entry key="50" type="xstring" value="agr_land-man_csc-intensive[%]"/>
+<entry key="51" type="xstring" value="agr_land-man_csc-extensive[%]"/>
+<entry key="52" type="xstring" value="agr_land-man_csl-landbased[%]"/>
+<entry key="53" type="xstring" value="agr_land-man_csl-landless[%]"/>
+<entry key="54" type="xstring" value="agr_fst-practices_intensity[%]"/>
+<entry key="55" type="xstring" value="agr_climate-smart-fisheries_effort[%]"/>
+<entry key="56" type="xstring" value="agr_climate-smart-fisheries_energy[%]"/>
+<entry key="57" type="xstring" value="agr_min-practices_precision[%]"/>
+<entry key="58" type="xstring" value="agr_min-practices_conv[%]"/>
+<entry key="59" type="xstring" value="agr_biomass-hierarchy_ll-biomaterial[%]"/>
+<entry key="60" type="xstring" value="agr_biomass-hierarchy_rc-biomaterial[%]"/>
+<entry key="61" type="xstring" value="agr_biomass-hierarchy_road-transport[%]"/>
+<entry key="62" type="xstring" value="agr_biomass-hierarchy_air-transport[%]"/>
+<entry key="63" type="xstring" value="agr_water-man_sustainable-abs[%]"/>
+<entry key="64" type="xstring" value="agr_water-man_efficiency[%]"/>
+<entry key="65" type="xstring" value="agr_water-man_stress[%]"/>
+<entry key="66" type="xstring" value="agr_biodiversity_nat-habitat[%]"/>
+<entry key="67" type="xstring" value="fxa_manure_dairy[kgCH4/head]"/>
+<entry key="68" type="xstring" value="fxa_manure_bov[kgCH4/head]"/>
+<entry key="69" type="xstring" value="fxa_manure_poultry[kgCH4/head]"/>
+<entry key="70" type="xstring" value="fxa_manure_sheep[kgCH4/head]"/>
+<entry key="71" type="xstring" value="fxa_manure_pigs[kgCH4/head]"/>
+<entry key="72" type="xstring" value="fxa_manure_dairy[kgN2O/kgN]"/>
+<entry key="73" type="xstring" value="fxa_manure_bov[kgN2O/kgN]"/>
+<entry key="74" type="xstring" value="fxa_manure_poultry[kgN2O/kgN]"/>
+<entry key="75" type="xstring" value="fxa_manure_sheep[kgN2O/kgN]"/>
+<entry key="76" type="xstring" value="fxa_manure_pigs[kgN2O/kgN]"/>
+<entry key="77" type="xstring" value="fxa_manure_soil_bov[%]"/>
+<entry key="78" type="xstring" value="fxa_manure_soil_dairy[%]"/>
+<entry key="79" type="xstring" value="fxa_manure_soil_sheep[%]"/>
+<entry key="80" type="xstring" value="fxa_manure_soil_poultry[%]"/>
+<entry key="81" type="xstring" value="fxa_manure_soil_pigs[%]"/>
+<entry key="82" type="xstring" value="fxa_manure_pasture_bov[%]"/>
+<entry key="83" type="xstring" value="fxa_manure_pasture_dairy[%]"/>
+<entry key="84" type="xstring" value="fxa_manure_pasture_sheep[%]"/>
+<entry key="85" type="xstring" value="fxa_manure_pasture_poultry[%]"/>
+<entry key="86" type="xstring" value="fxa_manure_pasture_pigs[%]"/>
+<entry key="87" type="xstring" value="fxa_manure_treated_bov[%]"/>
+<entry key="88" type="xstring" value="fxa_manure_treated_dairy[%]"/>
+<entry key="89" type="xstring" value="fxa_manure_treated_sheep[%]"/>
+<entry key="90" type="xstring" value="fxa_manure_treated_poultry[%]"/>
+<entry key="91" type="xstring" value="fxa_manure_treated_pigs[%]"/>
+<entry key="92" type="xstring" value="fxa_enteric_dairy[kgCH4/head]"/>
+<entry key="93" type="xstring" value="fxa_enteric_pigs[kgCH4/head]"/>
+<entry key="94" type="xstring" value="fxa_enteric_sheep[kgCH4/head]"/>
+<entry key="95" type="xstring" value="fxa_enteric_bov[kgCH4/head]"/>
+<entry key="96" type="xstring" value="fxa_manure_bov[kgN2O/head]"/>
+<entry key="97" type="xstring" value="fxa_manure_dairy[kgN2O/head]"/>
+<entry key="98" type="xstring" value="fxa_manure_sheep[kgN2O/head]"/>
+<entry key="99" type="xstring" value="fxa_manure_poultry[kgN2O/head]"/>
+<entry key="100" type="xstring" value="fxa_manure_pigs[kgN2O/head]"/>
+<entry key="101" type="xstring" value="fxa_feed-share_barley[%]"/>
+<entry key="102" type="xstring" value="fxa_feed-share_cereals[%]"/>
+<entry key="103" type="xstring" value="fxa_feed-share_maize[%]"/>
+<entry key="104" type="xstring" value="fxa_feed-share_oats[%]"/>
+<entry key="105" type="xstring" value="fxa_feed-share_rye[%]"/>
+<entry key="106" type="xstring" value="fxa_feed-share_wheat[%]"/>
+<entry key="107" type="xstring" value="fxa_feed-share_brans[%]"/>
+<entry key="108" type="xstring" value="fxa_feed-share_oilcrops[%]"/>
+<entry key="109" type="xstring" value="fxa_feed-share_cake[%]"/>
+<entry key="110" type="xstring" value="fxa_feed-share_voil[%]"/>
+<entry key="111" type="xstring" value="fxa_feed-share_fish-meals[%]"/>
+<entry key="112" type="xstring" value="fxa_feed-share_milk[%]"/>
+<entry key="113" type="xstring" value="fxa_feed-share_starch[%]"/>
+<entry key="114" type="xstring" value="fxa_feed-share_sugar-crops[%]"/>
+<entry key="115" type="xstring" value="fxa_feed-share_molasses[%]"/>
+<entry key="116" type="xstring" value="fxa_feed-share_pulses[%]"/>
+<entry key="117" type="xstring" value="fxa_feed-total[feed/lsu]"/>
+<entry key="118" type="xstring" value="fxa_bov_meat-conv[tons/capita]"/>
+<entry key="119" type="xstring" value="fxa_sheep_meat-conv[tons/capita]"/>
+<entry key="120" type="xstring" value="fxa_pigs_meat-conv[tons/capita]"/>
+<entry key="121" type="xstring" value="fxa_poultry_meat-conv[tons/capita]"/>
+<entry key="122" type="xstring" value="fxa_bov_slaught-rate[%]"/>
+<entry key="123" type="xstring" value="fxa_sheep_slaught-rate[%]"/>
+<entry key="124" type="xstring" value="fxa_poultry_slaught-rate[%]"/>
+<entry key="125" type="xstring" value="fxa_pigs_slaught-rate[%]"/>
+<entry key="126" type="xstring" value="fxa_gldi[lsu/ha]"/>
+<entry key="127" type="xstring" value="fxa_fertilizer_nitrogen[tons/ha]"/>
+<entry key="128" type="xstring" value="fxa_fertilizer_phosphore[tons/ha]"/>
+<entry key="129" type="xstring" value="fxa_fertilizer_potash[tons/ha]"/>
+<entry key="130" type="xstring" value="fxa_biodiversity_pesticides[tons/ha]"/>
+<entry key="131" type="xstring" value="fxa_yield_starch[ton/ha]"/>
+<entry key="132" type="xstring" value="fxa_yield_sugar-crops[ton/ha]"/>
+<entry key="133" type="xstring" value="fxa_yield_pulses[ton/ha]"/>
+<entry key="134" type="xstring" value="fxa_yield_fruits[ton/ha]"/>
+<entry key="135" type="xstring" value="fxa_yield_veg[ton/ha]"/>
+<entry key="136" type="xstring" value="fxa_yield_grapes[ton/ha]"/>
+<entry key="137" type="xstring" value="fxa_yield_cereal[ton/ha]"/>
+<entry key="138" type="xstring" value="fxa_yield_cake[ton/ha]"/>
+<entry key="139" type="xstring" value="fxa_yield_voil[ton/ha]"/>
+<entry key="140" type="xstring" value="fxa_yield_oilcrops[ton/ha]"/>
+<entry key="141" type="xstring" value="fxa_yield_energy-crops[ton/ha]"/>
+<entry key="142" type="xstring" value="fxa_energy[kgoe/ha]"/>
+<entry key="143" type="xstring" value="fxa_agr-mix_gas[%]"/>
+<entry key="144" type="xstring" value="fxa_agr-mix_ren[%]"/>
+<entry key="145" type="xstring" value="fxa_agr-mix_elec[%]"/>
+<entry key="146" type="xstring" value="fxa_agr-mix_fossils[%]"/>
+<entry key="147" type="xstring" value="fxa_agr-mix_solidfuels[%]"/>
+<entry key="148" type="xstring" value="fxa_agr-mix_non-ren-wastes[%]"/>
+<entry key="149" type="xstring" value="fxa_agr-mix_heat[%]"/>
+<entry key="150" type="xstring" value="fxa_net-import_ethanol[TWh]"/>
+<entry key="151" type="xstring" value="fxa_net-import_biodiesel[TWh]"/>
+<entry key="152" type="xstring" value="fxa_net-import_oth-biofuels[TWh]"/>
+<entry key="153" type="xstring" value="fxa_digestor[ktoe]"/>
+<entry key="154" type="xstring" value="fxa_biogas_mix_landfill[%]"/>
+<entry key="155" type="xstring" value="fxa_biogas_mix_sludge[%]"/>
+<entry key="156" type="xstring" value="fxa_biogas_mix_digestor[%]"/>
+<entry key="157" type="xstring" value="fxa_digester_manure[%]"/>
+<entry key="158" type="xstring" value="fxa_digester_energy-crops[%]"/>
+<entry key="159" type="xstring" value="fxa_digester_organic-wastes[%]"/>
+<entry key="160" type="xstring" value="fxa_fdk_oil_soyabean[%]"/>
+<entry key="161" type="xstring" value="fxa_fdk_oil_palm[%]"/>
+<entry key="162" type="xstring" value="fxa_fdk_oil_sunflower[%]"/>
+<entry key="163" type="xstring" value="fxa_fdk_oil_uco[%]"/>
+<entry key="164" type="xstring" value="fxa_fdk_oil_rapeseed[%]"/>
+<entry key="165" type="xstring" value="fxa_fdk_oil_afats[%]"/>
+<entry key="166" type="xstring" value="fxa_fdk_sugar_maize[%]"/>
+<entry key="167" type="xstring" value="fxa_fdk_sugar_wheat[%]"/>
+<entry key="168" type="xstring" value="fxa_fdk_sugar_sugar-crops[%]"/>
+<entry key="169" type="xstring" value="fxa_fdk_sugar_oth[%]"/>
+<entry key="170" type="xstring" value="fxa_biodiesel_btx[%]"/>
+<entry key="171" type="xstring" value="fxa_biodiesel_est[%]"/>
+<entry key="172" type="xstring" value="fxa_biodiesel_hvo[%]"/>
+<entry key="173" type="xstring" value="fxa_jetfuel_hvo[%]"/>
+<entry key="174" type="xstring" value="fxa_ethanol_ezm[%]"/>
+<entry key="175" type="xstring" value="fxa_ethanol_fer[%]"/>
+<entry key="176" type="xstring" value="fxa_net-import_ind-wood[TWh]"/>
+<entry key="177" type="xstring" value="fxa_net-import_fuel-wood[TWh]"/>
+<entry key="178" type="xstring" value="fxa_input_ind-wood[Mm3]"/>
+<entry key="179" type="xstring" value="fxa_land_wetland[ha]"/>
+<entry key="180" type="xstring" value="fxa_land_grassland[ha]"/>
+<entry key="181" type="xstring" value="fxa_land_total[ha]"/>
+<entry key="182" type="xstring" value="fxa_land_cropland[ha]"/>
+<entry key="183" type="xstring" value="fxa_land_forest[ha]"/>
+<entry key="184" type="xstring" value="fxa_land_other-lands[ha]"/>
+<entry key="185" type="xstring" value="fxa_land_artificial[ha]"/>
+<entry key="186" type="xstring" value="fxa_cef_cropland[tC/ha]"/>
+<entry key="187" type="xstring" value="fxa_cef_grassland[tC/ha]"/>
+<entry key="188" type="xstring" value="fxa_cef_forest[tCO2/ha]"/>
+<entry key="189" type="xstring" value="fxa_forest_density[m3/ha]"/>
+<entry key="190" type="xstring" value="Country"/>
+<entry key="191" type="xstring" value="Years"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=".*fxa_.*|Country|Years"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="887"/>
+<entry key="y-coordinate" type="xint" value="279"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.split2.SplitNodeFactory2"/>
+<entry key="node-name" type="xstring" value="Column Splitter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Splitter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 307"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 388"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="686b972c-ac49-452b-af2f-e54287f1729a"/>
+</config>
+</config>

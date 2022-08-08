@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="23"/>
+<entry key="0" type="xstring" value="subsector"/>
+<entry key="1" type="xstring" value="buildingtype"/>
+<entry key="2" type="xstring" value="constructed-area-acc[Mm2]"/>
+<entry key="3" type="xstring" value="demolished-area-acc[Mm2]"/>
+<entry key="4" type="xstring" value="floor-area-increase-acc[Mm2]"/>
+<entry key="5" type="xstring" value="renovated-area-acc[Mm2]"/>
+<entry key="6" type="xstring" value="floor-area[Mm2]"/>
+<entry key="7" type="xstring" value="Years_number"/>
+<entry key="8" type="xstring" value="period-duration"/>
+<entry key="9" type="xstring" value="floor-area-increase[Mm2]"/>
+<entry key="10" type="xstring" value="floor-area-constr-reno-acc[Mm2]"/>
+<entry key="11" type="xstring" value="constructed-area-acc[Mm2] (#1)"/>
+<entry key="12" type="xstring" value="demolished-area-acc[Mm2] (#1)"/>
+<entry key="13" type="xstring" value="floor-area-increase-acc[Mm2] (#1)"/>
+<entry key="14" type="xstring" value="renovated-area-acc[Mm2] (#1)"/>
+<entry key="15" type="xstring" value="floor-area[Mm2] (#1)"/>
+<entry key="16" type="xstring" value="period-duration (#1)"/>
+<entry key="17" type="xstring" value="floor-area-increase[Mm2] (#1)"/>
+<entry key="18" type="xstring" value="floor-area-constr-reno-acc_prev[Mm2]"/>
+<entry key="19" type="xstring" value="old_Years_number"/>
+<entry key="20" type="xstring" value="renovated-area-acc-new[Mm2]"/>
+<entry key="21" type="xstring" value="construction-area-acc-new[Mm2]"/>
+<entry key="22" type="xstring" value="construction-area-acc-new[Mm2] (#1)"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="41"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="bld_nonres-floorarea_offices[10^6m2]"/>
+<entry key="3" type="xstring" value="bld_nonres-floorarea_hotels[10^6m2]"/>
+<entry key="4" type="xstring" value="bld_nonres-floorarea_trade[10^6m2]"/>
+<entry key="5" type="xstring" value="bld_nonres-floorarea_educ[10^6m2]"/>
+<entry key="6" type="xstring" value="bld_nonres-floorarea_health[10^6m2]"/>
+<entry key="7" type="xstring" value="bld_nonres-floorarea_other[10^6m2]"/>
+<entry key="8" type="xstring" value="bld_energy-need_sfh[kWh/m2 year]"/>
+<entry key="9" type="xstring" value="bld_energy-need_mfh[kWh/m2 year]"/>
+<entry key="10" type="xstring" value="bld_heatcool-technology-fuel_oil[%]"/>
+<entry key="11" type="xstring" value="bld_heatcool-technology-fuel_gas[%]"/>
+<entry key="12" type="xstring" value="bld_heatcool-technology-fuel_bio[%]"/>
+<entry key="13" type="xstring" value="bld_heatcool-technology-fuel_dh[%]"/>
+<entry key="14" type="xstring" value="bld_heatcool-technology-fuel_el[%]"/>
+<entry key="15" type="xstring" value="bld_heatcool-technology-fuel_amb[%]"/>
+<entry key="16" type="xstring" value="bld_heatcool-technology-fuel_sol[%]"/>
+<entry key="17" type="xstring" value="bld_heatcool-technology-fuel_coa[%]"/>
+<entry key="18" type="xstring" value="bld_heatcool-technology-fuel_geo[%]"/>
+<entry key="19" type="xstring" value="bld_heatcool-technology-fuel_oth[%]"/>
+<entry key="20" type="xstring" value="bld_district-heating-share_Share[%]"/>
+<entry key="21" type="xstring" value="bld_heatcool-efficiency_oil[%]"/>
+<entry key="22" type="xstring" value="bld_heatcool-efficiency_gas[%]"/>
+<entry key="23" type="xstring" value="bld_heatcool-efficiency_bio[%]"/>
+<entry key="24" type="xstring" value="bld_heatcool-efficiency_dh[%]"/>
+<entry key="25" type="xstring" value="bld_heatcool-efficiency_el[%]"/>
+<entry key="26" type="xstring" value="bld_heatcool-efficiency_amb[%]"/>
+<entry key="27" type="xstring" value="bld_heatcool-efficiency_sol[%]"/>
+<entry key="28" type="xstring" value="bld_heatcool-efficiency_coa[%]"/>
+<entry key="29" type="xstring" value="bld_heatcool-efficiency_geo[%]"/>
+<entry key="30" type="xstring" value="bld_heatcool-efficiency_oth[%]"/>
+<entry key="31" type="xstring" value="bld_heatcool-behaviour_behaviour[%]"/>
+<entry key="32" type="xstring" value="bld_appliance-efficiency_fridge[kWh/h]"/>
+<entry key="33" type="xstring" value="bld_appliance-efficiency_freezer[kWh/h]"/>
+<entry key="34" type="xstring" value="bld_appliance-efficiency_wmachine[kWh/h]"/>
+<entry key="35" type="xstring" value="bld_appliance-efficiency_dishwasher[kWh/h]"/>
+<entry key="36" type="xstring" value="bld_appliance-efficiency_dryer[kWh/h]"/>
+<entry key="37" type="xstring" value="bld_appliance-efficiency_ac[kWh/h]"/>
+<entry key="38" type="xstring" value="bld_appliance-efficiency_tv[kWh/h]"/>
+<entry key="39" type="xstring" value="bld_appliance-efficiency_comp[kWh/h]"/>
+<entry key="40" type="xstring" value="bld_appliance-efficiency_phone[kWh/h]"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="Cou.*|Years_number|buildingtype|subsector|period-duration|.*renovationcat.*|.*-area.*\]|floor-area.*\]|check.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Include floor areas%%00013%%00010per buliding type"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-2453"/>
+<entry key="y-coordinate" type="xint" value="-501"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 7656, Cols: 16"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="a761d491-8ef9-44c3-b328-85203e9b9fad"/>
+</config>
+</config>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="### This node computes the employment impact by solving a macroeconomic model (see Employment module description)%%00010%%00010## Import library%%00010import pandas as pd%%00010import numpy as np%%00010import scipy.optimize #https://docs.scipy.org/doc/scipy/reference/optimize.html%%00010%%00010## Define parameters%%00010# Input shares%%00010A = input_table_1.loc['Crops, Vegetables and Fruits':'Other services', 'Crops, Vegetables and Fruits':'Other services'].values%%00010nb_sector = len(A)%%00010I = np.identity(nb_sector)%%00010L = I-A%%00010#L_inv = np.linalg.inv(L)%%00010L_p = I-A.T%%00010#L_p_inv = np.linalg.inv(L_p)%%00010theta_K = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','Capital'].values[:, np.newaxis]%%00010theta_LU = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','theta_LU'].values[:, np.newaxis]%%00010theta_LS = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','theta_LS'].values[:, np.newaxis]%%00010theta_LSK = theta_K+theta_LS%%00010theta_VA = theta_LSK+theta_LU%%00010theta_LS = theta_LS/np.where(theta_LSK==0, 1, theta_LSK) %%00010theta_K = theta_K/np.where(theta_LSK==0, 1, theta_LSK) %%00010theta_LU = theta_LU/np.where(theta_VA==0, 1, theta_VA) %%00010theta_LSK = theta_LSK/np.where(theta_VA==0, 1, theta_VA)%%00010# Elasticities of subsitution%%00010sigma_VA = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','sigma_VA'].values[:, np.newaxis]%%00010sigma_LSK = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','sigma_LSK'].values[:, np.newaxis]%%00010sigma = 0.25%%00010sigma_U = 1%%00010# Final demand%%00010FD = np.sum( input_table_1.loc['Crops, Vegetables and Fruits':'Other services','Investment':'NGO'].values , axis=1)[:, np.newaxis]%%00010FD_tot = np.sum(FD)%%00010C = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','Households'].values[:, np.newaxis]%%00010C_tot = np.sum(C)%%00010C_ref_tot = input_table_1.loc['TOTAL','Households']%%00010# Household parameters%%00010alpha_s = input_table_2['alpha_s'].values%%00010theta_C = input_table_2['theta_C'].values%%00010L_tilde = input_table_2['L_tilde'].values%%00010le_ref = input_table_2['le_ref'].values%%00010# Reference employment%%00010LU_ref = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','LU'].values[:, np.newaxis]%%00010LS_ref = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','LS'].values[:, np.newaxis]%%00010LU_emp_ref = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','employed_LU[inhabitants]'].values[:, np.newaxis]%%00010LS_emp_ref = input_table_1.loc['Crops, Vegetables and Fruits':'Other services','employed_LS[inhabitants]'].values[:, np.newaxis]%%00010L_ref = LU_ref + LS_ref%%00010LU_ref_tot = np.sum(LU_ref)%%00010LS_ref_tot = np.sum(LS_ref)%%00010L_ref_tot = np.sum(L_ref)%%00010%%00010## Define system of equation (functions of the unskilled and skilled wages and of the price of capital)%%00010def CES(theta_1,theta_2,elast,p_1,p_2):%%00010    return np.where( theta_1*np.power(p_1,1-elast)+theta_2*np.power(p_2,1-elast)==0, 1, np.power( theta_1*np.power(p_1,1-elast)+theta_2*np.power(p_2,1-elast), 1/(1-elast)) )%%00010def p_LSK(w_LS,r_K):%%00010%%00009return CES(theta_LS,theta_K,sigma_LSK,w_LS,r_K)%%00010def p_VA(w_LU,w_LS,r_K):%%00010    return CES(theta_LU,theta_LSK,sigma_VA,w_LU,p_LSK(w_LS,r_K))%%00010def p(w_LU,w_LS,r_K):%%00010    return np.power( np.linalg.solve( L_p, np.where(theta_VA==0,1,theta_VA)*np.power(p_VA(w_LU,w_LS,r_K), 1-sigma) ), 1/(1-sigma))%%00010def pDX(w_LU,w_LS,r_K):%%00010    return np.linalg.solve(L, np.power(np.where( p(w_LU,w_LS,r_K)==0,1,p(w_LU,w_LS,r_K) ), sigma-1)*FD)%%00010def LU_d(w_LU,w_LS,r_K):     %%00009# Unskilled Labour demand%%00010    return np.sum( theta_LU*theta_VA*np.power(p_VA(w_LU,w_LS,r_K),sigma_VA-sigma)*pDX(w_LU,w_LS,r_K)*np.power(w_LU,-sigma_VA) )%%00010def LS_d(w_LU,w_LS,r_K):     %%00009# Skilled Labour demand%%00010    return np.sum( theta_LS*theta_LSK*theta_VA*np.power(p_LSK(w_LS,r_K),sigma_LSK-sigma_VA)*np.power(p_VA(w_LU,w_LS,r_K),sigma_VA-sigma)*pDX(w_LU,w_LS,r_K)*np.power(w_LS,-sigma_LSK) )%%00010def K_d(w_LU,w_LS,r_K):     %%00009# Capital demand%%00010    return np.sum( theta_K*theta_LSK*theta_VA*np.power(p_LSK(w_LS,r_K),sigma_LSK-sigma_VA)*np.power(p_VA(w_LU,w_LS,r_K),sigma_VA-sigma)*pDX(w_LU,w_LS,r_K)*np.power(r_K,-sigma_LSK) )%%00010def L_s(w_LU,w_LS): %%00009%%00009%%00009# Labour supply%%00010%%00009return L_tilde-C_tot*np.power(le_ref/C_ref_tot,1-sigma_U)*np.power((theta_C/(1-theta_C))*(w_LU*(1-alpha_s)+w_LS*alpha_s),-sigma_U)%%00010def LU_s(w_LU,w_LS): %%00009%%00009%%00009# Unskilled labour supply%%00010%%00009return (1-alpha_s)*L_s(w_LU,w_LS)%%00010def LS_s(w_LU,w_LS): %%00009%%00009%%00009# Skilled labour supply%%00010%%00009return alpha_s*L_s(w_LU,w_LS)%%00010def K_s(w_LU,w_LS,r_K): %%00009%%00009# Capital supply%%00010%%00009return (FD_tot-L_s(w_LU,w_LS))/r_K%%00010def F(x): %%00009%%00009%%00009%%00009%%00009%%00009# Market clearing%%00010%%00009return np.array([LU_s(x[0],x[1])-LU_d(x[0],x[1],x[2]),LS_s(x[0],x[1])-LS_d(x[0],x[1],x[2]),K_s(x[0],x[1],x[2])-K_d(x[0],x[1],x[2])])%%00010%%00010## Solve system of equation%%00010w0=[0.5,0.5,0.5]%%00010try:%%00010%%00009sol = scipy.optimize.newton_krylov(F, w0)%%00010except scipy.optimize.nonlin.NoConvergence  as e:%%00010%%00009sol = [1,1,1]%%00010%%00010## Generate outputs%%00010p_sol = p(sol[0],sol[1],sol[2])%%00010p_VA_sol = p_VA(sol[0],sol[1],sol[2])%%00010p_LSK_sol = p_LSK(sol[1],sol[2])%%00010DX_sol = pDX(sol[0],sol[1],sol[2])/np.power(p_sol, sigma)%%00010DX_sol = np.where(DX_sol &lt;0, 0, DX_sol)%%00010LU_sol = theta_LU*theta_VA*np.power(p_VA_sol,sigma_VA-sigma)*np.power(sol[0],-sigma_VA)*np.power(p_sol,sigma)*DX_sol%%00010LS_sol = theta_LS*theta_LSK*theta_VA*np.power(p_LSK_sol,sigma_LSK-sigma_VA)*np.power(p_VA_sol,sigma_VA-sigma)*np.power(sol[1],-sigma_LSK)*np.power(p_sol,sigma)*DX_sol%%00010L_sol = LU_sol + LS_sol%%00010LU_sol_tot = np.sum(LU_sol)%%00010LS_sol_tot = np.sum(LS_sol)%%00010L_sol_tot = LU_sol_tot + LS_sol_tot%%00010# Change in employment%%00010L_var = (L_sol_tot - L_ref_tot)*100/L_ref_tot%%00010# Change in sectoral employment%%00010L_agr_sol = np.sum(L_sol[0:4])%%00010L_agr_ref = np.sum(L_ref[0:4])%%00010L_agr_var = (L_agr_sol-L_agr_ref)*100/L_agr_ref%%00010L_tra_sol = np.sum(L_sol[37:42])%%00010L_tra_ref = np.sum(L_ref[37:42])%%00010L_tra_var = (L_tra_sol-L_tra_ref)*100/L_tra_ref%%00010L_ind_sol = np.sum(L_sol[4:11])+np.sum(L_sol[23:37])+np.sum(L_sol[42:45])%%00010L_ind_ref = np.sum(L_ref[4:11])+np.sum(L_ref[23:37])+np.sum(L_ref[42:45])%%00010L_ind_var = (L_ind_sol-L_ind_ref)*100/L_ind_ref%%00010L_elc_sol = np.sum(L_sol[11:23])%%00010L_elc_ref = np.sum(L_ref[11:23])%%00010L_elc_var = (L_elc_sol-L_elc_ref)*100/L_elc_ref%%00010L_ser_sol = np.sum(L_sol[45:56])%%00010L_ser_ref = np.sum(L_ref[45:56])%%00010L_ser_var = (L_ser_sol-L_ser_ref)*100/L_ser_ref%%00010# Change in skilled employment%%00010LU_var = (LU_sol_tot-LU_ref_tot)*100/LU_ref_tot%%00010LS_var = (LS_sol_tot-LS_ref_tot)*100/LS_ref_tot%%00010# Change in wages%%00010w_LU_var = (sol[0]-1)*100%%00010w_LS_var = (sol[1]-1)*100%%00010#p_sol_average = np.average(p_sol, weights=C)%%00010%%00010## Process outputs%%00010d = {'Country': input_table_2['Country'], 'Years': input_table_2['Years'], 'emp_total[%]': L_var, 'emp_agriculture[%]': L_agr_var, 'emp_transport[%]': L_tra_var, 'emp_industry[%]': L_ind_var, 'emp_energy[%]': L_elc_var, 'emp_services[%]': L_ser_var, 'emp_unskilled[%]': LU_var, 'emp_skilled[%]': LS_var, 'emp_wages-unskilled[%]': w_LU_var, 'emp_wages-skilled[%]': w_LS_var}%%00010output_table = pd.DataFrame(data=d)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Compute %%00013%%00010employment"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="768"/>
+<entry key="y-coordinate" type="xint" value="11319"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 12"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="d006d20d-7905-481d-89c3-58ea0cdfef4e"/>
+</config>
+</config>

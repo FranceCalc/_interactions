@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="completion-columns"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ots_ind_energy-carrier-mix_steel_BF-BOF_to-electricity[%],ots_ind_energy-carrier-mix_steel_BF-BOF_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_BF-BOF_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_BF-BOF_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_BF-BOF_to-synfuels[%],ots_ind_energy-carrier-mix_steel_BF-BOF_to-biomass[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-electricity[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-synfuels[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-biomass[%],ots_ind_energy-carrier-mix_steel_hisarna_to-electricity[%],ots_ind_energy-carrier-mix_steel_hisarna_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_hisarna_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_hisarna_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_hisarna_to-synfuels[%],ots_ind_energy-carrier-mix_steel_hisarna_to-biomass[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-electricity[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-synfuels[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-biomass[%],ots_ind_energy-carrier-mix_aluminium_prim_to-electricity[%],ots_ind_energy-carrier-mix_aluminium_prim_to-hydrogen[%],ots_ind_energy-carrier-mix_aluminium_prim_solid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_prim_liquid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_prim_to-synfuels[%],ots_ind_energy-carrier-mix_aluminium_sec_to-electricity[%],ots_ind_energy-carrier-mix_aluminium_sec_to-hydrogen[%],ots_ind_energy-carrier-mix_aluminium_sec_solid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_sec_liquid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_sec_to-synfuels[%],ots_ind_energy-carrier-mix_aluminium_sec_to-biomass[%],ots_ind_energy-carrier-mix_aluminium_prim_to-biomass[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-electricity[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-hydrogen[%],ots_ind_energy-carrier-mix_cement_wet-kiln_solid-to-gas[%],ots_ind_energy-carrier-mix_cement_wet-kiln_liquid-to-gas[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-synfuels[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-biomass[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-electricity[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-hydrogen[%],ots_ind_energy-carrier-mix_cement_dry-kiln_solid-to-gas[%],ots_ind_energy-carrier-mix_cement_dry-kiln_liquid-to-gas[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-synfuels[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-biomass[%],ots_ind_energy-carrier-mix_cement_geopolym_to-electricity[%],ots_ind_energy-carrier-mix_cement_geopolym_to-hydrogen[%],ots_ind_energy-carrier-mix_cement_geopolym_solid-to-gas[%],ots_ind_energy-carrier-mix_cement_geopolym_liquid-to-gas[%],ots_ind_energy-carrier-mix_cement_geopolym_to-synfuels[%],ots_ind_energy-carrier-mix_cement_geopolym_to-biomass[%],ots_ind_energy-carrier-mix_lime_lime_to-electricity[%],ots_ind_energy-carrier-mix_lime_lime_to-hydrogen[%],ots_ind_energy-carrier-mix_lime_lime_solid-to-gas[%],ots_ind_energy-carrier-mix_lime_lime_liquid-to-gas[%],ots_ind_energy-carrier-mix_lime_lime_to-synfuels[%],ots_ind_energy-carrier-mix_lime_lime_to-biomass[%],ots_ind_energy-carrier-mix_glass_glass_to-electricity[%],ots_ind_energy-carrier-mix_glass_glass_to-hydrogen[%],ots_ind_energy-carrier-mix_glass_glass_solid-to-gas[%],ots_ind_energy-carrier-mix_glass_glass_liquid-to-gas[%],ots_ind_energy-carrier-mix_glass_glass_to-synfuels[%],ots_ind_energy-carrier-mix_glass_glass_to-biomass[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-electricity[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-hydrogen[%],ots_ind_energy-carrier-mix_chem_chem-tech_solid-to-gas[%],ots_ind_energy-carrier-mix_chem_chem-tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-synfuels[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-biomass[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-electricity[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-hydrogen[%],ots_ind_energy-carrier-mix_paper_woodpulp_solid-to-gas[%],ots_ind_energy-carrier-mix_paper_woodpulp_liquid-to-gas[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-synfuels[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-biomass[%],ots_ind_energy-carrier-mix_paper_recycled_to-electricity[%],ots_ind_energy-carrier-mix_paper_recycled_to-hydrogen[%],ots_ind_energy-carrier-mix_paper_recycled_solid-to-gas[%],ots_ind_energy-carrier-mix_paper_recycled_liquid-to-gas[%],ots_ind_energy-carrier-mix_paper_recycled_to-synfuels[%],ots_ind_energy-carrier-mix_paper_recycled_to-biomass[%],ots_ind_energy-carrier-mix_ois_tech_to-electricity[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-electricity[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-hydrogen[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_solid-to-gas[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-synfuels[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-biomass[%],ots_ind_energy-carrier-mix_ois_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_ois_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_ois_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_ois_tech_to-synfuels[%],ots_ind_energy-carrier-mix_ois_tech_to-biomass[%],ots_ind_energy-carrier-mix_wwp_tech_to-electricity[%],ots_ind_energy-carrier-mix_wwp_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_wwp_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_wwp_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_wwp_tech_to-synfuels[%],ots_ind_energy-carrier-mix_wwp_tech_to-biomass[%],ots_ind_energy-carrier-mix_mae_tech_to-electricity[%],ots_ind_energy-carrier-mix_mae_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_mae_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_mae_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_mae_tech_to-synfuels[%],ots_ind_energy-carrier-mix_mae_tech_to-biomass[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-electricity[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_tra-equip_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_tra-equip_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-synfuels[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-biomass[%],ots_ind_energy-carrier-mix_copper_tech_to-electricity[%],ots_ind_energy-carrier-mix_copper_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_copper_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_copper_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_copper_tech_to-synfuels[%],ots_ind_energy-carrier-mix_copper_tech_to-biomass[%],ots_ind_energy-carrier-mix_textiles_tech_to-electricity[%],ots_ind_energy-carrier-mix_textiles_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_textiles_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_textiles_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_textiles_tech_to-synfuels[%],ots_ind_energy-carrier-mix_textiles_tech_to-biomass[%],ots_ind_energy-carrier-mix_fbt_tech_to-electricity[%],ots_ind_energy-carrier-mix_fbt_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_fbt_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_fbt_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_fbt_tech_to-synfuels[%],ots_ind_energy-carrier-mix_fbt_tech_to-biomass[%]"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="completion-columns"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ots_ind_energy-carrier-mix_steel_BF-BOF_to-electricity[%],ots_ind_energy-carrier-mix_steel_BF-BOF_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_BF-BOF_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_BF-BOF_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_BF-BOF_to-synfuels[%],ots_ind_energy-carrier-mix_steel_BF-BOF_to-biomass[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-electricity[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-synfuels[%],ots_ind_energy-carrier-mix_steel_scrap-EAF_to-biomass[%],ots_ind_energy-carrier-mix_steel_hisarna_to-electricity[%],ots_ind_energy-carrier-mix_steel_hisarna_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_hisarna_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_hisarna_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_hisarna_to-synfuels[%],ots_ind_energy-carrier-mix_steel_hisarna_to-biomass[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-electricity[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-hydrogen[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_solid-to-gas[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_liquid-to-gas[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-synfuels[%],ots_ind_energy-carrier-mix_steel_hydrog-DRI_to-biomass[%],ots_ind_energy-carrier-mix_aluminium_prim_to-electricity[%],ots_ind_energy-carrier-mix_aluminium_prim_to-hydrogen[%],ots_ind_energy-carrier-mix_aluminium_prim_solid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_prim_liquid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_prim_to-synfuels[%],ots_ind_energy-carrier-mix_aluminium_sec_to-electricity[%],ots_ind_energy-carrier-mix_aluminium_sec_to-hydrogen[%],ots_ind_energy-carrier-mix_aluminium_sec_solid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_sec_liquid-to-gas[%],ots_ind_energy-carrier-mix_aluminium_sec_to-synfuels[%],ots_ind_energy-carrier-mix_aluminium_sec_to-biomass[%],ots_ind_energy-carrier-mix_aluminium_prim_to-biomass[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-electricity[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-hydrogen[%],ots_ind_energy-carrier-mix_cement_wet-kiln_solid-to-gas[%],ots_ind_energy-carrier-mix_cement_wet-kiln_liquid-to-gas[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-synfuels[%],ots_ind_energy-carrier-mix_cement_wet-kiln_to-biomass[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-electricity[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-hydrogen[%],ots_ind_energy-carrier-mix_cement_dry-kiln_solid-to-gas[%],ots_ind_energy-carrier-mix_cement_dry-kiln_liquid-to-gas[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-synfuels[%],ots_ind_energy-carrier-mix_cement_dry-kiln_to-biomass[%],ots_ind_energy-carrier-mix_cement_geopolym_to-electricity[%],ots_ind_energy-carrier-mix_cement_geopolym_to-hydrogen[%],ots_ind_energy-carrier-mix_cement_geopolym_solid-to-gas[%],ots_ind_energy-carrier-mix_cement_geopolym_liquid-to-gas[%],ots_ind_energy-carrier-mix_cement_geopolym_to-synfuels[%],ots_ind_energy-carrier-mix_cement_geopolym_to-biomass[%],ots_ind_energy-carrier-mix_lime_lime_to-electricity[%],ots_ind_energy-carrier-mix_lime_lime_to-hydrogen[%],ots_ind_energy-carrier-mix_lime_lime_solid-to-gas[%],ots_ind_energy-carrier-mix_lime_lime_liquid-to-gas[%],ots_ind_energy-carrier-mix_lime_lime_to-synfuels[%],ots_ind_energy-carrier-mix_lime_lime_to-biomass[%],ots_ind_energy-carrier-mix_glass_glass_to-electricity[%],ots_ind_energy-carrier-mix_glass_glass_to-hydrogen[%],ots_ind_energy-carrier-mix_glass_glass_solid-to-gas[%],ots_ind_energy-carrier-mix_glass_glass_liquid-to-gas[%],ots_ind_energy-carrier-mix_glass_glass_to-synfuels[%],ots_ind_energy-carrier-mix_glass_glass_to-biomass[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-electricity[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-hydrogen[%],ots_ind_energy-carrier-mix_chem_chem-tech_solid-to-gas[%],ots_ind_energy-carrier-mix_chem_chem-tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-synfuels[%],ots_ind_energy-carrier-mix_chem_chem-tech_to-biomass[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-electricity[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-hydrogen[%],ots_ind_energy-carrier-mix_paper_woodpulp_solid-to-gas[%],ots_ind_energy-carrier-mix_paper_woodpulp_liquid-to-gas[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-synfuels[%],ots_ind_energy-carrier-mix_paper_woodpulp_to-biomass[%],ots_ind_energy-carrier-mix_paper_recycled_to-electricity[%],ots_ind_energy-carrier-mix_paper_recycled_to-hydrogen[%],ots_ind_energy-carrier-mix_paper_recycled_solid-to-gas[%],ots_ind_energy-carrier-mix_paper_recycled_liquid-to-gas[%],ots_ind_energy-carrier-mix_paper_recycled_to-synfuels[%],ots_ind_energy-carrier-mix_paper_recycled_to-biomass[%],ots_ind_energy-carrier-mix_ois_tech_to-electricity[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-electricity[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-hydrogen[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_solid-to-gas[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-synfuels[%],ots_ind_energy-carrier-mix_ammonia_amm-tech_to-biomass[%],ots_ind_energy-carrier-mix_ois_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_ois_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_ois_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_ois_tech_to-synfuels[%],ots_ind_energy-carrier-mix_ois_tech_to-biomass[%],ots_ind_energy-carrier-mix_wwp_tech_to-electricity[%],ots_ind_energy-carrier-mix_wwp_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_wwp_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_wwp_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_wwp_tech_to-synfuels[%],ots_ind_energy-carrier-mix_wwp_tech_to-biomass[%],ots_ind_energy-carrier-mix_mae_tech_to-electricity[%],ots_ind_energy-carrier-mix_mae_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_mae_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_mae_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_mae_tech_to-synfuels[%],ots_ind_energy-carrier-mix_mae_tech_to-biomass[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-electricity[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_tra-equip_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_tra-equip_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-synfuels[%],ots_ind_energy-carrier-mix_tra-equip_tech_to-biomass[%],ots_ind_energy-carrier-mix_copper_tech_to-electricity[%],ots_ind_energy-carrier-mix_copper_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_copper_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_copper_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_copper_tech_to-synfuels[%],ots_ind_energy-carrier-mix_copper_tech_to-biomass[%],ots_ind_energy-carrier-mix_textiles_tech_to-electricity[%],ots_ind_energy-carrier-mix_textiles_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_textiles_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_textiles_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_textiles_tech_to-synfuels[%],ots_ind_energy-carrier-mix_textiles_tech_to-biomass[%],ots_ind_energy-carrier-mix_fbt_tech_to-electricity[%],ots_ind_energy-carrier-mix_fbt_tech_to-hydrogen[%],ots_ind_energy-carrier-mix_fbt_tech_solid-to-gas[%],ots_ind_energy-carrier-mix_fbt_tech_liquid-to-gas[%],ots_ind_energy-carrier-mix_fbt_tech_to-synfuels[%],ots_ind_energy-carrier-mix_fbt_tech_to-biomass[%]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="defaultValue">
+<config key="columns">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="cal_tra_calibration_Gtkm_HDV[-]"/>
+<entry key="3" type="xstring" value="cal_tra_calibration_Gtkm_rail[-]"/>
+<entry key="4" type="xstring" value="cal_tra_calibration_Gtkm_IWW[-]"/>
+<entry key="5" type="xstring" value="cal_tra_calibration_TWh_aviation[-]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="ots.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+<entry key="label" type="xstring" value="Select the columns for data completion"/>
+<entry key="description" type="xstring" value="Select the columns for data completion"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="hideInDialog" type="xboolean" value="false"/>
+<entry key="required" type="xboolean" value="true"/>
+<entry key="parameterName" type="xstring" value="column-filter"/>
+<entry key="customCSS" type="xstring" value=""/>
+<entry key="flowvariablename" type="xstring" value="completion-columns"/>
+<config key="possibleColumns">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="cal_tra_calibration_Gtkm_HDV[-]"/>
+<entry key="3" type="xstring" value="cal_tra_calibration_Gtkm_rail[-]"/>
+<entry key="4" type="xstring" value="cal_tra_calibration_Gtkm_IWW[-]"/>
+<entry key="5" type="xstring" value="cal_tra_calibration_TWh_aviation[-]"/>
+</config>
+<entry key="type" type="xstring" value="Twinlist"/>
+<entry key="limit_number_visible_options" type="xboolean" value="false"/>
+<entry key="number_visible_options" type="xint" value="10"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 754, Cols: 132"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_0"/>
+</config>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="206cbf9b-6ecb-4bf0-82f3-8843ca5e3d28"/>
+</config>
+</config>

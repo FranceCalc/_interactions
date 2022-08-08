@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_(.*)\[.*|min_trade_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_(.*)\[.*"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="unit"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_trade_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_energy-battery[kWh],min_trade_energy-battery_dir[%],tra_energy-battery[kWh],min_trade_energy-battery_indir[%],tra_energy-battery[kWh],min_trade_energy-battery_exp[%],tra_transport-battery[kWh],min_trade_transport-battery_dir[%],tra_transport-battery[kWh],min_trade_transport-battery_indir[%],tra_transport-battery[kWh],min_trade_transport-battery_exp[%],tra_electronics-battery[kWh],min_trade_electronics-battery_dir[%],tra_electronics-battery[kWh],min_trade_electronics-battery_indir[%],tra_electronics-battery[kWh],min_trade_electronics-battery_exp[%],tra_infra-road[km],min_trade_infra-road_dir[%],tra_infra-road[km],min_trade_infra-road_indir[%],tra_infra-road[km],min_trade_infra-road_exp[%],tra_infra-rail[km],min_trade_infra-rail_dir[%],tra_infra-rail[km],min_trade_infra-rail_indir[%],tra_infra-rail[km],min_trade_infra-rail_exp[%],tra_infra-trolley-cables[km],min_trade_infra-trolley-cables_dir[%],tra_infra-trolley-cables[km],min_trade_infra-trolley-cables_indir[%],tra_infra-trolley-cables[km],min_trade_infra-trolley-cables_exp[%],tra_other-subways[num],min_trade_other-subways_dir[%],tra_other-subways[num],min_trade_other-subways_indir[%],tra_other-subways[num],min_trade_other-subways_exp[%],tra_2W-ICE[num],min_trade_2W-ICE_dir[%],tra_2W-ICE[num],min_trade_2W-ICE_indir[%],tra_2W-ICE[num],min_trade_2W-ICE_exp[%],tra_HDVH-ICE[num],min_trade_HDVH-ICE_dir[%],tra_HDVH-ICE[num],min_trade_HDVH-ICE_indir[%],tra_HDVH-ICE[num],min_trade_HDVH-ICE_exp[%],tra_HDVL-ICE[num],min_trade_HDVL-ICE_dir[%],tra_HDVL-ICE[num],min_trade_HDVL-ICE_indir[%],tra_HDVL-ICE[num],min_trade_HDVL-ICE_exp[%],tra_HDVM-ICE[num],min_trade_HDVM-ICE_dir[%],tra_HDVM-ICE[num],min_trade_HDVM-ICE_indir[%],tra_HDVM-ICE[num],min_trade_HDVM-ICE_exp[%],tra_LDV-ICE[num],min_trade_LDV-ICE_dir[%],tra_LDV-ICE[num],min_trade_LDV-ICE_indir[%],tra_LDV-ICE[num],min_trade_LDV-ICE_exp[%],tra_bus-ICE[num],min_trade_bus-ICE_dir[%],tra_bus-ICE[num],min_trade_bus-ICE_indir[%],tra_bus-ICE[num],min_trade_bus-ICE_exp[%],tra_2W-PHEV[num],min_trade_2W-PHEV_dir[%],tra_2W-PHEV[num],min_trade_2W-PHEV_indir[%],tra_2W-PHEV[num],min_trade_2W-PHEV_exp[%],tra_HDVH-PHEV[num],min_trade_HDVH-PHEV_dir[%],tra_HDVH-PHEV[num],min_trade_HDVH-PHEV_indir[%],tra_HDVH-PHEV[num],min_trade_HDVH-PHEV_exp[%],tra_HDVL-PHEV[num],min_trade_HDVL-PHEV_dir[%],tra_HDVL-PHEV[num],min_trade_HDVL-PHEV_indir[%],tra_HDVL-PHEV[num],min_trade_HDVL-PHEV_exp[%],tra_HDVM-PHEV[num],min_trade_HDVM-PHEV_dir[%],tra_HDVM-PHEV[num],min_trade_HDVM-PHEV_indir[%],tra_HDVM-PHEV[num],min_trade_HDVM-PHEV_exp[%],tra_LDV-PHEV[num],min_trade_LDV-PHEV_dir[%],tra_LDV-PHEV[num],min_trade_LDV-PHEV_indir[%],tra_LDV-PHEV[num],min_trade_LDV-PHEV_exp[%],tra_bus-PHEV[num],min_trade_bus-PHEV_dir[%],tra_bus-PHEV[num],min_trade_bus-PHEV_indir[%],tra_bus-PHEV[num],min_trade_bus-PHEV_exp[%],tra_2W-EV[num],min_trade_2W-EV_dir[%],tra_2W-EV[num],min_trade_2W-EV_indir[%],tra_2W-EV[num],min_trade_2W-EV_exp[%],tra_HDVH-EV[num],min_trade_HDVH-EV_dir[%],tra_HDVH-EV[num],min_trade_HDVH-EV_indir[%],tra_HDVH-EV[num],min_trade_HDVH-EV_exp[%],tra_HDVL-EV[num],min_trade_HDVL-EV_dir[%],tra_HDVL-EV[num],min_trade_HDVL-EV_indir[%],tra_HDVL-EV[num],min_trade_HDVL-EV_exp[%],tra_HDVM-EV[num],min_trade_HDVM-EV_dir[%],tra_HDVM-EV[num],min_trade_HDVM-EV_indir[%],tra_HDVM-EV[num],min_trade_HDVM-EV_exp[%],tra_LDV-EV[num],min_trade_LDV-EV_dir[%],tra_LDV-EV[num],min_trade_LDV-EV_indir[%],tra_LDV-EV[num],min_trade_LDV-EV_exp[%],tra_bus-EV[num],min_trade_bus-EV_dir[%],tra_bus-EV[num],min_trade_bus-EV_indir[%],tra_bus-EV[num],min_trade_bus-EV_exp[%],tra_2W-FCEV[num],min_trade_2W-FCEV_dir[%],tra_2W-FCEV[num],min_trade_2W-FCEV_indir[%],tra_2W-FCEV[num],min_trade_2W-FCEV_exp[%],tra_HDVH-FCEV[num],min_trade_HDVH-FCEV_dir[%],tra_HDVH-FCEV[num],min_trade_HDVH-FCEV_indir[%],tra_HDVH-FCEV[num],min_trade_HDVH-FCEV_exp[%],tra_HDVL-FCEV[num],min_trade_HDVL-FCEV_dir[%],tra_HDVL-FCEV[num],min_trade_HDVL-FCEV_indir[%],tra_HDVL-FCEV[num],min_trade_HDVL-FCEV_exp[%],tra_HDVM-FCEV[num],min_trade_HDVM-FCEV_dir[%],tra_HDVM-FCEV[num],min_trade_HDVM-FCEV_indir[%],tra_HDVM-FCEV[num],min_trade_HDVM-FCEV_exp[%],tra_LDV-FCEV[num],min_trade_LDV-FCEV_dir[%],tra_LDV-FCEV[num],min_trade_LDV-FCEV_indir[%],tra_LDV-FCEV[num],min_trade_LDV-FCEV_exp[%],tra_bus-FCEV[num],min_trade_bus-FCEV_dir[%],tra_bus-FCEV[num],min_trade_bus-FCEV_indir[%],tra_bus-FCEV[num],min_trade_bus-FCEV_exp[%],tra_other-ships[num],min_trade_other-ships_dir[%],tra_other-ships[num],min_trade_other-ships_indir[%],tra_other-ships[num],min_trade_other-ships_exp[%],tra_other-planes[num],min_trade_other-planes_dir[%],tra_other-planes[num],min_trade_other-planes_indir[%],tra_other-planes[num],min_trade_other-planes_exp[%],tra_other-trains[num],min_trade_other-trains_dir[%],tra_other-trains[num],min_trade_other-trains_indir[%],tra_other-trains[num],min_trade_other-trains_exp[%],tra_infra-pipe[km],min_trade_infra-pipe_dir[%],tra_infra-pipe[km],min_trade_infra-pipe_indir[%],tra_infra-pipe[km],min_trade_infra-pipe_exp[%],tra_dom-appliance-fridge[num],min_trade_dom-appliance-fridge_dir[%],tra_dom-appliance-fridge[num],min_trade_dom-appliance-fridge_indir[%],tra_dom-appliance-fridge[num],min_trade_dom-appliance-fridge_exp[%],tra_dom-appliance-freezer[num],min_trade_dom-appliance-freezer_dir[%],tra_dom-appliance-freezer[num],min_trade_dom-appliance-freezer_indir[%],tra_dom-appliance-freezer[num],min_trade_dom-appliance-freezer_exp[%],tra_dom-appliance-wmachine[num],min_trade_dom-appliance-wmachine_dir[%],tra_dom-appliance-wmachine[num],min_trade_dom-appliance-wmachine_indir[%],tra_dom-appliance-wmachine[num],min_trade_dom-appliance-wmachine_exp[%],tra_dom-appliance-dishwasher[num],min_trade_dom-appliance-dishwasher_dir[%],tra_dom-appliance-dishwasher[num],min_trade_dom-appliance-dishwasher_indir[%],tra_dom-appliance-dishwasher[num],min_trade_dom-appliance-dishwasher_exp[%],tra_dom-appliance-dryer[num],min_trade_dom-appliance-dryer_dir[%],tra_dom-appliance-dryer[num],min_trade_dom-appliance-dryer_indir[%],tra_dom-appliance-dryer[num],min_trade_dom-appliance-dryer_exp[%],tra_electronics-tv[num],min_trade_electronics-tv_dir[%],tra_electronics-tv[num],min_trade_electronics-tv_indir[%],tra_electronics-tv[num],min_trade_electronics-tv_exp[%],tra_electronics-computer[num],min_trade_electronics-computer_dir[%],tra_electronics-computer[num],min_trade_electronics-computer_indir[%],tra_electronics-computer[num],min_trade_electronics-computer_exp[%],tra_electronics-phone[num],min_trade_electronics-phone_dir[%],tra_electronics-phone[num],min_trade_electronics-phone_indir[%],tra_electronics-phone[num],min_trade_electronics-phone_exp[%],tra_energy-coal[GW],min_trade_energy-coal_dir[%],tra_energy-csp[GW],min_trade_energy-csp_dir[%],tra_energy-gas[GW],min_trade_energy-gas_dir[%],tra_energy-geo[GW],min_trade_energy-geo_dir[%],tra_energy-hydro[GW],min_trade_energy-hydro_dir[%],tra_energy-marine[GW],min_trade_energy-marine_dir[%],tra_energy-nuclear[GW],min_trade_energy-nuclear_dir[%],tra_energy-off-wind[GW],min_trade_energy-off-wind_dir[%],tra_energy-off-wind[GW],min_trade_energy-off-wind_exp[%],tra_energy-oil[GW],min_trade_energy-oil_dir[%],tra_energy-on-wind[GW],min_trade_energy-on-wind_dir[%],tra_energy-on-wind[GW],min_trade_energy-on-wind_exp[%],tra_energy-pv[GW],min_trade_energy-pv_dir[%],tra_energy-pv[GW],min_trade_energy-pv_indir[%],tra_energy-pv[GW],min_trade_energy-pv_exp[%],tra_energy-battery[GW],min_trade_energy-battery_dir[%],tra_energy-battery[GW],min_trade_energy-battery_indir[%],tra_energy-battery[GW],min_trade_energy-battery_exp[%],"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_energy-battery_dir[kWh],min_energy-battery_indir[kWh],min_energy-battery_exp[kWh],min_transport-battery_dir[kWh],min_transport-battery_indir[kWh],min_transport-battery_exp[kWh],min_electronics-battery_dir[kWh],min_electronics-battery_indir[kWh],min_electronics-battery_exp[kWh],min_infra-road_dir[km],min_infra-road_indir[km],min_infra-road_exp[km],min_infra-rail_dir[km],min_infra-rail_indir[km],min_infra-rail_exp[km],min_infra-trolley-cables_dir[km],min_infra-trolley-cables_indir[km],min_infra-trolley-cables_exp[km],min_other-subways_dir[num],min_other-subways_indir[num],min_other-subways_exp[num],min_2W-ICE_dir[num],min_2W-ICE_indir[num],min_2W-ICE_exp[num],min_HDVH-ICE_dir[num],min_HDVH-ICE_indir[num],min_HDVH-ICE_exp[num],min_HDVL-ICE_dir[num],min_HDVL-ICE_indir[num],min_HDVL-ICE_exp[num],min_HDVM-ICE_dir[num],min_HDVM-ICE_indir[num],min_HDVM-ICE_exp[num],min_LDV-ICE_dir[num],min_LDV-ICE_indir[num],min_LDV-ICE_exp[num],min_bus-ICE_dir[num],min_bus-ICE_indir[num],min_bus-ICE_exp[num],min_2W-PHEV_dir[num],min_2W-PHEV_indir[num],min_2W-PHEV_exp[num],min_HDVH-PHEV_dir[num],min_HDVH-PHEV_indir[num],min_HDVH-PHEV_exp[num],min_HDVL-PHEV_dir[num],min_HDVL-PHEV_indir[num],min_HDVL-PHEV_exp[num],min_HDVM-PHEV_dir[num],min_HDVM-PHEV_indir[num],min_HDVM-PHEV_exp[num],min_LDV-PHEV_dir[num],min_LDV-PHEV_indir[num],min_LDV-PHEV_exp[num],min_bus-PHEV_dir[num],min_bus-PHEV_indir[num],min_bus-PHEV_exp[num],min_2W-EV_dir[num],min_2W-EV_indir[num],min_2W-EV_exp[num],min_HDVH-EV_dir[num],min_HDVH-EV_indir[num],min_HDVH-EV_exp[num],min_HDVL-EV_dir[num],min_HDVL-EV_indir[num],min_HDVL-EV_exp[num],min_HDVM-EV_dir[num],min_HDVM-EV_indir[num],min_HDVM-EV_exp[num],min_LDV-EV_dir[num],min_LDV-EV_indir[num],min_LDV-EV_exp[num],min_bus-EV_dir[num],min_bus-EV_indir[num],min_bus-EV_exp[num],min_2W-FCEV_dir[num],min_2W-FCEV_indir[num],min_2W-FCEV_exp[num],min_HDVH-FCEV_dir[num],min_HDVH-FCEV_indir[num],min_HDVH-FCEV_exp[num],min_HDVL-FCEV_dir[num],min_HDVL-FCEV_indir[num],min_HDVL-FCEV_exp[num],min_HDVM-FCEV_dir[num],min_HDVM-FCEV_indir[num],min_HDVM-FCEV_exp[num],min_LDV-FCEV_dir[num],min_LDV-FCEV_indir[num],min_LDV-FCEV_exp[num],min_bus-FCEV_dir[num],min_bus-FCEV_indir[num],min_bus-FCEV_exp[num],min_other-ships_dir[num],min_other-ships_indir[num],min_other-ships_exp[num],min_other-planes_dir[num],min_other-planes_indir[num],min_other-planes_exp[num],min_other-trains_dir[num],min_other-trains_indir[num],min_other-trains_exp[num],min_infra-pipe_dir[km],min_infra-pipe_indir[km],min_infra-pipe_exp[km],min_dom-appliance-fridge_dir[num],min_dom-appliance-fridge_indir[num],min_dom-appliance-fridge_exp[num],min_dom-appliance-freezer_dir[num],min_dom-appliance-freezer_indir[num],min_dom-appliance-freezer_exp[num],min_dom-appliance-wmachine_dir[num],min_dom-appliance-wmachine_indir[num],min_dom-appliance-wmachine_exp[num],min_dom-appliance-dishwasher_dir[num],min_dom-appliance-dishwasher_indir[num],min_dom-appliance-dishwasher_exp[num],min_dom-appliance-dryer_dir[num],min_dom-appliance-dryer_indir[num],min_dom-appliance-dryer_exp[num],min_electronics-tv_dir[num],min_electronics-tv_indir[num],min_electronics-tv_exp[num],min_electronics-computer_dir[num],min_electronics-computer_indir[num],min_electronics-computer_exp[num],min_electronics-phone_dir[num],min_electronics-phone_indir[num],min_electronics-phone_exp[num],min_energy-coal_dir[GW],min_energy-csp_dir[GW],min_energy-gas_dir[GW],min_energy-geo_dir[GW],min_energy-hydro_dir[GW],min_energy-marine_dir[GW],min_energy-nuclear_dir[GW],min_energy-off-wind_dir[GW],min_energy-off-wind_exp[GW],min_energy-oil_dir[GW],min_energy-on-wind_dir[GW],min_energy-on-wind_exp[GW],min_energy-pv_dir[GW],min_energy-pv_indir[GW],min_energy-pv_exp[GW],min_energy-battery_dir[GW],min_energy-battery_indir[GW],min_energy-battery_exp[GW],"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_(.*)\[.*|min_trade_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_(.*)\[.*"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="unit"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_trade_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_energy-battery[kWh],min_trade_energy-battery_dir[%],tra_energy-battery[kWh],min_trade_energy-battery_indir[%],tra_energy-battery[kWh],min_trade_energy-battery_exp[%],tra_transport-battery[kWh],min_trade_transport-battery_dir[%],tra_transport-battery[kWh],min_trade_transport-battery_indir[%],tra_transport-battery[kWh],min_trade_transport-battery_exp[%],tra_electronics-battery[kWh],min_trade_electronics-battery_dir[%],tra_electronics-battery[kWh],min_trade_electronics-battery_indir[%],tra_electronics-battery[kWh],min_trade_electronics-battery_exp[%],tra_infra-road[km],min_trade_infra-road_dir[%],tra_infra-road[km],min_trade_infra-road_indir[%],tra_infra-road[km],min_trade_infra-road_exp[%],tra_infra-rail[km],min_trade_infra-rail_dir[%],tra_infra-rail[km],min_trade_infra-rail_indir[%],tra_infra-rail[km],min_trade_infra-rail_exp[%],tra_infra-trolley-cables[km],min_trade_infra-trolley-cables_dir[%],tra_infra-trolley-cables[km],min_trade_infra-trolley-cables_indir[%],tra_infra-trolley-cables[km],min_trade_infra-trolley-cables_exp[%],tra_other-subways[num],min_trade_other-subways_dir[%],tra_other-subways[num],min_trade_other-subways_indir[%],tra_other-subways[num],min_trade_other-subways_exp[%],tra_2W-ICE[num],min_trade_2W-ICE_dir[%],tra_2W-ICE[num],min_trade_2W-ICE_indir[%],tra_2W-ICE[num],min_trade_2W-ICE_exp[%],tra_HDVH-ICE[num],min_trade_HDVH-ICE_dir[%],tra_HDVH-ICE[num],min_trade_HDVH-ICE_indir[%],tra_HDVH-ICE[num],min_trade_HDVH-ICE_exp[%],tra_HDVL-ICE[num],min_trade_HDVL-ICE_dir[%],tra_HDVL-ICE[num],min_trade_HDVL-ICE_indir[%],tra_HDVL-ICE[num],min_trade_HDVL-ICE_exp[%],tra_HDVM-ICE[num],min_trade_HDVM-ICE_dir[%],tra_HDVM-ICE[num],min_trade_HDVM-ICE_indir[%],tra_HDVM-ICE[num],min_trade_HDVM-ICE_exp[%],tra_LDV-ICE[num],min_trade_LDV-ICE_dir[%],tra_LDV-ICE[num],min_trade_LDV-ICE_indir[%],tra_LDV-ICE[num],min_trade_LDV-ICE_exp[%],tra_bus-ICE[num],min_trade_bus-ICE_dir[%],tra_bus-ICE[num],min_trade_bus-ICE_indir[%],tra_bus-ICE[num],min_trade_bus-ICE_exp[%],tra_2W-PHEV[num],min_trade_2W-PHEV_dir[%],tra_2W-PHEV[num],min_trade_2W-PHEV_indir[%],tra_2W-PHEV[num],min_trade_2W-PHEV_exp[%],tra_HDVH-PHEV[num],min_trade_HDVH-PHEV_dir[%],tra_HDVH-PHEV[num],min_trade_HDVH-PHEV_indir[%],tra_HDVH-PHEV[num],min_trade_HDVH-PHEV_exp[%],tra_HDVL-PHEV[num],min_trade_HDVL-PHEV_dir[%],tra_HDVL-PHEV[num],min_trade_HDVL-PHEV_indir[%],tra_HDVL-PHEV[num],min_trade_HDVL-PHEV_exp[%],tra_HDVM-PHEV[num],min_trade_HDVM-PHEV_dir[%],tra_HDVM-PHEV[num],min_trade_HDVM-PHEV_indir[%],tra_HDVM-PHEV[num],min_trade_HDVM-PHEV_exp[%],tra_LDV-PHEV[num],min_trade_LDV-PHEV_dir[%],tra_LDV-PHEV[num],min_trade_LDV-PHEV_indir[%],tra_LDV-PHEV[num],min_trade_LDV-PHEV_exp[%],tra_bus-PHEV[num],min_trade_bus-PHEV_dir[%],tra_bus-PHEV[num],min_trade_bus-PHEV_indir[%],tra_bus-PHEV[num],min_trade_bus-PHEV_exp[%],tra_2W-EV[num],min_trade_2W-EV_dir[%],tra_2W-EV[num],min_trade_2W-EV_indir[%],tra_2W-EV[num],min_trade_2W-EV_exp[%],tra_HDVH-EV[num],min_trade_HDVH-EV_dir[%],tra_HDVH-EV[num],min_trade_HDVH-EV_indir[%],tra_HDVH-EV[num],min_trade_HDVH-EV_exp[%],tra_HDVL-EV[num],min_trade_HDVL-EV_dir[%],tra_HDVL-EV[num],min_trade_HDVL-EV_indir[%],tra_HDVL-EV[num],min_trade_HDVL-EV_exp[%],tra_HDVM-EV[num],min_trade_HDVM-EV_dir[%],tra_HDVM-EV[num],min_trade_HDVM-EV_indir[%],tra_HDVM-EV[num],min_trade_HDVM-EV_exp[%],tra_LDV-EV[num],min_trade_LDV-EV_dir[%],tra_LDV-EV[num],min_trade_LDV-EV_indir[%],tra_LDV-EV[num],min_trade_LDV-EV_exp[%],tra_bus-EV[num],min_trade_bus-EV_dir[%],tra_bus-EV[num],min_trade_bus-EV_indir[%],tra_bus-EV[num],min_trade_bus-EV_exp[%],tra_2W-FCEV[num],min_trade_2W-FCEV_dir[%],tra_2W-FCEV[num],min_trade_2W-FCEV_indir[%],tra_2W-FCEV[num],min_trade_2W-FCEV_exp[%],tra_HDVH-FCEV[num],min_trade_HDVH-FCEV_dir[%],tra_HDVH-FCEV[num],min_trade_HDVH-FCEV_indir[%],tra_HDVH-FCEV[num],min_trade_HDVH-FCEV_exp[%],tra_HDVL-FCEV[num],min_trade_HDVL-FCEV_dir[%],tra_HDVL-FCEV[num],min_trade_HDVL-FCEV_indir[%],tra_HDVL-FCEV[num],min_trade_HDVL-FCEV_exp[%],tra_HDVM-FCEV[num],min_trade_HDVM-FCEV_dir[%],tra_HDVM-FCEV[num],min_trade_HDVM-FCEV_indir[%],tra_HDVM-FCEV[num],min_trade_HDVM-FCEV_exp[%],tra_LDV-FCEV[num],min_trade_LDV-FCEV_dir[%],tra_LDV-FCEV[num],min_trade_LDV-FCEV_indir[%],tra_LDV-FCEV[num],min_trade_LDV-FCEV_exp[%],tra_bus-FCEV[num],min_trade_bus-FCEV_dir[%],tra_bus-FCEV[num],min_trade_bus-FCEV_indir[%],tra_bus-FCEV[num],min_trade_bus-FCEV_exp[%],tra_other-ships[num],min_trade_other-ships_dir[%],tra_other-ships[num],min_trade_other-ships_indir[%],tra_other-ships[num],min_trade_other-ships_exp[%],tra_other-planes[num],min_trade_other-planes_dir[%],tra_other-planes[num],min_trade_other-planes_indir[%],tra_other-planes[num],min_trade_other-planes_exp[%],tra_other-trains[num],min_trade_other-trains_dir[%],tra_other-trains[num],min_trade_other-trains_indir[%],tra_other-trains[num],min_trade_other-trains_exp[%],tra_infra-pipe[km],min_trade_infra-pipe_dir[%],tra_infra-pipe[km],min_trade_infra-pipe_indir[%],tra_infra-pipe[km],min_trade_infra-pipe_exp[%],tra_dom-appliance-fridge[num],min_trade_dom-appliance-fridge_dir[%],tra_dom-appliance-fridge[num],min_trade_dom-appliance-fridge_indir[%],tra_dom-appliance-fridge[num],min_trade_dom-appliance-fridge_exp[%],tra_dom-appliance-freezer[num],min_trade_dom-appliance-freezer_dir[%],tra_dom-appliance-freezer[num],min_trade_dom-appliance-freezer_indir[%],tra_dom-appliance-freezer[num],min_trade_dom-appliance-freezer_exp[%],tra_dom-appliance-wmachine[num],min_trade_dom-appliance-wmachine_dir[%],tra_dom-appliance-wmachine[num],min_trade_dom-appliance-wmachine_indir[%],tra_dom-appliance-wmachine[num],min_trade_dom-appliance-wmachine_exp[%],tra_dom-appliance-dishwasher[num],min_trade_dom-appliance-dishwasher_dir[%],tra_dom-appliance-dishwasher[num],min_trade_dom-appliance-dishwasher_indir[%],tra_dom-appliance-dishwasher[num],min_trade_dom-appliance-dishwasher_exp[%],tra_dom-appliance-dryer[num],min_trade_dom-appliance-dryer_dir[%],tra_dom-appliance-dryer[num],min_trade_dom-appliance-dryer_indir[%],tra_dom-appliance-dryer[num],min_trade_dom-appliance-dryer_exp[%],tra_electronics-tv[num],min_trade_electronics-tv_dir[%],tra_electronics-tv[num],min_trade_electronics-tv_indir[%],tra_electronics-tv[num],min_trade_electronics-tv_exp[%],tra_electronics-computer[num],min_trade_electronics-computer_dir[%],tra_electronics-computer[num],min_trade_electronics-computer_indir[%],tra_electronics-computer[num],min_trade_electronics-computer_exp[%],tra_electronics-phone[num],min_trade_electronics-phone_dir[%],tra_electronics-phone[num],min_trade_electronics-phone_indir[%],tra_electronics-phone[num],min_trade_electronics-phone_exp[%],tra_energy-coal[GW],min_trade_energy-coal_dir[%],tra_energy-csp[GW],min_trade_energy-csp_dir[%],tra_energy-gas[GW],min_trade_energy-gas_dir[%],tra_energy-geo[GW],min_trade_energy-geo_dir[%],tra_energy-hydro[GW],min_trade_energy-hydro_dir[%],tra_energy-marine[GW],min_trade_energy-marine_dir[%],tra_energy-nuclear[GW],min_trade_energy-nuclear_dir[%],tra_energy-off-wind[GW],min_trade_energy-off-wind_dir[%],tra_energy-off-wind[GW],min_trade_energy-off-wind_exp[%],tra_energy-oil[GW],min_trade_energy-oil_dir[%],tra_energy-on-wind[GW],min_trade_energy-on-wind_dir[%],tra_energy-on-wind[GW],min_trade_energy-on-wind_exp[%],tra_energy-pv[GW],min_trade_energy-pv_dir[%],tra_energy-pv[GW],min_trade_energy-pv_indir[%],tra_energy-pv[GW],min_trade_energy-pv_exp[%],tra_energy-battery[GW],min_trade_energy-battery_dir[%],tra_energy-battery[GW],min_trade_energy-battery_indir[%],tra_energy-battery[GW],min_trade_energy-battery_exp[%],"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_energy-battery_dir[kWh],min_energy-battery_indir[kWh],min_energy-battery_exp[kWh],min_transport-battery_dir[kWh],min_transport-battery_indir[kWh],min_transport-battery_exp[kWh],min_electronics-battery_dir[kWh],min_electronics-battery_indir[kWh],min_electronics-battery_exp[kWh],min_infra-road_dir[km],min_infra-road_indir[km],min_infra-road_exp[km],min_infra-rail_dir[km],min_infra-rail_indir[km],min_infra-rail_exp[km],min_infra-trolley-cables_dir[km],min_infra-trolley-cables_indir[km],min_infra-trolley-cables_exp[km],min_other-subways_dir[num],min_other-subways_indir[num],min_other-subways_exp[num],min_2W-ICE_dir[num],min_2W-ICE_indir[num],min_2W-ICE_exp[num],min_HDVH-ICE_dir[num],min_HDVH-ICE_indir[num],min_HDVH-ICE_exp[num],min_HDVL-ICE_dir[num],min_HDVL-ICE_indir[num],min_HDVL-ICE_exp[num],min_HDVM-ICE_dir[num],min_HDVM-ICE_indir[num],min_HDVM-ICE_exp[num],min_LDV-ICE_dir[num],min_LDV-ICE_indir[num],min_LDV-ICE_exp[num],min_bus-ICE_dir[num],min_bus-ICE_indir[num],min_bus-ICE_exp[num],min_2W-PHEV_dir[num],min_2W-PHEV_indir[num],min_2W-PHEV_exp[num],min_HDVH-PHEV_dir[num],min_HDVH-PHEV_indir[num],min_HDVH-PHEV_exp[num],min_HDVL-PHEV_dir[num],min_HDVL-PHEV_indir[num],min_HDVL-PHEV_exp[num],min_HDVM-PHEV_dir[num],min_HDVM-PHEV_indir[num],min_HDVM-PHEV_exp[num],min_LDV-PHEV_dir[num],min_LDV-PHEV_indir[num],min_LDV-PHEV_exp[num],min_bus-PHEV_dir[num],min_bus-PHEV_indir[num],min_bus-PHEV_exp[num],min_2W-EV_dir[num],min_2W-EV_indir[num],min_2W-EV_exp[num],min_HDVH-EV_dir[num],min_HDVH-EV_indir[num],min_HDVH-EV_exp[num],min_HDVL-EV_dir[num],min_HDVL-EV_indir[num],min_HDVL-EV_exp[num],min_HDVM-EV_dir[num],min_HDVM-EV_indir[num],min_HDVM-EV_exp[num],min_LDV-EV_dir[num],min_LDV-EV_indir[num],min_LDV-EV_exp[num],min_bus-EV_dir[num],min_bus-EV_indir[num],min_bus-EV_exp[num],min_2W-FCEV_dir[num],min_2W-FCEV_indir[num],min_2W-FCEV_exp[num],min_HDVH-FCEV_dir[num],min_HDVH-FCEV_indir[num],min_HDVH-FCEV_exp[num],min_HDVL-FCEV_dir[num],min_HDVL-FCEV_indir[num],min_HDVL-FCEV_exp[num],min_HDVM-FCEV_dir[num],min_HDVM-FCEV_indir[num],min_HDVM-FCEV_exp[num],min_LDV-FCEV_dir[num],min_LDV-FCEV_indir[num],min_LDV-FCEV_exp[num],min_bus-FCEV_dir[num],min_bus-FCEV_indir[num],min_bus-FCEV_exp[num],min_other-ships_dir[num],min_other-ships_indir[num],min_other-ships_exp[num],min_other-planes_dir[num],min_other-planes_indir[num],min_other-planes_exp[num],min_other-trains_dir[num],min_other-trains_indir[num],min_other-trains_exp[num],min_infra-pipe_dir[km],min_infra-pipe_indir[km],min_infra-pipe_exp[km],min_dom-appliance-fridge_dir[num],min_dom-appliance-fridge_indir[num],min_dom-appliance-fridge_exp[num],min_dom-appliance-freezer_dir[num],min_dom-appliance-freezer_indir[num],min_dom-appliance-freezer_exp[num],min_dom-appliance-wmachine_dir[num],min_dom-appliance-wmachine_indir[num],min_dom-appliance-wmachine_exp[num],min_dom-appliance-dishwasher_dir[num],min_dom-appliance-dishwasher_indir[num],min_dom-appliance-dishwasher_exp[num],min_dom-appliance-dryer_dir[num],min_dom-appliance-dryer_indir[num],min_dom-appliance-dryer_exp[num],min_electronics-tv_dir[num],min_electronics-tv_indir[num],min_electronics-tv_exp[num],min_electronics-computer_dir[num],min_electronics-computer_indir[num],min_electronics-computer_exp[num],min_electronics-phone_dir[num],min_electronics-phone_indir[num],min_electronics-phone_exp[num],min_energy-coal_dir[GW],min_energy-csp_dir[GW],min_energy-gas_dir[GW],min_energy-geo_dir[GW],min_energy-hydro_dir[GW],min_energy-marine_dir[GW],min_energy-nuclear_dir[GW],min_energy-off-wind_dir[GW],min_energy-off-wind_exp[GW],min_energy-oil_dir[GW],min_energy-on-wind_dir[GW],min_energy-on-wind_exp[GW],min_energy-pv_dir[GW],min_energy-pv_indir[GW],min_energy-pv_exp[GW],min_energy-battery_dir[GW],min_energy-battery_indir[GW],min_energy-battery_exp[GW],"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model"/>
+<config key="variables"/>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1222"/>
+<entry key="y-coordinate" type="xint" value="819"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="0"/>
+<entry key="defFontSize" type="xint" value="-1"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="598"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="599"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2018-10-18 14:10:28"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/Tree%20aggregator%20(Java)"/>
+</config>
+<entry key="layoutJSON" type="xstring" value=""/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

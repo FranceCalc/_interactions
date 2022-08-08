@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="bld_emissions-CH4_gas-ff-natural\[Mt]|bld_emissions-CH4_heat-ambient\[Mt]|bld_emissions-CH4_heat-geothermal\[Mt]|bld_emissions-CH4_heat-solar\[Mt]|bld_emissions-CH4_liquid-ff-heatingoil\[Mt]|bld_emissions-CH4_solid-bio\[Mt]|bld_emissions-CH4_solid-ff-coal\[Mt]|bld_emissions-CO2_gas-ff-natural\[Mt]|bld_emissions-CO2_heat-ambient\[Mt]|bld_emissions-CO2_heat-geothermal\[Mt]|bld_emissions-CO2_heat-solar\[Mt]|bld_emissions-CO2_liquid-ff-heatingoil\[Mt]|bld_emissions-CO2_solid-bio\[Mt]|bld_emissions-CO2_solid-ff-coal\[Mt]|bld_emissions-N2O_gas-ff-natural\[Mt]|bld_emissions-N2O_heat-ambient\[Mt]|bld_emissions-N2O_heat-geothermal\[Mt]|bld_emissions-N2O_heat-solar\[Mt]|bld_emissions-N2O_liquid-ff-heatingoil\[Mt]|bld_emissions-N2O_solid-bio\[Mt]|bld_emissions-N2O_solid-ff-coal\[Mt]|tra_emissions-CH4_freight_HDV\[Mt]|tra_emissions-CH4_freight_IWW\[Mt]|tra_emissions-CH4_freight_aviation\[Mt]|tra_emissions-CH4_freight_marine\[Mt]|tra_emissions-CH4_freight_rail\[Mt]|tra_emissions-CH4_passenger_2W\[Mt]|tra_emissions-CH4_passenger_LDV\[Mt]|tra_emissions-CH4_passenger_aviation\[Mt]|tra_emissions-CH4_passenger_bus\[Mt]|tra_emissions-CH4_passenger_metro-tram\[Mt]|tra_emissions-CH4_passenger_rail\[Mt]|tra_emissions-CO2_freight_HDV\[Mt]|tra_emissions-CO2_freight_IWW\[Mt]|tra_emissions-CO2_freight_aviation\[Mt]|tra_emissions-CO2_freight_marine\[Mt]|tra_emissions-CO2_freight_rail\[Mt]|tra_emissions-CO2_passenger_2W\[Mt]|tra_emissions-CO2_passenger_LDV\[Mt]|tra_emissions-CO2_passenger_aviation\[Mt]|tra_emissions-CO2_passenger_bus\[Mt]|tra_emissions-CO2_passenger_metro-tram\[Mt]|tra_emissions-CO2_passenger_rail\[Mt]|tra_emissions-N2O_freight_HDV\[Mt]|tra_emissions-N2O_freight_IWW\[Mt]|tra_emissions-N2O_freight_aviation\[Mt]|tra_emissions-N2O_freight_marine\[Mt]|tra_emissions-N2O_freight_rail\[Mt]|tra_emissions-N2O_passenger_2W\[Mt]|tra_emissions-N2O_passenger_LDV\[Mt]|tra_emissions-N2O_passenger_aviation\[Mt]|tra_emissions-N2O_passenger_bus\[Mt]|tra_emissions-N2O_passenger_metro-tram\[Mt]|tra_emissions-N2O_passenger_rail\[Mt]|dhg_emissions-CH4_gas-ff-natural\[Mt]|dhg_emissions-CH4_heat-ambient\[Mt]|dhg_emissions-CH4_heat-geothermal\[Mt]|dhg_emissions-CH4_heat-solar\[Mt]|dhg_emissions-CH4_liquid-ff-heatingoil\[Mt]|dhg_emissions-CH4_solid-bio\[Mt]|dhg_emissions-CH4_solid-ff-coal\[Mt]|dhg_emissions-CO2_gas-ff-natural\[Mt]|dhg_emissions-CO2_heat-ambient\[Mt]|dhg_emissions-CO2_heat-geothermal\[Mt]|dhg_emissions-CO2_heat-solar\[Mt]|dhg_emissions-CO2_liquid-ff-heatingoil\[Mt]|dhg_emissions-CO2_solid-bio\[Mt]|dhg_emissions-CO2_solid-ff-coal\[Mt]|dhg_emissions-N2O_gas-ff-natural\[Mt]|dhg_emissions-N2O_heat-ambient\[Mt]|dhg_emissions-N2O_heat-geothermal\[Mt]|dhg_emissions-N2O_heat-solar\[Mt]|dhg_emissions-N2O_liquid-ff-heatingoil\[Mt]|dhg_emissions-N2O_solid-bio\[Mt]|dhg_emissions-N2O_solid-ff-coal\[Mt]|ind_emissions-CH4_aluminium\[Mt]|ind_emissions-CH4_cement\[Mt]|ind_emissions-CH4_chem\[Mt]|ind_emissions-CH4_copper\[Mt]|ind_emissions-CH4_fbt\[Mt]|ind_emissions-CH4_glass\[Mt]|ind_emissions-CH4_lime\[Mt]|ind_emissions-CH4_mae\[Mt]|ind_emissions-CH4_ois\[Mt]|ind_emissions-CH4_paper\[Mt]|ind_emissions-CH4_steel\[Mt]|ind_emissions-CH4_textiles\[Mt]|ind_emissions-CH4_tra-equip\[Mt]|ind_emissions-CH4_wwp\[Mt]|ind_emissions-CO2_aluminium\[Mt]|ind_emissions-CO2_biogenic_cement\[Mt]|ind_emissions-CO2_biogenic_chem\[Mt]|ind_emissions-CO2_biogenic_lime\[Mt]|ind_emissions-CO2_biogenic_paper\[Mt]|ind_emissions-CO2_biogenic_steel\[Mt]|ind_emissions-CO2_cement\[Mt]|ind_emissions-CO2_chem\[Mt]|ind_emissions-CO2_copper\[Mt]|ind_emissions-CO2_fbt\[Mt]|ind_emissions-CO2_glass\[Mt]|ind_emissions-CO2_lime\[Mt]|ind_emissions-CO2_mae\[Mt]|ind_emissions-CO2_ois\[Mt]|ind_emissions-CO2_paper\[Mt]|ind_emissions-CO2_steel\[Mt]|ind_emissions-CO2_textiles\[Mt]|ind_emissions-CO2_tra-equip\[Mt]|ind_emissions-CO2_wwp\[Mt]|ind_emissions-N2O_aluminium\[Mt]|ind_emissions-N2O_cement\[Mt]|ind_emissions-N2O_chem\[Mt]|ind_emissions-N2O_copper\[Mt]|ind_emissions-N2O_fbt\[Mt]|ind_emissions-N2O_glass\[Mt]|ind_emissions-N2O_lime\[Mt]|ind_emissions-N2O_mae\[Mt]|ind_emissions-N2O_ois\[Mt]|ind_emissions-N2O_paper\[Mt]|ind_emissions-N2O_steel\[Mt]|ind_emissions-N2O_textiles\[Mt]|ind_emissions-N2O_tra-equip\[Mt]|ind_emissions-N2O_wwp\[Mt]|amm_emissions-CH4_ammonia\[Mt]|amm_emissions-CO2_ammonia\[Mt]|amm_emissions-N2O_ammonia\[Mt]|lus_emissions-CO2_cropland-rem-cropland\[Mt]|lus_emissions-CO2_forest-rem-forest\[Mt]|lus_emissions-CO2_grassland-rem-grassland\[Mt]|lus_emissions-CO2_land-to-cropland\[Mt]|lus_emissions-CO2_land-to-forest\[Mt]|lus_emissions-CO2_land-to-grassland\[Mt]|lus_emissions-CO2_land-to-other\[Mt]|lus_emissions-CO2_land-to-settlement\[Mt]|lus_emissions-CO2_land-to-wetland\[Mt]|lus_emissions-CO2_other-rem-other\[Mt]|lus_emissions-CO2_settlement-rem-settlement\[Mt]|lus_emissions-CO2_wetland-rem-wetland\[Mt]|agr_emissions-CH4_crop_burnt-residues\[Mt]|agr_emissions-CH4_crop_rice\[Mt]|agr_emissions-CH4_liv_enteric_abp_dairy-milk\[Mt]|agr_emissions-CH4_liv_enteric_abp_hens-egg\[Mt]|agr_emissions-CH4_liv_enteric_meat_bovine\[Mt]|agr_emissions-CH4_liv_enteric_meat_oth-animals\[Mt]|agr_emissions-CH4_liv_enteric_meat_pig\[Mt]|agr_emissions-CH4_liv_enteric_meat_poultry\[Mt]|agr_emissions-CH4_liv_enteric_meat_sheep\[Mt]|agr_emissions-CH4_liv_treated_abp_dairy-milk\[Mt]|agr_emissions-CH4_liv_treated_abp_hens-egg\[Mt]|agr_emissions-CH4_liv_treated_meat_bovine\[Mt]|agr_emissions-CH4_liv_treated_meat_oth-animals\[Mt]|agr_emissions-CH4_liv_treated_meat_pig\[Mt]|agr_emissions-CH4_liv_treated_meat_poultry\[Mt]|agr_emissions-CH4_liv_treated_meat_sheep\[Mt]|agr_emissions-N2O_crop_burnt-residues\[Mt]|agr_emissions-N2O_crop_fertilizer\[Mt]|agr_emissions-N2O_crop_soil-residues\[Mt]|agr_emissions-N2O_liv_applied_abp_dairy-milk\[Mt]|agr_emissions-N2O_liv_applied_abp_hens-egg\[Mt]|agr_emissions-N2O_liv_applied_meat_bovine\[Mt]|agr_emissions-N2O_liv_applied_meat_oth-animals\[Mt]|agr_emissions-N2O_liv_applied_meat_pig\[Mt]|agr_emissions-N2O_liv_applied_meat_poultry\[Mt]|agr_emissions-N2O_liv_applied_meat_sheep\[Mt]|agr_emissions-N2O_liv_pasture_abp_dairy-milk\[Mt]|agr_emissions-N2O_liv_pasture_abp_hens-egg\[Mt]|agr_emissions-N2O_liv_pasture_meat_bovine\[Mt]|agr_emissions-N2O_liv_pasture_meat_oth-animals\[Mt]|agr_emissions-N2O_liv_pasture_meat_pig\[Mt]|agr_emissions-N2O_liv_pasture_meat_poultry\[Mt]|agr_emissions-N2O_liv_pasture_meat_sheep\[Mt]|agr_emissions-N2O_liv_treated_abp_dairy-milk\[Mt]|agr_emissions-N2O_liv_treated_abp_hens-egg\[Mt]|agr_emissions-N2O_liv_treated_meat_bovine\[Mt]|agr_emissions-N2O_liv_treated_meat_oth-animals\[Mt]|agr_emissions-N2O_liv_treated_meat_pig\[Mt]|agr_emissions-N2O_liv_treated_meat_poultry\[Mt]|agr_emissions-N2O_liv_treated_meat_sheep\[Mt]|agr_input-use_emissions-CO2_fuel\[Mt]|agr_input-use_emissions-CO2_liming\[Mt]|agr_input-use_emissions-CO2_urea\[Mt]|bdy_emissions-CH4\[Mt]|bdy_emissions-CO2\[Mt]|bdy_emissions-N2O\[Mt]|fos_emissions-CO2\[Mt]|elc_emissions-CO2_fossil_total\[Mt]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace($${Svar-filter}$$,&quot;,&quot;,&quot;|&quot;),&quot;[&quot;,&quot;\\[&quot;)"/>
+<entry key="replaced_column" type="xstring" value="aggregation-pattern"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="29d0760b-756e-4bc4-b528-2de5e0f9bbbc"/>
+</config>
+</config>

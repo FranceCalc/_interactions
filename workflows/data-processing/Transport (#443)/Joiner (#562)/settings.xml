@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="duplicateHandling" type="xstring" value="AppendSuffixAutomatic"/>
+<entry key="compositionMode" type="xstring" value="MatchAll"/>
+<entry key="joinMode" type="xstring" value="InnerJoin"/>
+<config key="leftTableJoinPredicate">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Years"/>
+<entry key="1" type="xstring" value="Country"/>
+</config>
+<config key="rightTableJoinPredicate">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Years"/>
+<entry key="1" type="xstring" value="Country"/>
+</config>
+<entry key="suffix" type="xstring" value="(*)"/>
+<config key="leftIncludeCols">
+<entry key="array-size" type="xint" value="26"/>
+<entry key="0" type="xstring" value="Years"/>
+<entry key="1" type="xstring" value="Country"/>
+<entry key="2" type="xstring" value="lever_freight_load-factor"/>
+<entry key="3" type="xstring" value="fts_tra_freight_load-factor_HDV[tkm/vkm]"/>
+<entry key="4" type="xstring" value="lever_freight_modal-share"/>
+<entry key="5" type="xstring" value="fts_tra_freight_modal-share_HDV[%]"/>
+<entry key="6" type="xstring" value="fts_tra_freight_modal-share_IWW[%]"/>
+<entry key="7" type="xstring" value="fts_tra_freight_modal-share_aviation[%]"/>
+<entry key="8" type="xstring" value="fts_tra_freight_modal-share_marine[%]"/>
+<entry key="9" type="xstring" value="fts_tra_freight_modal-share_rail[%]"/>
+<entry key="10" type="xstring" value="lever_freight_technology-share_new"/>
+<entry key="11" type="xstring" value="fts_tra_freight_technology-share_new_HDV_BEV[%]"/>
+<entry key="12" type="xstring" value="fts_tra_freight_technology-share_new_HDV_CEV[%]"/>
+<entry key="13" type="xstring" value="fts_tra_freight_technology-share_new_HDV_FCEV[%]"/>
+<entry key="14" type="xstring" value="fts_tra_freight_technology-share_new_IWW_BEV[%]"/>
+<entry key="15" type="xstring" value="fts_tra_freight_technology-share_new_IWW_FCEV[%]"/>
+<entry key="16" type="xstring" value="fts_tra_freight_technology-share_new_IWW_ICE[%]"/>
+<entry key="17" type="xstring" value="fts_tra_freight_technology-share_new_aviation_BEV[%]"/>
+<entry key="18" type="xstring" value="fts_tra_freight_technology-share_new_aviation_ICE[%]"/>
+<entry key="19" type="xstring" value="fts_tra_freight_technology-share_new_marine_BEV[%]"/>
+<entry key="20" type="xstring" value="fts_tra_freight_technology-share_new_marine_FCEV[%]"/>
+<entry key="21" type="xstring" value="fts_tra_freight_technology-share_new_marine_ICE[%]"/>
+<entry key="22" type="xstring" value="fts_tra_freight_technology-share_new_rail_CEV[%]"/>
+<entry key="23" type="xstring" value="fts_tra_freight_technology-share_new_rail_ICE[%]"/>
+<entry key="24" type="xstring" value="lever_freight_tkm"/>
+<entry key="25" type="xstring" value="fts_tra_freight_tkm_total-demand[billion tkm]"/>
+</config>
+<config key="rightIncludeCols">
+<entry key="array-size" type="xint" value="23"/>
+<entry key="0" type="xstring" value="Years"/>
+<entry key="1" type="xstring" value="Country"/>
+<entry key="2" type="xstring" value="lever_freight_utilization-rate"/>
+<entry key="3" type="xstring" value="fts_tra_freight_utilization-rate_HDV[vkm/veh]"/>
+<entry key="4" type="xstring" value="lever_freight_vehicle-efficiency_new"/>
+<entry key="5" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_BEV[MJ/km]"/>
+<entry key="6" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_CEV[MJ/km]"/>
+<entry key="7" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_FCEV[MJ/km]"/>
+<entry key="8" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_ICE_diesel[MJ/km]"/>
+<entry key="9" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_ICE_gas[MJ/km]"/>
+<entry key="10" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_ICE_gasoline[MJ/km]"/>
+<entry key="11" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_PHEV_diesel[MJ/km]"/>
+<entry key="12" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_HDV_PHEV_gasoline[MJ/km]"/>
+<entry key="13" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_IWW_BEV[MJ/tkm]"/>
+<entry key="14" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_IWW_FCEV[MJ/tkm]"/>
+<entry key="15" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_IWW_ICE[MJ/tkm]"/>
+<entry key="16" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_aviation_BEV[MJ/tkm]"/>
+<entry key="17" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_aviation_ICE[MJ/tkm]"/>
+<entry key="18" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_marine_BEV[MJ/tkm]"/>
+<entry key="19" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_marine_FCEV[MJ/tkm]"/>
+<entry key="20" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_marine_ICE[MJ/tkm]"/>
+<entry key="21" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_rail_CEV[MJ/tkm]"/>
+<entry key="22" type="xstring" value="fts_tra_freight_vehicle-efficiency_new_rail_ICE[MJ/tkm]"/>
+</config>
+<entry key="leftIncludeAll" type="xboolean" value="true"/>
+<entry key="rightIncludeAll" type="xboolean" value="true"/>
+<entry key="rmLeftJoinCols" type="xboolean" value="false"/>
+<entry key="rmRightJoinCols" type="xboolean" value="true"/>
+<entry key="maxOpenFiles" type="xint" value="200"/>
+<entry key="rowKeySeparator" type="xstring" value="_"/>
+<entry key="enableHiLite" type="xboolean" value="false"/>
+<entry key="numBitsInitial" type="xint" value="6"/>
+<entry key="numBitsMaximal" type="xint" value="32"/>
+<entry key="usedMemoryThreshold" type="xdouble" value="0.85"/>
+<entry key="minAvailableMemory" type="xlong" value="10000000"/>
+<entry key="memUseCollectionUsage" type="xboolean" value="true"/>
+<entry key="version" type="xstring" value="version_3"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.joiner.Joiner2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Joiner"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Joiner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1044, Cols: 8"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5cbe761c-7b8f-4dfa-a18f-389a07900dae"/>
+</config>
+</config>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import numpy as np%%00010%%00010input_table_1 = input_table_1.reset_index()%%00010input_table_2 = input_table_2.reset_index()%%00010%%00010## input%%00010#input_table_1=pd.read_excel('knime_python.xlsx',header=0,index_col=0)%%00010#output_table_2=pd.read_excel('tec_ccu.xlsx',header=0,index_col=0)%%00010output_table=input_table_1.copy()%%00010output_table['ccu_capex_methane-formation[MEUR]']=[0]*957%%00010output_table['ccu_capex_enhanced-oil-recovery[MEUR]']=[0]*957%%00010output_table['ccu_capex_depleted-oil-gas-reservoirs[MEUR]']=[0]*957%%00010output_table['ccu_capex_unmineable-coal-seams[MEUR]']=[0]*957%%00010output_table['ccu_capex_saline-aquifers[MEUR]']=[0]*957%%00010output_table['ccu_capex_transport[MEUR]']=[0.0]*957%%00010output_table_2 = input_table_2.copy() # the specific cost info%%00010%%00010%%00010#index=output_table[output_table['Years']=='2020'].index%%00010#kk=output_table_2[&quot;capex_ccu_ccus_transport[MEUR]&quot;]%%00010#output_table.loc[index,'ccu_capex_transport[MEUR]']=kk.values%%00010%%00010%%00010countries=input_table_1['Country'][0:29].tolist()%%00010#output_table.set_index(&quot;Country&quot;)%%00010%%00010#capex%%00010for pays in countries:%%00010    group=input_table_1.groupby('Country')%%00010    country=group.get_group(pays)%%00010    y=country[(country['Country']==pays)]%%00010    %%00010    if sum(y['ccu_ccus_transport[Mt]'].values)!=0.0:%%00010        index_temp=output_table_2[output_table_2['Country']==pays].index%%00010        #print(output_table_2.loc[index_temp,&quot;capex_ccu_ccus_transport[MEUR]&quot;].index[0])%%00010        #spec_cost=output_table_2.loc[index_temp,&quot;capex_ccu_ccus_transport[MEUR]&quot;][output_table_2.loc[index_temp,&quot;capex_ccu_ccus_transport[MEUR]&quot;].index[0]]/max(y['ccu_ccus_transport[Mt]'].values)%%00010        spec_cost=output_table_2.loc[index_temp,&quot;capex_ccu_ccus_transport[MEUR]&quot;].index[0]/max(y['ccu_ccus_transport[Mt]'].values)%%00010        index=y[&quot;ccu_ccus_transport[Mt]&quot;].index%%00010        tem_max=0%%00010        res = y[&quot;ccu_ccus_transport[Mt]&quot;] * 0%%00010        for t in range(0,33):%%00010            qq=y[&quot;ccu_ccus_transport[Mt]&quot;][y.index[t]]%%00010            #print(y.index[t])%%00010            if qq&gt;tem_max:      %%00010                res[res.index[t]]=spec_cost * (qq-tem_max)%%00010                tem_max=qq          %%00010        output_table.loc[index, &quot;ccu_capex_transport[MEUR]&quot;]=res%%00010        %%00010        #output_table.loc[y.index,'ccu_capex_transport[MEUR]']=output_table_2.loc[index_temp,&quot;capex_ccu_ccus_transport[MEUR]&quot;][0]/sum(y['ccu_ccus_transport[Mt]'].values)*y['ccu_ccus_transport[Mt]']%%00010%%00010    index=y[&quot;ccu_ccus_methane-formation[Mt]&quot;].index%%00010    spec_cost=output_table_2.loc[output_table_2[&quot;Country&quot;]==pays,&quot;capex_ccu_ccus_methane-formation[EUR/(t/y)]&quot;]%%00010    tem_max=0%%00010    res = y[&quot;ccu_ccus_methane-formation[Mt]&quot;] * 0%%00010    for t in range(0,33):%%00010        qq=y[&quot;ccu_ccus_methane-formation[Mt]&quot;][y.index[t]]%%00010        if qq&gt;tem_max:      %%00010            res[res.index[t]]=spec_cost.values[0]/30 * (qq-tem_max)%%00010            tem_max=qq%%00010    index=y[&quot;ccu_ccus_hydrogen[TWh]&quot;].index%%00010    res2=37.8335813/30 * y[&quot;ccu_ccus_hydrogen[TWh]&quot;]%%00010    output_table.loc[index, &quot;ccu_capex_methane-formation[MEUR]&quot;]=res+res2%%00010    %%00010    %%00010    index=y[&quot;ccu_ccus_enhanced-oil-recovery[Mt]&quot;].index%%00010    spec_cost=output_table_2.loc[output_table_2[&quot;Country&quot;]==pays,&quot;capex_ccu_ccus_enhanced-oil-recovery[EUR/(t/y)]&quot;]%%00010    tem_max=0%%00010    res = y[&quot;ccu_ccus_enhanced-oil-recovery[Mt]&quot;] * 0%%00010    for t in range(0,33):%%00010        qq=y[&quot;ccu_ccus_enhanced-oil-recovery[Mt]&quot;][y.index[t]]%%00010        if qq&gt;tem_max:      %%00010            res[res.index[t]]=spec_cost.values[0]/30 * (qq-tem_max)%%00010            tem_max=qq          %%00010    output_table.loc[index, &quot;ccu_capex_enhanced-oil-recovery[MEUR]&quot;]=res%%00010    %%00010    index=y[&quot;ccu_ccus_unmineable-coal-seams[Mt]&quot;].index%%00010    spec_cost=output_table_2.loc[output_table_2[&quot;Country&quot;]==pays,&quot;capex_ccu_ccus_unmineable-coal-seams[EUR/(t/y)]&quot;]%%00010    tem_max=0%%00010    res = y[&quot;ccu_ccus_unmineable-coal-seams[Mt]&quot;] * 0%%00010    for t in range(0,33):%%00010        qq=y[&quot;ccu_ccus_unmineable-coal-seams[Mt]&quot;][y.index[t]]%%00010        if qq&gt;tem_max:      %%00010            res[res.index[t]]=spec_cost.values[0]/30 * (qq-tem_max)%%00010            tem_max=qq          %%00010    output_table.loc[index, &quot;ccu_capex_unmineable-coal-seams[MEUR]&quot;]=res%%00010%%00010    index=y[&quot;ccu_ccus_depleted-oil-gas-reservoirs[Mt]&quot;].index%%00010    spec_cost=output_table_2.loc[output_table_2[&quot;Country&quot;]==pays,&quot;capex_ccu_ccus_depleted-oil-gas-reservoirs[EUR/(t/y)]&quot;]%%00010    tem_max=0%%00010    res = y[&quot;ccu_ccus_depleted-oil-gas-reservoirs[Mt]&quot;] * 0%%00010    for t in range(0,33):%%00010        qq=y[&quot;ccu_ccus_depleted-oil-gas-reservoirs[Mt]&quot;][y.index[t]]%%00010        if qq&gt;tem_max:%%00010            res[res.index[t]]=spec_cost.values[0]/30 * (qq-tem_max)%%00010            tem_max=qq          %%00010    output_table.loc[index, &quot;ccu_capex_depleted-oil-gas-reservoirs[MEUR]&quot;]=res%%00010%%00010    index=y[&quot;ccu_ccus_deep-saline-formation[Mt]&quot;].index%%00010    spec_cost=output_table_2.loc[output_table_2[&quot;Country&quot;]==pays,&quot;capex_ccu_ccus_deep-saline-formation[EUR/(t/y)]&quot;]%%00010    tem_max=0%%00010    res = y[&quot;ccu_ccus_deep-saline-formation[Mt]&quot;] * 0%%00010    for t in range(0,33):%%00010        qq=y[&quot;ccu_ccus_deep-saline-formation[Mt]&quot;][y.index[t]]%%00010        if qq&gt;tem_max:      %%00010            res[res.index[t]]=spec_cost.values[0]/30 * (qq-tem_max)%%00010            tem_max=qq          %%00010    output_table.loc[index, &quot;ccu_capex_saline-aquifers[MEUR]&quot;]=res%%00010%%00010#opex%%00010spec_opex=output_table_2['opex_ccu_ccus_transport[EUR/t]']%%00010output_table=output_table.drop(&quot;ccu_ccus_hydrogen[TWh]&quot;,axis=1)%%00010spec_opex_all=pd.concat([spec_opex]*33, ignore_index=True)%%00010spec_opex_all.index=input_table_1['ccu_ccus_transport[Mt]'].index%%00010output_table['ccu_opex_transport[MEUR]']=spec_opex_all*input_table_1['ccu_ccus_transport[Mt]']%%00010output_table=output_table.drop(&quot;index&quot;,axis=1)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Cost Calculation"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1987"/>
+<entry key="y-coordinate" type="xint" value="359"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 17"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="c2b1840c-8dcb-410f-afb0-93de4a0c0633"/>
+</config>
+</config>

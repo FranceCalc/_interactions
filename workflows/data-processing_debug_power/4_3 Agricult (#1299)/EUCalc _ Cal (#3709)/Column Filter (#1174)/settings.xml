@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="34"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="ind_product_pipes[km]"/>
+<entry key="3" type="xstring" value="ind_product_fridges[num]"/>
+<entry key="4" type="xstring" value="ind_product_wash-machines[num]"/>
+<entry key="5" type="xstring" value="ind_product_dishwashers[num]"/>
+<entry key="6" type="xstring" value="ind_product_construction-residential[m2]"/>
+<entry key="7" type="xstring" value="ind_product_renovation-residential[m2]"/>
+<entry key="8" type="xstring" value="ind_product_construction-non-residential[m2]"/>
+<entry key="9" type="xstring" value="ind_product_renovation-non-residential[m2]"/>
+<entry key="10" type="xstring" value="ind_product_freezer[num]"/>
+<entry key="11" type="xstring" value="ind_product_dryer[num]"/>
+<entry key="12" type="xstring" value="ind_product_tv[num]"/>
+<entry key="13" type="xstring" value="ind_product_smartphone[num]"/>
+<entry key="14" type="xstring" value="ind_product_computer[num]"/>
+<entry key="15" type="xstring" value="ind_product_LDV-PHEV[num]"/>
+<entry key="16" type="xstring" value="ind_product_LDV-BEV[num]"/>
+<entry key="17" type="xstring" value="ind_product_LDV-FCEV[num]"/>
+<entry key="18" type="xstring" value="ind_product_LDV-ICE[num]"/>
+<entry key="19" type="xstring" value="ind_product_HDV-ICE[num]"/>
+<entry key="20" type="xstring" value="ind_product_HDV-FCEV[num]"/>
+<entry key="21" type="xstring" value="ind_product_HDV-BEV[num]"/>
+<entry key="22" type="xstring" value="ind_product_HDV-PHEV[num]"/>
+<entry key="23" type="xstring" value="ind_product_IWW[num]"/>
+<entry key="24" type="xstring" value="ind_product_marine[num]"/>
+<entry key="25" type="xstring" value="ind_product_trains[num]"/>
+<entry key="26" type="xstring" value="ind_product_aviation[num]"/>
+<entry key="27" type="xstring" value="ind_product_road[km]"/>
+<entry key="28" type="xstring" value="ind_product_rail[km]"/>
+<entry key="29" type="xstring" value="ind_product_trolley-cables[km]"/>
+<entry key="30" type="xstring" value="ind_product_paper-pack[t]"/>
+<entry key="31" type="xstring" value="ind_product_paper-print[t]"/>
+<entry key="32" type="xstring" value="ind_product_paper-san[t]"/>
+<entry key="33" type="xstring" value="ind_product_plast-pack[t]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=".*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="variables">
+<config key="column-filter">
+<config key="name_pattern">
+<config key="pattern">
+<entry key="used_variable" type="xstring" value="original_pattern_cy"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Keep only input %%00013%%00010columns used"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-792"/>
+<entry key="y-coordinate" type="xint" value="1500"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

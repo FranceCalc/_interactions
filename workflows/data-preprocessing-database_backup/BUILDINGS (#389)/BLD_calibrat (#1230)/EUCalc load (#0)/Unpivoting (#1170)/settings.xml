@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="retained_columns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="retained_columns">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="270"/>
+<entry key="0" type="xstring" value="Residential (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="1" type="xstring" value="Residential (ktoe)_Coke Oven Coke"/>
+<entry key="2" type="xstring" value="Residential (ktoe)_Derived heat"/>
+<entry key="3" type="xstring" value="Residential (ktoe)_Electricity"/>
+<entry key="4" type="xstring" value="Residential (ktoe)_Gas Works gas"/>
+<entry key="5" type="xstring" value="Residential (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="6" type="xstring" value="Residential (ktoe)_Gasoline (without biofuels)"/>
+<entry key="7" type="xstring" value="Residential (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="8" type="xstring" value="Residential (ktoe)_Natural gas"/>
+<entry key="9" type="xstring" value="Residential (ktoe)_Other Bituminous Coal"/>
+<entry key="10" type="xstring" value="Residential (ktoe)_Other Kerosene"/>
+<entry key="11" type="xstring" value="Residential (ktoe)_Patent Fuels"/>
+<entry key="12" type="xstring" value="Residential (ktoe)_Peat"/>
+<entry key="13" type="xstring" value="Residential (ktoe)_Solar thermal"/>
+<entry key="14" type="xstring" value="Residential (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="15" type="xstring" value="Residential: Space heating (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="16" type="xstring" value="Residential: Space heating (ktoe)_Coke Oven Coke"/>
+<entry key="17" type="xstring" value="Residential: Space heating (ktoe)_Derived heat"/>
+<entry key="18" type="xstring" value="Residential: Space heating (ktoe)_Electricity"/>
+<entry key="19" type="xstring" value="Residential: Space heating (ktoe)_Gas Works gas"/>
+<entry key="20" type="xstring" value="Residential: Space heating (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="21" type="xstring" value="Residential: Space heating (ktoe)_Gasoline (without biofuels)"/>
+<entry key="22" type="xstring" value="Residential: Space heating (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="23" type="xstring" value="Residential: Space heating (ktoe)_Natural gas"/>
+<entry key="24" type="xstring" value="Residential: Space heating (ktoe)_Other Bituminous Coal"/>
+<entry key="25" type="xstring" value="Residential: Space heating (ktoe)_Other Kerosene"/>
+<entry key="26" type="xstring" value="Residential: Space heating (ktoe)_Patent Fuels"/>
+<entry key="27" type="xstring" value="Residential: Space heating (ktoe)_Peat"/>
+<entry key="28" type="xstring" value="Residential: Space heating (ktoe)_Solar thermal"/>
+<entry key="29" type="xstring" value="Residential: Space heating (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="30" type="xstring" value="Residential: Space cooling (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="31" type="xstring" value="Residential: Space cooling (ktoe)_Coke Oven Coke"/>
+<entry key="32" type="xstring" value="Residential: Space cooling (ktoe)_Derived heat"/>
+<entry key="33" type="xstring" value="Residential: Space cooling (ktoe)_Electricity"/>
+<entry key="34" type="xstring" value="Residential: Space cooling (ktoe)_Gas Works gas"/>
+<entry key="35" type="xstring" value="Residential: Space cooling (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="36" type="xstring" value="Residential: Space cooling (ktoe)_Gasoline (without biofuels)"/>
+<entry key="37" type="xstring" value="Residential: Space cooling (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="38" type="xstring" value="Residential: Space cooling (ktoe)_Natural gas"/>
+<entry key="39" type="xstring" value="Residential: Space cooling (ktoe)_Other Bituminous Coal"/>
+<entry key="40" type="xstring" value="Residential: Space cooling (ktoe)_Other Kerosene"/>
+<entry key="41" type="xstring" value="Residential: Space cooling (ktoe)_Patent Fuels"/>
+<entry key="42" type="xstring" value="Residential: Space cooling (ktoe)_Peat"/>
+<entry key="43" type="xstring" value="Residential: Space cooling (ktoe)_Solar thermal"/>
+<entry key="44" type="xstring" value="Residential: Space cooling (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="45" type="xstring" value="Residential: Water heating (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="46" type="xstring" value="Residential: Water heating (ktoe)_Coke Oven Coke"/>
+<entry key="47" type="xstring" value="Residential: Water heating (ktoe)_Derived heat"/>
+<entry key="48" type="xstring" value="Residential: Water heating (ktoe)_Electricity"/>
+<entry key="49" type="xstring" value="Residential: Water heating (ktoe)_Gas Works gas"/>
+<entry key="50" type="xstring" value="Residential: Water heating (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="51" type="xstring" value="Residential: Water heating (ktoe)_Gasoline (without biofuels)"/>
+<entry key="52" type="xstring" value="Residential: Water heating (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="53" type="xstring" value="Residential: Water heating (ktoe)_Natural gas"/>
+<entry key="54" type="xstring" value="Residential: Water heating (ktoe)_Other Bituminous Coal"/>
+<entry key="55" type="xstring" value="Residential: Water heating (ktoe)_Other Kerosene"/>
+<entry key="56" type="xstring" value="Residential: Water heating (ktoe)_Patent Fuels"/>
+<entry key="57" type="xstring" value="Residential: Water heating (ktoe)_Peat"/>
+<entry key="58" type="xstring" value="Residential: Water heating (ktoe)_Solar thermal"/>
+<entry key="59" type="xstring" value="Residential: Water heating (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="60" type="xstring" value="Residential: Cooking (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="61" type="xstring" value="Residential: Cooking (ktoe)_Coke Oven Coke"/>
+<entry key="62" type="xstring" value="Residential: Cooking (ktoe)_Derived heat"/>
+<entry key="63" type="xstring" value="Residential: Cooking (ktoe)_Electricity"/>
+<entry key="64" type="xstring" value="Residential: Cooking (ktoe)_Gas Works gas"/>
+<entry key="65" type="xstring" value="Residential: Cooking (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="66" type="xstring" value="Residential: Cooking (ktoe)_Gasoline (without biofuels)"/>
+<entry key="67" type="xstring" value="Residential: Cooking (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="68" type="xstring" value="Residential: Cooking (ktoe)_Natural gas"/>
+<entry key="69" type="xstring" value="Residential: Cooking (ktoe)_Other Bituminous Coal"/>
+<entry key="70" type="xstring" value="Residential: Cooking (ktoe)_Other Kerosene"/>
+<entry key="71" type="xstring" value="Residential: Cooking (ktoe)_Patent Fuels"/>
+<entry key="72" type="xstring" value="Residential: Cooking (ktoe)_Peat"/>
+<entry key="73" type="xstring" value="Residential: Cooking (ktoe)_Solar thermal"/>
+<entry key="74" type="xstring" value="Residential: Cooking (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="75" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="76" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Coke Oven Coke"/>
+<entry key="77" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Derived heat"/>
+<entry key="78" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Electricity"/>
+<entry key="79" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Gas Works gas"/>
+<entry key="80" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="81" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Gasoline (without biofuels)"/>
+<entry key="82" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="83" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Natural gas"/>
+<entry key="84" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Other Bituminous Coal"/>
+<entry key="85" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Other Kerosene"/>
+<entry key="86" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Patent Fuels"/>
+<entry key="87" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Peat"/>
+<entry key="88" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Solar thermal"/>
+<entry key="89" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="90" type="xstring" value="Residential: Washing machines (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="91" type="xstring" value="Residential: Washing machines (ktoe)_Coke Oven Coke"/>
+<entry key="92" type="xstring" value="Residential: Washing machines (ktoe)_Derived heat"/>
+<entry key="93" type="xstring" value="Residential: Washing machines (ktoe)_Electricity"/>
+<entry key="94" type="xstring" value="Residential: Washing machines (ktoe)_Gas Works gas"/>
+<entry key="95" type="xstring" value="Residential: Washing machines (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="96" type="xstring" value="Residential: Washing machines (ktoe)_Gasoline (without biofuels)"/>
+<entry key="97" type="xstring" value="Residential: Washing machines (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="98" type="xstring" value="Residential: Washing machines (ktoe)_Natural gas"/>
+<entry key="99" type="xstring" value="Residential: Washing machines (ktoe)_Other Bituminous Coal"/>
+<entry key="100" type="xstring" value="Residential: Washing machines (ktoe)_Other Kerosene"/>
+<entry key="101" type="xstring" value="Residential: Washing machines (ktoe)_Patent Fuels"/>
+<entry key="102" type="xstring" value="Residential: Washing machines (ktoe)_Peat"/>
+<entry key="103" type="xstring" value="Residential: Washing machines (ktoe)_Solar thermal"/>
+<entry key="104" type="xstring" value="Residential: Washing machines (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="105" type="xstring" value="Residential: Clothes dryers (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="106" type="xstring" value="Residential: Clothes dryers (ktoe)_Coke Oven Coke"/>
+<entry key="107" type="xstring" value="Residential: Clothes dryers (ktoe)_Derived heat"/>
+<entry key="108" type="xstring" value="Residential: Clothes dryers (ktoe)_Electricity"/>
+<entry key="109" type="xstring" value="Residential: Clothes dryers (ktoe)_Gas Works gas"/>
+<entry key="110" type="xstring" value="Residential: Clothes dryers (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="111" type="xstring" value="Residential: Clothes dryers (ktoe)_Gasoline (without biofuels)"/>
+<entry key="112" type="xstring" value="Residential: Clothes dryers (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="113" type="xstring" value="Residential: Clothes dryers (ktoe)_Natural gas"/>
+<entry key="114" type="xstring" value="Residential: Clothes dryers (ktoe)_Other Bituminous Coal"/>
+<entry key="115" type="xstring" value="Residential: Clothes dryers (ktoe)_Other Kerosene"/>
+<entry key="116" type="xstring" value="Residential: Clothes dryers (ktoe)_Patent Fuels"/>
+<entry key="117" type="xstring" value="Residential: Clothes dryers (ktoe)_Peat"/>
+<entry key="118" type="xstring" value="Residential: Clothes dryers (ktoe)_Solar thermal"/>
+<entry key="119" type="xstring" value="Residential: Clothes dryers (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="120" type="xstring" value="Residential: Dishwashers (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="121" type="xstring" value="Residential: Dishwashers (ktoe)_Coke Oven Coke"/>
+<entry key="122" type="xstring" value="Residential: Dishwashers (ktoe)_Derived heat"/>
+<entry key="123" type="xstring" value="Residential: Dishwashers (ktoe)_Electricity"/>
+<entry key="124" type="xstring" value="Residential: Dishwashers (ktoe)_Gas Works gas"/>
+<entry key="125" type="xstring" value="Residential: Dishwashers (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="126" type="xstring" value="Residential: Dishwashers (ktoe)_Gasoline (without biofuels)"/>
+<entry key="127" type="xstring" value="Residential: Dishwashers (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="128" type="xstring" value="Residential: Dishwashers (ktoe)_Natural gas"/>
+<entry key="129" type="xstring" value="Residential: Dishwashers (ktoe)_Other Bituminous Coal"/>
+<entry key="130" type="xstring" value="Residential: Dishwashers (ktoe)_Other Kerosene"/>
+<entry key="131" type="xstring" value="Residential: Dishwashers (ktoe)_Patent Fuels"/>
+<entry key="132" type="xstring" value="Residential: Dishwashers (ktoe)_Peat"/>
+<entry key="133" type="xstring" value="Residential: Dishwashers (ktoe)_Solar thermal"/>
+<entry key="134" type="xstring" value="Residential: Dishwashers (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="135" type="xstring" value="Residential: TV and multimedia (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="136" type="xstring" value="Residential: TV and multimedia (ktoe)_Coke Oven Coke"/>
+<entry key="137" type="xstring" value="Residential: TV and multimedia (ktoe)_Derived heat"/>
+<entry key="138" type="xstring" value="Residential: TV and multimedia (ktoe)_Electricity"/>
+<entry key="139" type="xstring" value="Residential: TV and multimedia (ktoe)_Gas Works gas"/>
+<entry key="140" type="xstring" value="Residential: TV and multimedia (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="141" type="xstring" value="Residential: TV and multimedia (ktoe)_Gasoline (without biofuels)"/>
+<entry key="142" type="xstring" value="Residential: TV and multimedia (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="143" type="xstring" value="Residential: TV and multimedia (ktoe)_Natural gas"/>
+<entry key="144" type="xstring" value="Residential: TV and multimedia (ktoe)_Other Bituminous Coal"/>
+<entry key="145" type="xstring" value="Residential: TV and multimedia (ktoe)_Other Kerosene"/>
+<entry key="146" type="xstring" value="Residential: TV and multimedia (ktoe)_Patent Fuels"/>
+<entry key="147" type="xstring" value="Residential: TV and multimedia (ktoe)_Peat"/>
+<entry key="148" type="xstring" value="Residential: TV and multimedia (ktoe)_Solar thermal"/>
+<entry key="149" type="xstring" value="Residential: TV and multimedia (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="150" type="xstring" value="Residential: ICT equipment (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="151" type="xstring" value="Residential: ICT equipment (ktoe)_Coke Oven Coke"/>
+<entry key="152" type="xstring" value="Residential: ICT equipment (ktoe)_Derived heat"/>
+<entry key="153" type="xstring" value="Residential: ICT equipment (ktoe)_Electricity"/>
+<entry key="154" type="xstring" value="Residential: ICT equipment (ktoe)_Gas Works gas"/>
+<entry key="155" type="xstring" value="Residential: ICT equipment (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="156" type="xstring" value="Residential: ICT equipment (ktoe)_Gasoline (without biofuels)"/>
+<entry key="157" type="xstring" value="Residential: ICT equipment (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="158" type="xstring" value="Residential: ICT equipment (ktoe)_Natural gas"/>
+<entry key="159" type="xstring" value="Residential: ICT equipment (ktoe)_Other Bituminous Coal"/>
+<entry key="160" type="xstring" value="Residential: ICT equipment (ktoe)_Other Kerosene"/>
+<entry key="161" type="xstring" value="Residential: ICT equipment (ktoe)_Patent Fuels"/>
+<entry key="162" type="xstring" value="Residential: ICT equipment (ktoe)_Peat"/>
+<entry key="163" type="xstring" value="Residential: ICT equipment (ktoe)_Solar thermal"/>
+<entry key="164" type="xstring" value="Residential: ICT equipment (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="165" type="xstring" value="Residential: Household lighting (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="166" type="xstring" value="Residential: Household lighting (ktoe)_Coke Oven Coke"/>
+<entry key="167" type="xstring" value="Residential: Household lighting (ktoe)_Derived heat"/>
+<entry key="168" type="xstring" value="Residential: Household lighting (ktoe)_Electricity"/>
+<entry key="169" type="xstring" value="Residential: Household lighting (ktoe)_Gas Works gas"/>
+<entry key="170" type="xstring" value="Residential: Household lighting (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="171" type="xstring" value="Residential: Household lighting (ktoe)_Gasoline (without biofuels)"/>
+<entry key="172" type="xstring" value="Residential: Household lighting (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="173" type="xstring" value="Residential: Household lighting (ktoe)_Natural gas"/>
+<entry key="174" type="xstring" value="Residential: Household lighting (ktoe)_Other Bituminous Coal"/>
+<entry key="175" type="xstring" value="Residential: Household lighting (ktoe)_Other Kerosene"/>
+<entry key="176" type="xstring" value="Residential: Household lighting (ktoe)_Patent Fuels"/>
+<entry key="177" type="xstring" value="Residential: Household lighting (ktoe)_Peat"/>
+<entry key="178" type="xstring" value="Residential: Household lighting (ktoe)_Solar thermal"/>
+<entry key="179" type="xstring" value="Residential: Household lighting (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="180" type="xstring" value="Residential: Other appliances (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="181" type="xstring" value="Residential: Other appliances (ktoe)_Coke Oven Coke"/>
+<entry key="182" type="xstring" value="Residential: Other appliances (ktoe)_Derived heat"/>
+<entry key="183" type="xstring" value="Residential: Other appliances (ktoe)_Electricity"/>
+<entry key="184" type="xstring" value="Residential: Other appliances (ktoe)_Gas Works gas"/>
+<entry key="185" type="xstring" value="Residential: Other appliances (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="186" type="xstring" value="Residential: Other appliances (ktoe)_Gasoline (without biofuels)"/>
+<entry key="187" type="xstring" value="Residential: Other appliances (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="188" type="xstring" value="Residential: Other appliances (ktoe)_Natural gas"/>
+<entry key="189" type="xstring" value="Residential: Other appliances (ktoe)_Other Bituminous Coal"/>
+<entry key="190" type="xstring" value="Residential: Other appliances (ktoe)_Other Kerosene"/>
+<entry key="191" type="xstring" value="Residential: Other appliances (ktoe)_Patent Fuels"/>
+<entry key="192" type="xstring" value="Residential: Other appliances (ktoe)_Peat"/>
+<entry key="193" type="xstring" value="Residential: Other appliances (ktoe)_Solar thermal"/>
+<entry key="194" type="xstring" value="Residential: Other appliances (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="195" type="xstring" value="Services (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="196" type="xstring" value="Services (ktoe)_Coke Oven Coke"/>
+<entry key="197" type="xstring" value="Services (ktoe)_Derived heat"/>
+<entry key="198" type="xstring" value="Services (ktoe)_Electricity"/>
+<entry key="199" type="xstring" value="Services (ktoe)_Gas Works gas"/>
+<entry key="200" type="xstring" value="Services (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="201" type="xstring" value="Services (ktoe)_Gasoline (without biofuels)"/>
+<entry key="202" type="xstring" value="Services (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="203" type="xstring" value="Services (ktoe)_Natural gas"/>
+<entry key="204" type="xstring" value="Services (ktoe)_Other Bituminous Coal"/>
+<entry key="205" type="xstring" value="Services (ktoe)_Other Kerosene"/>
+<entry key="206" type="xstring" value="Services (ktoe)_Patent Fuels"/>
+<entry key="207" type="xstring" value="Services (ktoe)_Peat"/>
+<entry key="208" type="xstring" value="Services (ktoe)_Solar thermal"/>
+<entry key="209" type="xstring" value="Services (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="210" type="xstring" value="Services: Space heating (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="211" type="xstring" value="Services: Space heating (ktoe)_Coke Oven Coke"/>
+<entry key="212" type="xstring" value="Services: Space heating (ktoe)_Derived heat"/>
+<entry key="213" type="xstring" value="Services: Space heating (ktoe)_Electricity"/>
+<entry key="214" type="xstring" value="Services: Space heating (ktoe)_Gas Works gas"/>
+<entry key="215" type="xstring" value="Services: Space heating (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="216" type="xstring" value="Services: Space heating (ktoe)_Gasoline (without biofuels)"/>
+<entry key="217" type="xstring" value="Services: Space heating (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="218" type="xstring" value="Services: Space heating (ktoe)_Natural gas"/>
+<entry key="219" type="xstring" value="Services: Space heating (ktoe)_Other Bituminous Coal"/>
+<entry key="220" type="xstring" value="Services: Space heating (ktoe)_Other Kerosene"/>
+<entry key="221" type="xstring" value="Services: Space heating (ktoe)_Patent Fuels"/>
+<entry key="222" type="xstring" value="Services: Space heating (ktoe)_Peat"/>
+<entry key="223" type="xstring" value="Services: Space heating (ktoe)_Solar thermal"/>
+<entry key="224" type="xstring" value="Services: Space heating (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="225" type="xstring" value="Services: Space cooling (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="226" type="xstring" value="Services: Space cooling (ktoe)_Coke Oven Coke"/>
+<entry key="227" type="xstring" value="Services: Space cooling (ktoe)_Derived heat"/>
+<entry key="228" type="xstring" value="Services: Space cooling (ktoe)_Electricity"/>
+<entry key="229" type="xstring" value="Services: Space cooling (ktoe)_Gas Works gas"/>
+<entry key="230" type="xstring" value="Services: Space cooling (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="231" type="xstring" value="Services: Space cooling (ktoe)_Gasoline (without biofuels)"/>
+<entry key="232" type="xstring" value="Services: Space cooling (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="233" type="xstring" value="Services: Space cooling (ktoe)_Natural gas"/>
+<entry key="234" type="xstring" value="Services: Space cooling (ktoe)_Other Bituminous Coal"/>
+<entry key="235" type="xstring" value="Services: Space cooling (ktoe)_Other Kerosene"/>
+<entry key="236" type="xstring" value="Services: Space cooling (ktoe)_Patent Fuels"/>
+<entry key="237" type="xstring" value="Services: Space cooling (ktoe)_Peat"/>
+<entry key="238" type="xstring" value="Services: Space cooling (ktoe)_Solar thermal"/>
+<entry key="239" type="xstring" value="Services: Space cooling (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="240" type="xstring" value="Services: Hot water (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="241" type="xstring" value="Services: Hot water (ktoe)_Coke Oven Coke"/>
+<entry key="242" type="xstring" value="Services: Hot water (ktoe)_Derived heat"/>
+<entry key="243" type="xstring" value="Services: Hot water (ktoe)_Electricity"/>
+<entry key="244" type="xstring" value="Services: Hot water (ktoe)_Gas Works gas"/>
+<entry key="245" type="xstring" value="Services: Hot water (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="246" type="xstring" value="Services: Hot water (ktoe)_Gasoline (without biofuels)"/>
+<entry key="247" type="xstring" value="Services: Hot water (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="248" type="xstring" value="Services: Hot water (ktoe)_Natural gas"/>
+<entry key="249" type="xstring" value="Services: Hot water (ktoe)_Other Bituminous Coal"/>
+<entry key="250" type="xstring" value="Services: Hot water (ktoe)_Other Kerosene"/>
+<entry key="251" type="xstring" value="Services: Hot water (ktoe)_Patent Fuels"/>
+<entry key="252" type="xstring" value="Services: Hot water (ktoe)_Peat"/>
+<entry key="253" type="xstring" value="Services: Hot water (ktoe)_Solar thermal"/>
+<entry key="254" type="xstring" value="Services: Hot water (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="255" type="xstring" value="Services: Building lighting (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="256" type="xstring" value="Services: Building lighting (ktoe)_Coke Oven Coke"/>
+<entry key="257" type="xstring" value="Services: Building lighting (ktoe)_Derived heat"/>
+<entry key="258" type="xstring" value="Services: Building lighting (ktoe)_Electricity"/>
+<entry key="259" type="xstring" value="Services: Building lighting (ktoe)_Gas Works gas"/>
+<entry key="260" type="xstring" value="Services: Building lighting (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="261" type="xstring" value="Services: Building lighting (ktoe)_Gasoline (without biofuels)"/>
+<entry key="262" type="xstring" value="Services: Building lighting (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="263" type="xstring" value="Services: Building lighting (ktoe)_Natural gas"/>
+<entry key="264" type="xstring" value="Services: Building lighting (ktoe)_Other Bituminous Coal"/>
+<entry key="265" type="xstring" value="Services: Building lighting (ktoe)_Other Kerosene"/>
+<entry key="266" type="xstring" value="Services: Building lighting (ktoe)_Patent Fuels"/>
+<entry key="267" type="xstring" value="Services: Building lighting (ktoe)_Peat"/>
+<entry key="268" type="xstring" value="Services: Building lighting (ktoe)_Solar thermal"/>
+<entry key="269" type="xstring" value="Services: Building lighting (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="value_columns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="value_columns">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="30"/>
+<entry key="0" type="xstring" value="Residential (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="1" type="xstring" value="Residential (ktoe)_Coke Oven Coke"/>
+<entry key="2" type="xstring" value="Residential (ktoe)_Derived heat"/>
+<entry key="3" type="xstring" value="Residential (ktoe)_Electricity"/>
+<entry key="4" type="xstring" value="Residential (ktoe)_Gas Works gas"/>
+<entry key="5" type="xstring" value="Residential (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="6" type="xstring" value="Residential (ktoe)_Gasoline (without biofuels)"/>
+<entry key="7" type="xstring" value="Residential (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="8" type="xstring" value="Residential (ktoe)_Natural gas"/>
+<entry key="9" type="xstring" value="Residential (ktoe)_Other Bituminous Coal"/>
+<entry key="10" type="xstring" value="Residential (ktoe)_Other Kerosene"/>
+<entry key="11" type="xstring" value="Residential (ktoe)_Patent Fuels"/>
+<entry key="12" type="xstring" value="Residential (ktoe)_Peat"/>
+<entry key="13" type="xstring" value="Residential (ktoe)_Solar thermal"/>
+<entry key="14" type="xstring" value="Residential (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="15" type="xstring" value="Services (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="16" type="xstring" value="Services (ktoe)_Coke Oven Coke"/>
+<entry key="17" type="xstring" value="Services (ktoe)_Derived heat"/>
+<entry key="18" type="xstring" value="Services (ktoe)_Electricity"/>
+<entry key="19" type="xstring" value="Services (ktoe)_Gas Works gas"/>
+<entry key="20" type="xstring" value="Services (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="21" type="xstring" value="Services (ktoe)_Gasoline (without biofuels)"/>
+<entry key="22" type="xstring" value="Services (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="23" type="xstring" value="Services (ktoe)_Natural gas"/>
+<entry key="24" type="xstring" value="Services (ktoe)_Other Bituminous Coal"/>
+<entry key="25" type="xstring" value="Services (ktoe)_Other Kerosene"/>
+<entry key="26" type="xstring" value="Services (ktoe)_Patent Fuels"/>
+<entry key="27" type="xstring" value="Services (ktoe)_Peat"/>
+<entry key="28" type="xstring" value="Services (ktoe)_Solar thermal"/>
+<entry key="29" type="xstring" value="Services (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="242"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="Residential: Space heating (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="3" type="xstring" value="Residential: Space heating (ktoe)_Coke Oven Coke"/>
+<entry key="4" type="xstring" value="Residential: Space heating (ktoe)_Derived heat"/>
+<entry key="5" type="xstring" value="Residential: Space heating (ktoe)_Electricity"/>
+<entry key="6" type="xstring" value="Residential: Space heating (ktoe)_Gas Works gas"/>
+<entry key="7" type="xstring" value="Residential: Space heating (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="8" type="xstring" value="Residential: Space heating (ktoe)_Gasoline (without biofuels)"/>
+<entry key="9" type="xstring" value="Residential: Space heating (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="10" type="xstring" value="Residential: Space heating (ktoe)_Natural gas"/>
+<entry key="11" type="xstring" value="Residential: Space heating (ktoe)_Other Bituminous Coal"/>
+<entry key="12" type="xstring" value="Residential: Space heating (ktoe)_Other Kerosene"/>
+<entry key="13" type="xstring" value="Residential: Space heating (ktoe)_Patent Fuels"/>
+<entry key="14" type="xstring" value="Residential: Space heating (ktoe)_Peat"/>
+<entry key="15" type="xstring" value="Residential: Space heating (ktoe)_Solar thermal"/>
+<entry key="16" type="xstring" value="Residential: Space heating (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="17" type="xstring" value="Residential: Space cooling (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="18" type="xstring" value="Residential: Space cooling (ktoe)_Coke Oven Coke"/>
+<entry key="19" type="xstring" value="Residential: Space cooling (ktoe)_Derived heat"/>
+<entry key="20" type="xstring" value="Residential: Space cooling (ktoe)_Electricity"/>
+<entry key="21" type="xstring" value="Residential: Space cooling (ktoe)_Gas Works gas"/>
+<entry key="22" type="xstring" value="Residential: Space cooling (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="23" type="xstring" value="Residential: Space cooling (ktoe)_Gasoline (without biofuels)"/>
+<entry key="24" type="xstring" value="Residential: Space cooling (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="25" type="xstring" value="Residential: Space cooling (ktoe)_Natural gas"/>
+<entry key="26" type="xstring" value="Residential: Space cooling (ktoe)_Other Bituminous Coal"/>
+<entry key="27" type="xstring" value="Residential: Space cooling (ktoe)_Other Kerosene"/>
+<entry key="28" type="xstring" value="Residential: Space cooling (ktoe)_Patent Fuels"/>
+<entry key="29" type="xstring" value="Residential: Space cooling (ktoe)_Peat"/>
+<entry key="30" type="xstring" value="Residential: Space cooling (ktoe)_Solar thermal"/>
+<entry key="31" type="xstring" value="Residential: Space cooling (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="32" type="xstring" value="Residential: Water heating (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="33" type="xstring" value="Residential: Water heating (ktoe)_Coke Oven Coke"/>
+<entry key="34" type="xstring" value="Residential: Water heating (ktoe)_Derived heat"/>
+<entry key="35" type="xstring" value="Residential: Water heating (ktoe)_Electricity"/>
+<entry key="36" type="xstring" value="Residential: Water heating (ktoe)_Gas Works gas"/>
+<entry key="37" type="xstring" value="Residential: Water heating (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="38" type="xstring" value="Residential: Water heating (ktoe)_Gasoline (without biofuels)"/>
+<entry key="39" type="xstring" value="Residential: Water heating (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="40" type="xstring" value="Residential: Water heating (ktoe)_Natural gas"/>
+<entry key="41" type="xstring" value="Residential: Water heating (ktoe)_Other Bituminous Coal"/>
+<entry key="42" type="xstring" value="Residential: Water heating (ktoe)_Other Kerosene"/>
+<entry key="43" type="xstring" value="Residential: Water heating (ktoe)_Patent Fuels"/>
+<entry key="44" type="xstring" value="Residential: Water heating (ktoe)_Peat"/>
+<entry key="45" type="xstring" value="Residential: Water heating (ktoe)_Solar thermal"/>
+<entry key="46" type="xstring" value="Residential: Water heating (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="47" type="xstring" value="Residential: Cooking (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="48" type="xstring" value="Residential: Cooking (ktoe)_Coke Oven Coke"/>
+<entry key="49" type="xstring" value="Residential: Cooking (ktoe)_Derived heat"/>
+<entry key="50" type="xstring" value="Residential: Cooking (ktoe)_Electricity"/>
+<entry key="51" type="xstring" value="Residential: Cooking (ktoe)_Gas Works gas"/>
+<entry key="52" type="xstring" value="Residential: Cooking (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="53" type="xstring" value="Residential: Cooking (ktoe)_Gasoline (without biofuels)"/>
+<entry key="54" type="xstring" value="Residential: Cooking (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="55" type="xstring" value="Residential: Cooking (ktoe)_Natural gas"/>
+<entry key="56" type="xstring" value="Residential: Cooking (ktoe)_Other Bituminous Coal"/>
+<entry key="57" type="xstring" value="Residential: Cooking (ktoe)_Other Kerosene"/>
+<entry key="58" type="xstring" value="Residential: Cooking (ktoe)_Patent Fuels"/>
+<entry key="59" type="xstring" value="Residential: Cooking (ktoe)_Peat"/>
+<entry key="60" type="xstring" value="Residential: Cooking (ktoe)_Solar thermal"/>
+<entry key="61" type="xstring" value="Residential: Cooking (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="62" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="63" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Coke Oven Coke"/>
+<entry key="64" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Derived heat"/>
+<entry key="65" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Electricity"/>
+<entry key="66" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Gas Works gas"/>
+<entry key="67" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="68" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Gasoline (without biofuels)"/>
+<entry key="69" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="70" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Natural gas"/>
+<entry key="71" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Other Bituminous Coal"/>
+<entry key="72" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Other Kerosene"/>
+<entry key="73" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Patent Fuels"/>
+<entry key="74" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Peat"/>
+<entry key="75" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Solar thermal"/>
+<entry key="76" type="xstring" value="Residential: Refrigerators and freezers (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="77" type="xstring" value="Residential: Washing machines (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="78" type="xstring" value="Residential: Washing machines (ktoe)_Coke Oven Coke"/>
+<entry key="79" type="xstring" value="Residential: Washing machines (ktoe)_Derived heat"/>
+<entry key="80" type="xstring" value="Residential: Washing machines (ktoe)_Electricity"/>
+<entry key="81" type="xstring" value="Residential: Washing machines (ktoe)_Gas Works gas"/>
+<entry key="82" type="xstring" value="Residential: Washing machines (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="83" type="xstring" value="Residential: Washing machines (ktoe)_Gasoline (without biofuels)"/>
+<entry key="84" type="xstring" value="Residential: Washing machines (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="85" type="xstring" value="Residential: Washing machines (ktoe)_Natural gas"/>
+<entry key="86" type="xstring" value="Residential: Washing machines (ktoe)_Other Bituminous Coal"/>
+<entry key="87" type="xstring" value="Residential: Washing machines (ktoe)_Other Kerosene"/>
+<entry key="88" type="xstring" value="Residential: Washing machines (ktoe)_Patent Fuels"/>
+<entry key="89" type="xstring" value="Residential: Washing machines (ktoe)_Peat"/>
+<entry key="90" type="xstring" value="Residential: Washing machines (ktoe)_Solar thermal"/>
+<entry key="91" type="xstring" value="Residential: Washing machines (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="92" type="xstring" value="Residential: Clothes dryers (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="93" type="xstring" value="Residential: Clothes dryers (ktoe)_Coke Oven Coke"/>
+<entry key="94" type="xstring" value="Residential: Clothes dryers (ktoe)_Derived heat"/>
+<entry key="95" type="xstring" value="Residential: Clothes dryers (ktoe)_Electricity"/>
+<entry key="96" type="xstring" value="Residential: Clothes dryers (ktoe)_Gas Works gas"/>
+<entry key="97" type="xstring" value="Residential: Clothes dryers (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="98" type="xstring" value="Residential: Clothes dryers (ktoe)_Gasoline (without biofuels)"/>
+<entry key="99" type="xstring" value="Residential: Clothes dryers (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="100" type="xstring" value="Residential: Clothes dryers (ktoe)_Natural gas"/>
+<entry key="101" type="xstring" value="Residential: Clothes dryers (ktoe)_Other Bituminous Coal"/>
+<entry key="102" type="xstring" value="Residential: Clothes dryers (ktoe)_Other Kerosene"/>
+<entry key="103" type="xstring" value="Residential: Clothes dryers (ktoe)_Patent Fuels"/>
+<entry key="104" type="xstring" value="Residential: Clothes dryers (ktoe)_Peat"/>
+<entry key="105" type="xstring" value="Residential: Clothes dryers (ktoe)_Solar thermal"/>
+<entry key="106" type="xstring" value="Residential: Clothes dryers (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="107" type="xstring" value="Residential: Dishwashers (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="108" type="xstring" value="Residential: Dishwashers (ktoe)_Coke Oven Coke"/>
+<entry key="109" type="xstring" value="Residential: Dishwashers (ktoe)_Derived heat"/>
+<entry key="110" type="xstring" value="Residential: Dishwashers (ktoe)_Electricity"/>
+<entry key="111" type="xstring" value="Residential: Dishwashers (ktoe)_Gas Works gas"/>
+<entry key="112" type="xstring" value="Residential: Dishwashers (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="113" type="xstring" value="Residential: Dishwashers (ktoe)_Gasoline (without biofuels)"/>
+<entry key="114" type="xstring" value="Residential: Dishwashers (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="115" type="xstring" value="Residential: Dishwashers (ktoe)_Natural gas"/>
+<entry key="116" type="xstring" value="Residential: Dishwashers (ktoe)_Other Bituminous Coal"/>
+<entry key="117" type="xstring" value="Residential: Dishwashers (ktoe)_Other Kerosene"/>
+<entry key="118" type="xstring" value="Residential: Dishwashers (ktoe)_Patent Fuels"/>
+<entry key="119" type="xstring" value="Residential: Dishwashers (ktoe)_Peat"/>
+<entry key="120" type="xstring" value="Residential: Dishwashers (ktoe)_Solar thermal"/>
+<entry key="121" type="xstring" value="Residential: Dishwashers (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="122" type="xstring" value="Residential: TV and multimedia (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="123" type="xstring" value="Residential: TV and multimedia (ktoe)_Coke Oven Coke"/>
+<entry key="124" type="xstring" value="Residential: TV and multimedia (ktoe)_Derived heat"/>
+<entry key="125" type="xstring" value="Residential: TV and multimedia (ktoe)_Electricity"/>
+<entry key="126" type="xstring" value="Residential: TV and multimedia (ktoe)_Gas Works gas"/>
+<entry key="127" type="xstring" value="Residential: TV and multimedia (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="128" type="xstring" value="Residential: TV and multimedia (ktoe)_Gasoline (without biofuels)"/>
+<entry key="129" type="xstring" value="Residential: TV and multimedia (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="130" type="xstring" value="Residential: TV and multimedia (ktoe)_Natural gas"/>
+<entry key="131" type="xstring" value="Residential: TV and multimedia (ktoe)_Other Bituminous Coal"/>
+<entry key="132" type="xstring" value="Residential: TV and multimedia (ktoe)_Other Kerosene"/>
+<entry key="133" type="xstring" value="Residential: TV and multimedia (ktoe)_Patent Fuels"/>
+<entry key="134" type="xstring" value="Residential: TV and multimedia (ktoe)_Peat"/>
+<entry key="135" type="xstring" value="Residential: TV and multimedia (ktoe)_Solar thermal"/>
+<entry key="136" type="xstring" value="Residential: TV and multimedia (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="137" type="xstring" value="Residential: ICT equipment (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="138" type="xstring" value="Residential: ICT equipment (ktoe)_Coke Oven Coke"/>
+<entry key="139" type="xstring" value="Residential: ICT equipment (ktoe)_Derived heat"/>
+<entry key="140" type="xstring" value="Residential: ICT equipment (ktoe)_Electricity"/>
+<entry key="141" type="xstring" value="Residential: ICT equipment (ktoe)_Gas Works gas"/>
+<entry key="142" type="xstring" value="Residential: ICT equipment (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="143" type="xstring" value="Residential: ICT equipment (ktoe)_Gasoline (without biofuels)"/>
+<entry key="144" type="xstring" value="Residential: ICT equipment (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="145" type="xstring" value="Residential: ICT equipment (ktoe)_Natural gas"/>
+<entry key="146" type="xstring" value="Residential: ICT equipment (ktoe)_Other Bituminous Coal"/>
+<entry key="147" type="xstring" value="Residential: ICT equipment (ktoe)_Other Kerosene"/>
+<entry key="148" type="xstring" value="Residential: ICT equipment (ktoe)_Patent Fuels"/>
+<entry key="149" type="xstring" value="Residential: ICT equipment (ktoe)_Peat"/>
+<entry key="150" type="xstring" value="Residential: ICT equipment (ktoe)_Solar thermal"/>
+<entry key="151" type="xstring" value="Residential: ICT equipment (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="152" type="xstring" value="Residential: Household lighting (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="153" type="xstring" value="Residential: Household lighting (ktoe)_Coke Oven Coke"/>
+<entry key="154" type="xstring" value="Residential: Household lighting (ktoe)_Derived heat"/>
+<entry key="155" type="xstring" value="Residential: Household lighting (ktoe)_Electricity"/>
+<entry key="156" type="xstring" value="Residential: Household lighting (ktoe)_Gas Works gas"/>
+<entry key="157" type="xstring" value="Residential: Household lighting (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="158" type="xstring" value="Residential: Household lighting (ktoe)_Gasoline (without biofuels)"/>
+<entry key="159" type="xstring" value="Residential: Household lighting (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="160" type="xstring" value="Residential: Household lighting (ktoe)_Natural gas"/>
+<entry key="161" type="xstring" value="Residential: Household lighting (ktoe)_Other Bituminous Coal"/>
+<entry key="162" type="xstring" value="Residential: Household lighting (ktoe)_Other Kerosene"/>
+<entry key="163" type="xstring" value="Residential: Household lighting (ktoe)_Patent Fuels"/>
+<entry key="164" type="xstring" value="Residential: Household lighting (ktoe)_Peat"/>
+<entry key="165" type="xstring" value="Residential: Household lighting (ktoe)_Solar thermal"/>
+<entry key="166" type="xstring" value="Residential: Household lighting (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="167" type="xstring" value="Residential: Other appliances (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="168" type="xstring" value="Residential: Other appliances (ktoe)_Coke Oven Coke"/>
+<entry key="169" type="xstring" value="Residential: Other appliances (ktoe)_Derived heat"/>
+<entry key="170" type="xstring" value="Residential: Other appliances (ktoe)_Electricity"/>
+<entry key="171" type="xstring" value="Residential: Other appliances (ktoe)_Gas Works gas"/>
+<entry key="172" type="xstring" value="Residential: Other appliances (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="173" type="xstring" value="Residential: Other appliances (ktoe)_Gasoline (without biofuels)"/>
+<entry key="174" type="xstring" value="Residential: Other appliances (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="175" type="xstring" value="Residential: Other appliances (ktoe)_Natural gas"/>
+<entry key="176" type="xstring" value="Residential: Other appliances (ktoe)_Other Bituminous Coal"/>
+<entry key="177" type="xstring" value="Residential: Other appliances (ktoe)_Other Kerosene"/>
+<entry key="178" type="xstring" value="Residential: Other appliances (ktoe)_Patent Fuels"/>
+<entry key="179" type="xstring" value="Residential: Other appliances (ktoe)_Peat"/>
+<entry key="180" type="xstring" value="Residential: Other appliances (ktoe)_Solar thermal"/>
+<entry key="181" type="xstring" value="Residential: Other appliances (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="182" type="xstring" value="Services: Space heating (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="183" type="xstring" value="Services: Space heating (ktoe)_Coke Oven Coke"/>
+<entry key="184" type="xstring" value="Services: Space heating (ktoe)_Derived heat"/>
+<entry key="185" type="xstring" value="Services: Space heating (ktoe)_Electricity"/>
+<entry key="186" type="xstring" value="Services: Space heating (ktoe)_Gas Works gas"/>
+<entry key="187" type="xstring" value="Services: Space heating (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="188" type="xstring" value="Services: Space heating (ktoe)_Gasoline (without biofuels)"/>
+<entry key="189" type="xstring" value="Services: Space heating (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="190" type="xstring" value="Services: Space heating (ktoe)_Natural gas"/>
+<entry key="191" type="xstring" value="Services: Space heating (ktoe)_Other Bituminous Coal"/>
+<entry key="192" type="xstring" value="Services: Space heating (ktoe)_Other Kerosene"/>
+<entry key="193" type="xstring" value="Services: Space heating (ktoe)_Patent Fuels"/>
+<entry key="194" type="xstring" value="Services: Space heating (ktoe)_Peat"/>
+<entry key="195" type="xstring" value="Services: Space heating (ktoe)_Solar thermal"/>
+<entry key="196" type="xstring" value="Services: Space heating (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="197" type="xstring" value="Services: Space cooling (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="198" type="xstring" value="Services: Space cooling (ktoe)_Coke Oven Coke"/>
+<entry key="199" type="xstring" value="Services: Space cooling (ktoe)_Derived heat"/>
+<entry key="200" type="xstring" value="Services: Space cooling (ktoe)_Electricity"/>
+<entry key="201" type="xstring" value="Services: Space cooling (ktoe)_Gas Works gas"/>
+<entry key="202" type="xstring" value="Services: Space cooling (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="203" type="xstring" value="Services: Space cooling (ktoe)_Gasoline (without biofuels)"/>
+<entry key="204" type="xstring" value="Services: Space cooling (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="205" type="xstring" value="Services: Space cooling (ktoe)_Natural gas"/>
+<entry key="206" type="xstring" value="Services: Space cooling (ktoe)_Other Bituminous Coal"/>
+<entry key="207" type="xstring" value="Services: Space cooling (ktoe)_Other Kerosene"/>
+<entry key="208" type="xstring" value="Services: Space cooling (ktoe)_Patent Fuels"/>
+<entry key="209" type="xstring" value="Services: Space cooling (ktoe)_Peat"/>
+<entry key="210" type="xstring" value="Services: Space cooling (ktoe)_Solar thermal"/>
+<entry key="211" type="xstring" value="Services: Space cooling (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="212" type="xstring" value="Services: Hot water (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="213" type="xstring" value="Services: Hot water (ktoe)_Coke Oven Coke"/>
+<entry key="214" type="xstring" value="Services: Hot water (ktoe)_Derived heat"/>
+<entry key="215" type="xstring" value="Services: Hot water (ktoe)_Electricity"/>
+<entry key="216" type="xstring" value="Services: Hot water (ktoe)_Gas Works gas"/>
+<entry key="217" type="xstring" value="Services: Hot water (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="218" type="xstring" value="Services: Hot water (ktoe)_Gasoline (without biofuels)"/>
+<entry key="219" type="xstring" value="Services: Hot water (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="220" type="xstring" value="Services: Hot water (ktoe)_Natural gas"/>
+<entry key="221" type="xstring" value="Services: Hot water (ktoe)_Other Bituminous Coal"/>
+<entry key="222" type="xstring" value="Services: Hot water (ktoe)_Other Kerosene"/>
+<entry key="223" type="xstring" value="Services: Hot water (ktoe)_Patent Fuels"/>
+<entry key="224" type="xstring" value="Services: Hot water (ktoe)_Peat"/>
+<entry key="225" type="xstring" value="Services: Hot water (ktoe)_Solar thermal"/>
+<entry key="226" type="xstring" value="Services: Hot water (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="227" type="xstring" value="Services: Building lighting (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="228" type="xstring" value="Services: Building lighting (ktoe)_Coke Oven Coke"/>
+<entry key="229" type="xstring" value="Services: Building lighting (ktoe)_Derived heat"/>
+<entry key="230" type="xstring" value="Services: Building lighting (ktoe)_Electricity"/>
+<entry key="231" type="xstring" value="Services: Building lighting (ktoe)_Gas Works gas"/>
+<entry key="232" type="xstring" value="Services: Building lighting (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="233" type="xstring" value="Services: Building lighting (ktoe)_Gasoline (without biofuels)"/>
+<entry key="234" type="xstring" value="Services: Building lighting (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="235" type="xstring" value="Services: Building lighting (ktoe)_Natural gas"/>
+<entry key="236" type="xstring" value="Services: Building lighting (ktoe)_Other Bituminous Coal"/>
+<entry key="237" type="xstring" value="Services: Building lighting (ktoe)_Other Kerosene"/>
+<entry key="238" type="xstring" value="Services: Building lighting (ktoe)_Patent Fuels"/>
+<entry key="239" type="xstring" value="Services: Building lighting (ktoe)_Peat"/>
+<entry key="240" type="xstring" value="Services: Building lighting (ktoe)_Solar thermal"/>
+<entry key="241" type="xstring" value="Services: Building lighting (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=".*ktoe.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="enable-hiliting_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enable-hiliting" type="xboolean" value="false"/>
+<config key="missing-values_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="missing-values" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="From vectors%%00013%%00010to columns"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="982"/>
+<entry key="y-coordinate" type="xint" value="1389"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.unpivot2.Unpivot2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Unpivoting"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Unpivoting"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 451584, Cols: 5"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="1c9f91f6-86a7-43ce-b089-c7badd1f650f"/>
+</config>
+</config>

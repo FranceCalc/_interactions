@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="duplicateHandling" type="xstring" value="AppendSuffixAutomatic"/>
+<entry key="compositionMode" type="xstring" value="MatchAll"/>
+<entry key="joinMode" type="xstring" value="InnerJoin"/>
+<config key="leftTableJoinPredicate">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+</config>
+<config key="rightTableJoinPredicate">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+</config>
+<entry key="suffix" type="xstring" value="(*)"/>
+<config key="leftIncludeCols">
+<entry key="array-size" type="xint" value="225"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="lever_feed-types"/>
+<entry key="3" type="xstring" value="fts_agr_feed-types_bov-int-pasture[%]"/>
+<entry key="4" type="xstring" value="fts_agr_feed-types_bov-org-pasture[%]"/>
+<entry key="5" type="xstring" value="fts_agr_feed-types_sheep-int-pasture[%]"/>
+<entry key="6" type="xstring" value="fts_agr_feed-types_sheep-org-pasture[%]"/>
+<entry key="7" type="xstring" value="fts_agr_feed-types_fcr_insect-org[%]"/>
+<entry key="8" type="xstring" value="fts_agr_feed-types_fcr_insect-int[%]"/>
+<entry key="9" type="xstring" value="fts_agr_feed-types_oth-animals-org-meatmeal[%]"/>
+<entry key="10" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-fishoil[%]"/>
+<entry key="11" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-fishoil[%]"/>
+<entry key="12" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-fishmeal[%]"/>
+<entry key="13" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-fishmeal[%]"/>
+<entry key="14" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-afats[%]"/>
+<entry key="15" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-afats[%]"/>
+<entry key="16" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-meatmeal[%]"/>
+<entry key="17" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-meatmeal[%]"/>
+<entry key="18" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-oth[%]"/>
+<entry key="19" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-oth[%]"/>
+<entry key="20" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-grains[%]"/>
+<entry key="21" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-grains[%]"/>
+<entry key="22" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-cereals[%]"/>
+<entry key="23" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-cereals[%]"/>
+<entry key="24" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-algae[%]"/>
+<entry key="25" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-algae[%]"/>
+<entry key="26" type="xstring" value="fts_agr_feed-types_oth-aq-animals-int-insect[%]"/>
+<entry key="27" type="xstring" value="fts_agr_feed-types_oth-aq-animals-org-insect[%]"/>
+<entry key="28" type="xstring" value="fts_agr_feed-types_seafood-int-oth[%]"/>
+<entry key="29" type="xstring" value="fts_agr_feed-types_seafood-org-oth[%]"/>
+<entry key="30" type="xstring" value="fts_agr_feed-types_seafood-int-grains[%]"/>
+<entry key="31" type="xstring" value="fts_agr_feed-types_seafood-org-grains[%]"/>
+<entry key="32" type="xstring" value="fts_agr_feed-types_seafood-int-fishoil[%]"/>
+<entry key="33" type="xstring" value="fts_agr_feed-types_seafood-org-fishoil[%]"/>
+<entry key="34" type="xstring" value="fts_agr_feed-types_seafood-int-fishmeal[%]"/>
+<entry key="35" type="xstring" value="fts_agr_feed-types_seafood-org-fishmeal[%]"/>
+<entry key="36" type="xstring" value="fts_agr_feed-types_seafood-int-afats[%]"/>
+<entry key="37" type="xstring" value="fts_agr_feed-types_seafood-org-afats[%]"/>
+<entry key="38" type="xstring" value="fts_agr_feed-types_seafood-int-meatmeal[%]"/>
+<entry key="39" type="xstring" value="fts_agr_feed-types_seafood-org-meatmeal[%]"/>
+<entry key="40" type="xstring" value="fts_agr_feed-types_seafood-int-cereals[%]"/>
+<entry key="41" type="xstring" value="fts_agr_feed-types_seafood-org-cereals[%]"/>
+<entry key="42" type="xstring" value="fts_agr_feed-types_seafood-int-algae[%]"/>
+<entry key="43" type="xstring" value="fts_agr_feed-types_seafood-org-algae[%]"/>
+<entry key="44" type="xstring" value="fts_agr_feed-types_seafood-int-insect[%]"/>
+<entry key="45" type="xstring" value="fts_agr_feed-types_seafood-org-insect[%]"/>
+<entry key="46" type="xstring" value="fts_agr_feed-types_pfish-int-oth[%]"/>
+<entry key="47" type="xstring" value="fts_agr_feed-types_pfish-org-oth[%]"/>
+<entry key="48" type="xstring" value="fts_agr_feed-types_pfish-int-grains[%]"/>
+<entry key="49" type="xstring" value="fts_agr_feed-types_pfish-org-grains[%]"/>
+<entry key="50" type="xstring" value="fts_agr_feed-types_pfish-int-fishoil[%]"/>
+<entry key="51" type="xstring" value="fts_agr_feed-types_pfish-org-fishoil[%]"/>
+<entry key="52" type="xstring" value="fts_agr_feed-types_pfish-int-fishmeal[%]"/>
+<entry key="53" type="xstring" value="fts_agr_feed-types_pfish-org-fishmeal[%]"/>
+<entry key="54" type="xstring" value="fts_agr_feed-types_pfish-int-afats[%]"/>
+<entry key="55" type="xstring" value="fts_agr_feed-types_pfish-org-afats[%]"/>
+<entry key="56" type="xstring" value="fts_agr_feed-types_pfish-int-meatmeal[%]"/>
+<entry key="57" type="xstring" value="fts_agr_feed-types_pfish-org-meatmeal[%]"/>
+<entry key="58" type="xstring" value="fts_agr_feed-types_pfish-int-cereals[%]"/>
+<entry key="59" type="xstring" value="fts_agr_feed-types_pfish-org-cereals[%]"/>
+<entry key="60" type="xstring" value="fts_agr_feed-types_pfish-int-algae[%]"/>
+<entry key="61" type="xstring" value="fts_agr_feed-types_pfish-org-algae[%]"/>
+<entry key="62" type="xstring" value="fts_agr_feed-types_pfish-int-insect[%]"/>
+<entry key="63" type="xstring" value="fts_agr_feed-types_pfish-org-insect[%]"/>
+<entry key="64" type="xstring" value="fts_agr_feed-types_dfish-int-oth[%]"/>
+<entry key="65" type="xstring" value="fts_agr_feed-types_dfish-org-oth[%]"/>
+<entry key="66" type="xstring" value="fts_agr_feed-types_dfish-int-grains[%]"/>
+<entry key="67" type="xstring" value="fts_agr_feed-types_dfish-org-grains[%]"/>
+<entry key="68" type="xstring" value="fts_agr_feed-types_dfish-int-fishoil[%]"/>
+<entry key="69" type="xstring" value="fts_agr_feed-types_dfish-org-fishoil[%]"/>
+<entry key="70" type="xstring" value="fts_agr_feed-types_dfish-int-fishmeal[%]"/>
+<entry key="71" type="xstring" value="fts_agr_feed-types_dfish-org-fishmeal[%]"/>
+<entry key="72" type="xstring" value="fts_agr_feed-types_dfish-int-afats[%]"/>
+<entry key="73" type="xstring" value="fts_agr_feed-types_dfish-org-afats[%]"/>
+<entry key="74" type="xstring" value="fts_agr_feed-types_dfish-int-meatmeal[%]"/>
+<entry key="75" type="xstring" value="fts_agr_feed-types_dfish-org-meatmeal[%]"/>
+<entry key="76" type="xstring" value="fts_agr_feed-types_dfish-int-cereals[%]"/>
+<entry key="77" type="xstring" value="fts_agr_feed-types_dfish-org-cereals[%]"/>
+<entry key="78" type="xstring" value="fts_agr_feed-types_dfish-int-algae[%]"/>
+<entry key="79" type="xstring" value="fts_agr_feed-types_dfish-org-algae[%]"/>
+<entry key="80" type="xstring" value="fts_agr_feed-types_dfish-int-insect[%]"/>
+<entry key="81" type="xstring" value="fts_agr_feed-types_dfish-org-insect[%]"/>
+<entry key="82" type="xstring" value="fts_agr_feed-types_ffish-int-oth[%]"/>
+<entry key="83" type="xstring" value="fts_agr_feed-types_ffish-org-oth[%]"/>
+<entry key="84" type="xstring" value="fts_agr_feed-types_ffish-int-grains[%]"/>
+<entry key="85" type="xstring" value="fts_agr_feed-types_ffish-org-grains[%]"/>
+<entry key="86" type="xstring" value="fts_agr_feed-types_ffish-int-fishoil[%]"/>
+<entry key="87" type="xstring" value="fts_agr_feed-types_ffish-org-fishoil[%]"/>
+<entry key="88" type="xstring" value="fts_agr_feed-types_ffish-int-fishmeal[%]"/>
+<entry key="89" type="xstring" value="fts_agr_feed-types_ffish-org-fishmeal[%]"/>
+<entry key="90" type="xstring" value="fts_agr_feed-types_ffish-int-afats[%]"/>
+<entry key="91" type="xstring" value="fts_agr_feed-types_ffish-org-afats[%]"/>
+<entry key="92" type="xstring" value="fts_agr_feed-types_ffish-int-meatmeal[%]"/>
+<entry key="93" type="xstring" value="fts_agr_feed-types_ffish-org-meatmeal[%]"/>
+<entry key="94" type="xstring" value="fts_agr_feed-types_ffish-int-cereals[%]"/>
+<entry key="95" type="xstring" value="fts_agr_feed-types_ffish-org-cereals[%]"/>
+<entry key="96" type="xstring" value="fts_agr_feed-types_ffish-int-algae[%]"/>
+<entry key="97" type="xstring" value="fts_agr_feed-types_ffish-org-algae[%]"/>
+<entry key="98" type="xstring" value="fts_agr_feed-types_ffish-int-insect[%]"/>
+<entry key="99" type="xstring" value="fts_agr_feed-types_ffish-org-insect[%]"/>
+<entry key="100" type="xstring" value="fts_agr_feed-types_egg-int-oth[%]"/>
+<entry key="101" type="xstring" value="fts_agr_feed-types_egg-int-insect[%]"/>
+<entry key="102" type="xstring" value="fts_agr_feed-types_egg-int-algae[%]"/>
+<entry key="103" type="xstring" value="fts_agr_feed-types_egg-int-grains[%]"/>
+<entry key="104" type="xstring" value="fts_agr_feed-types_egg-int-cereals[%]"/>
+<entry key="105" type="xstring" value="fts_agr_feed-types_egg-org-cereals[%]"/>
+<entry key="106" type="xstring" value="fts_agr_feed-types_egg-org-grains[%]"/>
+<entry key="107" type="xstring" value="fts_agr_feed-types_egg-int-fishoil[%]"/>
+<entry key="108" type="xstring" value="fts_agr_feed-types_egg-int-fishmeal[%]"/>
+<entry key="109" type="xstring" value="fts_agr_feed-types_egg-org-fishmeal[%]"/>
+<entry key="110" type="xstring" value="fts_agr_feed-types_egg-org-fishoil[%]"/>
+<entry key="111" type="xstring" value="fts_agr_feed-types_egg-int-afats[%]"/>
+<entry key="112" type="xstring" value="fts_agr_feed-types_egg-int-meatmeal[%]"/>
+<entry key="113" type="xstring" value="fts_agr_feed-types_egg-org-afats[%]"/>
+<entry key="114" type="xstring" value="fts_agr_feed-types_egg-org-meatmeal[%]"/>
+<entry key="115" type="xstring" value="fts_agr_feed-types_egg-org-algae[%]"/>
+<entry key="116" type="xstring" value="fts_agr_feed-types_egg-org-insect[%]"/>
+<entry key="117" type="xstring" value="fts_agr_feed-types_egg-org-oth[%]"/>
+<entry key="118" type="xstring" value="fts_agr_feed-types_milk-int-oth[%]"/>
+<entry key="119" type="xstring" value="fts_agr_feed-types_milk-int-insect[%]"/>
+<entry key="120" type="xstring" value="fts_agr_feed-types_milk-int-algae[%]"/>
+<entry key="121" type="xstring" value="fts_agr_feed-types_milk-int-grains[%]"/>
+<entry key="122" type="xstring" value="fts_agr_feed-types_milk-int-cereals[%]"/>
+<entry key="123" type="xstring" value="fts_agr_feed-types_milk-org-cereals[%]"/>
+<entry key="124" type="xstring" value="fts_agr_feed-types_milk-org-grains[%]"/>
+<entry key="125" type="xstring" value="fts_agr_feed-types_milk-int-fishmeal[%]"/>
+<entry key="126" type="xstring" value="fts_agr_feed-types_milk-int-fishoil[%]"/>
+<entry key="127" type="xstring" value="fts_agr_feed-types_milk-org-fishmeal[%]"/>
+<entry key="128" type="xstring" value="fts_agr_feed-types_milk-org-fishoil[%]"/>
+<entry key="129" type="xstring" value="fts_agr_feed-types_milk-int-afats[%]"/>
+<entry key="130" type="xstring" value="fts_agr_feed-types_milk-int-meatmeal[%]"/>
+<entry key="131" type="xstring" value="fts_agr_feed-types_milk-org-afats[%]"/>
+<entry key="132" type="xstring" value="fts_agr_feed-types_milk-org-meatmeal[%]"/>
+<entry key="133" type="xstring" value="fts_agr_feed-types_milk-org-algae[%]"/>
+<entry key="134" type="xstring" value="fts_agr_feed-types_milk-org-insect[%]"/>
+<entry key="135" type="xstring" value="fts_agr_feed-types_milk-org-oth[%]"/>
+<entry key="136" type="xstring" value="fts_agr_feed-types_bov-int-oth[%]"/>
+<entry key="137" type="xstring" value="fts_agr_feed-types_bov-int-insect[%]"/>
+<entry key="138" type="xstring" value="fts_agr_feed-types_bov-int-algae[%]"/>
+<entry key="139" type="xstring" value="fts_agr_feed-types_bov-int-grains[%]"/>
+<entry key="140" type="xstring" value="fts_agr_feed-types_bov-int-cereals[%]"/>
+<entry key="141" type="xstring" value="fts_agr_feed-types_bov-org-cereals[%]"/>
+<entry key="142" type="xstring" value="fts_agr_feed-types_bov-org-grains[%]"/>
+<entry key="143" type="xstring" value="fts_agr_feed-types_bov-int-fishoil[%]"/>
+<entry key="144" type="xstring" value="fts_agr_feed-types_bov-int-fishmeal[%]"/>
+<entry key="145" type="xstring" value="fts_agr_feed-types_bov-org-fishmeal[%]"/>
+<entry key="146" type="xstring" value="fts_agr_feed-types_bov-org-fishoil[%]"/>
+<entry key="147" type="xstring" value="fts_agr_feed-types_bov-int-afats[%]"/>
+<entry key="148" type="xstring" value="fts_agr_feed-types_bov-int-meatmeal[%]"/>
+<entry key="149" type="xstring" value="fts_agr_feed-types_bov-org-afats[%]"/>
+<entry key="150" type="xstring" value="fts_agr_feed-types_bov-org-meatmeal[%]"/>
+<entry key="151" type="xstring" value="fts_agr_feed-types_bov-org-algae[%]"/>
+<entry key="152" type="xstring" value="fts_agr_feed-types_bov-org-insect[%]"/>
+<entry key="153" type="xstring" value="fts_agr_feed-types_bov-org-oth[%]"/>
+<entry key="154" type="xstring" value="fts_agr_feed-types_poultry-org-cereals[%]"/>
+<entry key="155" type="xstring" value="fts_agr_feed-types_poultry-int-cereals[%]"/>
+<entry key="156" type="xstring" value="fts_agr_feed-types_poultry-org-grains[%]"/>
+<entry key="157" type="xstring" value="fts_agr_feed-types_poultry-int-grains[%]"/>
+<entry key="158" type="xstring" value="fts_agr_feed-types_poultry-org-fishoil[%]"/>
+<entry key="159" type="xstring" value="fts_agr_feed-types_poultry-int-fishoil[%]"/>
+<entry key="160" type="xstring" value="fts_agr_feed-types_poultry-org-fishmeal[%]"/>
+<entry key="161" type="xstring" value="fts_agr_feed-types_poultry-int-fishmeal[%]"/>
+<entry key="162" type="xstring" value="fts_agr_feed-types_poultry-org-afats[%]"/>
+<entry key="163" type="xstring" value="fts_agr_feed-types_poultry-int-afats[%]"/>
+<entry key="164" type="xstring" value="fts_agr_feed-types_poultry-org-meatmeal[%]"/>
+<entry key="165" type="xstring" value="fts_agr_feed-types_poultry-int-meatmeal[%]"/>
+<entry key="166" type="xstring" value="fts_agr_feed-types_poultry-org-algae[%]"/>
+<entry key="167" type="xstring" value="fts_agr_feed-types_poultry-int-algae[%]"/>
+<entry key="168" type="xstring" value="fts_agr_feed-types_poultry-org-insect[%]"/>
+<entry key="169" type="xstring" value="fts_agr_feed-types_poultry-int-insect[%]"/>
+<entry key="170" type="xstring" value="fts_agr_feed-types_poultry-org-oth[%]"/>
+<entry key="171" type="xstring" value="fts_agr_feed-types_poultry-int-oth[%]"/>
+<entry key="172" type="xstring" value="fts_agr_feed-types_pigs-org-cereals[%]"/>
+<entry key="173" type="xstring" value="fts_agr_feed-types_pigs-int-cereals[%]"/>
+<entry key="174" type="xstring" value="fts_agr_feed-types_pigs-org-grains[%]"/>
+<entry key="175" type="xstring" value="fts_agr_feed-types_pigs-int-grains[%]"/>
+<entry key="176" type="xstring" value="fts_agr_feed-types_pigs-org-fishoil[%]"/>
+<entry key="177" type="xstring" value="fts_agr_feed-types_pigs-int-fishoil[%]"/>
+<entry key="178" type="xstring" value="fts_agr_feed-types_pigs-org-fishmeal[%]"/>
+<entry key="179" type="xstring" value="fts_agr_feed-types_pigs-int-fishmeal[%]"/>
+<entry key="180" type="xstring" value="fts_agr_feed-types_pigs-org-afats[%]"/>
+<entry key="181" type="xstring" value="fts_agr_feed-types_pigs-int-afats[%]"/>
+<entry key="182" type="xstring" value="fts_agr_feed-types_pigs-org-meatmeal[%]"/>
+<entry key="183" type="xstring" value="fts_agr_feed-types_pigs-int-meatmeal[%]"/>
+<entry key="184" type="xstring" value="fts_agr_feed-types_pigs-org-algae[%]"/>
+<entry key="185" type="xstring" value="fts_agr_feed-types_pigs-int-algae[%]"/>
+<entry key="186" type="xstring" value="fts_agr_feed-types_pigs-org-insect[%]"/>
+<entry key="187" type="xstring" value="fts_agr_feed-types_pigs-int-insect[%]"/>
+<entry key="188" type="xstring" value="fts_agr_feed-types_pigs-org-oth[%]"/>
+<entry key="189" type="xstring" value="fts_agr_feed-types_pigs-int-oth[%]"/>
+<entry key="190" type="xstring" value="fts_agr_feed-types_sheep-org-cereals[%]"/>
+<entry key="191" type="xstring" value="fts_agr_feed-types_sheep-int-cereals[%]"/>
+<entry key="192" type="xstring" value="fts_agr_feed-types_sheep-org-grains[%]"/>
+<entry key="193" type="xstring" value="fts_agr_feed-types_sheep-org-fishoil[%]"/>
+<entry key="194" type="xstring" value="fts_agr_feed-types_sheep-int-fishoil[%]"/>
+<entry key="195" type="xstring" value="fts_agr_feed-types_sheep-org-fishmeal[%]"/>
+<entry key="196" type="xstring" value="fts_agr_feed-types_sheep-int-fishmeal[%]"/>
+<entry key="197" type="xstring" value="fts_agr_feed-types_sheep-int-afats[%]"/>
+<entry key="198" type="xstring" value="fts_agr_feed-types_sheep-org-afats[%]"/>
+<entry key="199" type="xstring" value="fts_agr_feed-types_sheep-org-meatmeal[%]"/>
+<entry key="200" type="xstring" value="fts_agr_feed-types_sheep-int-meatmeal[%]"/>
+<entry key="201" type="xstring" value="fts_agr_feed-types_sheep-int-grains[%]"/>
+<entry key="202" type="xstring" value="fts_agr_feed-types_sheep-org-algae[%]"/>
+<entry key="203" type="xstring" value="fts_agr_feed-types_sheep-int-algae[%]"/>
+<entry key="204" type="xstring" value="fts_agr_feed-types_sheep-org-insect[%]"/>
+<entry key="205" type="xstring" value="fts_agr_feed-types_sheep-int-insect[%]"/>
+<entry key="206" type="xstring" value="fts_agr_feed-types_sheep-org-oth[%]"/>
+<entry key="207" type="xstring" value="fts_agr_feed-types_sheep-int-oth[%]"/>
+<entry key="208" type="xstring" value="fts_agr_feed-types_oth-animals-int-cereals[%]"/>
+<entry key="209" type="xstring" value="fts_agr_feed-types_oth-animals-org-cereals[%]"/>
+<entry key="210" type="xstring" value="fts_agr_feed-types_oth-animals-int-grains[%]"/>
+<entry key="211" type="xstring" value="fts_agr_feed-types_oth-animals-org-grains[%]"/>
+<entry key="212" type="xstring" value="fts_agr_feed-types_oth-animals-int-fishoil[%]"/>
+<entry key="213" type="xstring" value="fts_agr_feed-types_oth-animals-org-fishoil[%]"/>
+<entry key="214" type="xstring" value="fts_agr_feed-types_oth-animals-int-fishmeal[%]"/>
+<entry key="215" type="xstring" value="fts_agr_feed-types_oth-animals-org-fishmeal[%]"/>
+<entry key="216" type="xstring" value="fts_agr_feed-types_oth-animals-int-afats[%]"/>
+<entry key="217" type="xstring" value="fts_agr_feed-types_oth-animals-org-afats[%]"/>
+<entry key="218" type="xstring" value="fts_agr_feed-types_oth-animals-int-meatmeal[%]"/>
+<entry key="219" type="xstring" value="fts_agr_feed-types_oth-animals-int-algae[%]"/>
+<entry key="220" type="xstring" value="fts_agr_feed-types_oth-animals-org-algae[%]"/>
+<entry key="221" type="xstring" value="fts_agr_feed-types_oth-animals-int-insect[%]"/>
+<entry key="222" type="xstring" value="fts_agr_feed-types_oth-animals-org-insect[%]"/>
+<entry key="223" type="xstring" value="fts_agr_feed-types_oth-animals-int-oth[%]"/>
+<entry key="224" type="xstring" value="fts_agr_feed-types_oth-animals-org-oth[%]"/>
+</config>
+<config key="rightIncludeCols">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="lever_fsh_practices"/>
+<entry key="3" type="xstring" value="fts_agr_fsh_practices_aquaculture[%]"/>
+</config>
+<entry key="leftIncludeAll" type="xboolean" value="true"/>
+<entry key="rightIncludeAll" type="xboolean" value="true"/>
+<entry key="rmLeftJoinCols" type="xboolean" value="false"/>
+<entry key="rmRightJoinCols" type="xboolean" value="true"/>
+<entry key="maxOpenFiles" type="xint" value="200"/>
+<entry key="rowKeySeparator" type="xstring" value="_"/>
+<entry key="enableHiLite" type="xboolean" value="false"/>
+<entry key="numBitsInitial" type="xint" value="6"/>
+<entry key="numBitsMaximal" type="xint" value="32"/>
+<entry key="usedMemoryThreshold" type="xdouble" value="0.85"/>
+<entry key="minAvailableMemory" type="xlong" value="10000000"/>
+<entry key="memUseCollectionUsage" type="xboolean" value="true"/>
+<entry key="version" type="xstring" value="version_3"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.joiner.Joiner2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Joiner"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Joiner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1044, Cols: 100"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="23ebec95-9bf2-4d46-8781-54cd3b727137"/>
+</config>
+</config>

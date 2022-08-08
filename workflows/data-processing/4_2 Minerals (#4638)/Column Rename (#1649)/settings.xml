@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="all_columns">
+<config key="0">
+<entry key="old_column_name" type="xstring" value="bld_new_fridge[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_dom-appliance-fridge[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="1">
+<entry key="old_column_name" type="xstring" value="bld_new_freezer[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_dom-appliance-freezer[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="2">
+<entry key="old_column_name" type="xstring" value="bld_new_wmachine[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_dom-appliance-wmachine[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="3">
+<entry key="old_column_name" type="xstring" value="bld_new_dishwasher[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_dom-appliance-dishwasher[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="4">
+<entry key="old_column_name" type="xstring" value="bld_new_dryer[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_dom-appliance-dryer[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="5">
+<entry key="old_column_name" type="xstring" value="bld_new_tv[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_electronics-tv[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="6">
+<entry key="old_column_name" type="xstring" value="bld_new_computer[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_electronics-computer[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="7">
+<entry key="old_column_name" type="xstring" value="bld_new_phone[num]"/>
+<entry key="new_column_name" type="xstring" value="tra_electronics-phone[num]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="8">
+<entry key="old_column_name" type="xstring" value="tra_ships[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_other-ships[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="9">
+<entry key="old_column_name" type="xstring" value="tra_planes[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_other-planes[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="10">
+<entry key="old_column_name" type="xstring" value="tra_trains[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_other-trains[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="11">
+<entry key="old_column_name" type="xstring" value="tra_subways[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_other-subways[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="12">
+<entry key="old_column_name" type="xstring" value="elc_new-capacity_RES_wind_onshore[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new-capacity_RES_on-wind[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="13">
+<entry key="old_column_name" type="xstring" value="elc_new-capacity_RES_wind_offshore[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new-capacity_RES_off-wind[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="14">
+<entry key="old_column_name" type="xstring" value="elc_new-capacity_RES_other_geothermal[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new-capacity_RES_geo[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="15">
+<entry key="old_column_name" type="xstring" value="elc_new-capacity_RES_other_hydroelectric[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new-capacity_RES_hydro[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="16">
+<entry key="old_column_name" type="xstring" value="elc_new-capacity_RES_other_marine[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new-capacity_RES_marine[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="17">
+<entry key="old_column_name" type="xstring" value="elc_new-capacity_RES_solar_csp[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new-capacity_RES_csp[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="18">
+<entry key="old_column_name" type="xstring" value="elc_new-capacity_nuclear[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new-capacity_fossil_nuclear[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="19">
+<entry key="old_column_name" type="xstring" value="bld_new_dhg_pipe[km]"/>
+<entry key="new_column_name" type="xstring" value="tra_infra-pipe[km]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="20">
+<entry key="old_column_name" type="xstring" value="ind_material-switch_cars-steel-to-chem[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_material-switch_cars_steel_other[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="21">
+<entry key="old_column_name" type="xstring" value="ind_material-switch_trucks-steel-to-chem[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_material-switch_trucks_steel_other[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="22">
+<entry key="old_column_name" type="xstring" value="ind_material-switch_trucks-steel-to-aluminium[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_material-switch_trucks_steel_aluminium[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="23">
+<entry key="old_column_name" type="xstring" value="ind_material-switch_build-steel-to-timber[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_material-switch_build_steel_timber[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="24">
+<entry key="old_column_name" type="xstring" value="ind_proportion_steel_BF-BOF[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_proportion_steel_BF-BOF[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="25">
+<entry key="old_column_name" type="xstring" value="ind_proportion_steel_scrap-EAF[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_proportion_steel_scrap-EAF[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="26">
+<entry key="old_column_name" type="xstring" value="ind_proportion_steel_hydrog-DRI[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_proportion_steel_hydrog-DRI[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="27">
+<entry key="old_column_name" type="xstring" value="ind_proportion_steel_hisarna[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_proportion_steel_hisarna[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="28">
+<entry key="old_column_name" type="xstring" value="ind_proportion_aluminium_prim[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_proportion_aluminium_primary[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="29">
+<entry key="old_column_name" type="xstring" value="ind_proportion_aluminium_sec[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_proportion_aluminium_secondary[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="30">
+<entry key="old_column_name" type="xstring" value="ind_proportion_copper_tech[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_proportion_copper_secondary[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="31">
+<entry key="old_column_name" type="xstring" value="tra_road[km]"/>
+<entry key="new_column_name" type="xstring" value="tra_infra-road[km]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="32">
+<entry key="old_column_name" type="xstring" value="tra_rail[km]"/>
+<entry key="new_column_name" type="xstring" value="tra_infra-rail[km]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="33">
+<entry key="old_column_name" type="xstring" value="tra_trolley-cables[km]"/>
+<entry key="new_column_name" type="xstring" value="tra_infra-trolley-cables[km]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="34">
+<entry key="old_column_name" type="xstring" value="tra_2W_ICE[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_2W-ICE[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="35">
+<entry key="old_column_name" type="xstring" value="tra_HDVH_ICE[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVH-ICE[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="36">
+<entry key="old_column_name" type="xstring" value="tra_HDVL_ICE[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVL-ICE[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="37">
+<entry key="old_column_name" type="xstring" value="tra_LDV_ICE[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_LDV-ICE[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="38">
+<entry key="old_column_name" type="xstring" value="tra_HDVM_ICE[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVM-ICE[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="39">
+<entry key="old_column_name" type="xstring" value="tra_bus_ICE[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_bus-ICE[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="40">
+<entry key="old_column_name" type="xstring" value="tra_2W_PHEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_2W-PHEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="41">
+<entry key="old_column_name" type="xstring" value="tra_HDVH_PHEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVH-PHEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="42">
+<entry key="old_column_name" type="xstring" value="tra_HDVM_PHEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVM-PHEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="43">
+<entry key="old_column_name" type="xstring" value="tra_HDVL_PHEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVL-PHEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="44">
+<entry key="old_column_name" type="xstring" value="tra_LDV_PHEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_LDV-PHEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="45">
+<entry key="old_column_name" type="xstring" value="tra_bus_PHEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_bus-PHEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="46">
+<entry key="old_column_name" type="xstring" value="tra_2W_EV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_2W-EV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="47">
+<entry key="old_column_name" type="xstring" value="tra_HDVH_EV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVH-EV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="48">
+<entry key="old_column_name" type="xstring" value="tra_HDVL_EV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVL-EV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="49">
+<entry key="old_column_name" type="xstring" value="tra_HDVM_EV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVM-EV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="50">
+<entry key="old_column_name" type="xstring" value="tra_LDV_EV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_LDV-EV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="51">
+<entry key="old_column_name" type="xstring" value="tra_bus_EV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_bus-EV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="52">
+<entry key="old_column_name" type="xstring" value="tra_2W_FCEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_2W-FCEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="53">
+<entry key="old_column_name" type="xstring" value="tra_HDVH_FCEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVH-FCEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="54">
+<entry key="old_column_name" type="xstring" value="tra_HDVL_FCEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVL-FCEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="55">
+<entry key="old_column_name" type="xstring" value="tra_HDVM_FCEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_HDVM-FCEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="56">
+<entry key="old_column_name" type="xstring" value="tra_LDV_FCEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_LDV-FCEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="57">
+<entry key="old_column_name" type="xstring" value="tra_bus_FCEV[number]"/>
+<entry key="new_column_name" type="xstring" value="tra_bus-FCEV[number]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="58">
+<entry key="old_column_name" type="xstring" value="elc_new_fossil_gas[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_fossil_gas[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="59">
+<entry key="old_column_name" type="xstring" value="elc_new_RES_hydro[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_RES_hydro[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="60">
+<entry key="old_column_name" type="xstring" value="elc_new_fossil_nuclear[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_fossil_nuclear[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="61">
+<entry key="old_column_name" type="xstring" value="elc_new_RES_geo[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_RES_geo[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="62">
+<entry key="old_column_name" type="xstring" value="elc_new_RES_marine[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_RES_marine[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="63">
+<entry key="old_column_name" type="xstring" value="elc_new_RES_csp[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_RES_csp[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="64">
+<entry key="old_column_name" type="xstring" value="elc_new_RES_tech_pv[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_RES_tech_pv[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="65">
+<entry key="old_column_name" type="xstring" value="elc_new_RES_tech_off-wind[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_RES_tech_off-wind[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="66">
+<entry key="old_column_name" type="xstring" value="elc_new_RES_tech_on-wind[GW]"/>
+<entry key="new_column_name" type="xstring" value="elc_new_RES_tech_on-wind[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="67">
+<entry key="old_column_name" type="xstring" value="fos_primary-demand_gas[TWh]"/>
+<entry key="new_column_name" type="xstring" value="min_energy_gas[TWh]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="68">
+<entry key="old_column_name" type="xstring" value="fos_primary-demand_oil[TWh]"/>
+<entry key="new_column_name" type="xstring" value="min_energy_oil[TWh]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="69">
+<entry key="old_column_name" type="xstring" value="fos_primary-demand_coal[TWh]"/>
+<entry key="new_column_name" type="xstring" value="min_energy_coal[TWh]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="70">
+<entry key="old_column_name" type="xstring" value="ccu_ccus_gas-ff-natural[Mt]"/>
+<entry key="new_column_name" type="xstring" value="min_ccus_gas[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="71">
+<entry key="old_column_name" type="xstring" value="agr_demand_phosphate[Mt]"/>
+<entry key="new_column_name" type="xstring" value="min_agr_phosphate[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="72">
+<entry key="old_column_name" type="xstring" value="agr_demand_potash[Mt]"/>
+<entry key="new_column_name" type="xstring" value="min_agr_potash[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="73">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_new_dhg_pipe[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_infra-pipe[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="74">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_fridge[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_dom-appliance-fridge[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="75">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_dishwasher[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_dom-appliance-dishwasher[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="76">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_wmachine[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_dom-appliance-wmachine[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="77">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_cars-ICE[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_LDV-ICE[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="78">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_trucks-ICE[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_HDVL-ICE[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="79">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_cars-FCV[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_LDV-FCEV[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="80">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_trucks-FCV[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_HDVL-FCEV[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="81">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_cars-EV[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_LDV-EV[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="82">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_trucks-EV[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_HDVL-EV[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="83">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_ships[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_other-ships[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="84">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_trains[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_other-trains[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="85">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_planes[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_other-planes[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="86">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_road[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_infra-road[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="87">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_rail[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_infra-rail[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="88">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_trolley-cables[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_infra-trolley-cables[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="89">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_freezer[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_dom-appliance-freezer[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="90">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_dryer[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_dom-appliance-dryer[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="91">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_tv[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_electronics-tv[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="92">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_phone[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_electronics-phone[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="93">
+<entry key="old_column_name" type="xstring" value="ind_product-net-import_computer[%]"/>
+<entry key="new_column_name" type="xstring" value="ind_product-net-import_electronics-computer[%]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="94">
+<entry key="old_column_name" type="xstring" value="str_new-capacity_battery[GW]"/>
+<entry key="new_column_name" type="xstring" value="tra_energy-battery[GW]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="95">
+<entry key="old_column_name" type="xstring" value="ind_material-production_glass[Mt]"/>
+<entry key="new_column_name" type="xstring" value="min_tot_dir_glass[Mt]"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Rename to match%%00013%%00010variables"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-14652"/>
+<entry key="y-coordinate" type="xint" value="-261"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Rename"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Rename"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 464"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="f6db98bf-7696-48a2-a5ca-00344e390086"/>
+</config>
+</config>

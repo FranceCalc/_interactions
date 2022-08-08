@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="$$CURRENT_COLUMN$$*11630"/>
+<entry key="replaced_column" type="xstring" value="_suffix"/>
+<entry key="append_column" type="xboolean" value="true"/>
+<entry key="convert_to_int" type="xboolean" value="false"/>
+<config key="column_selection">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="52"/>
+<entry key="0" type="xstring" value="Adp_bovine"/>
+<entry key="1" type="xstring" value="Adp_sheep"/>
+<entry key="2" type="xstring" value="Adp_pig"/>
+<entry key="3" type="xstring" value="Adp_poultry"/>
+<entry key="4" type="xstring" value="Adp_othals"/>
+<entry key="5" type="xstring" value="Adp_afat"/>
+<entry key="6" type="xstring" value="Adp_egg"/>
+<entry key="7" type="xstring" value="Adp_milk"/>
+<entry key="8" type="xstring" value="Adp_offal"/>
+<entry key="9" type="xstring" value="Aliv_dairy"/>
+<entry key="10" type="xstring" value="Aliv_hens"/>
+<entry key="11" type="xstring" value="Aliv_bovine"/>
+<entry key="12" type="xstring" value="Aliv_pig"/>
+<entry key="13" type="xstring" value="Aliv_poultry"/>
+<entry key="14" type="xstring" value="Aliv_sheep"/>
+<entry key="15" type="xstring" value="Aliv_othals"/>
+<entry key="16" type="xstring" value="Adp_algae"/>
+<entry key="17" type="xstring" value="Adp_insect"/>
+<entry key="18" type="xstring" value="Adp_rice"/>
+<entry key="19" type="xstring" value="Adp_cereal"/>
+<entry key="20" type="xstring" value="Adp_oilcrop"/>
+<entry key="21" type="xstring" value="Adp_pulse"/>
+<entry key="22" type="xstring" value="Adp_fruit"/>
+<entry key="23" type="xstring" value="Adp_veg"/>
+<entry key="24" type="xstring" value="Adp_starch"/>
+<entry key="25" type="xstring" value="Adp_sgrcrop"/>
+<entry key="26" type="xstring" value="Adp_enrcrop"/>
+<entry key="27" type="xstring" value="Adp_lgncrop"/>
+<entry key="28" type="xstring" value="Ai_nitrogen"/>
+<entry key="29" type="xstring" value="Ai_phosphate"/>
+<entry key="30" type="xstring" value="Ai_potash"/>
+<entry key="31" type="xstring" value="Ai_pesticide"/>
+<entry key="32" type="xstring" value="agr_input-use_app_liming[t]"/>
+<entry key="33" type="xstring" value="agr_input-use_app_urea[t]"/>
+<entry key="34" type="xstring" value="agr_input-use_emissions-CO2_liming[t]"/>
+<entry key="35" type="xstring" value="agr_input-use_emissions-CO2_urea[t]"/>
+<entry key="36" type="xstring" value="Ai_agrland"/>
+<entry key="37" type="xstring" value="Aenr_diesel"/>
+<entry key="38" type="xstring" value="Aenr_gsline"/>
+<entry key="39" type="xstring" value="Aenr_elec"/>
+<entry key="40" type="xstring" value="Aenr_gas"/>
+<entry key="41" type="xstring" value="Aenr_coal"/>
+<entry key="42" type="xstring" value="Aenr_wood"/>
+<entry key="43" type="xstring" value="Aenr_heat"/>
+<entry key="44" type="xstring" value="Aenr_oth"/>
+<entry key="45" type="xstring" value="Aenr_biod"/>
+<entry key="46" type="xstring" value="Aenr_biogas"/>
+<entry key="47" type="xstring" value="Aenr_eth"/>
+<entry key="48" type="xstring" value="Aenr_lpg"/>
+<entry key="49" type="xstring" value="Aenr_biooth"/>
+<entry key="50" type="xstring" value="Aenr_fueloil"/>
+<entry key="51" type="xstring" value="agr_input-use_emissions-CO2_fuel[t]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="Aenr.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="GTAP%%00013%%00010ktoe to MWh"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1247"/>
+<entry key="y-coordinate" type="xint" value="859"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory"/>
+<entry key="node-name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jep"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Math Expression (JEP)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jep.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 54"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="d44e56a1-b61c-487a-822f-cc4acbdf9a0d"/>
+</config>
+</config>

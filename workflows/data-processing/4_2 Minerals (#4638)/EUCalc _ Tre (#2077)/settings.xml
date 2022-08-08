@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="string-input-349">
+<entry key="string" type="xstring" value="min_total"/>
+</config>
+<config key="single-selection-350">
+<entry key="variable_value" type="xstring" value="Sum"/>
+</config>
+<config key="string-input-354">
+<entry key="string" type="xstring" value="kg"/>
+</config>
+<config key="string-input-357">
+<entry key="string" type="xstring" value="min_.*_total_(.*)\[kg\]"/>
+</config>
+<config key="boolean-input-359">
+<entry key="boolean" type="xboolean" value="false"/>
+</config>
+<config key="column-filter-362">
+<config key="columns">
+<entry key="array-size" type="xint" value="96"/>
+<entry key="0" type="xstring" value="min_tra_total_dir_aluminium[kg]"/>
+<entry key="1" type="xstring" value="min_tra_total_dir_cobalt[kg]"/>
+<entry key="2" type="xstring" value="min_tra_total_dir_copper[kg]"/>
+<entry key="3" type="xstring" value="min_tra_total_dir_graphite[kg]"/>
+<entry key="4" type="xstring" value="min_tra_total_dir_lithium[kg]"/>
+<entry key="5" type="xstring" value="min_tra_total_dir_manganese[kg]"/>
+<entry key="6" type="xstring" value="min_tra_total_dir_nickel[kg]"/>
+<entry key="7" type="xstring" value="min_tra_total_dir_steel[kg]"/>
+<entry key="8" type="xstring" value="min_tra_total_exp_aluminium[kg]"/>
+<entry key="9" type="xstring" value="min_tra_total_exp_cobalt[kg]"/>
+<entry key="10" type="xstring" value="min_tra_total_exp_copper[kg]"/>
+<entry key="11" type="xstring" value="min_tra_total_exp_graphite[kg]"/>
+<entry key="12" type="xstring" value="min_tra_total_exp_lithium[kg]"/>
+<entry key="13" type="xstring" value="min_tra_total_exp_manganese[kg]"/>
+<entry key="14" type="xstring" value="min_tra_total_exp_nickel[kg]"/>
+<entry key="15" type="xstring" value="min_tra_total_exp_steel[kg]"/>
+<entry key="16" type="xstring" value="min_tra_total_indir_aluminium[kg]"/>
+<entry key="17" type="xstring" value="min_tra_total_indir_cobalt[kg]"/>
+<entry key="18" type="xstring" value="min_tra_total_indir_copper[kg]"/>
+<entry key="19" type="xstring" value="min_tra_total_indir_graphite[kg]"/>
+<entry key="20" type="xstring" value="min_tra_total_indir_lithium[kg]"/>
+<entry key="21" type="xstring" value="min_tra_total_indir_manganese[kg]"/>
+<entry key="22" type="xstring" value="min_tra_total_indir_nickel[kg]"/>
+<entry key="23" type="xstring" value="min_tra_total_indir_steel[kg]"/>
+<entry key="24" type="xstring" value="min_infra_total_dir_aluminium[kg]"/>
+<entry key="25" type="xstring" value="min_infra_total_dir_copper[kg]"/>
+<entry key="26" type="xstring" value="min_infra_total_dir_steel[kg]"/>
+<entry key="27" type="xstring" value="min_infra_total_exp_aluminium[kg]"/>
+<entry key="28" type="xstring" value="min_infra_total_exp_copper[kg]"/>
+<entry key="29" type="xstring" value="min_infra_total_exp_steel[kg]"/>
+<entry key="30" type="xstring" value="min_infra_total_indir_aluminium[kg]"/>
+<entry key="31" type="xstring" value="min_infra_total_indir_copper[kg]"/>
+<entry key="32" type="xstring" value="min_infra_total_indir_steel[kg]"/>
+<entry key="33" type="xstring" value="min_dom-appliances_total_dir_aluminium[kg]"/>
+<entry key="34" type="xstring" value="min_dom-appliances_total_dir_cobalt[kg]"/>
+<entry key="35" type="xstring" value="min_dom-appliances_total_dir_copper[kg]"/>
+<entry key="36" type="xstring" value="min_dom-appliances_total_dir_steel[kg]"/>
+<entry key="37" type="xstring" value="min_dom-appliances_total_exp_aluminium[kg]"/>
+<entry key="38" type="xstring" value="min_dom-appliances_total_exp_cobalt[kg]"/>
+<entry key="39" type="xstring" value="min_dom-appliances_total_exp_copper[kg]"/>
+<entry key="40" type="xstring" value="min_dom-appliances_total_exp_steel[kg]"/>
+<entry key="41" type="xstring" value="min_dom-appliances_total_indir_aluminium[kg]"/>
+<entry key="42" type="xstring" value="min_dom-appliances_total_indir_cobalt[kg]"/>
+<entry key="43" type="xstring" value="min_dom-appliances_total_indir_copper[kg]"/>
+<entry key="44" type="xstring" value="min_dom-appliances_total_indir_steel[kg]"/>
+<entry key="45" type="xstring" value="min_electronics_total_dir_aluminium[kg]"/>
+<entry key="46" type="xstring" value="min_electronics_total_dir_cobalt[kg]"/>
+<entry key="47" type="xstring" value="min_electronics_total_dir_copper[kg]"/>
+<entry key="48" type="xstring" value="min_electronics_total_dir_graphite[kg]"/>
+<entry key="49" type="xstring" value="min_electronics_total_dir_lithium[kg]"/>
+<entry key="50" type="xstring" value="min_electronics_total_dir_manganese[kg]"/>
+<entry key="51" type="xstring" value="min_electronics_total_dir_nickel[kg]"/>
+<entry key="52" type="xstring" value="min_electronics_total_dir_steel[kg]"/>
+<entry key="53" type="xstring" value="min_electronics_total_exp_aluminium[kg]"/>
+<entry key="54" type="xstring" value="min_electronics_total_exp_cobalt[kg]"/>
+<entry key="55" type="xstring" value="min_electronics_total_exp_copper[kg]"/>
+<entry key="56" type="xstring" value="min_electronics_total_exp_graphite[kg]"/>
+<entry key="57" type="xstring" value="min_electronics_total_exp_lithium[kg]"/>
+<entry key="58" type="xstring" value="min_electronics_total_exp_manganese[kg]"/>
+<entry key="59" type="xstring" value="min_electronics_total_exp_nickel[kg]"/>
+<entry key="60" type="xstring" value="min_electronics_total_exp_steel[kg]"/>
+<entry key="61" type="xstring" value="min_electronics_total_indir_aluminium[kg]"/>
+<entry key="62" type="xstring" value="min_electronics_total_indir_cobalt[kg]"/>
+<entry key="63" type="xstring" value="min_electronics_total_indir_copper[kg]"/>
+<entry key="64" type="xstring" value="min_electronics_total_indir_graphite[kg]"/>
+<entry key="65" type="xstring" value="min_electronics_total_indir_lithium[kg]"/>
+<entry key="66" type="xstring" value="min_electronics_total_indir_manganese[kg]"/>
+<entry key="67" type="xstring" value="min_electronics_total_indir_nickel[kg]"/>
+<entry key="68" type="xstring" value="min_electronics_total_indir_steel[kg]"/>
+<entry key="69" type="xstring" value="min_construction_total_dir_aluminium[kg]"/>
+<entry key="70" type="xstring" value="min_construction_total_dir_copper[kg]"/>
+<entry key="71" type="xstring" value="min_construction_total_dir_steel[kg]"/>
+<entry key="72" type="xstring" value="min_energy_total_dir_aluminium[kg]"/>
+<entry key="73" type="xstring" value="min_energy_total_dir_cobalt[kg]"/>
+<entry key="74" type="xstring" value="min_energy_total_dir_copper[kg]"/>
+<entry key="75" type="xstring" value="min_energy_total_dir_graphite[kg]"/>
+<entry key="76" type="xstring" value="min_energy_total_dir_lithium[kg]"/>
+<entry key="77" type="xstring" value="min_energy_total_dir_manganese[kg]"/>
+<entry key="78" type="xstring" value="min_energy_total_dir_nickel[kg]"/>
+<entry key="79" type="xstring" value="min_energy_total_dir_steel[kg]"/>
+<entry key="80" type="xstring" value="min_energy_total_exp_aluminium[kg]"/>
+<entry key="81" type="xstring" value="min_energy_total_exp_cobalt[kg]"/>
+<entry key="82" type="xstring" value="min_energy_total_exp_copper[kg]"/>
+<entry key="83" type="xstring" value="min_energy_total_exp_graphite[kg]"/>
+<entry key="84" type="xstring" value="min_energy_total_exp_lithium[kg]"/>
+<entry key="85" type="xstring" value="min_energy_total_exp_manganese[kg]"/>
+<entry key="86" type="xstring" value="min_energy_total_exp_nickel[kg]"/>
+<entry key="87" type="xstring" value="min_energy_total_exp_steel[kg]"/>
+<entry key="88" type="xstring" value="min_energy_total_indir_aluminium[kg]"/>
+<entry key="89" type="xstring" value="min_energy_total_indir_cobalt[kg]"/>
+<entry key="90" type="xstring" value="min_energy_total_indir_copper[kg]"/>
+<entry key="91" type="xstring" value="min_energy_total_indir_graphite[kg]"/>
+<entry key="92" type="xstring" value="min_energy_total_indir_lithium[kg]"/>
+<entry key="93" type="xstring" value="min_energy_total_indir_manganese[kg]"/>
+<entry key="94" type="xstring" value="min_energy_total_indir_nickel[kg]"/>
+<entry key="95" type="xstring" value="min_energy_total_indir_steel[kg]"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="201"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="lfs_pop_population[inhabitants]"/>
+<entry key="3" type="xstring" value="lfs_pop_world[inhabitants]"/>
+<entry key="4" type="xstring" value="ind_proportion_steel_BF-BOF[%]"/>
+<entry key="5" type="xstring" value="ind_proportion_steel_scrap-EAF[%]"/>
+<entry key="6" type="xstring" value="ind_proportion_steel_hydrog-DRI[%]"/>
+<entry key="7" type="xstring" value="ind_proportion_steel_hisarna[%]"/>
+<entry key="8" type="xstring" value="ind_proportion_aluminium_primary[%]"/>
+<entry key="9" type="xstring" value="ind_proportion_aluminium_secondary[%]"/>
+<entry key="10" type="xstring" value="ind_proportion_copper_secondary[%]"/>
+<entry key="11" type="xstring" value="ind_material-switch_cars_steel_other[%]"/>
+<entry key="12" type="xstring" value="ind_material-switch_trucks_steel_other[%]"/>
+<entry key="13" type="xstring" value="ind_material-switch_trucks_steel_aluminium[%]"/>
+<entry key="14" type="xstring" value="ind_material-switch_build_steel_timber[%]"/>
+<entry key="15" type="xstring" value="ind_material-efficiency_steel[%]"/>
+<entry key="16" type="xstring" value="ind_material-efficiency_aluminium[%]"/>
+<entry key="17" type="xstring" value="ind_material-efficiency_copper[%]"/>
+<entry key="18" type="xstring" value="ind_prod_aluminium-pack[t]"/>
+<entry key="19" type="xstring" value="min_row_proportion_steel_BF-BOF[%]"/>
+<entry key="20" type="xstring" value="min_row_proportion_steel_scrap-EAF[%]"/>
+<entry key="21" type="xstring" value="min_row_proportion_steel_hydrog-DRI[%]"/>
+<entry key="22" type="xstring" value="min_row_proportion_steel_hisarna[%]"/>
+<entry key="23" type="xstring" value="min_row_proportion_aluminium_primary[%]"/>
+<entry key="24" type="xstring" value="min_row_proportion_aluminium_secondary[%]"/>
+<entry key="25" type="xstring" value="min_row_proportion_copper_secondary[%]"/>
+<entry key="26" type="xstring" value="min_row_material-switch_cars_steel_other[%]"/>
+<entry key="27" type="xstring" value="min_row_material-switch_trucks_steel_other[%]"/>
+<entry key="28" type="xstring" value="min_row_material-switch_trucks_steel_aluminium[%]"/>
+<entry key="29" type="xstring" value="min_row_material-switch_build_steel_timber[%]"/>
+<entry key="30" type="xstring" value="min_row_material-efficiency_steel[%]"/>
+<entry key="31" type="xstring" value="min_row_material-efficiency_aluminium[%]"/>
+<entry key="32" type="xstring" value="min_row_material-efficiency_copper[%]"/>
+<entry key="33" type="xstring" value="min_row_proportion_steel_BF-BOF[%]_1"/>
+<entry key="34" type="xstring" value="min_proportion_steel_EAF[%]"/>
+<entry key="35" type="xstring" value="min_proportion_steel_BOF[%]"/>
+<entry key="36" type="xstring" value="min_proportion_aluminium_primary[%]"/>
+<entry key="37" type="xstring" value="min_proportion_aluminium_secondary[%]"/>
+<entry key="38" type="xstring" value="min_proportion_copper_primary[%]"/>
+<entry key="39" type="xstring" value="min_proportion_copper_secondary[%]"/>
+<entry key="40" type="xstring" value="tra_electricity-demand_total[GWh]"/>
+<entry key="41" type="xstring" value="min_reserve_bauxite[Mt]"/>
+<entry key="42" type="xstring" value="min_reserve_iron[Mt]"/>
+<entry key="43" type="xstring" value="min_reserve_copper[Mt]"/>
+<entry key="44" type="xstring" value="min_reserve_phosphate[Mt]"/>
+<entry key="45" type="xstring" value="min_reserve_potash[Mt]"/>
+<entry key="46" type="xstring" value="min_reserve_oil[Mt]"/>
+<entry key="47" type="xstring" value="min_reserve_gas[Mt]"/>
+<entry key="48" type="xstring" value="min_reserve_coal[Mt]"/>
+<entry key="49" type="xstring" value="min_parameters_steel[unit]"/>
+<entry key="50" type="xstring" value="min_parameters_aluminium[unit]"/>
+<entry key="51" type="xstring" value="min_parameters_copper[unit]"/>
+<entry key="52" type="xstring" value="min_other_steel[%]"/>
+<entry key="53" type="xstring" value="min_other_aluminium[%]"/>
+<entry key="54" type="xstring" value="min_other_copper[%]"/>
+<entry key="55" type="xstring" value="min_recy_steel_EAF[%]"/>
+<entry key="56" type="xstring" value="min_recy_steel_BOF[%]"/>
+<entry key="57" type="xstring" value="min_recy_steel_DRI[%]"/>
+<entry key="58" type="xstring" value="min_recy_steel_hisarna[%]"/>
+<entry key="59" type="xstring" value="min_recy_aluminium_primary[%]"/>
+<entry key="60" type="xstring" value="min_recy_aluminium_secondary[%]"/>
+<entry key="61" type="xstring" value="min_recy_copper_primary[%]"/>
+<entry key="62" type="xstring" value="min_recy_copper_secondary[%]"/>
+<entry key="63" type="xstring" value="min_wire_copper[kg/GWh]"/>
+<entry key="64" type="xstring" value="min_total_dir_glass[Mt]"/>
+<entry key="65" type="xstring" value="min_other_phosphate[Mt]"/>
+<entry key="66" type="xstring" value="min_other_potash[Mt]"/>
+<entry key="67" type="xstring" value="min_proportion_lithium_primary[%]"/>
+<entry key="68" type="xstring" value="min_proportion_lithium_secondary[%]"/>
+<entry key="69" type="xstring" value="min_proportion_nickel_primary[%]"/>
+<entry key="70" type="xstring" value="min_proportion_nickel_secondary[%]"/>
+<entry key="71" type="xstring" value="min_energy_gas[Mt]"/>
+<entry key="72" type="xstring" value="min_energy_oil[Mt]"/>
+<entry key="73" type="xstring" value="min_energy_coal[Mt]"/>
+<entry key="74" type="xstring" value="min_ccus_gas[Mt]"/>
+<entry key="75" type="xstring" value="min_agr_phosphate[Mt]"/>
+<entry key="76" type="xstring" value="min_agr_potash[Mt]"/>
+<entry key="77" type="xstring" value="min_reserve_lithium[Mt]"/>
+<entry key="78" type="xstring" value="min_reserve_graphite[Mt]"/>
+<entry key="79" type="xstring" value="min_reserve_manganese[Mt]"/>
+<entry key="80" type="xstring" value="min_reserve_cobalt[Mt]"/>
+<entry key="81" type="xstring" value="min_reserve_nickel[Mt]"/>
+<entry key="82" type="xstring" value="min_industry_steel_nickel[%]"/>
+<entry key="83" type="xstring" value="min_industry_aluminium_lithium[%]"/>
+<entry key="84" type="xstring" value="min_parameters_cobalt[unit]"/>
+<entry key="85" type="xstring" value="min_parameters_graphite[unit]"/>
+<entry key="86" type="xstring" value="min_parameters_nickel[unit]"/>
+<entry key="87" type="xstring" value="min_parameters_manganese[unit]"/>
+<entry key="88" type="xstring" value="min_parameters_lithium[unit]"/>
+<entry key="89" type="xstring" value="min_other_cobalt[%]"/>
+<entry key="90" type="xstring" value="min_other_graphite[%]"/>
+<entry key="91" type="xstring" value="min_other_lithium[%]"/>
+<entry key="92" type="xstring" value="min_other_manganese[%]"/>
+<entry key="93" type="xstring" value="min_other_nickel[%]"/>
+<entry key="94" type="xstring" value="min_recy_lithium_primary[%]"/>
+<entry key="95" type="xstring" value="min_recy_lithium_secondary[%]"/>
+<entry key="96" type="xstring" value="min_recy_nickel_primary[%]"/>
+<entry key="97" type="xstring" value="min_recy_nickel_secondary[%]"/>
+<entry key="98" type="xstring" value="ind_material-efficiency_cobalt[%]"/>
+<entry key="99" type="xstring" value="ind_material-efficiency_lithium[%]"/>
+<entry key="100" type="xstring" value="ind_material-efficiency_nickel[%]"/>
+<entry key="101" type="xstring" value="ind_material-efficiency_graphite[%]"/>
+<entry key="102" type="xstring" value="ind_material-efficiency_manganese[%]"/>
+<entry key="103" type="xstring" value="min_transport-battery_exp[kWh]"/>
+<entry key="104" type="xstring" value="min_electronics-battery_exp[kWh]"/>
+<entry key="105" type="xstring" value="min_tra_total_dir_aluminium[kg]"/>
+<entry key="106" type="xstring" value="min_tra_total_dir_cobalt[kg]"/>
+<entry key="107" type="xstring" value="min_tra_total_dir_copper[kg]"/>
+<entry key="108" type="xstring" value="min_tra_total_dir_graphite[kg]"/>
+<entry key="109" type="xstring" value="min_tra_total_dir_lithium[kg]"/>
+<entry key="110" type="xstring" value="min_tra_total_dir_manganese[kg]"/>
+<entry key="111" type="xstring" value="min_tra_total_dir_nickel[kg]"/>
+<entry key="112" type="xstring" value="min_tra_total_dir_steel[kg]"/>
+<entry key="113" type="xstring" value="min_tra_total_exp_aluminium[kg]"/>
+<entry key="114" type="xstring" value="min_tra_total_exp_cobalt[kg]"/>
+<entry key="115" type="xstring" value="min_tra_total_exp_copper[kg]"/>
+<entry key="116" type="xstring" value="min_tra_total_exp_graphite[kg]"/>
+<entry key="117" type="xstring" value="min_tra_total_exp_lithium[kg]"/>
+<entry key="118" type="xstring" value="min_tra_total_exp_manganese[kg]"/>
+<entry key="119" type="xstring" value="min_tra_total_exp_nickel[kg]"/>
+<entry key="120" type="xstring" value="min_tra_total_exp_steel[kg]"/>
+<entry key="121" type="xstring" value="min_tra_total_indir_aluminium[kg]"/>
+<entry key="122" type="xstring" value="min_tra_total_indir_cobalt[kg]"/>
+<entry key="123" type="xstring" value="min_tra_total_indir_copper[kg]"/>
+<entry key="124" type="xstring" value="min_tra_total_indir_graphite[kg]"/>
+<entry key="125" type="xstring" value="min_tra_total_indir_lithium[kg]"/>
+<entry key="126" type="xstring" value="min_tra_total_indir_manganese[kg]"/>
+<entry key="127" type="xstring" value="min_tra_total_indir_nickel[kg]"/>
+<entry key="128" type="xstring" value="min_tra_total_indir_steel[kg]"/>
+<entry key="129" type="xstring" value="min_infra_total_dir_aluminium[kg]"/>
+<entry key="130" type="xstring" value="min_infra_total_dir_copper[kg]"/>
+<entry key="131" type="xstring" value="min_infra_total_dir_steel[kg]"/>
+<entry key="132" type="xstring" value="min_infra_total_exp_aluminium[kg]"/>
+<entry key="133" type="xstring" value="min_infra_total_exp_copper[kg]"/>
+<entry key="134" type="xstring" value="min_infra_total_exp_steel[kg]"/>
+<entry key="135" type="xstring" value="min_infra_total_indir_aluminium[kg]"/>
+<entry key="136" type="xstring" value="min_infra_total_indir_copper[kg]"/>
+<entry key="137" type="xstring" value="min_infra_total_indir_steel[kg]"/>
+<entry key="138" type="xstring" value="min_dom-appliances_total_dir_aluminium[kg]"/>
+<entry key="139" type="xstring" value="min_dom-appliances_total_dir_cobalt[kg]"/>
+<entry key="140" type="xstring" value="min_dom-appliances_total_dir_copper[kg]"/>
+<entry key="141" type="xstring" value="min_dom-appliances_total_dir_steel[kg]"/>
+<entry key="142" type="xstring" value="min_dom-appliances_total_exp_aluminium[kg]"/>
+<entry key="143" type="xstring" value="min_dom-appliances_total_exp_cobalt[kg]"/>
+<entry key="144" type="xstring" value="min_dom-appliances_total_exp_copper[kg]"/>
+<entry key="145" type="xstring" value="min_dom-appliances_total_exp_steel[kg]"/>
+<entry key="146" type="xstring" value="min_dom-appliances_total_indir_aluminium[kg]"/>
+<entry key="147" type="xstring" value="min_dom-appliances_total_indir_cobalt[kg]"/>
+<entry key="148" type="xstring" value="min_dom-appliances_total_indir_copper[kg]"/>
+<entry key="149" type="xstring" value="min_dom-appliances_total_indir_steel[kg]"/>
+<entry key="150" type="xstring" value="min_electronics_total_dir_aluminium[kg]"/>
+<entry key="151" type="xstring" value="min_electronics_total_dir_cobalt[kg]"/>
+<entry key="152" type="xstring" value="min_electronics_total_dir_copper[kg]"/>
+<entry key="153" type="xstring" value="min_electronics_total_dir_graphite[kg]"/>
+<entry key="154" type="xstring" value="min_electronics_total_dir_lithium[kg]"/>
+<entry key="155" type="xstring" value="min_electronics_total_dir_manganese[kg]"/>
+<entry key="156" type="xstring" value="min_electronics_total_dir_nickel[kg]"/>
+<entry key="157" type="xstring" value="min_electronics_total_dir_steel[kg]"/>
+<entry key="158" type="xstring" value="min_electronics_total_exp_aluminium[kg]"/>
+<entry key="159" type="xstring" value="min_electronics_total_exp_cobalt[kg]"/>
+<entry key="160" type="xstring" value="min_electronics_total_exp_copper[kg]"/>
+<entry key="161" type="xstring" value="min_electronics_total_exp_graphite[kg]"/>
+<entry key="162" type="xstring" value="min_electronics_total_exp_lithium[kg]"/>
+<entry key="163" type="xstring" value="min_electronics_total_exp_manganese[kg]"/>
+<entry key="164" type="xstring" value="min_electronics_total_exp_nickel[kg]"/>
+<entry key="165" type="xstring" value="min_electronics_total_exp_steel[kg]"/>
+<entry key="166" type="xstring" value="min_electronics_total_indir_aluminium[kg]"/>
+<entry key="167" type="xstring" value="min_electronics_total_indir_cobalt[kg]"/>
+<entry key="168" type="xstring" value="min_electronics_total_indir_copper[kg]"/>
+<entry key="169" type="xstring" value="min_electronics_total_indir_graphite[kg]"/>
+<entry key="170" type="xstring" value="min_electronics_total_indir_lithium[kg]"/>
+<entry key="171" type="xstring" value="min_electronics_total_indir_manganese[kg]"/>
+<entry key="172" type="xstring" value="min_electronics_total_indir_nickel[kg]"/>
+<entry key="173" type="xstring" value="min_electronics_total_indir_steel[kg]"/>
+<entry key="174" type="xstring" value="min_construction_total_dir_aluminium[kg]"/>
+<entry key="175" type="xstring" value="min_construction_total_dir_copper[kg]"/>
+<entry key="176" type="xstring" value="min_construction_total_dir_steel[kg]"/>
+<entry key="177" type="xstring" value="min_energy_total_dir_aluminium[kg]"/>
+<entry key="178" type="xstring" value="min_energy_total_dir_cobalt[kg]"/>
+<entry key="179" type="xstring" value="min_energy_total_dir_copper[kg]"/>
+<entry key="180" type="xstring" value="min_energy_total_dir_graphite[kg]"/>
+<entry key="181" type="xstring" value="min_energy_total_dir_lithium[kg]"/>
+<entry key="182" type="xstring" value="min_energy_total_dir_manganese[kg]"/>
+<entry key="183" type="xstring" value="min_energy_total_dir_nickel[kg]"/>
+<entry key="184" type="xstring" value="min_energy_total_dir_steel[kg]"/>
+<entry key="185" type="xstring" value="min_energy_total_exp_aluminium[kg]"/>
+<entry key="186" type="xstring" value="min_energy_total_exp_cobalt[kg]"/>
+<entry key="187" type="xstring" value="min_energy_total_exp_copper[kg]"/>
+<entry key="188" type="xstring" value="min_energy_total_exp_graphite[kg]"/>
+<entry key="189" type="xstring" value="min_energy_total_exp_lithium[kg]"/>
+<entry key="190" type="xstring" value="min_energy_total_exp_manganese[kg]"/>
+<entry key="191" type="xstring" value="min_energy_total_exp_nickel[kg]"/>
+<entry key="192" type="xstring" value="min_energy_total_exp_steel[kg]"/>
+<entry key="193" type="xstring" value="min_energy_total_indir_aluminium[kg]"/>
+<entry key="194" type="xstring" value="min_energy_total_indir_cobalt[kg]"/>
+<entry key="195" type="xstring" value="min_energy_total_indir_copper[kg]"/>
+<entry key="196" type="xstring" value="min_energy_total_indir_graphite[kg]"/>
+<entry key="197" type="xstring" value="min_energy_total_indir_lithium[kg]"/>
+<entry key="198" type="xstring" value="min_energy_total_indir_manganese[kg]"/>
+<entry key="199" type="xstring" value="min_energy_total_indir_nickel[kg]"/>
+<entry key="200" type="xstring" value="min_energy_total_indir_steel[kg]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="min_.*_total_(.*)\[kg\]"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="min_totalkg] =%%00013%%00010Sum(min_all-minerals_total)[kg]"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-328"/>
+<entry key="y-coordinate" type="xint" value="-301"/>
+<entry key="width" type="xint" value="177"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="347"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="348"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-08-23 15:38:21"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Tree%20merge%20(Groups)"/>
+</config>
+<entry key="layoutJSON" type="xstring" value=""/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

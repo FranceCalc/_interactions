@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="string-input-444">
+<entry key="string" type="xstring" value="tra_freight_vehicle-fleet-renewal_for-industry"/>
+</config>
+<config key="string-input-445">
+<entry key="string" type="xstring" value="tra_freight_renewal-rate_(.*)\[.*\]"/>
+</config>
+<config key="string-input-446">
+<entry key="string" type="xstring" value="tra_freight_vehicle-fleet_(.*)\[.*\]"/>
+</config>
+<config key="boolean-input-586">
+<entry key="boolean" type="xboolean" value="false"/>
+</config>
+<config key="column-filter-652">
+<config key="columns">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="tra_freight_vehicle-fleet_HDV[number]"/>
+<entry key="1" type="xstring" value="tra_freight_vehicle-fleet_IWW[number]"/>
+<entry key="2" type="xstring" value="tra_freight_vehicle-fleet_LDV[number]"/>
+<entry key="3" type="xstring" value="tra_freight_vehicle-fleet_aviation[number]"/>
+<entry key="4" type="xstring" value="tra_freight_vehicle-fleet_marine[number]"/>
+<entry key="5" type="xstring" value="tra_freight_vehicle-fleet_rail[number]"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="225"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="tra_electrification_IWW[%]"/>
+<entry key="2" type="xstring" value="Years"/>
+<entry key="3" type="xstring" value="tra_electrification_aviation[%]"/>
+<entry key="4" type="xstring" value="tra_electrification_marine[%]"/>
+<entry key="5" type="xstring" value="tra_freight_demand_inland[tkm]"/>
+<entry key="6" type="xstring" value="tra_freight_demand_share-transitIO[%]"/>
+<entry key="7" type="xstring" value="tra_freight_modal-share_transitIO_HDV[%]"/>
+<entry key="8" type="xstring" value="tra_freight_modal-share_transitIO_IWW[%]"/>
+<entry key="9" type="xstring" value="tra_freight_modal-share_transitIO_LDV[%]"/>
+<entry key="10" type="xstring" value="tra_freight_modal-share_transitIO_aviation[%]"/>
+<entry key="11" type="xstring" value="tra_freight_modal-share_transitIO_bike[%]"/>
+<entry key="12" type="xstring" value="tra_freight_modal-share_transitIO_marine[%]"/>
+<entry key="13" type="xstring" value="tra_freight_modal-share_transitIO_rail[%]"/>
+<entry key="14" type="xstring" value="tra_freight_modal-share_transitIO_walk[%]"/>
+<entry key="15" type="xstring" value="tra_freight_technology-share_fleet_HDV_BEV[%]"/>
+<entry key="16" type="xstring" value="tra_freight_technology-share_fleet_HDV_CEV[%]"/>
+<entry key="17" type="xstring" value="tra_freight_technology-share_fleet_HDV_FCEV[%]"/>
+<entry key="18" type="xstring" value="tra_freight_technology-share_fleet_HDV_ICE-diesel[%]"/>
+<entry key="19" type="xstring" value="tra_freight_technology-share_fleet_HDV_ICE-gas[%]"/>
+<entry key="20" type="xstring" value="tra_freight_technology-share_fleet_HDV_ICE-gasoline[%]"/>
+<entry key="21" type="xstring" value="tra_freight_technology-share_fleet_HDV_PHEV-diesel[%]"/>
+<entry key="22" type="xstring" value="tra_freight_technology-share_fleet_HDV_PHEV-gasoline[%]"/>
+<entry key="23" type="xstring" value="tra_freight_technology-share_fleet_IWW_BEV[%]"/>
+<entry key="24" type="xstring" value="tra_freight_technology-share_fleet_IWW_FCEV[%]"/>
+<entry key="25" type="xstring" value="tra_freight_technology-share_fleet_IWW_ICE[%]"/>
+<entry key="26" type="xstring" value="tra_freight_technology-share_fleet_LDV_BEV[%]"/>
+<entry key="27" type="xstring" value="tra_freight_technology-share_fleet_LDV_CEV[%]"/>
+<entry key="28" type="xstring" value="tra_freight_technology-share_fleet_LDV_FCEV[%]"/>
+<entry key="29" type="xstring" value="tra_freight_technology-share_fleet_LDV_ICE-diesel[%]"/>
+<entry key="30" type="xstring" value="tra_freight_technology-share_fleet_LDV_ICE-gas[%]"/>
+<entry key="31" type="xstring" value="tra_freight_technology-share_fleet_LDV_ICE-gasoline[%]"/>
+<entry key="32" type="xstring" value="tra_freight_technology-share_fleet_LDV_PHEV-diesel[%]"/>
+<entry key="33" type="xstring" value="tra_freight_technology-share_fleet_LDV_PHEV-gasoline[%]"/>
+<entry key="34" type="xstring" value="tra_freight_technology-share_fleet_aviation_BEV[%]"/>
+<entry key="35" type="xstring" value="tra_freight_technology-share_fleet_aviation_ICE[%]"/>
+<entry key="36" type="xstring" value="tra_freight_technology-share_fleet_marine_BEV[%]"/>
+<entry key="37" type="xstring" value="tra_freight_technology-share_fleet_marine_FCEV[%]"/>
+<entry key="38" type="xstring" value="tra_freight_technology-share_fleet_marine_ICE[%]"/>
+<entry key="39" type="xstring" value="tra_freight_technology-share_fleet_rail_CEV[%]"/>
+<entry key="40" type="xstring" value="tra_freight_technology-share_fleet_rail_ICE-diesel[%]"/>
+<entry key="41" type="xstring" value="tra_freight_technology-share_new_HDV_ICE-diesel[%]"/>
+<entry key="42" type="xstring" value="tra_freight_technology-share_new_HDV_ICE-gas[%]"/>
+<entry key="43" type="xstring" value="tra_freight_technology-share_new_HDV_PHEV-CE[%]"/>
+<entry key="44" type="xstring" value="tra_freight_technology-share_new_HDV_PHEV[%]"/>
+<entry key="45" type="xstring" value="tra_freight_technology-share_new_HDV_BEV[%]"/>
+<entry key="46" type="xstring" value="tra_freight_technology-share_new_HDV_FCEV[%]"/>
+<entry key="47" type="xstring" value="tra_freight_technology-share_new_LDV_ICE-diesel[%]"/>
+<entry key="48" type="xstring" value="tra_freight_technology-share_new_LDV_ICE-gasoline[%]"/>
+<entry key="49" type="xstring" value="tra_freight_technology-share_new_LDV_ICE-gas[%]"/>
+<entry key="50" type="xstring" value="tra_freight_technology-share_new_LDV_PHEV[%]"/>
+<entry key="51" type="xstring" value="tra_freight_technology-share_new_LDV_BEV[%]"/>
+<entry key="52" type="xstring" value="tra_freight_technology-share_new_LDV_FCEV[%]"/>
+<entry key="53" type="xstring" value="tra_freight_technology-share_new_rail_ICE-diesel[%]"/>
+<entry key="54" type="xstring" value="tra_freight_technology-share_new_rail_CEV[%]"/>
+<entry key="55" type="xstring" value="tra_freight_technology-share_new_rail_FCEV[%]"/>
+<entry key="56" type="xstring" value="tra_freight_utilization-rate_HDV[vkm/veh]"/>
+<entry key="57" type="xstring" value="tra_freight_utilization-rate_LDV[vkm/veh]"/>
+<entry key="58" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_BEV[MJ/km]"/>
+<entry key="59" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_CEV[MJ/km]"/>
+<entry key="60" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_FCEV[MJ/km]"/>
+<entry key="61" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_ICE-diesel[MJ/km]"/>
+<entry key="62" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_ICE-gas[MJ/km]"/>
+<entry key="63" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_ICE-gasoline[MJ/km]"/>
+<entry key="64" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_PHEV-diesel[MJ/km]"/>
+<entry key="65" type="xstring" value="tra_freight_veh-efficiency_fleet_HDV_PHEV-gasoline[MJ/km]"/>
+<entry key="66" type="xstring" value="tra_freight_veh-efficiency_fleet_IWW_BEV[MJ/tkm]"/>
+<entry key="67" type="xstring" value="tra_freight_veh-efficiency_fleet_IWW_FCEV[MJ/tkm]"/>
+<entry key="68" type="xstring" value="tra_freight_veh-efficiency_fleet_IWW_ICE[MJ/tkm]"/>
+<entry key="69" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_BEV[MJ/km]"/>
+<entry key="70" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_CEV[MJ/km]"/>
+<entry key="71" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_FCEV[MJ/km]"/>
+<entry key="72" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_ICE-diesel[MJ/km]"/>
+<entry key="73" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_ICE-gas[MJ/km]"/>
+<entry key="74" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_ICE-gasoline[MJ/km]"/>
+<entry key="75" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_PHEV-diesel[MJ/km]"/>
+<entry key="76" type="xstring" value="tra_freight_veh-efficiency_fleet_LDV_PHEV-gasoline[MJ/km]"/>
+<entry key="77" type="xstring" value="tra_freight_veh-efficiency_fleet_aviation_BEV[MJ/tkm]"/>
+<entry key="78" type="xstring" value="tra_freight_veh-efficiency_fleet_aviation_ICE[MJ/tkm]"/>
+<entry key="79" type="xstring" value="tra_freight_veh-efficiency_fleet_marine_BEV[MJ/tkm]"/>
+<entry key="80" type="xstring" value="tra_freight_veh-efficiency_fleet_marine_FCEV[MJ/tkm]"/>
+<entry key="81" type="xstring" value="tra_freight_veh-efficiency_fleet_marine_ICE[MJ/tkm]"/>
+<entry key="82" type="xstring" value="tra_freight_veh-efficiency_fleet_rail_CEV[MJ/tkm]"/>
+<entry key="83" type="xstring" value="tra_freight_veh-efficiency_fleet_rail_ICE-diesel[MJ/tkm]"/>
+<entry key="84" type="xstring" value="tra_freight_veh-efficiency_new_HDV_BEV[MJ/km]"/>
+<entry key="85" type="xstring" value="tra_freight_veh-efficiency_new_HDV_CEV[MJ/km]"/>
+<entry key="86" type="xstring" value="tra_freight_veh-efficiency_new_HDV_FCEV[MJ/km]"/>
+<entry key="87" type="xstring" value="tra_freight_veh-efficiency_new_HDV_ICE-diesel[MJ/km]"/>
+<entry key="88" type="xstring" value="tra_freight_veh-efficiency_new_HDV_ICE-gas[MJ/km]"/>
+<entry key="89" type="xstring" value="tra_freight_veh-efficiency_new_HDV_ICE-gasoline[MJ/km]"/>
+<entry key="90" type="xstring" value="tra_freight_veh-efficiency_new_HDV_PHEV-diesel[MJ/km]"/>
+<entry key="91" type="xstring" value="tra_freight_veh-efficiency_new_HDV_PHEV-gasoline[MJ/km]"/>
+<entry key="92" type="xstring" value="tra_freight_veh-efficiency_new_IWW_BEV[MJ/tkm]"/>
+<entry key="93" type="xstring" value="tra_freight_veh-efficiency_new_IWW_FCEV[MJ/tkm]"/>
+<entry key="94" type="xstring" value="tra_freight_veh-efficiency_new_IWW_ICE[MJ/tkm]"/>
+<entry key="95" type="xstring" value="tra_freight_veh-efficiency_new_LDV_BEV[MJ/km]"/>
+<entry key="96" type="xstring" value="tra_freight_veh-efficiency_new_LDV_CEV[MJ/km]"/>
+<entry key="97" type="xstring" value="tra_freight_veh-efficiency_new_LDV_FCEV[MJ/km]"/>
+<entry key="98" type="xstring" value="tra_freight_veh-efficiency_new_LDV_ICE-diesel[MJ/km]"/>
+<entry key="99" type="xstring" value="tra_freight_veh-efficiency_new_LDV_ICE-gas[MJ/km]"/>
+<entry key="100" type="xstring" value="tra_freight_veh-efficiency_new_LDV_ICE-gasoline[MJ/km]"/>
+<entry key="101" type="xstring" value="tra_freight_veh-efficiency_new_LDV_PHEV-diesel[MJ/km]"/>
+<entry key="102" type="xstring" value="tra_freight_veh-efficiency_new_LDV_PHEV-gasoline[MJ/km]"/>
+<entry key="103" type="xstring" value="tra_freight_veh-efficiency_new_aviation_BEV[MJ/tkm]"/>
+<entry key="104" type="xstring" value="tra_freight_veh-efficiency_new_aviation_ICE[MJ/tkm]"/>
+<entry key="105" type="xstring" value="tra_freight_veh-efficiency_new_marine_BEV[MJ/tkm]"/>
+<entry key="106" type="xstring" value="tra_freight_veh-efficiency_new_marine_FCEV[MJ/tkm]"/>
+<entry key="107" type="xstring" value="tra_freight_veh-efficiency_new_marine_ICE[MJ/tkm]"/>
+<entry key="108" type="xstring" value="tra_freight_veh-efficiency_new_rail_CEV[MJ/tkm]"/>
+<entry key="109" type="xstring" value="tra_freight_veh-efficiency_new_rail_ICE-diesel[MJ/tkm]"/>
+<entry key="110" type="xstring" value="tra_freight_vehicle-fleet_HDV[number]"/>
+<entry key="111" type="xstring" value="tra_freight_vehicle-fleet_IWW[number]"/>
+<entry key="112" type="xstring" value="tra_freight_vehicle-fleet_LDV[number]"/>
+<entry key="113" type="xstring" value="tra_freight_vehicle-fleet_aviation[number]"/>
+<entry key="114" type="xstring" value="tra_freight_vehicle-fleet_marine[number]"/>
+<entry key="115" type="xstring" value="tra_freight_vehicle-fleet_rail[number]"/>
+<entry key="116" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_BEV[km]"/>
+<entry key="117" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_CEV[km]"/>
+<entry key="118" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_FCEV[km]"/>
+<entry key="119" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_ICE-diesel[km]"/>
+<entry key="120" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_ICE-gas[km]"/>
+<entry key="121" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_ICE-gasoline[km]"/>
+<entry key="122" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_PHEV-diesel[km]"/>
+<entry key="123" type="xstring" value="tra_freight_vehicle-lifetime_fleet_HDV_PHEV-gasoline[km]"/>
+<entry key="124" type="xstring" value="tra_freight_vehicle-lifetime_fleet_IWW_BEV[years]"/>
+<entry key="125" type="xstring" value="tra_freight_vehicle-lifetime_fleet_IWW_FCEV[years]"/>
+<entry key="126" type="xstring" value="tra_freight_vehicle-lifetime_fleet_IWW_ICE[years]"/>
+<entry key="127" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_BEV[km]"/>
+<entry key="128" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_CEV[km]"/>
+<entry key="129" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_FCEV[km]"/>
+<entry key="130" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_ICE-diesel[km]"/>
+<entry key="131" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_ICE-gas[km]"/>
+<entry key="132" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_ICE-gasoline[km]"/>
+<entry key="133" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_PHEV-diesel[km]"/>
+<entry key="134" type="xstring" value="tra_freight_vehicle-lifetime_fleet_LDV_PHEV-gasoline[km]"/>
+<entry key="135" type="xstring" value="tra_freight_vehicle-lifetime_fleet_aviation_BEV[years]"/>
+<entry key="136" type="xstring" value="tra_freight_vehicle-lifetime_fleet_aviation_ICE[years]"/>
+<entry key="137" type="xstring" value="tra_freight_vehicle-lifetime_fleet_marine_BEV[years]"/>
+<entry key="138" type="xstring" value="tra_freight_vehicle-lifetime_fleet_marine_FCEV[years]"/>
+<entry key="139" type="xstring" value="tra_freight_vehicle-lifetime_fleet_marine_ICE[years]"/>
+<entry key="140" type="xstring" value="tra_freight_vehicle-lifetime_fleet_rail_CEV[years]"/>
+<entry key="141" type="xstring" value="tra_freight_vehicle-lifetime_fleet_rail_ICE-diesel[years]"/>
+<entry key="142" type="xstring" value="tra_freight_demand_international[ton]"/>
+<entry key="143" type="xstring" value="tra_freight_modal-share_international_HDV[%]"/>
+<entry key="144" type="xstring" value="tra_freight_modal-share_international_IWW[%]"/>
+<entry key="145" type="xstring" value="tra_freight_modal-share_international_LDV[%]"/>
+<entry key="146" type="xstring" value="tra_freight_modal-share_international_aviation[%]"/>
+<entry key="147" type="xstring" value="tra_freight_modal-share_international_bike[%]"/>
+<entry key="148" type="xstring" value="tra_freight_modal-share_international_marine[%]"/>
+<entry key="149" type="xstring" value="tra_freight_modal-share_international_rail[%]"/>
+<entry key="150" type="xstring" value="tra_freight_modal-share_international_walk[%]"/>
+<entry key="151" type="xstring" value="tra_freight_renewal-rate_IWW[%]"/>
+<entry key="152" type="xstring" value="tra_freight_renewal-rate_aviation[%]"/>
+<entry key="153" type="xstring" value="tra_freight_renewal-rate_marine[%]"/>
+<entry key="154" type="xstring" value="tra_freight_renewal-rate_rail[%]"/>
+<entry key="155" type="xstring" value="tra_freight_renewal-rate_HDV[%]"/>
+<entry key="156" type="xstring" value="tra_freight_renewal-rate_LDV[%]"/>
+<entry key="157" type="xstring" value="tra_freight_demand_transitIO[tkm]"/>
+<entry key="158" type="xstring" value="tra_freight_rail[tkm]"/>
+<entry key="159" type="xstring" value="tra_freight_IWW[tkm]"/>
+<entry key="160" type="xstring" value="tra_freight_marine[tkm]"/>
+<entry key="161" type="xstring" value="tra_freight_aviation[tkm]"/>
+<entry key="162" type="xstring" value="tra_freight_bike[tkm]"/>
+<entry key="163" type="xstring" value="tra_freight_walk[tkm]"/>
+<entry key="164" type="xstring" value="tra_freight_total-demand[tkm]"/>
+<entry key="165" type="xstring" value="tra_freight_modal-share_LDV[%]"/>
+<entry key="166" type="xstring" value="tra_freight_modal-share_HDV[%]"/>
+<entry key="167" type="xstring" value="tra_freight_modal-share_rail[%]"/>
+<entry key="168" type="xstring" value="tra_freight_modal-share_IWW[%]"/>
+<entry key="169" type="xstring" value="tra_freight_modal-share_marine[%]"/>
+<entry key="170" type="xstring" value="tra_freight_modal-share_aviation[%]"/>
+<entry key="171" type="xstring" value="tra_freight_modal-share_bike[%]"/>
+<entry key="172" type="xstring" value="tra_freight_modal-share_walk[%]"/>
+<entry key="173" type="xstring" value="tra_freight_HDV[vkm]"/>
+<entry key="174" type="xstring" value="tra_freight_LDV[vkm]"/>
+<entry key="175" type="xstring" value="tra_freight_vehicle-fleet_LDV[number]-lagged"/>
+<entry key="176" type="xstring" value="tra_freight_vehicle-fleet_HDV[number]-lagged"/>
+<entry key="177" type="xstring" value="tra_freight_vehicle-fleet_rail[number]-lagged"/>
+<entry key="178" type="xstring" value="tra_freight_vehicle-fleet_IWW[number]-lagged"/>
+<entry key="179" type="xstring" value="tra_freight_vehicle-fleet_marine[number]-lagged"/>
+<entry key="180" type="xstring" value="tra_freight_vehicle-fleet_aviation[number]-lagged"/>
+<entry key="181" type="xstring" value="tra_freight_technology-share_new_LEV_HDV[%]"/>
+<entry key="182" type="xstring" value="tra_freight_technology-share_new_LEV_LDV[%]"/>
+<entry key="183" type="xstring" value="tra_freight_technology-share_new_aviation_BEV[%]"/>
+<entry key="184" type="xstring" value="tra_freight_technology-share_new_aviation_ICE[%]"/>
+<entry key="185" type="xstring" value="tra_freight_technology-share_new_IWW_BEV[%]"/>
+<entry key="186" type="xstring" value="tra_freight_technology-share_new_IWW_ICE[%]"/>
+<entry key="187" type="xstring" value="tra_freight_technology-share_new_marine_BEV[%]"/>
+<entry key="188" type="xstring" value="tra_freight_technology-share_new_marine_ICE[%]"/>
+<entry key="189" type="xstring" value="tra_freight_renewal-rate_IWW[%]_renewal-need"/>
+<entry key="190" type="xstring" value="tra_freight_renewal-rate_aviation[%]_renewal-need"/>
+<entry key="191" type="xstring" value="tra_freight_renewal-rate_marine[%]_renewal-need"/>
+<entry key="192" type="xstring" value="tra_freight_renewal-rate_rail[%]_renewal-need"/>
+<entry key="193" type="xstring" value="tra_freight_renewal-rate_HDV[%]_renewal-need"/>
+<entry key="194" type="xstring" value="tra_freight_renewal-rate_LDV[%]_renewal-need"/>
+<entry key="195" type="xstring" value="tra_freight_vehicle-fleet-renewal_LDV[number]"/>
+<entry key="196" type="xstring" value="tra_freight_vehicle-fleet-renewal_HDV[number]"/>
+<entry key="197" type="xstring" value="tra_freight_vehicle-fleet-renewal_rail[number]"/>
+<entry key="198" type="xstring" value="tra_freight_vehicle-fleet-renewal_IWW[number]"/>
+<entry key="199" type="xstring" value="tra_freight_vehicle-fleet-renewal_marine[number]"/>
+<entry key="200" type="xstring" value="tra_freight_vehicle-fleet-renewal_aviation[number]"/>
+<entry key="201" type="xstring" value="tra_freight_vehicle-fleet-needs_HDV[number]"/>
+<entry key="202" type="xstring" value="tra_freight_vehicle-fleet-needs_IWW[number]"/>
+<entry key="203" type="xstring" value="tra_freight_vehicle-fleet-needs_LDV[number]"/>
+<entry key="204" type="xstring" value="tra_freight_vehicle-fleet-needs_aviation[number]"/>
+<entry key="205" type="xstring" value="tra_freight_vehicle-fleet-needs_marine[number]"/>
+<entry key="206" type="xstring" value="tra_freight_vehicle-fleet-needs_rail[number]"/>
+<entry key="207" type="xstring" value="tra_freight_new-vehicles_LDV[number]"/>
+<entry key="208" type="xstring" value="tra_freight_new-vehicles_HDV[number]"/>
+<entry key="209" type="xstring" value="tra_freight_new-vehicles_rail[number]"/>
+<entry key="210" type="xstring" value="tra_freight_new-vehicles_IWW[number]"/>
+<entry key="211" type="xstring" value="tra_freight_new-vehicles_marine[number]"/>
+<entry key="212" type="xstring" value="tra_freight_new-vehicles_aviation[number]"/>
+<entry key="213" type="xstring" value="tra_freight_renewal-rate_IWW[%]remaining-factor"/>
+<entry key="214" type="xstring" value="tra_freight_renewal-rate_aviation[%]remaining-factor"/>
+<entry key="215" type="xstring" value="tra_freight_renewal-rate_marine[%]remaining-factor"/>
+<entry key="216" type="xstring" value="tra_freight_renewal-rate_rail[%]remaining-factor"/>
+<entry key="217" type="xstring" value="tra_freight_renewal-rate_HDV[%]remaining-factor"/>
+<entry key="218" type="xstring" value="tra_freight_renewal-rate_LDV[%]remaining-factor"/>
+<entry key="219" type="xstring" value="tra_freight_remaining-vehicles_LDV[number]"/>
+<entry key="220" type="xstring" value="tra_freight_remaining-vehicles_HDV[number]"/>
+<entry key="221" type="xstring" value="tra_freight_remaining-vehicles_rail[number]"/>
+<entry key="222" type="xstring" value="tra_freight_remaining-vehicles_IWW[number]"/>
+<entry key="223" type="xstring" value="tra_freight_remaining-vehicles_marine[number]"/>
+<entry key="224" type="xstring" value="tra_freight_remaining-vehicles_aviation[number]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="tra_freight_vehicle-fleet_(.*)\[.*\]"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Computation %%00013%%00010of renewal %%00013%%00010vehicles%%00013%%00010 for industry"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="3649"/>
+<entry key="y-coordinate" type="xint" value="1022"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="60"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" value="Execute an operation on two groups of columns, matching them one-to-one using a capture group defined in the regex expressions."/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="650"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="443"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-08-26 12:47:07"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Tree%20parallel%20operation"/>
+</config>
+<entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;444&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;445&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;446&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;454&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;460&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;463&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;359&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]}]}"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

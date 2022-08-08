@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="completion-columns"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ots_tec_freight_vehicle-lifetime_new_HDVL_FCEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVL_CEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVL_PHEV-diesel\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVL_PHEV-gasoline\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVL_ICE-gasoline\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVL_ICE-diesel\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVL_ICE-gas\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVL_BEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_FCEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_CEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_PHEV-diesel\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_PHEV-gasoline\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_ICE-gasoline\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_ICE-diesel\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_ICE-gas\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVM_BEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_FCEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_CEV\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_PHEV-diesel\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_PHEV-gasoline\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_ICE-gasoline\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_ICE-diesel\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_ICE-gas\[years\]|ots_tec_freight_vehicle-lifetime_new_HDVH_BEV\[years\]|ots_tec_freight_vehicle-lifetime_new_rail_CEV\[years\]|ots_tec_freight_vehicle-lifetime_new_rail_ICE-diesel\[years\]|ots_tec_freight_vehicle-lifetime_new_aviation_BEV\[years\]|ots_tec_freight_vehicle-lifetime_new_aviation_ICE\[years\]|ots_tec_freight_vehicle-lifetime_new_IWW_FCEV\[years\]|ots_tec_freight_vehicle-lifetime_new_IWW_BEV\[years\]|ots_tec_freight_vehicle-lifetime_new_IWW_ICE\[years\]|ots_tec_freight_vehicle-lifetime_new_marine_FCEV\[years\]|ots_tec_freight_vehicle-lifetime_new_marine_BEV\[years\]|ots_tec_freight_vehicle-lifetime_new_marine_ICE\[years\]|ots_tec_passenger_vehicle-lifetime_new_LDV_ICE-diesel\[km\]|ots_tec_passenger_vehicle-lifetime_new_LDV_ICE-gasoline\[km\]|ots_tec_passenger_vehicle-lifetime_new_LDV_ICE-gas\[km\]|ots_tec_passenger_vehicle-lifetime_new_LDV_PHEV-diesel\[km\]|ots_tec_passenger_vehicle-lifetime_new_LDV_PHEV-gasoline\[km\]|ots_tec_passenger_vehicle-lifetime_new_LDV_BEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_LDV_FCEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_2W_ICE-gas\[km\]|ots_tec_passenger_vehicle-lifetime_new_2W_ICE-diesel\[km\]|ots_tec_passenger_vehicle-lifetime_new_2W_ICE-gasoline\[km\]|ots_tec_passenger_vehicle-lifetime_new_2W_BEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_2W_FCEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_2W_PHEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_bus_ICE-diesel\[km\]|ots_tec_passenger_vehicle-lifetime_new_bus_ICE-gasoline\[km\]|ots_tec_passenger_vehicle-lifetime_new_bus_ICE-gas\[km\]|ots_tec_passenger_vehicle-lifetime_new_bus_BEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_bus_FCEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_bus_PHEV-diesel\[km\]|ots_tec_passenger_vehicle-lifetime_new_metro-tram_CEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_rail_CEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_rail_FCEV\[km\]|ots_tec_passenger_vehicle-lifetime_new_rail_ICE-diesel\[km\]|ots_tec_passenger_vehicle-lifetime_new_aviation_ICE\[km\]|ots_tec_passenger_vehicle-lifetime_new_aviation_BEV\[km\]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace(replace($${Scompletion-columns}$$,&quot;,&quot; ,&quot;|&quot;),&quot;[&quot; ,&quot;\\[&quot; ),&quot;]&quot; ,&quot;\\]&quot;)"/>
+<entry key="replaced_column" type="xstring" value="completion-columns"/>
+<entry key="append_column" type="xboolean" value="true"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="8caa0c1a-5171-4374-be36-3d335d851f5a"/>
+</config>
+</config>

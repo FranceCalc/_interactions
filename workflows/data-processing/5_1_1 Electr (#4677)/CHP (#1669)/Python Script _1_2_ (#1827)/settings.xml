@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import numpy as np%%00010%%00010df=input_table%%00010eff_heat=0.7%%00010%%00010%%00010# sum bio fuel%%00010#df['elc_energycarrier_RES_bio[TWh]']=df['elc_energycarrier_RES_bio_mass[TWh]']+df['elc_energycarrier_RES_bio_gas[TWh]']%%00010%%00010df['elc_supply_bio[TWh]']=df['elc_supply_RES_bio_mass[TWh]']+df['elc_supply_RES_bio_gas[TWh]']%%00010%%00010# different fuel types%%00010df['elc_CHP_coal[TWh]']=df['elc_supply_fossil_coal[TWh]']*df['CHP_rat_coal']*df['Main_ratio']%%00010df['elc_CHP_oil[TWh]']=df['elc_supply_fossil_oil[TWh]']*df['CHP_rat_oil']*df['Main_ratio']%%00010df['elc_CHP_gas[TWh]']=df['elc_supply_fossil_gas[TWh]']*df['CHP_rat_gas']*df['Main_ratio']%%00010df['elc_CHP_bio[TWh]']=df['elc_supply_bio[TWh]']*df['CHP_rat_bio']*df['Main_ratio']%%00010%%00010# heat of different types%%00010df['heat_CHP_coal[TWh]']=(df['elc_CHP_coal[TWh]']/df['eff_chp_coal']-df['elc_CHP_coal[TWh]'])*eff_heat%%00010df['heat_CHP_oil[TWh]']=(df['elc_CHP_oil[TWh]']/df['eff_chp_oil']-df['elc_CHP_oil[TWh]'])*eff_heat%%00010df['heat_CHP_gas[TWh]']=(df['elc_CHP_gas[TWh]']/df['eff_chp_gas']-df['elc_CHP_gas[TWh]'])*eff_heat%%00010df['heat_CHP_bio[TWh]']=(df['elc_CHP_bio[TWh]']/df['eff_chp_bio']-df['elc_CHP_bio[TWh]'])*eff_heat%%00010%%00010# total heat from CHP%%00010df['heat_chp_total[TWh]']=\%%00010df['heat_CHP_coal[TWh]']+df['heat_CHP_oil[TWh]']+df['heat_CHP_gas[TWh]']+df['heat_CHP_bio[TWh]']%%00010%%00010# total electricity from chp%%00010#df['elc_echp_fossil_total[TWh]']=df['elc_CHP_coal[TWh]']+df['elc_CHP_oil[TWh]']+df['elc_CHP_gas[TWh]']%%00010%%00010# CHP emissions%%00010df['emiss_CHP_coal[Mt]']=df['elc_emissions-CO2_fossil_coal[Mt]']*df['CHP_rat_coal']*df['Main_ratio']*\%%00010df['eff_coal']/df['eff_chp_coal']%%00010#df.fillna(value=0, inplace=True)%%00010%%00010df['emiss_CHP_oil[Mt]']=df['elc_emissions-CO2_fossil_oil[Mt]']*df['CHP_rat_oil']*df['Main_ratio']*\%%00010df['eff_oil']/df['eff_chp_oil']%%00010#df.fillna(value=0, inplace=True)%%00010%%00010df['emiss_CHP_gas[Mt]']=df['elc_emissions-CO2_fossil_natural-gas[Mt]']*df['CHP_rat_gas']*df['Main_ratio']*\%%00010df['eff_gas']/df['eff_chp_gas']%%00010#df.fillna(value=0, inplace=True)%%00010%%00010# emission of heat production%%00010df['emiss_heat_coal[%]']=df['heat_CHP_coal[TWh]']/eff_heat/ \%%00010(df['heat_CHP_coal[TWh]']/eff_heat+df['elc_CHP_coal[TWh]']/df['eff_chp_coal'])%%00010%%00010df['emiss_heat_oil[%]']=df['heat_CHP_oil[TWh]']/eff_heat/ \%%00010(df['heat_CHP_oil[TWh]']/eff_heat+df['elc_CHP_oil[TWh]']/df['eff_chp_oil'])%%00010%%00010df['emiss_heat_gas[%]']=df['heat_CHP_gas[TWh]']/eff_heat/ \%%00010(df['heat_CHP_gas[TWh]']/eff_heat+df['elc_CHP_gas[TWh]']/df['eff_chp_gas'])%%00010df.fillna(value=0, inplace=True)%%00010%%00010%%00010# Different type of emission%%00010df['emiss_h_coal[Mt]'] = df['emiss_heat_coal[%]'] * df['emiss_CHP_coal[Mt]']%%00010df['emiss_h_oil[Mt]'] = df['emiss_heat_oil[%]'] * df['emiss_CHP_oil[Mt]']%%00010df['emiss_h_natural-gas[Mt]'] = df['emiss_heat_gas[%]'] * df['emiss_CHP_gas[Mt]']%%00010%%00010df['emiss_h_total[Mt]']=\%%00010df['emiss_h_coal[Mt]']  + df['emiss_h_oil[Mt]'] + df['emiss_h_natural-gas[Mt]']%%00010%%00010# heat specific emission%%00010df['elc_CO2-heat_specific[Mt/TWh]']=\%%00010df['emiss_h_total[Mt]']/df['heat_chp_total[TWh]']%%00010df.replace([np.inf, -np.inf], np.nan, inplace=True)%%00010df.fillna(value=0, inplace=True)%%00010%%00010# Summation heat%%00010df['elc_heat-supply-CHP_bio[TWh]']=df['heat_CHP_bio[TWh]']%%00010df['elc_heat-supply-CHP_fossil[TWh]']=df['heat_chp_total[TWh]']-df['heat_CHP_bio[TWh]']%%00010%%00010#elc specific emission%%00010df['elc_emissions-CO2_specific[kt/TWh]'] = \%%00010(df['elc_emissions-CO2_fossil_total[Mt]']-df['emiss_h_total[Mt]'])/ \%%00010df['elc_supply_total[TWh]']*1000%%00010#df.replace([np.inf, -np.inf], np.nan, inplace=True)%%00010df.fillna(value=0, inplace=True)%%00010%%00010#df['heat_emission[Gt]']=df['elc_emissions-CO2_specific[kt/TWh]']*df['heat_chp_total[TWh]']/1000000%%00010#df.fillna(value=0, inplace=True)%%00010%%00010%%00010output_table_1 = df.loc[:,['Country', 'Years', 'elc_heat-supply-CHP_bio[TWh]', 'elc_heat-supply-CHP_fossil[TWh]', \%%00010'elc_CO2-heat_specific[Mt/TWh]', 'elc_emissions-CO2_specific[kt/TWh]']]%%00010%%00010output_table_2=df.loc[:, ['Country', 'Years', 'emiss_h_coal[Mt]', 'emiss_h_natural-gas[Mt]', 'emiss_h_oil[Mt]', 'emiss_h_total[Mt]']]%%00010"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script1in2out.Python2Script1In2OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 754, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 754, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="8f8c5d60-aaae-4adf-8155-b85debc8a515"/>
+</config>
+</config>

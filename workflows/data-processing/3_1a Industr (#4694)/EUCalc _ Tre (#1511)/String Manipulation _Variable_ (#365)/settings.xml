@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ind_dem_cars-EV_aluminium\[t]|ind_dem_cars-EV_ammonia\[t]|ind_dem_cars-EV_cement\[t]|ind_dem_cars-EV_chem\[t]|ind_dem_cars-EV_copper\[t]|ind_dem_cars-EV_glass\[t]|ind_dem_cars-EV_lime\[t]|ind_dem_cars-EV_other\[t]|ind_dem_cars-EV_paper\[t]|ind_dem_cars-EV_steel\[t]|ind_dem_cars-EV_timber\[t]|ind_dem_cars-FCV_aluminium\[t]|ind_dem_cars-FCV_ammonia\[t]|ind_dem_cars-FCV_cement\[t]|ind_dem_cars-FCV_chem\[t]|ind_dem_cars-FCV_copper\[t]|ind_dem_cars-FCV_glass\[t]|ind_dem_cars-FCV_lime\[t]|ind_dem_cars-FCV_other\[t]|ind_dem_cars-FCV_paper\[t]|ind_dem_cars-FCV_steel\[t]|ind_dem_cars-FCV_timber\[t]|ind_dem_cars-ICE_aluminium\[t]|ind_dem_cars-ICE_ammonia\[t]|ind_dem_cars-ICE_cement\[t]|ind_dem_cars-ICE_chem\[t]|ind_dem_cars-ICE_copper\[t]|ind_dem_cars-ICE_glass\[t]|ind_dem_cars-ICE_lime\[t]|ind_dem_cars-ICE_other\[t]|ind_dem_cars-ICE_paper\[t]|ind_dem_cars-ICE_steel\[t]|ind_dem_cars-ICE_timber\[t]|ind_dem_planes_aluminium\[t]|ind_dem_planes_ammonia\[t]|ind_dem_planes_cement\[t]|ind_dem_planes_chem\[t]|ind_dem_planes_copper\[t]|ind_dem_planes_glass\[t]|ind_dem_planes_lime\[t]|ind_dem_planes_other\[t]|ind_dem_planes_paper\[t]|ind_dem_planes_steel\[t]|ind_dem_planes_timber\[t]|ind_dem_ships_aluminium\[t]|ind_dem_ships_ammonia\[t]|ind_dem_ships_cement\[t]|ind_dem_ships_chem\[t]|ind_dem_ships_copper\[t]|ind_dem_ships_glass\[t]|ind_dem_ships_lime\[t]|ind_dem_ships_other\[t]|ind_dem_ships_paper\[t]|ind_dem_ships_steel\[t]|ind_dem_ships_timber\[t]|ind_dem_trains_aluminium\[t]|ind_dem_trains_ammonia\[t]|ind_dem_trains_cement\[t]|ind_dem_trains_chem\[t]|ind_dem_trains_copper\[t]|ind_dem_trains_glass\[t]|ind_dem_trains_lime\[t]|ind_dem_trains_other\[t]|ind_dem_trains_paper\[t]|ind_dem_trains_steel\[t]|ind_dem_trains_timber\[t]|ind_dem_trucks-EV_aluminium\[t]|ind_dem_trucks-EV_ammonia\[t]|ind_dem_trucks-EV_cement\[t]|ind_dem_trucks-EV_chem\[t]|ind_dem_trucks-EV_copper\[t]|ind_dem_trucks-EV_glass\[t]|ind_dem_trucks-EV_lime\[t]|ind_dem_trucks-EV_other\[t]|ind_dem_trucks-EV_paper\[t]|ind_dem_trucks-EV_steel\[t]|ind_dem_trucks-EV_timber\[t]|ind_dem_trucks-FCV_aluminium\[t]|ind_dem_trucks-FCV_ammonia\[t]|ind_dem_trucks-FCV_cement\[t]|ind_dem_trucks-FCV_chem\[t]|ind_dem_trucks-FCV_copper\[t]|ind_dem_trucks-FCV_glass\[t]|ind_dem_trucks-FCV_lime\[t]|ind_dem_trucks-FCV_other\[t]|ind_dem_trucks-FCV_paper\[t]|ind_dem_trucks-FCV_steel\[t]|ind_dem_trucks-FCV_timber\[t]|ind_dem_trucks-ICE_aluminium\[t]|ind_dem_trucks-ICE_ammonia\[t]|ind_dem_trucks-ICE_cement\[t]|ind_dem_trucks-ICE_chem\[t]|ind_dem_trucks-ICE_copper\[t]|ind_dem_trucks-ICE_glass\[t]|ind_dem_trucks-ICE_lime\[t]|ind_dem_trucks-ICE_other\[t]|ind_dem_trucks-ICE_paper\[t]|ind_dem_trucks-ICE_steel\[t]|ind_dem_trucks-ICE_timber\[t]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace($${Svar-filter}$$,&quot;,&quot;,&quot;|&quot;),&quot;[&quot;,&quot;\\[&quot;)"/>
+<entry key="replaced_column" type="xstring" value="aggregation-pattern"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="32da26b4-e593-4718-9db3-ce11408814cf"/>
+</config>
+</config>

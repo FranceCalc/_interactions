@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ind_energy-demand_steel_electricity\[TWh]|ind_energy-demand_steel_solid-ff-coal\[TWh]|ind_energy-demand_steel_liquid-ff-oil\[TWh]|ind_energy-demand_steel_gas-ff-natural\[TWh]|ind_energy-demand_steel_solid-bio\[TWh]|ind_energy-demand_steel_liquid-bio\[TWh]|ind_energy-demand_steel_gas-bio\[TWh]|ind_energy-demand_steel_solid-waste\[TWh]|ind_energy-demand_steel_hydrogen\[TWh]|ind_energy-demand_cement_electricity\[TWh]|ind_energy-demand_cement_solid-ff-coal\[TWh]|ind_energy-demand_cement_liquid-ff-oil\[TWh]|ind_energy-demand_cement_gas-ff-natural\[TWh]|ind_energy-demand_cement_solid-bio\[TWh]|ind_energy-demand_cement_liquid-bio\[TWh]|ind_energy-demand_cement_gas-bio\[TWh]|ind_energy-demand_cement_solid-waste\[TWh]|ind_energy-demand_cement_hydrogen\[TWh]|ind_energy-demand_chem_electricity\[TWh]|ind_energy-demand_chem_solid-ff-coal\[TWh]|ind_energy-demand_chem_liquid-ff-oil\[TWh]|ind_energy-demand_chem_gas-ff-natural\[TWh]|ind_energy-demand_chem_solid-bio\[TWh]|ind_energy-demand_chem_liquid-bio\[TWh]|ind_energy-demand_chem_gas-bio\[TWh]|ind_energy-demand_chem_solid-waste\[TWh]|ind_energy-demand_chem_hydrogen\[TWh]|ind_energy-demand_paper_electricity\[TWh]|ind_energy-demand_paper_solid-ff-coal\[TWh]|ind_energy-demand_paper_liquid-ff-oil\[TWh]|ind_energy-demand_paper_gas-ff-natural\[TWh]|ind_energy-demand_paper_solid-bio\[TWh]|ind_energy-demand_paper_liquid-bio\[TWh]|ind_energy-demand_paper_gas-bio\[TWh]|ind_energy-demand_paper_solid-waste\[TWh]|ind_energy-demand_paper_hydrogen\[TWh]|ind_energy-demand_aluminium_electricity\[TWh]|ind_energy-demand_aluminium_solid-ff-coal\[TWh]|ind_energy-demand_aluminium_liquid-ff-oil\[TWh]|ind_energy-demand_aluminium_gas-ff-natural\[TWh]|ind_energy-demand_aluminium_solid-bio\[TWh]|ind_energy-demand_aluminium_liquid-bio\[TWh]|ind_energy-demand_aluminium_gas-bio\[TWh]|ind_energy-demand_aluminium_solid-waste\[TWh]|ind_energy-demand_aluminium_hydrogen\[TWh]|ind_energy-demand_glass_electricity\[TWh]|ind_energy-demand_glass_solid-ff-coal\[TWh]|ind_energy-demand_glass_liquid-ff-oil\[TWh]|ind_energy-demand_glass_gas-ff-natural\[TWh]|ind_energy-demand_glass_solid-bio\[TWh]|ind_energy-demand_glass_liquid-bio\[TWh]|ind_energy-demand_glass_gas-bio\[TWh]|ind_energy-demand_glass_solid-waste\[TWh]|ind_energy-demand_glass_hydrogen\[TWh]|ind_energy-demand_lime_electricity\[TWh]|ind_energy-demand_lime_solid-ff-coal\[TWh]|ind_energy-demand_lime_liquid-ff-oil\[TWh]|ind_energy-demand_lime_gas-ff-natural\[TWh]|ind_energy-demand_lime_solid-bio\[TWh]|ind_energy-demand_lime_liquid-bio\[TWh]|ind_energy-demand_lime_gas-bio\[TWh]|ind_energy-demand_lime_solid-waste\[TWh]|ind_energy-demand_lime_hydrogen\[TWh]|ind_energy-demand_tra-equip_electricity\[TWh]|ind_energy-demand_tra-equip_solid-ff-coal\[TWh]|ind_energy-demand_tra-equip_liquid-ff-oil\[TWh]|ind_energy-demand_tra-equip_gas-ff-natural\[TWh]|ind_energy-demand_tra-equip_solid-bio\[TWh]|ind_energy-demand_tra-equip_liquid-bio\[TWh]|ind_energy-demand_tra-equip_gas-bio\[TWh]|ind_energy-demand_tra-equip_solid-waste\[TWh]|ind_energy-demand_tra-equip_hydrogen\[TWh]|ind_energy-demand_fbt_electricity\[TWh]|ind_energy-demand_fbt_solid-ff-coal\[TWh]|ind_energy-demand_fbt_liquid-ff-oil\[TWh]|ind_energy-demand_fbt_gas-ff-natural\[TWh]|ind_energy-demand_fbt_solid-bio\[TWh]|ind_energy-demand_fbt_liquid-bio\[TWh]|ind_energy-demand_fbt_gas-bio\[TWh]|ind_energy-demand_fbt_solid-waste\[TWh]|ind_energy-demand_fbt_hydrogen\[TWh]|ind_energy-demand_textiles_electricity\[TWh]|ind_energy-demand_textiles_solid-ff-coal\[TWh]|ind_energy-demand_textiles_liquid-ff-oil\[TWh]|ind_energy-demand_textiles_gas-ff-natural\[TWh]|ind_energy-demand_textiles_solid-bio\[TWh]|ind_energy-demand_textiles_liquid-bio\[TWh]|ind_energy-demand_textiles_gas-bio\[TWh]|ind_energy-demand_textiles_solid-waste\[TWh]|ind_energy-demand_textiles_hydrogen\[TWh]|ind_energy-demand_mae_electricity\[TWh]|ind_energy-demand_mae_solid-ff-coal\[TWh]|ind_energy-demand_mae_liquid-ff-oil\[TWh]|ind_energy-demand_mae_gas-ff-natural\[TWh]|ind_energy-demand_mae_solid-bio\[TWh]|ind_energy-demand_mae_liquid-bio\[TWh]|ind_energy-demand_mae_gas-bio\[TWh]|ind_energy-demand_mae_solid-waste\[TWh]|ind_energy-demand_mae_hydrogen\[TWh]|ind_energy-demand_wwp_electricity\[TWh]|ind_energy-demand_wwp_solid-ff-coal\[TWh]|ind_energy-demand_wwp_liquid-ff-oil\[TWh]|ind_energy-demand_wwp_gas-ff-natural\[TWh]|ind_energy-demand_wwp_solid-bio\[TWh]|ind_energy-demand_wwp_liquid-bio\[TWh]|ind_energy-demand_wwp_gas-bio\[TWh]|ind_energy-demand_wwp_solid-waste\[TWh]|ind_energy-demand_wwp_hydrogen\[TWh]|ind_energy-demand_ois_electricity\[TWh]|ind_energy-demand_ois_solid-ff-coal\[TWh]|ind_energy-demand_ois_liquid-ff-oil\[TWh]|ind_energy-demand_ois_gas-ff-natural\[TWh]|ind_energy-demand_ois_solid-bio\[TWh]|ind_energy-demand_ois_liquid-bio\[TWh]|ind_energy-demand_ois_gas-bio\[TWh]|ind_energy-demand_ois_solid-waste\[TWh]|ind_energy-demand_ois_hydrogen\[TWh]|ind_energy-demand_copper_electricity\[TWh]|ind_energy-demand_copper_solid-ff-coal\[TWh]|ind_energy-demand_copper_liquid-ff-oil\[TWh]|ind_energy-demand_copper_gas-ff-natural\[TWh]|ind_energy-demand_copper_solid-bio\[TWh]|ind_energy-demand_copper_liquid-bio\[TWh]|ind_energy-demand_copper_gas-bio\[TWh]|ind_energy-demand_copper_solid-waste\[TWh]|ind_energy-demand_copper_hydrogen\[TWh]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace($${Svar-filter}$$,&quot;,&quot;,&quot;|&quot;),&quot;[&quot;,&quot;\\[&quot;)"/>
+<entry key="replaced_column" type="xstring" value="aggregation-pattern"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="9985563c-4765-42d4-92e8-35e7a12c2ca4"/>
+</config>
+</config>

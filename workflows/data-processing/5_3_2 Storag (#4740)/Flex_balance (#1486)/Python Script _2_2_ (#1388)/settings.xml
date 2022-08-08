@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010#import zipfile%%00010#import lxml.etree%%00010import numpy as np%%00010import re%%00010%%00010def VRE_rat(series):%%00010%%00009return (series) / series.sum()%%00010%%00010# yearly electric production data input (from supply mod)%%00010c_trz=input_table_2%%00010%%00010prod_c = pd.DataFrame()%%00010prod_c  = input_table_1%%00010#print(y_eprod.shape)%%00010prod_cap_f = pd.DataFrame()%%00010prod_cap_f = prod_c.filter(regex=(&quot;elc.*GW.*&quot;), axis=1)%%00010prod_cap_f['total_cap'] = prod_cap_f.sum(axis=1)%%00010prod_cap_f['Country' ] = prod_c.loc[:,'Country']%%00010prod_cap_f['Years'] = prod_c.loc[:,'Years']%%00010%%00010%%00010prod_ind=prod_cap_f['Years']&gt;2015%%00010prod_cap_f=prod_cap_f.loc[prod_ind,:]%%00010%%00010#print(productions_f.info())%%00010prod_cap_f['VRE_cap']=\%%00010prod_cap_f['elc_capacity_RES_solar_pv[GW]']+\%%00010prod_cap_f['elc_capacity_RES_wind_offshore[GW]']+\%%00010prod_cap_f['elc_capacity_RES_wind_onshore[GW]']%%00010%%00010%%00010prod_c_trz=pd.merge(prod_cap_f, c_trz, on='Country')%%00010%%00010prod_rat_c=prod_c_trz.groupby(['Years', 'Country', 'Trade_zone']).mean()%%00010#print(prod_rat_c.index.names)%%00010%%00010prr_c=prod_rat_c.groupby(['Years', 'Trade_zone'])%%00010prod_rat_c['VRE_rat_c']=prr_c['VRE_cap'].transform(VRE_rat)%%00010%%00010prod_rat_c=prod_rat_c.reset_index()%%00010#print(prod_rat_c.columns)%%00010prod_rat_c['Years']=prod_rat_c['Years'].astype(str)%%00010%%00010output_table_1=prod_rat_c.loc[:,['Country', 'Trade_zone', 'Years', 'VRE_rat_c']]%%00010#print(c_trz.tail())%%00010%%00010prod_rat_trz=prod_c_trz.groupby(['Trade_zone', 'Years']).sum()%%00010prod_rat_trz=prod_rat_trz.reset_index()%%00010%%00010prr_tr=prod_rat_trz.groupby('Years')%%00010prod_rat_trz['VRE_rat_trz']=prr_tr['VRE_cap'].transform(VRE_rat)%%00010%%00010prod_rat_trz['Years']=prod_rat_trz['Years'].astype(str)%%00010#print(prod_rat_trz.info())%%00010output_table_2=prod_rat_trz.loc[:,['Trade_zone', 'Years', 'VRE_rat_trz']]"/>
+<entry key="rowLimit" type="xint" value="10000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Determination VRE ratios%%00013%%00010 trade zones%%00013%%00010and countries within trade zones"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="193"/>
+<entry key="y-coordinate" type="xint" value="139"/>
+<entry key="width" type="xint" value="177"/>
+<entry key="height" type="xint" value="45"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in2out.Python2Script2In2OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒2)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒2)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 203, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 63, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="d40e6196-2b6f-4a25-a2ee-c636501b6934"/>
+</config>
+</config>

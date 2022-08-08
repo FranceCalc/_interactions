@@ -1,0 +1,4075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_perc_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="code_language (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="code_language"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="bottom"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_eu_(.*)\[kg\]"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_eu_total"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_eu_(.*)\[kg\]|min_perc_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="workspace"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="C:\eucalc\dev"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="google_sheet_prefix"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="EU"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_lead[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_manganese[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_graphite[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_nickel[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_lithium[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_cobalt[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_electronics-computer[kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_electronics-phone[kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0055"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_2W-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_2W-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_bus-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="32"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_bus-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="162"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVH-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="200"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVH-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1000"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVM-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="130"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVM-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="650"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVL-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="60"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVL-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="300"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_LDV-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="8"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_LDV-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_unit[kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kWh"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_copper[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.68"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_aluminium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.56"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_manganese[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.285"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_graphite[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.83"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_nickel[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_lithium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_cobalt[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_unit[kg/kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/kWh"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_copper[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.68"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_aluminium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.56"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_manganese[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.285"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_graphite[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.83"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_nickel[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_lithium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_cobalt[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_unit[kg/kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/kWh"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_manganese[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.285"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_graphite[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.83"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_nickel[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_lithium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_cobalt[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_unit[kg/kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/kWh"/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_wire_copper[kg/GWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.20467569999999993"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_wire_unit[kg/GWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/GWh"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_secondary[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_61">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_primary[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_62">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_hisarna[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.5"/>
+</config>
+<config key="Variable_63">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_DRI[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_64">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_BOF[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.8"/>
+</config>
+<config key="Variable_65">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_EAF[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_66">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_67">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_copper[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.5"/>
+</config>
+<config key="Variable_68">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_aluminium[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_69">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_steel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.3"/>
+</config>
+<config key="Variable_70">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_71">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_lead[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.09"/>
+</config>
+<config key="Variable_72">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_nickel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.17"/>
+</config>
+<config key="Variable_73">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_manganese[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.05"/>
+</config>
+<config key="Variable_74">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_lithium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.3"/>
+</config>
+<config key="Variable_75">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_graphite[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.19"/>
+</config>
+<config key="Variable_76">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_cobalt[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_77">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_copper[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_78">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_aluminium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.13"/>
+</config>
+<config key="Variable_79">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_steel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.14"/>
+</config>
+<config key="Variable_80">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_81">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_lead[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_82">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_lithium[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_83">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_manganese[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_84">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_nickel[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_85">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_graphite[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_86">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_cobalt[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_87">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_copper[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_88">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_aluminium[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_89">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_steel[unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.18"/>
+</config>
+<config key="Variable_90">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_unit[unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="unit"/>
+</config>
+<config key="Variable_91">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_aluminium_manganese[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.00195"/>
+</config>
+<config key="Variable_92">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_steel_manganese[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.01"/>
+</config>
+<config key="Variable_93">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_steel_graphite[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0022"/>
+</config>
+<config key="Variable_94">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_glass_lithium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.0E-4"/>
+</config>
+<config key="Variable_95">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_aluminium_lithium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.45E-4"/>
+</config>
+<config key="Variable_96">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_steel_nickel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0034"/>
+</config>
+<config key="Variable_97">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_98">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.315"/>
+</config>
+<config key="Variable_99">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.3465"/>
+</config>
+<config key="Variable_100">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_phone_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.015"/>
+</config>
+<config key="Variable_101">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_tv_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.346"/>
+</config>
+<config key="Variable_102">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.7"/>
+</config>
+<config key="Variable_103">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_phone_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_104">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_tv_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.4"/>
+</config>
+<config key="Variable_105">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.02"/>
+</config>
+<config key="Variable_106">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_phone_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0254"/>
+</config>
+<config key="Variable_107">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_tv_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_108">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_109">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dryer_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_110">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dishwasher_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_111">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_wmachine_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_112">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_freezer_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_113">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_fridge_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_114">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dryer_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_115">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dishwasher_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_116">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_wmachine_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_117">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_freezer_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.46"/>
+</config>
+<config key="Variable_118">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_fridge_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.25"/>
+</config>
+<config key="Variable_119">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dryer_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="46.3"/>
+</config>
+<config key="Variable_120">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dishwasher_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="13.5"/>
+</config>
+<config key="Variable_121">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_wmachine_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="40.5"/>
+</config>
+<config key="Variable_122">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_freezer_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="33"/>
+</config>
+<config key="Variable_123">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_fridge_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="35"/>
+</config>
+<config key="Variable_124">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_125">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_126">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_127">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_non-residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_128">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_non-residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_129">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_130">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_131">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_non-residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.1"/>
+</config>
+<config key="Variable_132">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_non-residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_133">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40"/>
+</config>
+<config key="Variable_134">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40"/>
+</config>
+<config key="Variable_135">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_non-residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="65"/>
+</config>
+<config key="Variable_136">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_non-residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="65"/>
+</config>
+<config key="Variable_137">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_unit[kg/m2]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/m2"/>
+</config>
+<config key="Variable_138">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_nickel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="377"/>
+</config>
+<config key="Variable_139">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_nickel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="377"/>
+</config>
+<config key="Variable_140">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_nickel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1200"/>
+</config>
+<config key="Variable_141">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-nuclear_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="650000"/>
+</config>
+<config key="Variable_142">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-coal_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="450000"/>
+</config>
+<config key="Variable_143">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-gas_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10000"/>
+</config>
+<config key="Variable_144">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-oil_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="400000"/>
+</config>
+<config key="Variable_145">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-geo_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="907000"/>
+</config>
+<config key="Variable_146">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-marine_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1500000"/>
+</config>
+<config key="Variable_147">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-hydro_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1502000"/>
+</config>
+<config key="Variable_148">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10540000"/>
+</config>
+<config key="Variable_149">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4760000"/>
+</config>
+<config key="Variable_150">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3000000"/>
+</config>
+<config key="Variable_151">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-thinfilm_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7530001"/>
+</config>
+<config key="Variable_152">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-csi_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7530000"/>
+</config>
+<config key="Variable_153">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-nuclear_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40000"/>
+</config>
+<config key="Variable_154">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-coal_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="419000"/>
+</config>
+<config key="Variable_155">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-gas_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="204000"/>
+</config>
+<config key="Variable_156">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-oil_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="120000"/>
+</config>
+<config key="Variable_157">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-geo_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="45200000"/>
+</config>
+<config key="Variable_158">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-hydro_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="52000"/>
+</config>
+<config key="Variable_159">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4180000"/>
+</config>
+<config key="Variable_160">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4180000"/>
+</config>
+<config key="Variable_161">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="96000000"/>
+</config>
+<config key="Variable_162">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-thinfilm_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="44992000"/>
+</config>
+<config key="Variable_163">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-csi_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20596000"/>
+</config>
+<config key="Variable_164">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-nuclear_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="30000000"/>
+</config>
+<config key="Variable_165">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-coal_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50721000"/>
+</config>
+<config key="Variable_166">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-gas_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="31375763"/>
+</config>
+<config key="Variable_167">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-oil_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50000000"/>
+</config>
+<config key="Variable_168">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-geo_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1200000000"/>
+</config>
+<config key="Variable_169">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-marine_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="900000000"/>
+</config>
+<config key="Variable_170">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-hydro_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50000000"/>
+</config>
+<config key="Variable_171">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="119000000"/>
+</config>
+<config key="Variable_172">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="119000000"/>
+</config>
+<config key="Variable_173">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="8000000"/>
+</config>
+<config key="Variable_174">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-thinfilm_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="55900001"/>
+</config>
+<config key="Variable_175">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-csi_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="55900000"/>
+</config>
+<config key="Variable_176">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_unit[kg/GW]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/GW"/>
+</config>
+<config key="Variable_177">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_pipe_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10000"/>
+</config>
+<config key="Variable_178">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_trolley-cables_copper[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10000"/>
+</config>
+<config key="Variable_179">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_rail_copper[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_180">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_road_copper[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_181">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_trolley-cables_aluminium[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_182">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_rail_aluminium[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_183">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_road_aluminium[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="30"/>
+</config>
+<config key="Variable_184">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_trolley-cables_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="80"/>
+</config>
+<config key="Variable_185">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_rail_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50000"/>
+</config>
+<config key="Variable_186">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_road_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="82191"/>
+</config>
+<config key="Variable_187">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_unit[kg/km]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/km"/>
+</config>
+<config key="Variable_188">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1200000"/>
+</config>
+<config key="Variable_189">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-planes_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="320000"/>
+</config>
+<config key="Variable_190">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-subways_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="500"/>
+</config>
+<config key="Variable_191">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-trains_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1000"/>
+</config>
+<config key="Variable_192">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="900000"/>
+</config>
+<config key="Variable_193">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-planes_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="320000"/>
+</config>
+<config key="Variable_194">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-subways_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5000"/>
+</config>
+<config key="Variable_195">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-trains_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5000"/>
+</config>
+<config key="Variable_196">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="150000"/>
+</config>
+<config key="Variable_197">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-planes_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40000"/>
+</config>
+<config key="Variable_198">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-subways_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6000"/>
+</config>
+<config key="Variable_199">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-trains_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6000"/>
+</config>
+<config key="Variable_200">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9900000"/>
+</config>
+<config key="Variable_201">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.32"/>
+</config>
+<config key="Variable_202">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="12"/>
+</config>
+<config key="Variable_203">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="15"/>
+</config>
+<config key="Variable_204">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20"/>
+</config>
+<config key="Variable_205">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="14"/>
+</config>
+<config key="Variable_206">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_207">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="590"/>
+</config>
+<config key="Variable_208">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="190"/>
+</config>
+<config key="Variable_209">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="548"/>
+</config>
+<config key="Variable_210">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="809"/>
+</config>
+<config key="Variable_211">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="22"/>
+</config>
+<config key="Variable_212">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_213">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_214">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="17"/>
+</config>
+<config key="Variable_215">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="868"/>
+</config>
+<config key="Variable_216">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="680"/>
+</config>
+<config key="Variable_217">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="999"/>
+</config>
+<config key="Variable_218">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1043"/>
+</config>
+<config key="Variable_219">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="238"/>
+</config>
+<config key="Variable_220">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="265"/>
+</config>
+<config key="Variable_221">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="191"/>
+</config>
+<config key="Variable_222">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="182"/>
+</config>
+<config key="Variable_223">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9146"/>
+</config>
+<config key="Variable_224">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7154"/>
+</config>
+<config key="Variable_225">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7352"/>
+</config>
+<config key="Variable_226">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9757"/>
+</config>
+<config key="Variable_227">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_228">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="19.3"/>
+</config>
+<config key="Variable_229">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="8.4"/>
+</config>
+<config key="Variable_230">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.4"/>
+</config>
+<config key="Variable_231">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="16"/>
+</config>
+<config key="Variable_232">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="16"/>
+</config>
+<config key="Variable_233">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9"/>
+</config>
+<config key="Variable_234">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="432"/>
+</config>
+<config key="Variable_235">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="899"/>
+</config>
+<config key="Variable_236">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="351"/>
+</config>
+<config key="Variable_237">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="98"/>
+</config>
+<config key="Variable_238">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="432"/>
+</config>
+<config key="Variable_239">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="899"/>
+</config>
+<config key="Variable_240">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="350"/>
+</config>
+<config key="Variable_241">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="98"/>
+</config>
+<config key="Variable_242">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="141"/>
+</config>
+<config key="Variable_243">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="336"/>
+</config>
+<config key="Variable_244">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="102"/>
+</config>
+<config key="Variable_245">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_246">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="640"/>
+</config>
+<config key="Variable_247">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1064"/>
+</config>
+<config key="Variable_248">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="668"/>
+</config>
+<config key="Variable_249">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="468"/>
+</config>
+<config key="Variable_250">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="199"/>
+</config>
+<config key="Variable_251">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="372"/>
+</config>
+<config key="Variable_252">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="195"/>
+</config>
+<config key="Variable_253">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="136"/>
+</config>
+<config key="Variable_254">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1420"/>
+</config>
+<config key="Variable_255">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1756"/>
+</config>
+<config key="Variable_256">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1542"/>
+</config>
+<config key="Variable_257">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1080"/>
+</config>
+<config key="Variable_258">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="14565"/>
+</config>
+<config key="Variable_259">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="16452"/>
+</config>
+<config key="Variable_260">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="12119"/>
+</config>
+<config key="Variable_261">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="11073"/>
+</config>
+<config key="Variable_262">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6311"/>
+</config>
+<config key="Variable_263">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7129"/>
+</config>
+<config key="Variable_264">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5251"/>
+</config>
+<config key="Variable_265">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4799"/>
+</config>
+<config key="Variable_266">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1237"/>
+</config>
+<config key="Variable_267">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2076"/>
+</config>
+<config key="Variable_268">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1529"/>
+</config>
+<config key="Variable_269">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1197"/>
+</config>
+<config key="Variable_270">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_271">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_272">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="8.7"/>
+</config>
+<config key="Variable_273">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="81"/>
+</config>
+<config key="Variable_274">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="26"/>
+</config>
+<config key="Variable_275">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="74"/>
+</config>
+<config key="Variable_276">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="118"/>
+</config>
+<config key="Variable_277">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="118"/>
+</config>
+<config key="Variable_278">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="92"/>
+</config>
+<config key="Variable_279">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="135"/>
+</config>
+<config key="Variable_280">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="148"/>
+</config>
+<config key="Variable_281">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1237"/>
+</config>
+<config key="Variable_282">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="968"/>
+</config>
+<config key="Variable_283">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="995"/>
+</config>
+<config key="Variable_284">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1320"/>
+</config>
+<config key="Variable_285">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_286">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_electronics-battery_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_287">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_transport-battery_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_288">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_electronics-battery_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.97"/>
+</config>
+<config key="Variable_289">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_electronics-battery_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_290">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_transport-battery_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.97"/>
+</config>
+<config key="Variable_291">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_transport-battery_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_292">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-on-wind_exp[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9490000000000001"/>
+</config>
+<config key="Variable_293">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-off-wind_exp[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9490000000000001"/>
+</config>
+<config key="Variable_294">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-pv_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_295">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-battery_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_296">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-battery_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.97"/>
+</config>
+<config key="Variable_297">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-pv_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.41700000000000004"/>
+</config>
+<config key="Variable_298">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-battery_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_299">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-csp_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_300">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-marine_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_301">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-geo_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_302">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-gas_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_303">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-coal_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_304">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-oil_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_305">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-nuclear_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_306">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-hydro_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_307">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-on-wind_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.949"/>
+</config>
+<config key="Variable_308">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-off-wind_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.949"/>
+</config>
+<config key="Variable_309">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-pv_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.583"/>
+</config>
+<config key="Variable_310">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_311">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_share_pv_thinfilm[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_312">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_share_pv_csi[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9"/>
+</config>
+<config key="Variable_313">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_share_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_314">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_lead[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="87"/>
+</config>
+<config key="Variable_315">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_nickel[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="81"/>
+</config>
+<config key="Variable_316">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_cobalt[Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.2"/>
+</config>
+<config key="Variable_317">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_manganese[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="570"/>
+</config>
+<config key="Variable_318">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_graphite[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="110"/>
+</config>
+<config key="Variable_319">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_lithium[Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="13.5"/>
+</config>
+<config key="Variable_320">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_coal[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1139331"/>
+</config>
+<config key="Variable_321">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_gas[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="148677"/>
+</config>
+<config key="Variable_322">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_oil[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="231552"/>
+</config>
+<config key="Variable_323">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_potash[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3500"/>
+</config>
+<config key="Variable_324">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_phosphate[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6378"/>
+</config>
+<config key="Variable_325">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_copper[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="700"/>
+</config>
+<config key="Variable_326">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_iron[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="87000"/>
+</config>
+<config key="Variable_327">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_bauxite[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28000"/>
+</config>
+<config key="Variable_328">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_unit[Mt]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Mt"/>
+</config>
+<config key="Variable_329">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mod_tri"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min"/>
+</config>
+<config key="Variable_330">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="cp"/>
+</config>
+<config key="Variable_331">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="baseyear"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2015"/>
+</config>
+<config key="Variable_332">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_perc_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_333">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg"/>
+</config>
+<config key="Variable_334">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_335">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_336">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="code_language (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_337">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="code_language"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="bottom"/>
+</config>
+<config key="Variable_338">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_339">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_340">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_eu_(.*)\[kg\]"/>
+</config>
+<config key="Variable_341">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_eu_total"/>
+</config>
+<config key="Variable_342">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min_eu_(.*)\[kg\]|min_perc_(.*)_(.*)\[%\]"/>
+</config>
+<config key="Variable_343">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_344">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="workspace"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="C:\eucalc\dev"/>
+</config>
+<config key="Variable_345">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="google_sheet_prefix"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="EU"/>
+</config>
+<config key="Variable_346">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_lead[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_347">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_manganese[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_348">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_graphite[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_349">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_nickel[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_350">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_lithium[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_351">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_cobalt[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_352">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ind_material-efficiency_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_353">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_electronics-computer[kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_354">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_electronics-phone[kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0055"/>
+</config>
+<config key="Variable_355">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_2W-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_356">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_2W-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5"/>
+</config>
+<config key="Variable_357">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_bus-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="32"/>
+</config>
+<config key="Variable_358">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_bus-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="162"/>
+</config>
+<config key="Variable_359">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVH-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="200"/>
+</config>
+<config key="Variable_360">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVH-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1000"/>
+</config>
+<config key="Variable_361">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVM-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="130"/>
+</config>
+<config key="Variable_362">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVM-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="650"/>
+</config>
+<config key="Variable_363">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVL-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="60"/>
+</config>
+<config key="Variable_364">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_HDVL-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="300"/>
+</config>
+<config key="Variable_365">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_LDV-PHEV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="8"/>
+</config>
+<config key="Variable_366">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_LDV-EV[kWh]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40"/>
+</config>
+<config key="Variable_367">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_batveh_unit[kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kWh"/>
+</config>
+<config key="Variable_368">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_copper[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.68"/>
+</config>
+<config key="Variable_369">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_aluminium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.56"/>
+</config>
+<config key="Variable_370">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_manganese[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.285"/>
+</config>
+<config key="Variable_371">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_graphite[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.83"/>
+</config>
+<config key="Variable_372">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_nickel[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_373">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_lithium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_374">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_cobalt[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_375">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energy-battery_unit[kg/kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/kWh"/>
+</config>
+<config key="Variable_376">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_copper[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.68"/>
+</config>
+<config key="Variable_377">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_aluminium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.56"/>
+</config>
+<config key="Variable_378">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_manganese[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.285"/>
+</config>
+<config key="Variable_379">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_graphite[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.83"/>
+</config>
+<config key="Variable_380">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_nickel[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_381">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_lithium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_382">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_cobalt[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_383">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics-battery_unit[kg/kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/kWh"/>
+</config>
+<config key="Variable_384">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_manganese[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.285"/>
+</config>
+<config key="Variable_385">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_graphite[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.83"/>
+</config>
+<config key="Variable_386">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_nickel[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_387">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_lithium[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_388">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_cobalt[kg/kWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.42"/>
+</config>
+<config key="Variable_389">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_transport-battery_unit[kg/kWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/kWh"/>
+</config>
+<config key="Variable_390">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_wire_copper[kg/GWh]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.20467569999999993"/>
+</config>
+<config key="Variable_391">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_wire_unit[kg/GWh]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/GWh"/>
+</config>
+<config key="Variable_392">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_secondary[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_393">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_primary[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_394">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_hisarna[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.5"/>
+</config>
+<config key="Variable_395">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_DRI[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_396">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_BOF[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.8"/>
+</config>
+<config key="Variable_397">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_EAF[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_398">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_recy_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_399">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_copper[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.5"/>
+</config>
+<config key="Variable_400">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_aluminium[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_401">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_steel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.3"/>
+</config>
+<config key="Variable_402">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_dom-appliances_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_403">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_lead[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.09"/>
+</config>
+<config key="Variable_404">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_nickel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.17"/>
+</config>
+<config key="Variable_405">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_manganese[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.05"/>
+</config>
+<config key="Variable_406">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_lithium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.3"/>
+</config>
+<config key="Variable_407">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_graphite[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.19"/>
+</config>
+<config key="Variable_408">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_cobalt[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_409">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_copper[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.18"/>
+</config>
+<config key="Variable_410">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_aluminium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.13"/>
+</config>
+<config key="Variable_411">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_steel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.14"/>
+</config>
+<config key="Variable_412">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_other_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_413">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_lead[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_414">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_lithium[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_415">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_manganese[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_416">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_nickel[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_417">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_graphite[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_418">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_cobalt[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_419">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_copper[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_420">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_aluminium[unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_421">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_steel[unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.18"/>
+</config>
+<config key="Variable_422">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_parameters_unit[unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="unit"/>
+</config>
+<config key="Variable_423">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_aluminium_manganese[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.00195"/>
+</config>
+<config key="Variable_424">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_steel_manganese[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.01"/>
+</config>
+<config key="Variable_425">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_steel_graphite[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0022"/>
+</config>
+<config key="Variable_426">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_glass_lithium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.0E-4"/>
+</config>
+<config key="Variable_427">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_aluminium_lithium[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.45E-4"/>
+</config>
+<config key="Variable_428">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_steel_nickel[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0034"/>
+</config>
+<config key="Variable_429">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_industry_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_430">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.315"/>
+</config>
+<config key="Variable_431">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.3465"/>
+</config>
+<config key="Variable_432">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_phone_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.015"/>
+</config>
+<config key="Variable_433">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_tv_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.346"/>
+</config>
+<config key="Variable_434">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.7"/>
+</config>
+<config key="Variable_435">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_phone_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_436">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_tv_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.4"/>
+</config>
+<config key="Variable_437">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_computer_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.02"/>
+</config>
+<config key="Variable_438">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_phone_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0254"/>
+</config>
+<config key="Variable_439">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_tv_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_440">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_electronics_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_441">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dryer_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_442">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dishwasher_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_443">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_wmachine_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_444">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_freezer_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_445">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_fridge_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.78"/>
+</config>
+<config key="Variable_446">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dryer_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_447">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dishwasher_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_448">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_wmachine_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_449">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_freezer_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.46"/>
+</config>
+<config key="Variable_450">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_fridge_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.25"/>
+</config>
+<config key="Variable_451">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dryer_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="46.3"/>
+</config>
+<config key="Variable_452">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_dishwasher_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="13.5"/>
+</config>
+<config key="Variable_453">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_wmachine_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="40.5"/>
+</config>
+<config key="Variable_454">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_freezer_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="33"/>
+</config>
+<config key="Variable_455">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_fridge_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="35"/>
+</config>
+<config key="Variable_456">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_appliance_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_457">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_458">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_459">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_non-residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_460">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_non-residential_copper[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_461">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_462">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_463">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_non-residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.1"/>
+</config>
+<config key="Variable_464">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_non-residential_aluminium[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_465">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40"/>
+</config>
+<config key="Variable_466">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40"/>
+</config>
+<config key="Variable_467">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_reno_non-residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="65"/>
+</config>
+<config key="Variable_468">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_new_non-residential_steel[kg/m2]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="65"/>
+</config>
+<config key="Variable_469">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_building_unit[kg/m2]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/m2"/>
+</config>
+<config key="Variable_470">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_nickel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="377"/>
+</config>
+<config key="Variable_471">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_nickel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="377"/>
+</config>
+<config key="Variable_472">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_nickel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1200"/>
+</config>
+<config key="Variable_473">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-nuclear_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="650000"/>
+</config>
+<config key="Variable_474">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-coal_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="450000"/>
+</config>
+<config key="Variable_475">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-gas_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10000"/>
+</config>
+<config key="Variable_476">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-oil_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="400000"/>
+</config>
+<config key="Variable_477">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-geo_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="907000"/>
+</config>
+<config key="Variable_478">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-marine_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1500000"/>
+</config>
+<config key="Variable_479">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-hydro_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1502000"/>
+</config>
+<config key="Variable_480">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10540000"/>
+</config>
+<config key="Variable_481">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4760000"/>
+</config>
+<config key="Variable_482">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3000000"/>
+</config>
+<config key="Variable_483">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-thinfilm_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7530001"/>
+</config>
+<config key="Variable_484">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-csi_copper[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7530000"/>
+</config>
+<config key="Variable_485">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-nuclear_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40000"/>
+</config>
+<config key="Variable_486">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-coal_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="419000"/>
+</config>
+<config key="Variable_487">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-gas_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="204000"/>
+</config>
+<config key="Variable_488">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-oil_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="120000"/>
+</config>
+<config key="Variable_489">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-geo_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="45200000"/>
+</config>
+<config key="Variable_490">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-hydro_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="52000"/>
+</config>
+<config key="Variable_491">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4180000"/>
+</config>
+<config key="Variable_492">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4180000"/>
+</config>
+<config key="Variable_493">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="96000000"/>
+</config>
+<config key="Variable_494">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-thinfilm_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="44992000"/>
+</config>
+<config key="Variable_495">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-csi_aluminium[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20596000"/>
+</config>
+<config key="Variable_496">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-nuclear_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="30000000"/>
+</config>
+<config key="Variable_497">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-coal_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50721000"/>
+</config>
+<config key="Variable_498">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-gas_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="31375763"/>
+</config>
+<config key="Variable_499">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-oil_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50000000"/>
+</config>
+<config key="Variable_500">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-geo_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1200000000"/>
+</config>
+<config key="Variable_501">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-marine_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="900000000"/>
+</config>
+<config key="Variable_502">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-hydro_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50000000"/>
+</config>
+<config key="Variable_503">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-off-wind_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="119000000"/>
+</config>
+<config key="Variable_504">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-on-wind_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="119000000"/>
+</config>
+<config key="Variable_505">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-csp_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="8000000"/>
+</config>
+<config key="Variable_506">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-thinfilm_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="55900001"/>
+</config>
+<config key="Variable_507">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_energy-pv-csi_steel[kg/GW]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="55900000"/>
+</config>
+<config key="Variable_508">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_energytech_unit[kg/GW]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/GW"/>
+</config>
+<config key="Variable_509">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_pipe_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10000"/>
+</config>
+<config key="Variable_510">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_trolley-cables_copper[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10000"/>
+</config>
+<config key="Variable_511">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_rail_copper[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_512">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_road_copper[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_513">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_trolley-cables_aluminium[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_514">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_rail_aluminium[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_515">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_road_aluminium[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="30"/>
+</config>
+<config key="Variable_516">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_trolley-cables_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="80"/>
+</config>
+<config key="Variable_517">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_rail_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="50000"/>
+</config>
+<config key="Variable_518">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_road_steel[kg/km]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="82191"/>
+</config>
+<config key="Variable_519">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_infra_unit[kg/km]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/km"/>
+</config>
+<config key="Variable_520">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1200000"/>
+</config>
+<config key="Variable_521">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-planes_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="320000"/>
+</config>
+<config key="Variable_522">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-subways_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="500"/>
+</config>
+<config key="Variable_523">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-trains_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1000"/>
+</config>
+<config key="Variable_524">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="900000"/>
+</config>
+<config key="Variable_525">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-planes_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="320000"/>
+</config>
+<config key="Variable_526">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-subways_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5000"/>
+</config>
+<config key="Variable_527">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-trains_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5000"/>
+</config>
+<config key="Variable_528">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="150000"/>
+</config>
+<config key="Variable_529">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-planes_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="40000"/>
+</config>
+<config key="Variable_530">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-subways_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6000"/>
+</config>
+<config key="Variable_531">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-trains_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6000"/>
+</config>
+<config key="Variable_532">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_other-ships_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9900000"/>
+</config>
+<config key="Variable_533">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.32"/>
+</config>
+<config key="Variable_534">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="12"/>
+</config>
+<config key="Variable_535">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="15"/>
+</config>
+<config key="Variable_536">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="20"/>
+</config>
+<config key="Variable_537">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="14"/>
+</config>
+<config key="Variable_538">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4"/>
+</config>
+<config key="Variable_539">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="590"/>
+</config>
+<config key="Variable_540">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="190"/>
+</config>
+<config key="Variable_541">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="548"/>
+</config>
+<config key="Variable_542">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="809"/>
+</config>
+<config key="Variable_543">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="22"/>
+</config>
+<config key="Variable_544">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_545">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_546">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="17"/>
+</config>
+<config key="Variable_547">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="868"/>
+</config>
+<config key="Variable_548">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="680"/>
+</config>
+<config key="Variable_549">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="999"/>
+</config>
+<config key="Variable_550">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1043"/>
+</config>
+<config key="Variable_551">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="238"/>
+</config>
+<config key="Variable_552">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="265"/>
+</config>
+<config key="Variable_553">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="191"/>
+</config>
+<config key="Variable_554">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_2W-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="182"/>
+</config>
+<config key="Variable_555">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9146"/>
+</config>
+<config key="Variable_556">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7154"/>
+</config>
+<config key="Variable_557">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7352"/>
+</config>
+<config key="Variable_558">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_bus-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9757"/>
+</config>
+<config key="Variable_559">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_vehicle_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_560">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="19.3"/>
+</config>
+<config key="Variable_561">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="8.4"/>
+</config>
+<config key="Variable_562">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.4"/>
+</config>
+<config key="Variable_563">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="16"/>
+</config>
+<config key="Variable_564">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="16"/>
+</config>
+<config key="Variable_565">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="9"/>
+</config>
+<config key="Variable_566">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="432"/>
+</config>
+<config key="Variable_567">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="899"/>
+</config>
+<config key="Variable_568">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="351"/>
+</config>
+<config key="Variable_569">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="98"/>
+</config>
+<config key="Variable_570">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="432"/>
+</config>
+<config key="Variable_571">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="899"/>
+</config>
+<config key="Variable_572">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="350"/>
+</config>
+<config key="Variable_573">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="98"/>
+</config>
+<config key="Variable_574">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="141"/>
+</config>
+<config key="Variable_575">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="336"/>
+</config>
+<config key="Variable_576">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="102"/>
+</config>
+<config key="Variable_577">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_578">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="640"/>
+</config>
+<config key="Variable_579">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1064"/>
+</config>
+<config key="Variable_580">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="668"/>
+</config>
+<config key="Variable_581">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="468"/>
+</config>
+<config key="Variable_582">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="199"/>
+</config>
+<config key="Variable_583">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="372"/>
+</config>
+<config key="Variable_584">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="195"/>
+</config>
+<config key="Variable_585">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="136"/>
+</config>
+<config key="Variable_586">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1420"/>
+</config>
+<config key="Variable_587">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1756"/>
+</config>
+<config key="Variable_588">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1542"/>
+</config>
+<config key="Variable_589">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1080"/>
+</config>
+<config key="Variable_590">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="14565"/>
+</config>
+<config key="Variable_591">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="16452"/>
+</config>
+<config key="Variable_592">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="12119"/>
+</config>
+<config key="Variable_593">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVH-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="11073"/>
+</config>
+<config key="Variable_594">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6311"/>
+</config>
+<config key="Variable_595">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="7129"/>
+</config>
+<config key="Variable_596">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5251"/>
+</config>
+<config key="Variable_597">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVM-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="4799"/>
+</config>
+<config key="Variable_598">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1237"/>
+</config>
+<config key="Variable_599">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2076"/>
+</config>
+<config key="Variable_600">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1529"/>
+</config>
+<config key="Variable_601">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_HDVL-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1197"/>
+</config>
+<config key="Variable_602">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_truck_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_603">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_nickel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_604">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_lead[kg/unit]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="8.7"/>
+</config>
+<config key="Variable_605">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-PHEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="81"/>
+</config>
+<config key="Variable_606">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="26"/>
+</config>
+<config key="Variable_607">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="74"/>
+</config>
+<config key="Variable_608">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-EV_copper[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="118"/>
+</config>
+<config key="Variable_609">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-PHEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="118"/>
+</config>
+<config key="Variable_610">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="92"/>
+</config>
+<config key="Variable_611">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="135"/>
+</config>
+<config key="Variable_612">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-EV_aluminium[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="148"/>
+</config>
+<config key="Variable_613">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-PHEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1237"/>
+</config>
+<config key="Variable_614">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-ICE_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="968"/>
+</config>
+<config key="Variable_615">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-FCEV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="995"/>
+</config>
+<config key="Variable_616">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_LDV-EV_steel[kg/unit]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1320"/>
+</config>
+<config key="Variable_617">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_car_unit[kg/unit]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kg/unit"/>
+</config>
+<config key="Variable_618">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_electronics-battery_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_619">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_transport-battery_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_620">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_electronics-battery_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.97"/>
+</config>
+<config key="Variable_621">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_electronics-battery_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_622">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_transport-battery_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.97"/>
+</config>
+<config key="Variable_623">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_transport-battery_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_624">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-on-wind_exp[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9490000000000001"/>
+</config>
+<config key="Variable_625">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-off-wind_exp[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9490000000000001"/>
+</config>
+<config key="Variable_626">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-pv_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_627">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-battery_exp[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_628">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-battery_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.97"/>
+</config>
+<config key="Variable_629">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-pv_indir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.41700000000000004"/>
+</config>
+<config key="Variable_630">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-battery_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03"/>
+</config>
+<config key="Variable_631">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-csp_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_632">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-marine_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_633">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-geo_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_634">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-gas_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_635">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-coal_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_636">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-oil_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_637">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-nuclear_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_638">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-hydro_dir[%]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1"/>
+</config>
+<config key="Variable_639">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-on-wind_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.949"/>
+</config>
+<config key="Variable_640">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-off-wind_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.949"/>
+</config>
+<config key="Variable_641">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_energy-pv_dir[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.583"/>
+</config>
+<config key="Variable_642">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_trade_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_643">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_share_pv_thinfilm[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_644">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_share_pv_csi[%]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9"/>
+</config>
+<config key="Variable_645">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_share_unit[%]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="%"/>
+</config>
+<config key="Variable_646">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_lead[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="87"/>
+</config>
+<config key="Variable_647">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_nickel[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="81"/>
+</config>
+<config key="Variable_648">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_cobalt[Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.2"/>
+</config>
+<config key="Variable_649">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_manganese[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="570"/>
+</config>
+<config key="Variable_650">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_graphite[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="110"/>
+</config>
+<config key="Variable_651">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_lithium[Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="13.5"/>
+</config>
+<config key="Variable_652">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_coal[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="1139331"/>
+</config>
+<config key="Variable_653">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_gas[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="148677"/>
+</config>
+<config key="Variable_654">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_oil[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="231552"/>
+</config>
+<config key="Variable_655">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_potash[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="3500"/>
+</config>
+<config key="Variable_656">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_phosphate[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="6378"/>
+</config>
+<config key="Variable_657">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_copper[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="700"/>
+</config>
+<config key="Variable_658">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_iron[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="87000"/>
+</config>
+<config key="Variable_659">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_bauxite[Mt]"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28000"/>
+</config>
+<config key="Variable_660">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="min_reserve_unit[Mt]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Mt"/>
+</config>
+<config key="Variable_661">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mod_tri"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="min"/>
+</config>
+<config key="Variable_662">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="cp"/>
+</config>
+<config key="Variable_663">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="baseyear"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2015"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="variable-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="18"/>
+<entry key="0" type="xstring" value="baseyear"/>
+<entry key="1" type="xstring" value="country_filter"/>
+<entry key="2" type="xstring" value="table_name"/>
+<entry key="3" type="xstring" value="projection-conf"/>
+<entry key="4" type="xstring" value="data-type"/>
+<entry key="5" type="xstring" value="mod_tri"/>
+<entry key="6" type="xstring" value="name"/>
+<entry key="7" type="xstring" value="splitter_pattern"/>
+<entry key="8" type="xstring" value="new_name_start"/>
+<entry key="9" type="xstring" value="index_pattern"/>
+<entry key="10" type="xstring" value="aggregation-regex-filter"/>
+<entry key="11" type="xstring" value="aggregation-remove"/>
+<entry key="12" type="xstring" value="code_language"/>
+<entry key="13" type="xstring" value="code_language (index)"/>
+<entry key="14" type="xstring" value="aggregation_method"/>
+<entry key="15" type="xstring" value="aggregation_method (index)"/>
+<entry key="16" type="xstring" value="unit_var"/>
+<entry key="17" type="xstring" value="aggregation_pattern"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+</config>
+<entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+<entry key="sub-node-description" type="xstring" value=""/>
+<config key="port-names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Port 1"/>
+</config>
+<config key="port-descriptions">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value=""/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="isDeletable" type="xboolean" value="false"/>
+<entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+<entry key="node-name" type="xstring" value="WrappedNode Input"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings">
+<config key="port_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="name" type="xstring" value="WrappedNode Input"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 187"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="473ecd8e-6787-4879-bbc5-304b2ed10144"/>
+</config>
+</config>

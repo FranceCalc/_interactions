@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_other-subways\[num\]|min_prod_other-subways\[num\]|tra_2W-ICE\[num\]|min_prod_2W-ICE\[num\]|tra_HDVH-ICE\[num\]|min_prod_HDVH-ICE\[num\]|tra_HDVL-ICE\[num\]|min_prod_HDVL-ICE\[num\]|tra_HDVM-ICE\[num\]|min_prod_HDVM-ICE\[num\]|tra_LDV-ICE\[num\]|min_prod_LDV-ICE\[num\]|tra_bus-ICE\[num\]|min_prod_bus-ICE\[num\]|tra_HDVH-PHEV\[num\]|min_prod_HDVH-PHEV\[num\]|tra_HDVL-PHEV\[num\]|min_prod_HDVL-PHEV\[num\]|tra_HDVM-PHEV\[num\]|min_prod_HDVM-PHEV\[num\]|tra_LDV-PHEV\[num\]|min_prod_LDV-PHEV\[num\]|tra_bus-PHEV\[num\]|min_prod_bus-PHEV\[num\]|tra_2W-EV\[num\]|min_prod_2W-EV\[num\]|tra_HDVH-EV\[num\]|min_prod_HDVH-EV\[num\]|tra_HDVL-EV\[num\]|min_prod_HDVL-EV\[num\]|tra_HDVM-EV\[num\]|min_prod_HDVM-EV\[num\]|tra_LDV-EV\[num\]|min_prod_LDV-EV\[num\]|tra_bus-EV\[num\]|min_prod_bus-EV\[num\]|tra_2W-FCEV\[num\]|min_prod_2W-FCEV\[num\]|tra_HDVH-FCEV\[num\]|min_prod_HDVH-FCEV\[num\]|tra_HDVL-FCEV\[num\]|min_prod_HDVL-FCEV\[num\]|tra_HDVM-FCEV\[num\]|min_prod_HDVM-FCEV\[num\]|tra_LDV-FCEV\[num\]|min_prod_LDV-FCEV\[num\]|tra_bus-FCEV\[num\]|min_prod_bus-FCEV\[num\]|tra_other-ships\[num\]|min_prod_other-ships\[num\]|tra_other-planes\[num\]|min_prod_other-planes\[num\]|tra_other-trains\[num\]|min_prod_other-trains\[num\]|tra_infra-rail\[km\]|min_prod_infra-rail\[km\]|tra_infra-road\[km\]|min_prod_infra-road\[km\]|tra_infra-pipe\[km\]|min_prod_infra-pipe\[km\]|tra_infra-trolley-cables\[km\]|min_prod_infra-trolley-cables\[km\]|tra_2W-PHEV\[num\]|min_prod_2W-PHEV\[num\]|tra_dom-appliance-fridge\[num\]|min_prod_dom-appliance-fridge\[num\]|tra_dom-appliance-freezer\[num\]|min_prod_dom-appliance-freezer\[num\]|tra_dom-appliance-wmachine\[num\]|min_prod_dom-appliance-wmachine\[num\]|tra_dom-appliance-dishwasher\[num\]|min_prod_dom-appliance-dishwasher\[num\]|tra_dom-appliance-dryer\[num\]|min_prod_dom-appliance-dryer\[num\]|tra_electronics-tv\[num\]|min_prod_electronics-tv\[num\]|tra_electronics-computer\[num\]|min_prod_electronics-computer\[num\]|tra_electronics-phone\[num\]|min_prod_electronics-phone\[num\]|"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tra_other-subways\[num\]|min_prod_other-subways\[num\]|tra_2W-ICE\[num\]|min_prod_2W-ICE\[num\]|tra_HDVH-ICE\[num\]|min_prod_HDVH-ICE\[num\]|tra_HDVL-ICE\[num\]|min_prod_HDVL-ICE\[num\]|tra_HDVM-ICE\[num\]|min_prod_HDVM-ICE\[num\]|tra_LDV-ICE\[num\]|min_prod_LDV-ICE\[num\]|tra_bus-ICE\[num\]|min_prod_bus-ICE\[num\]|tra_HDVH-PHEV\[num\]|min_prod_HDVH-PHEV\[num\]|tra_HDVL-PHEV\[num\]|min_prod_HDVL-PHEV\[num\]|tra_HDVM-PHEV\[num\]|min_prod_HDVM-PHEV\[num\]|tra_LDV-PHEV\[num\]|min_prod_LDV-PHEV\[num\]|tra_bus-PHEV\[num\]|min_prod_bus-PHEV\[num\]|tra_2W-EV\[num\]|min_prod_2W-EV\[num\]|tra_HDVH-EV\[num\]|min_prod_HDVH-EV\[num\]|tra_HDVL-EV\[num\]|min_prod_HDVL-EV\[num\]|tra_HDVM-EV\[num\]|min_prod_HDVM-EV\[num\]|tra_LDV-EV\[num\]|min_prod_LDV-EV\[num\]|tra_bus-EV\[num\]|min_prod_bus-EV\[num\]|tra_2W-FCEV\[num\]|min_prod_2W-FCEV\[num\]|tra_HDVH-FCEV\[num\]|min_prod_HDVH-FCEV\[num\]|tra_HDVL-FCEV\[num\]|min_prod_HDVL-FCEV\[num\]|tra_HDVM-FCEV\[num\]|min_prod_HDVM-FCEV\[num\]|tra_LDV-FCEV\[num\]|min_prod_LDV-FCEV\[num\]|tra_bus-FCEV\[num\]|min_prod_bus-FCEV\[num\]|tra_other-ships\[num\]|min_prod_other-ships\[num\]|tra_other-planes\[num\]|min_prod_other-planes\[num\]|tra_other-trains\[num\]|min_prod_other-trains\[num\]|tra_infra-rail\[km\]|min_prod_infra-rail\[km\]|tra_infra-road\[km\]|min_prod_infra-road\[km\]|tra_infra-pipe\[km\]|min_prod_infra-pipe\[km\]|tra_infra-trolley-cables\[km\]|min_prod_infra-trolley-cables\[km\]|tra_2W-PHEV\[num\]|min_prod_2W-PHEV\[num\]|tra_dom-appliance-fridge\[num\]|min_prod_dom-appliance-fridge\[num\]|tra_dom-appliance-freezer\[num\]|min_prod_dom-appliance-freezer\[num\]|tra_dom-appliance-wmachine\[num\]|min_prod_dom-appliance-wmachine\[num\]|tra_dom-appliance-dishwasher\[num\]|min_prod_dom-appliance-dishwasher\[num\]|tra_dom-appliance-dryer\[num\]|min_prod_dom-appliance-dryer\[num\]|tra_electronics-tv\[num\]|min_prod_electronics-tv\[num\]|tra_electronics-computer\[num\]|min_prod_electronics-computer\[num\]|tra_electronics-phone\[num\]|min_prod_electronics-phone\[num\]|"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="rules">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="// enter ordered set of rules, e.g.:"/>
+<entry key="1" type="xstring" value="// $${Ddouble variable name}$$ &gt; 5.0 =&gt; &quot;large&quot;"/>
+<entry key="2" type="xstring" value="// $${Sstring column name}$$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
+<entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
+<entry key="4" type="xstring" value="$${Iaggregation-remove}$$ = 1 =&gt; $${Sfilter}$$"/>
+<entry key="5" type="xstring" value="$${Iaggregation-remove}$$ = 0 =&gt; &quot;&quot;"/>
+</config>
+<entry key="new-column-name" type="xstring" value="filter"/>
+<entry key="replace-column-name" type="xstring" value=""/>
+<entry key="append-column" type="xboolean" value="true"/>
+<entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.rules.engine.RuleEngineVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="Rule Engine Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Rule Engine Variable"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="65ac054f-24e5-4308-9d87-c3e4a6a4f4ff"/>
+</config>
+</config>

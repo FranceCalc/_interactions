@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="string-input-444">
+<entry key="string" type="xstring" value="lfs_appliance-use"/>
+</config>
+<config key="string-input-445">
+<entry key="string" type="xstring" value="lfs_appliance-use_(.*)\[.*"/>
+</config>
+<config key="string-input-446">
+<entry key="string" type="xstring" value="lfs_appliance-own_(.*)\[.*"/>
+</config>
+<config key="string-input-460">
+<entry key="string" type="xstring" value="h"/>
+</config>
+<config key="column-filter-652">
+<config key="columns">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="lfs_appliance-own_fridge[num]"/>
+<entry key="1" type="xstring" value="lfs_appliance-own_freezer[num]"/>
+<entry key="2" type="xstring" value="lfs_appliance-own_wmachine[num]"/>
+<entry key="3" type="xstring" value="lfs_appliance-own_dryer[num]"/>
+<entry key="4" type="xstring" value="lfs_appliance-own_dishwasher[num]"/>
+<entry key="5" type="xstring" value="lfs_appliance-own_tv[num]"/>
+<entry key="6" type="xstring" value="lfs_appliance-own_comp[num]"/>
+<entry key="7" type="xstring" value="lfs_appliance-own_phone[num]"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="19"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="lfs_households[#]"/>
+<entry key="3" type="xstring" value="lfs_appliance-own_fridge[num]"/>
+<entry key="4" type="xstring" value="lfs_appliance-own_freezer[num]"/>
+<entry key="5" type="xstring" value="lfs_appliance-own_wmachine[num]"/>
+<entry key="6" type="xstring" value="lfs_appliance-own_dryer[num]"/>
+<entry key="7" type="xstring" value="lfs_appliance-own_dishwasher[num]"/>
+<entry key="8" type="xstring" value="lfs_appliance-own_tv[num]"/>
+<entry key="9" type="xstring" value="lfs_appliance-own_comp[num]"/>
+<entry key="10" type="xstring" value="lfs_appliance-own_phone[num]"/>
+<entry key="11" type="xstring" value="lfs_appliance-use_fridge[h]"/>
+<entry key="12" type="xstring" value="lfs_appliance-use_freezer[h]"/>
+<entry key="13" type="xstring" value="lfs_appliance-use_dishwasher[h]"/>
+<entry key="14" type="xstring" value="lfs_appliance-use_dryer[h]"/>
+<entry key="15" type="xstring" value="lfs_appliance-use_wmachine[h]"/>
+<entry key="16" type="xstring" value="lfs_appliance-use_tv[h]"/>
+<entry key="17" type="xstring" value="lfs_appliance-use_phone[h]"/>
+<entry key="18" type="xstring" value="lfs_appliance-use_comp[h]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="lfs_appliance-own_(.*)\[(.*)"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="hours use of appliances =%%00013%%00010number of appliances * %%00013%%00010hours per appliance per year"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1822"/>
+<entry key="y-coordinate" type="xint" value="1219"/>
+<entry key="width" type="xint" value="157"/>
+<entry key="height" type="xint" value="45"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" value="Execute an operation on two groups of columns, matching them one-to-one using a capture group defined in the regex expressions."/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="650"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="443"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-08-26 12:47:07"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Tree%20parallel%20operation"/>
+</config>
+<entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;444&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;445&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;446&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;454&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;460&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;463&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;359&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]}]}"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

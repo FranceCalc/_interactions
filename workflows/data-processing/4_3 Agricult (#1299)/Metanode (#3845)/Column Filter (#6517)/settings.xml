@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="90"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="agr_food-net-import_pro_bev_bev-alc[%]"/>
+<entry key="3" type="xstring" value="agr_food-net-import_pro_bev_bev-fer[%]"/>
+<entry key="4" type="xstring" value="agr_food-net-import_pro_bev_beer[%]"/>
+<entry key="5" type="xstring" value="agr_food-net-import_pro_bev_wine[%]"/>
+<entry key="6" type="xstring" value="agr_food-net-import_pro_crop_processed_voil[%]"/>
+<entry key="7" type="xstring" value="agr_food-net-import_pro_liv_meat_oth-animals[%]"/>
+<entry key="8" type="xstring" value="agr_food-net-import_pro_liv_meat_bovine[%]"/>
+<entry key="9" type="xstring" value="agr_food-net-import_pro_liv_meat_pig[%]"/>
+<entry key="10" type="xstring" value="agr_food-net-import_pro_liv_meat_poultry[%]"/>
+<entry key="11" type="xstring" value="agr_food-net-import_pro_liv_meat_sheep[%]"/>
+<entry key="12" type="xstring" value="agr_food-net-import_pro_liv_abp_dairy-milk[%]"/>
+<entry key="13" type="xstring" value="agr_food-net-import_pro_liv_abp_hens-egg[%]"/>
+<entry key="14" type="xstring" value="agr_food-net-import_pro_liv_abp_processed_afat[%]"/>
+<entry key="15" type="xstring" value="agr_food-net-import_pro_liv_abp_processed_offal[%]"/>
+<entry key="16" type="xstring" value="agr_food-net-import_pro_crop_processed_sugar[%]"/>
+<entry key="17" type="xstring" value="agr_food-net-import_crop_stm[%]"/>
+<entry key="18" type="xstring" value="agr_food-net-import_oth-aq-animals[%]"/>
+<entry key="19" type="xstring" value="agr_food-net-import_seafood[%]"/>
+<entry key="20" type="xstring" value="agr_food-net-import_ffish[%]"/>
+<entry key="21" type="xstring" value="agr_food-net-import_dfish[%]"/>
+<entry key="22" type="xstring" value="agr_food-net-import_pfish[%]"/>
+<entry key="23" type="xstring" value="agr_food-net-import_pro_crop_processeced_cake[%]"/>
+<entry key="24" type="xstring" value="agr_food-net-import_pro_crop_processed_molasse[%]"/>
+<entry key="25" type="xstring" value="agr_food-net-import_pro_crop_processed_sweet[%]"/>
+<entry key="26" type="xstring" value="agr_bioenergy_biomass-demand_biogas_manure[TWh]"/>
+<entry key="27" type="xstring" value="agr_bioenergy_biomass-demand_biogas_bio-waste[TWh]"/>
+<entry key="28" type="xstring" value="agr_bioenergy_biomass-demand_solid_fuelwood-and-res[TWh]"/>
+<entry key="29" type="xstring" value="agr_bioenergy_biomass-demand_solid_bagasse[TWh]"/>
+<entry key="30" type="xstring" value="agr_bioenergy_biomass-demand_solid_animal-waste[TWh]"/>
+<entry key="31" type="xstring" value="agr_bioenergy_biomass-demand_solid_black-liquor[TWh]"/>
+<entry key="32" type="xstring" value="agr_bioenergy_biomass-demand_solid_veg-residues[TWh]"/>
+<entry key="33" type="xstring" value="agr_bioenergy_biomass-demand_solid_ren-ind-waste[TWh]"/>
+<entry key="34" type="xstring" value="agr_ibp_aps_meal_algae[kcal]"/>
+<entry key="35" type="xstring" value="agr_ibp_aps_meal_insect[kcal]"/>
+<entry key="36" type="xstring" value="agr_demand_feed_crop_cereal[kcal]"/>
+<entry key="37" type="xstring" value="agr_demand_feed_crop_oilcrop[kcal]"/>
+<entry key="38" type="xstring" value="agr_demand_feed_crop_pulse[kcal]"/>
+<entry key="39" type="xstring" value="agr_demand_feed_crop_sugarcrop[kcal]"/>
+<entry key="40" type="xstring" value="agr_demand_feed_crop_fruit[kcal]"/>
+<entry key="41" type="xstring" value="agr_demand_feed_crop_veg[kcal]"/>
+<entry key="42" type="xstring" value="agr_demand_feed_fish[kcal]"/>
+<entry key="43" type="xstring" value="agr_demand_feed_crop_rice[kcal]"/>
+<entry key="44" type="xstring" value="agr_demand_feed_liv_meat-meal[kcal]"/>
+<entry key="45" type="xstring" value="agr_demand_feed_crop_starch[kcal]"/>
+<entry key="46" type="xstring" value="agr_demand_feed_processed_molasse_sugarcrop[kcal]"/>
+<entry key="47" type="xstring" value="agr_demand_feed_processed_sugar_sugarcrop[kcal]"/>
+<entry key="48" type="xstring" value="agr_demand_feed_processed_cake_oilcrop[kcal]"/>
+<entry key="49" type="xstring" value="agr_demand_feed_processed_voil_oilcrop[kcal]"/>
+<entry key="50" type="xstring" value="agr_input-use_nitrogen[t]"/>
+<entry key="51" type="xstring" value="agr_input-use_phosphate[t]"/>
+<entry key="52" type="xstring" value="agr_input-use_potash[t]"/>
+<entry key="53" type="xstring" value="agr_input-use_pesticide[t]"/>
+<entry key="54" type="xstring" value="agr_input-use_app_liming[t]"/>
+<entry key="55" type="xstring" value="agr_input-use_app_urea[t]"/>
+<entry key="56" type="xstring" value="agr_input-use_emissions-CO2_liming[t]"/>
+<entry key="57" type="xstring" value="agr_input-use_emissions-CO2_urea[t]"/>
+<entry key="58" type="xstring" value="agr_input-use_emissions-CO2_fuel[t]"/>
+<entry key="59" type="xstring" value="agr_bioenergy_biomass-demand_liquid_eth_cereal[TWh]"/>
+<entry key="60" type="xstring" value="agr_bioenergy_biomass-demand_liquid_eth_sugarcrop[TWh]"/>
+<entry key="61" type="xstring" value="agr_bioenergy_biomass-demand_liquid_oil_uco[TWh]"/>
+<entry key="62" type="xstring" value="agr_bioenergy_biomass-demand_liquid_oil_afats[TWh]"/>
+<entry key="63" type="xstring" value="agr_bioenergy_biomass-demand_liquid_lgn[TWh]"/>
+<entry key="64" type="xstring" value="agr_bioenergy_biomass-demand_liquid_ezm_agr-residues[TWh]"/>
+<entry key="65" type="xstring" value="agr_bioenergy_biomass-demand_liquid_ezm_energycrop[TWh]"/>
+<entry key="66" type="xstring" value="agr_bioenergy_biomass-demand_liquid_btl_fuelwood-and-res[TWh]"/>
+<entry key="67" type="xstring" value="agr_bioenergy_biomass-demand_liquid_btl_energycrop[TWh]"/>
+<entry key="68" type="xstring" value="agr_bioenergy_biomass-demand_liquid_oil_algael[TWh]"/>
+<entry key="69" type="xstring" value="agr_bioenergy_biomass-demand_liquid_oil_insectl[TWh]"/>
+<entry key="70" type="xstring" value="agr_bioenergy_biomass-demand_liquid_eth_ind-byproduct[TWh]"/>
+<entry key="71" type="xstring" value="agr_bioenergy_biomass-demand_liquid_oil_ind-byproduct[TWh]"/>
+<entry key="72" type="xstring" value="agr_bioenergy_biomass-demand_liquid_oil_oilcrop[TWh]"/>
+<entry key="73" type="xstring" value="agr_bioenergy_biomass-demand_biogas_energycrop[TWh]"/>
+<entry key="74" type="xstring" value="agr_total-bioenergy-demand_elc_solid-biofuel[TWh]"/>
+<entry key="75" type="xstring" value="agr_total-bioenergy-demand_elc_biogases[TWh]"/>
+<entry key="76" type="xstring" value="agr_energy-demand_liquid-ff-diesel[TWh]"/>
+<entry key="77" type="xstring" value="agr_energy-demand_liquid-ff-gasoline[TWh]"/>
+<entry key="78" type="xstring" value="agr_energy-demand_electricity[TWh]"/>
+<entry key="79" type="xstring" value="agr_energy-demand_gas-ff-natural[TWh]"/>
+<entry key="80" type="xstring" value="agr_energy-demand_solid-ff-coal[TWh]"/>
+<entry key="81" type="xstring" value="agr_total-bioenergy-demand_agr_solid-wood[TWh]"/>
+<entry key="82" type="xstring" value="agr_energy-demand_heat[TWh]"/>
+<entry key="83" type="xstring" value="agr_energy-demand_oth[TWh]"/>
+<entry key="84" type="xstring" value="agr_total-bioenergy-demand_agr_liquid_biodiesels[TWh]"/>
+<entry key="85" type="xstring" value="agr_total-bioenergy-demand_agr_gas_biogas[TWh]"/>
+<entry key="86" type="xstring" value="agr_total-bioenergy-demand_agr_liquid_ethanol[TWh]"/>
+<entry key="87" type="xstring" value="agr_energy-demand_liquid-ff-lpg[TWh]"/>
+<entry key="88" type="xstring" value="agr_total-bioenergy-demand_agr_liquid_oth[TWh]"/>
+<entry key="89" type="xstring" value="agr_energy-demand_liquid-ff-fuel-oil[TWh]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist"/>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 131"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="ea9779f8-0302-43d9-a348-482f79b63b7e"/>
+</config>
+</config>

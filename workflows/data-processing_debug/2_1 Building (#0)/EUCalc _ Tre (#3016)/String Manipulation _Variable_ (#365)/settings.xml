@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="bld_energy-demand_non-residential_education_electricity\[TWh]|bld_energy-demand_non-residential_health_electricity\[TWh]|bld_energy-demand_non-residential_hotels_electricity\[TWh]|bld_energy-demand_non-residential_offices_electricity\[TWh]|bld_energy-demand_non-residential_other_electricity\[TWh]|bld_energy-demand_non-residential_trade_electricity\[TWh]|bld_energy-demand_residential_mfh_electricity\[TWh]|bld_energy-demand_residential_sfh_electricity\[TWh]|bld_energy-demand_non-residential_education_gas-bio\[TWh]|bld_energy-demand_non-residential_health_gas-bio\[TWh]|bld_energy-demand_non-residential_hotels_gas-bio\[TWh]|bld_energy-demand_non-residential_offices_gas-bio\[TWh]|bld_energy-demand_non-residential_other_gas-bio\[TWh]|bld_energy-demand_non-residential_trade_gas-bio\[TWh]|bld_energy-demand_residential_mfh_gas-bio\[TWh]|bld_energy-demand_residential_sfh_gas-bio\[TWh]|bld_energy-demand_non-residential_education_gas-ff-natural\[TWh]|bld_energy-demand_non-residential_health_gas-ff-natural\[TWh]|bld_energy-demand_non-residential_hotels_gas-ff-natural\[TWh]|bld_energy-demand_non-residential_offices_gas-ff-natural\[TWh]|bld_energy-demand_non-residential_other_gas-ff-natural\[TWh]|bld_energy-demand_non-residential_trade_gas-ff-natural\[TWh]|bld_energy-demand_residential_mfh_gas-ff-natural\[TWh]|bld_energy-demand_residential_sfh_gas-ff-natural\[TWh]|bld_energy-demand_non-residential_education_heat-ambient\[TWh]|bld_energy-demand_non-residential_health_heat-ambient\[TWh]|bld_energy-demand_non-residential_hotels_heat-ambient\[TWh]|bld_energy-demand_non-residential_offices_heat-ambient\[TWh]|bld_energy-demand_non-residential_other_heat-ambient\[TWh]|bld_energy-demand_non-residential_trade_heat-ambient\[TWh]|bld_energy-demand_residential_mfh_heat-ambient\[TWh]|bld_energy-demand_residential_sfh_heat-ambient\[TWh]|bld_energy-demand_non-residential_education_heat-geothermal\[TWh]|bld_energy-demand_non-residential_health_heat-geothermal\[TWh]|bld_energy-demand_non-residential_hotels_heat-geothermal\[TWh]|bld_energy-demand_non-residential_offices_heat-geothermal\[TWh]|bld_energy-demand_non-residential_other_heat-geothermal\[TWh]|bld_energy-demand_non-residential_trade_heat-geothermal\[TWh]|bld_energy-demand_residential_mfh_heat-geothermal\[TWh]|bld_energy-demand_residential_sfh_heat-geothermal\[TWh]|bld_energy-demand_non-residential_education_heat-solar\[TWh]|bld_energy-demand_non-residential_health_heat-solar\[TWh]|bld_energy-demand_non-residential_hotels_heat-solar\[TWh]|bld_energy-demand_non-residential_offices_heat-solar\[TWh]|bld_energy-demand_non-residential_other_heat-solar\[TWh]|bld_energy-demand_non-residential_trade_heat-solar\[TWh]|bld_energy-demand_residential_mfh_heat-solar\[TWh]|bld_energy-demand_residential_sfh_heat-solar\[TWh]|bld_energy-demand_non-residential_education_liquid-bio-diesel\[TWh]|bld_energy-demand_non-residential_health_liquid-bio-diesel\[TWh]|bld_energy-demand_non-residential_hotels_liquid-bio-diesel\[TWh]|bld_energy-demand_non-residential_offices_liquid-bio-diesel\[TWh]|bld_energy-demand_non-residential_other_liquid-bio-diesel\[TWh]|bld_energy-demand_non-residential_trade_liquid-bio-diesel\[TWh]|bld_energy-demand_residential_mfh_liquid-bio-diesel\[TWh]|bld_energy-demand_residential_sfh_liquid-bio-diesel\[TWh]|bld_energy-demand_non-residential_education_liquid-bio-gasoline\[TWh]|bld_energy-demand_non-residential_health_liquid-bio-gasoline\[TWh]|bld_energy-demand_non-residential_hotels_liquid-bio-gasoline\[TWh]|bld_energy-demand_non-residential_offices_liquid-bio-gasoline\[TWh]|bld_energy-demand_non-residential_other_liquid-bio-gasoline\[TWh]|bld_energy-demand_non-residential_trade_liquid-bio-gasoline\[TWh]|bld_energy-demand_residential_mfh_liquid-bio-gasoline\[TWh]|bld_energy-demand_residential_sfh_liquid-bio-gasoline\[TWh]|bld_energy-demand_non-residential_education_liquid-ff-heatingoil\[TWh]|bld_energy-demand_non-residential_health_liquid-ff-heatingoil\[TWh]|bld_energy-demand_non-residential_hotels_liquid-ff-heatingoil\[TWh]|bld_energy-demand_non-residential_offices_liquid-ff-heatingoil\[TWh]|bld_energy-demand_non-residential_other_liquid-ff-heatingoil\[TWh]|bld_energy-demand_non-residential_trade_liquid-ff-heatingoil\[TWh]|bld_energy-demand_residential_mfh_liquid-ff-heatingoil\[TWh]|bld_energy-demand_residential_sfh_liquid-ff-heatingoil\[TWh]|bld_energy-demand_non-residential_education_solid-bio\[TWh]|bld_energy-demand_non-residential_health_solid-bio\[TWh]|bld_energy-demand_non-residential_hotels_solid-bio\[TWh]|bld_energy-demand_non-residential_offices_solid-bio\[TWh]|bld_energy-demand_non-residential_other_solid-bio\[TWh]|bld_energy-demand_non-residential_trade_solid-bio\[TWh]|bld_energy-demand_residential_mfh_solid-bio\[TWh]|bld_energy-demand_residential_sfh_solid-bio\[TWh]|bld_energy-demand_non-residential_education_solid-ff-coal\[TWh]|bld_energy-demand_non-residential_health_solid-ff-coal\[TWh]|bld_energy-demand_non-residential_hotels_solid-ff-coal\[TWh]|bld_energy-demand_non-residential_offices_solid-ff-coal\[TWh]|bld_energy-demand_non-residential_other_solid-ff-coal\[TWh]|bld_energy-demand_non-residential_trade_solid-ff-coal\[TWh]|bld_energy-demand_residential_mfh_solid-ff-coal\[TWh]|bld_energy-demand_residential_sfh_solid-ff-coal\[TWh]|bld_energy-demand_non-residential_education_solid-waste\[TWh]|bld_energy-demand_non-residential_health_solid-waste\[TWh]|bld_energy-demand_non-residential_hotels_solid-waste\[TWh]|bld_energy-demand_non-residential_offices_solid-waste\[TWh]|bld_energy-demand_non-residential_other_solid-waste\[TWh]|bld_energy-demand_non-residential_trade_solid-waste\[TWh]|bld_energy-demand_residential_mfh_solid-waste\[TWh]|bld_energy-demand_residential_sfh_solid-waste\[TWh]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace($${Svar-filter}$$,&quot;,&quot;,&quot;|&quot;),&quot;[&quot;,&quot;\\[&quot;)"/>
+<entry key="replaced_column" type="xstring" value="aggregation-pattern"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904171038"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="ee7f5a17-7f6d-487e-bfa2-e817d156e8b1"/>
+</config>
+</config>

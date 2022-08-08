@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="$$CURRENT_COLUMN$$*$tec_emission-factor_CH4_gasoline[Mt/TWh]$"/>
+<entry key="replaced_column" type="xstring" value="_CH4emission"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="convert_to_int" type="xboolean" value="false"/>
+<config key="column_selection">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="530"/>
+<entry key="0" type="xstring" value="lfs_pop_population[inhabitants]"/>
+<entry key="1" type="xstring" value="tra_passenger_veh-efficiency_new_LDV_ICE-gasoline[MJ/km]"/>
+<entry key="2" type="xstring" value="tra_passenger_veh-efficiency_new_LDV_ICE-diesel[MJ/km]"/>
+<entry key="3" type="xstring" value="tra_passenger_veh-efficiency_new_LDV_ICE-gas[MJ/km]"/>
+<entry key="4" type="xstring" value="tra_passenger_veh-efficiency_new_LDV_BEV[MJ/km]"/>
+<entry key="5" type="xstring" value="tra_passenger_veh-efficiency_new_LDV_PHEV-diesel[MJ/km]"/>
+<entry key="6" type="xstring" value="tra_passenger_veh-efficiency_new_LDV_PHEV-gasoline[MJ/km]"/>
+<entry key="7" type="xstring" value="tra_passenger_veh-efficiency_new_LDV_FCEV[MJ/km]"/>
+<entry key="8" type="xstring" value="tra_passenger_veh-efficiency_new_2W_ICE-diesel[MJ/km]"/>
+<entry key="9" type="xstring" value="tra_passenger_veh-efficiency_new_2W_ICE-gasoline[MJ/km]"/>
+<entry key="10" type="xstring" value="tra_passenger_veh-efficiency_new_2W_ICE-gas[MJ/km]"/>
+<entry key="11" type="xstring" value="tra_passenger_veh-efficiency_new_2W_BEV[MJ/km]"/>
+<entry key="12" type="xstring" value="tra_passenger_veh-efficiency_new_2W_PHEV[MJ/km]"/>
+<entry key="13" type="xstring" value="tra_passenger_veh-efficiency_new_2W_FCEV[MJ/km]"/>
+<entry key="14" type="xstring" value="tra_passenger_veh-efficiency_new_bus_ICE-diesel[MJ/km]"/>
+<entry key="15" type="xstring" value="tra_passenger_veh-efficiency_new_bus_ICE-gasoline[MJ/km]"/>
+<entry key="16" type="xstring" value="tra_passenger_veh-efficiency_new_bus_ICE-gas[MJ/km]"/>
+<entry key="17" type="xstring" value="tra_passenger_veh-efficiency_new_bus_BEV[MJ/km]"/>
+<entry key="18" type="xstring" value="tra_passenger_veh-efficiency_new_bus_PHEV-diesel[MJ/km]"/>
+<entry key="19" type="xstring" value="tra_passenger_veh-efficiency_new_bus_FCEV[MJ/km]"/>
+<entry key="20" type="xstring" value="tra_passenger_veh-efficiency_new_metro-tram[MJ/pkm]"/>
+<entry key="21" type="xstring" value="tra_passenger_veh-efficiency_new_rail_ICE-diesel[MJ/pkm]"/>
+<entry key="22" type="xstring" value="tra_passenger_veh-efficiency_new_rail_CEV[MJ/pkm]"/>
+<entry key="23" type="xstring" value="tra_passenger_veh-efficiency_new_rail_FCEV[MJ/pkm]"/>
+<entry key="24" type="xstring" value="tra_passenger_veh-efficiency_new_aviation_ICE[MJ/pkm]"/>
+<entry key="25" type="xstring" value="tra_passenger_veh-efficiency_new_aviation_BEV[MJ/pkm]"/>
+<entry key="26" type="xstring" value="tra_passenger_technology-share_new_LDV_ICE-diesel[%]"/>
+<entry key="27" type="xstring" value="tra_passenger_technology-share_new_LDV_ICE-gasoline[%]"/>
+<entry key="28" type="xstring" value="tra_passenger_technology-share_new_LDV_ICE-gas[%]"/>
+<entry key="29" type="xstring" value="tra_passenger_technology-share_new_LDV_BEV[%]"/>
+<entry key="30" type="xstring" value="tra_passenger_technology-share_new_LDV_PHEV-diesel[%]"/>
+<entry key="31" type="xstring" value="tra_passenger_technology-share_new_LDV_PHEV-gasoline[%]"/>
+<entry key="32" type="xstring" value="tra_passenger_technology-share_new_LDV_FCEV[%]"/>
+<entry key="33" type="xstring" value="tra_passenger_technology-share_new_2W_ICE-diesel[%]"/>
+<entry key="34" type="xstring" value="tra_passenger_technology-share_new_2W_ICE-gasoline[%]"/>
+<entry key="35" type="xstring" value="tra_passenger_technology-share_new_2W_ICE-gas[%]"/>
+<entry key="36" type="xstring" value="tra_passenger_technology-share_new_2W_BEV[%]"/>
+<entry key="37" type="xstring" value="tra_passenger_technology-share_new_2W_FCEV[%]"/>
+<entry key="38" type="xstring" value="tra_passenger_technology-share_new_2W_PHEV[%]"/>
+<entry key="39" type="xstring" value="tra_passenger_technology-share_new_bus_ICE-diesel[%]"/>
+<entry key="40" type="xstring" value="tra_passenger_technology-share_new_bus_ICE-gas[%]"/>
+<entry key="41" type="xstring" value="tra_passenger_technology-share_new_bus_ICE-gasoline[%]"/>
+<entry key="42" type="xstring" value="tra_passenger_technology-share_new_bus_BEV[%]"/>
+<entry key="43" type="xstring" value="tra_passenger_technology-share_new_bus_FCEV[%]"/>
+<entry key="44" type="xstring" value="tra_passenger_technology-share_new_bus_PHEV-diesel[%]"/>
+<entry key="45" type="xstring" value="tra_passenger_technology-share_new_rail_ICE-diesel[%]"/>
+<entry key="46" type="xstring" value="tra_passenger_technology-share_new_rail_CEV[%]"/>
+<entry key="47" type="xstring" value="tra_passenger_technology-share_new_rail_FCEV[%]"/>
+<entry key="48" type="xstring" value="tra_passenger_technology-share_new_aviation_ICE[%]"/>
+<entry key="49" type="xstring" value="tra_passenger_technology-share_new_aviation_BEV[%]"/>
+<entry key="50" type="xstring" value="tra_passenger_utilization-rate_LDV[vkm/veh]"/>
+<entry key="51" type="xstring" value="tra_passenger_utilization-rate_2W[vkm/veh]"/>
+<entry key="52" type="xstring" value="tra_passenger_utilization-rate_bus[vkm/veh]"/>
+<entry key="53" type="xstring" value="tra_passenger_occupancy_LDV[pkm/vkm]"/>
+<entry key="54" type="xstring" value="tra_passenger_occupancy_2W[pkm/vkm]"/>
+<entry key="55" type="xstring" value="tra_passenger_occupancy_bus[pkm/vkm]"/>
+<entry key="56" type="xstring" value="tra_passenger_share_domestic-aviation[%]"/>
+<entry key="57" type="xstring" value="tra_passenger_share_intra-EU-aviation[%]"/>
+<entry key="58" type="xstring" value="tra_passenger_share_extra-EU-aviation[%]"/>
+<entry key="59" type="xstring" value="tra_passenger_technology-share_fleet_LDV_ICE-diesel[%]"/>
+<entry key="60" type="xstring" value="tra_passenger_technology-share_fleet_LDV_ICE-gasoline[%]"/>
+<entry key="61" type="xstring" value="tra_passenger_technology-share_fleet_LDV_BEV[%]"/>
+<entry key="62" type="xstring" value="tra_passenger_technology-share_fleet_LDV_PHEV-gasoline[%]"/>
+<entry key="63" type="xstring" value="tra_passenger_technology-share_fleet_LDV_PHEV-diesel[%]"/>
+<entry key="64" type="xstring" value="tra_passenger_technology-share_fleet_LDV_ICE-gas[%]"/>
+<entry key="65" type="xstring" value="tra_passenger_technology-share_fleet_LDV_FCEV[%]"/>
+<entry key="66" type="xstring" value="tra_passenger_technology-share_fleet_2W_ICE-diesel[%]"/>
+<entry key="67" type="xstring" value="tra_passenger_technology-share_fleet_2W_ICE-gasoline[%]"/>
+<entry key="68" type="xstring" value="tra_passenger_technology-share_fleet_2W_ICE-gas[%]"/>
+<entry key="69" type="xstring" value="tra_passenger_technology-share_fleet_2W_PHEV[%]"/>
+<entry key="70" type="xstring" value="tra_passenger_technology-share_fleet_2W_BEV[%]"/>
+<entry key="71" type="xstring" value="tra_passenger_technology-share_fleet_2W_FCEV[%]"/>
+<entry key="72" type="xstring" value="tra_passenger_technology-share_fleet_bus_ICE-diesel[%]"/>
+<entry key="73" type="xstring" value="tra_passenger_technology-share_fleet_bus_ICE-gasoline[%]"/>
+<entry key="74" type="xstring" value="tra_passenger_technology-share_fleet_bus_ICE-gas[%]"/>
+<entry key="75" type="xstring" value="tra_passenger_technology-share_fleet_bus_BEV[%]"/>
+<entry key="76" type="xstring" value="tra_passenger_technology-share_fleet_bus_PHEV-diesel[%]"/>
+<entry key="77" type="xstring" value="tra_passenger_technology-share_fleet_bus_FCEV[%]"/>
+<entry key="78" type="xstring" value="tra_passenger_technology-share_fleet_rail_CEV[%]"/>
+<entry key="79" type="xstring" value="tra_passenger_technology-share_fleet_rail_ICE-diesel[%]"/>
+<entry key="80" type="xstring" value="tra_passenger_technology-share_fleet_rail_FCEV[%]"/>
+<entry key="81" type="xstring" value="tra_passenger_technology-share_fleet_aviation_BEV[%]"/>
+<entry key="82" type="xstring" value="tra_passenger_technology-share_fleet_aviation_ICE[%]"/>
+<entry key="83" type="xstring" value="tra_fuel-mix_biofuel-road[%]"/>
+<entry key="84" type="xstring" value="tra_fuel-mix_biofuel-marine[%]"/>
+<entry key="85" type="xstring" value="tra_fuel-mix_biofuel-aviation[%]"/>
+<entry key="86" type="xstring" value="tra_fuel-mix_efuel[%]"/>
+<entry key="87" type="xstring" value="tra_passenger_renewal-rate_rail[%]"/>
+<entry key="88" type="xstring" value="tra_passenger_renewal-rate_metro-tram[%]"/>
+<entry key="89" type="xstring" value="tra_passenger_renewal-rate_aviation[%]"/>
+<entry key="90" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_LDV_ICE-diesel[km]"/>
+<entry key="91" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_LDV_ICE-gasoline[km]"/>
+<entry key="92" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_LDV_ICE-gas[km]"/>
+<entry key="93" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_LDV_PHEV-diesel[km]"/>
+<entry key="94" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_LDV_PHEV-gasoline[km]"/>
+<entry key="95" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_LDV_BEV[km]"/>
+<entry key="96" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_LDV_FCEV[km]"/>
+<entry key="97" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_2W_Average_km_lifetime[km]"/>
+<entry key="98" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_2W_ICE-diesel[km]"/>
+<entry key="99" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_2W_ICE-gas[km]"/>
+<entry key="100" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_2W_ICE-gasoline[km]"/>
+<entry key="101" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_2W_BEV[km]"/>
+<entry key="102" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_2W_FCEV[km]"/>
+<entry key="103" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_2W_PHEV[km]"/>
+<entry key="104" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_bus_ICE-diesel[km]"/>
+<entry key="105" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_bus_ICE-gasoline[km]"/>
+<entry key="106" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_bus_ICE-gas[km]"/>
+<entry key="107" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_bus_BEV[km]"/>
+<entry key="108" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_bus_FCEV[km]"/>
+<entry key="109" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_bus_PHEV-diesel[km]"/>
+<entry key="110" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_metro-tram_CEV[years]"/>
+<entry key="111" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_rail_CEV[years]"/>
+<entry key="112" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_rail_FCEV[years]"/>
+<entry key="113" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_rail_ICE-diesel[years]"/>
+<entry key="114" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_aviation_ICE[years]"/>
+<entry key="115" type="xstring" value="tra_passenger_vehicle-lifetime_fleet_aviation_BEV[years]"/>
+<entry key="116" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_ICE-diesel[km]"/>
+<entry key="117" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_ICE-gasoline[km]"/>
+<entry key="118" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_ICE-gas[km]"/>
+<entry key="119" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_PHEV-diesel[km]"/>
+<entry key="120" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_PHEV-gasoline[km]"/>
+<entry key="121" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_BEV[km]"/>
+<entry key="122" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_FCEV[km]"/>
+<entry key="123" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_Average_km_lifetime[km]"/>
+<entry key="124" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_ICE-diesel[km]"/>
+<entry key="125" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_ICE-gas[km]"/>
+<entry key="126" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_ICE-gasoline[km]"/>
+<entry key="127" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_BEV[km]"/>
+<entry key="128" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_FCEV[km]"/>
+<entry key="129" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_PHEV[km]"/>
+<entry key="130" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_ICE-diesel[km]"/>
+<entry key="131" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_ICE-gasoline[km]"/>
+<entry key="132" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_ICE-gas[km]"/>
+<entry key="133" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_BEV[km]"/>
+<entry key="134" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_FCEV[km]"/>
+<entry key="135" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_PHEV-diesel[km]"/>
+<entry key="136" type="xstring" value="tra_passenger_vehicle-lifetime_new_metro-tram_CEV[years]"/>
+<entry key="137" type="xstring" value="tra_passenger_vehicle-lifetime_new_rail_CEV[years]"/>
+<entry key="138" type="xstring" value="tra_passenger_vehicle-lifetime_new_rail_FCEV[years]"/>
+<entry key="139" type="xstring" value="tra_passenger_vehicle-lifetime_new_rail_ICE-diesel[years]"/>
+<entry key="140" type="xstring" value="tra_passenger_vehicle-lifetime_new_aviation_ICE[years]"/>
+<entry key="141" type="xstring" value="tra_passenger_vehicle-lifetime_new_aviation_BEV[years]"/>
+<entry key="142" type="xstring" value="tra_passenger_vehicle-fleet_LDV[number]"/>
+<entry key="143" type="xstring" value="tra_passenger_vehicle-fleet_2W[number]"/>
+<entry key="144" type="xstring" value="tra_passenger_vehicle-fleet_bus[number]"/>
+<entry key="145" type="xstring" value="tra_passenger_vehicle-fleet_metro-tram[number]"/>
+<entry key="146" type="xstring" value="tra_passenger_vehicle-fleet_rail[number]"/>
+<entry key="147" type="xstring" value="tra_passenger_vehicle-fleet_aviation[number]"/>
+<entry key="148" type="xstring" value="tra_passenger_veh-efficiency_fleet_LDV_ICE-gasoline[MJ/km]"/>
+<entry key="149" type="xstring" value="tra_passenger_veh-efficiency_fleet_LDV_ICE-diesel[MJ/km]"/>
+<entry key="150" type="xstring" value="tra_passenger_veh-efficiency_fleet_LDV_ICE-gas[MJ/km]"/>
+<entry key="151" type="xstring" value="tra_passenger_veh-efficiency_fleet_LDV_BEV[MJ/km]"/>
+<entry key="152" type="xstring" value="tra_passenger_veh-efficiency_fleet_LDV_PHEV-diesel[MJ/km]"/>
+<entry key="153" type="xstring" value="tra_passenger_veh-efficiency_fleet_LDV_PHEV-gasoline[MJ/km]"/>
+<entry key="154" type="xstring" value="tra_passenger_veh-efficiency_fleet_LDV_FCEV[MJ/km]"/>
+<entry key="155" type="xstring" value="tra_passenger_veh-efficiency_fleet_2W_ICE-diesel[MJ/km]"/>
+<entry key="156" type="xstring" value="tra_passenger_veh-efficiency_fleet_2W_ICE-gasoline[MJ/km]"/>
+<entry key="157" type="xstring" value="tra_passenger_veh-efficiency_fleet_2W_ICE-gas[MJ/km]"/>
+<entry key="158" type="xstring" value="tra_passenger_veh-efficiency_fleet_2W_BEV[MJ/km]"/>
+<entry key="159" type="xstring" value="tra_passenger_veh-efficiency_fleet_2W_PHEV[MJ/km]"/>
+<entry key="160" type="xstring" value="tra_passenger_veh-efficiency_fleet_2W_FCEV[MJ/km]"/>
+<entry key="161" type="xstring" value="tra_passenger_veh-efficiency_fleet_bus_ICE-diesel[MJ/km]"/>
+<entry key="162" type="xstring" value="tra_passenger_veh-efficiency_fleet_bus_ICE-gasoline[MJ/km]"/>
+<entry key="163" type="xstring" value="tra_passenger_veh-efficiency_fleet_bus_ICE-gas[MJ/km]"/>
+<entry key="164" type="xstring" value="tra_passenger_veh-efficiency_fleet_bus_BEV[MJ/km]"/>
+<entry key="165" type="xstring" value="tra_passenger_veh-efficiency_fleet_bus_PHEV-diesel[MJ/km]"/>
+<entry key="166" type="xstring" value="tra_passenger_veh-efficiency_fleet_bus_FCEV[MJ/km]"/>
+<entry key="167" type="xstring" value="tra_passenger_veh-efficiency_fleet_metro-tram[MJ/pkm]"/>
+<entry key="168" type="xstring" value="tra_passenger_veh-efficiency_fleet_rail_ICE-diesel[MJ/pkm]"/>
+<entry key="169" type="xstring" value="tra_passenger_veh-efficiency_fleet_rail_CEV[MJ/pkm]"/>
+<entry key="170" type="xstring" value="tra_passenger_veh-efficiency_fleet_rail_FCEV[MJ/pkm]"/>
+<entry key="171" type="xstring" value="tra_passenger_veh-efficiency_fleet_aviation_ICE[MJ/pkm]"/>
+<entry key="172" type="xstring" value="tra_passenger_veh-efficiency_fleet_aviation_BEV[MJ/pkm]"/>
+<entry key="173" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_ICE-diesel[km] (#1)"/>
+<entry key="174" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_ICE-gasoline[km] (#1)"/>
+<entry key="175" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_ICE-gas[km] (#1)"/>
+<entry key="176" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_PHEV-diesel[km] (#1)"/>
+<entry key="177" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_PHEV-gasoline[km] (#1)"/>
+<entry key="178" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_BEV[km] (#1)"/>
+<entry key="179" type="xstring" value="tra_passenger_vehicle-lifetime_new_LDV_FCEV[km] (#1)"/>
+<entry key="180" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_ICE-gas[km] (#1)"/>
+<entry key="181" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_ICE-diesel[km] (#1)"/>
+<entry key="182" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_ICE-gasoline[km] (#1)"/>
+<entry key="183" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_BEV[km] (#1)"/>
+<entry key="184" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_FCEV[km] (#1)"/>
+<entry key="185" type="xstring" value="tra_passenger_vehicle-lifetime_new_2W_PHEV[km] (#1)"/>
+<entry key="186" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_ICE-diesel[km] (#1)"/>
+<entry key="187" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_ICE-gasoline[km] (#1)"/>
+<entry key="188" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_ICE-gas[km] (#1)"/>
+<entry key="189" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_BEV[km] (#1)"/>
+<entry key="190" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_FCEV[km] (#1)"/>
+<entry key="191" type="xstring" value="tra_passenger_vehicle-lifetime_new_bus_PHEV[km]"/>
+<entry key="192" type="xstring" value="tra_passenger_vehicle-lifetime_new_metro-tram_CEV[years] (#1)"/>
+<entry key="193" type="xstring" value="tra_passenger_vehicle-lifetime_new_rail_CEV[years] (#1)"/>
+<entry key="194" type="xstring" value="tra_passenger_vehicle-lifetime_new_rail_FCEV[years] (#1)"/>
+<entry key="195" type="xstring" value="tra_passenger_vehicle-lifetime_new_rail_ICE[years]"/>
+<entry key="196" type="xstring" value="tra_passenger_vehicle-lifetime_new_aviation_ICE[years] (#1)"/>
+<entry key="197" type="xstring" value="tra_passenger_vehicle-lifetime_new_aviation_BEV[years] (#1)"/>
+<entry key="198" type="xstring" value="tec_emission-factor_N2O_marinefueloil[Mt/TWh]"/>
+<entry key="199" type="xstring" value="tec_emission-factor_CH4_marinefueloil[Mt/TWh]"/>
+<entry key="200" type="xstring" value="tec_emission-factor_CO2_marinefueloil[Mt/TWh]"/>
+<entry key="201" type="xstring" value="tec_emission-factor_N2O_kerosene[Mt/TWh]"/>
+<entry key="202" type="xstring" value="tec_emission-factor_CH4_kerosene[Mt/TWh]"/>
+<entry key="203" type="xstring" value="tec_emission-factor_CO2_kerosene[Mt/TWh]"/>
+<entry key="204" type="xstring" value="tec_emission-factor_N2O_gasoline[Mt/TWh]"/>
+<entry key="205" type="xstring" value="tec_emission-factor_CH4_gasoline[Mt/TWh]"/>
+<entry key="206" type="xstring" value="tec_emission-factor_CO2_gasoline[Mt/TWh]"/>
+<entry key="207" type="xstring" value="tec_emission-factor_N2O_diesel[Mt/TWh]"/>
+<entry key="208" type="xstring" value="tec_emission-factor_CH4_diesel[Mt/TWh]"/>
+<entry key="209" type="xstring" value="tec_emission-factor_CO2_diesel[Mt/TWh]"/>
+<entry key="210" type="xstring" value="tec_emission-factor_N2O_hydrogen[Mt/TWh]"/>
+<entry key="211" type="xstring" value="tec_emission-factor_CH4_hydrogen[Mt/TWh]"/>
+<entry key="212" type="xstring" value="tec_emission-factor_CO2_hydrogen[Mt/TWh]"/>
+<entry key="213" type="xstring" value="tec_emission-factor_N2O_gas[Mt/TWh]"/>
+<entry key="214" type="xstring" value="tec_emission-factor_CH4_gas[Mt/TWh]"/>
+<entry key="215" type="xstring" value="tec_emission-factor_CO2_gas[Mt/TWh]"/>
+<entry key="216" type="xstring" value="tra_passenger_renewal-rate_LDV[%]"/>
+<entry key="217" type="xstring" value="tra_passenger_renewal-rate_2W[%]"/>
+<entry key="218" type="xstring" value="tra_passenger_renewal-rate_bus[%]"/>
+<entry key="219" type="xstring" value="tra_passenger_renewal-rate_bus[%] (#1)"/>
+<entry key="220" type="xstring" value="lfs_travel-urb[pkm]"/>
+<entry key="221" type="xstring" value="lfs_travel-no-urb[pkm]"/>
+<entry key="222" type="xstring" value="tra_passenger_aviation[pkm]"/>
+<entry key="223" type="xstring" value="tra_passenger_LDV[pkm]"/>
+<entry key="224" type="xstring" value="tra_passenger_2W[pkm]"/>
+<entry key="225" type="xstring" value="tra_passenger_rail[pkm]"/>
+<entry key="226" type="xstring" value="tra_passenger_bus[pkm]"/>
+<entry key="227" type="xstring" value="tra_passenger_metro-tram[pkm]"/>
+<entry key="228" type="xstring" value="tra_passenger_bike[pkm]"/>
+<entry key="229" type="xstring" value="tra_passenger_walk[pkm]"/>
+<entry key="230" type="xstring" value="tra_passenger_total-demand[pkm]"/>
+<entry key="231" type="xstring" value="tra_passenger_modal-share_aviation[%]"/>
+<entry key="232" type="xstring" value="tra_passenger_modal-share_LDV[%]"/>
+<entry key="233" type="xstring" value="tra_passenger_modal-share_2W[%]"/>
+<entry key="234" type="xstring" value="tra_passenger_modal-share_rail[%]"/>
+<entry key="235" type="xstring" value="tra_passenger_modal-share_bus[%]"/>
+<entry key="236" type="xstring" value="tra_passenger_modal-share_metro-tram[%]"/>
+<entry key="237" type="xstring" value="tra_passenger_modal-share_bike[%]"/>
+<entry key="238" type="xstring" value="tra_passenger_modal-share_walk[%]"/>
+<entry key="239" type="xstring" value="tra_passenger_modal-share_total-demand[%]"/>
+<entry key="240" type="xstring" value="tra_passenger_LDV[vkm]"/>
+<entry key="241" type="xstring" value="tra_passenger_2W[vkm]"/>
+<entry key="242" type="xstring" value="tra_passenger_bus[vkm]"/>
+<entry key="243" type="xstring" value="tra_passenger_vehicle-fleet-future_2W[number]"/>
+<entry key="244" type="xstring" value="tra_passenger_renewal-rate_rail[%]_renewal_need"/>
+<entry key="245" type="xstring" value="tra_passenger_renewal-rate_metro-tram[%]_renewal_need"/>
+<entry key="246" type="xstring" value="tra_passenger_renewal-rate_aviation[%]_renewal_need"/>
+<entry key="247" type="xstring" value="tra_passenger_renewal-rate_LDV[%]_renewal_need"/>
+<entry key="248" type="xstring" value="tra_passenger_renewal-rate_2W[%]_renewal_need"/>
+<entry key="249" type="xstring" value="tra_passenger_renewal-rate_bus[%]_renewal_need"/>
+<entry key="250" type="xstring" value="tra_passenger_renewal-rate_bus[%] (#1)_renewal_need"/>
+<entry key="251" type="xstring" value="tra_passenger_vehicle-fleet-renewal_LDV[number]"/>
+<entry key="252" type="xstring" value="tra_passenger_vehicle-fleet-renewal_2W[number]"/>
+<entry key="253" type="xstring" value="tra_passenger_vehicle-fleet-renewal_bus[number]"/>
+<entry key="254" type="xstring" value="tra_passenger_vehicle-fleet-renewal_metro-tram[number]"/>
+<entry key="255" type="xstring" value="tra_passenger_vehicle-fleet-renewal_rail[number]"/>
+<entry key="256" type="xstring" value="tra_passenger_vehicle-fleet-renewal_aviation[number]"/>
+<entry key="257" type="xstring" value="tra_passenger_vehicle-fleet-needs_LDV[number]"/>
+<entry key="258" type="xstring" value="tra_passenger_vehicle-fleet-needs_2W[number]"/>
+<entry key="259" type="xstring" value="tra_passenger_vehicle-fleet-needs_bus[number]"/>
+<entry key="260" type="xstring" value="tra_passenger_vehicle-fleet-needs_metro-tram[number]"/>
+<entry key="261" type="xstring" value="tra_passenger_vehicle-fleet-needs_rail[number]"/>
+<entry key="262" type="xstring" value="tra_passenger_vehicle-fleet-needs_aviation[number]"/>
+<entry key="263" type="xstring" value="tra_passenger_new-vehicles_LDV[number]"/>
+<entry key="264" type="xstring" value="tra_passenger_new-vehicles_2W[number]"/>
+<entry key="265" type="xstring" value="tra_passenger_new-vehicles_bus[number]"/>
+<entry key="266" type="xstring" value="tra_passenger_new-vehicles_metro-tram[number]"/>
+<entry key="267" type="xstring" value="tra_passenger_new-vehicles_rail[number]"/>
+<entry key="268" type="xstring" value="tra_passenger_new-vehicles_aviation[number]"/>
+<entry key="269" type="xstring" value="tra_passenger_renewal-rate_rail[%]remaining_factor"/>
+<entry key="270" type="xstring" value="tra_passenger_renewal-rate_metro-tram[%]remaining_factor"/>
+<entry key="271" type="xstring" value="tra_passenger_renewal-rate_aviation[%]remaining_factor"/>
+<entry key="272" type="xstring" value="tra_passenger_renewal-rate_LDV[%]remaining_factor"/>
+<entry key="273" type="xstring" value="tra_passenger_renewal-rate_2W[%]remaining_factor"/>
+<entry key="274" type="xstring" value="tra_passenger_renewal-rate_bus[%]remaining_factor"/>
+<entry key="275" type="xstring" value="tra_passenger_remaining-vehicles_LDV[number]"/>
+<entry key="276" type="xstring" value="tra_passenger_remaining-vehicles_2W[number]"/>
+<entry key="277" type="xstring" value="tra_passenger_remaining-vehicles_bus[number]"/>
+<entry key="278" type="xstring" value="tra_passenger_remaining-vehicles_metro-tram[number]"/>
+<entry key="279" type="xstring" value="tra_passenger_remaining-vehicles_rail[number]"/>
+<entry key="280" type="xstring" value="tra_passenger_remaining-vehicles_aviation[number]"/>
+<entry key="281" type="xstring" value="tra_passenger_vehicle-fleet-renewal_for-industry_rail[%]"/>
+<entry key="282" type="xstring" value="tra_passenger_vehicle-fleet-renewal_for-industry_metro-tram[%]"/>
+<entry key="283" type="xstring" value="tra_passenger_vehicle-fleet-renewal_for-industry_aviation[%]"/>
+<entry key="284" type="xstring" value="tra_passenger_vehicle-fleet-renewal_for-industry_LDV[%]"/>
+<entry key="285" type="xstring" value="tra_passenger_vehicle-fleet-renewal_for-industry_2W[%]"/>
+<entry key="286" type="xstring" value="tra_passenger_vehicle-fleet-renewal_for-industry_bus[%]"/>
+<entry key="287" type="xstring" value="tra_passenger_vehicle-fleet-needs_for-industry_LDV[number]"/>
+<entry key="288" type="xstring" value="tra_passenger_vehicle-fleet-needs_for-industry_2W[number]"/>
+<entry key="289" type="xstring" value="tra_passenger_vehicle-fleet-needs_for-industry_bus[number]"/>
+<entry key="290" type="xstring" value="tra_passenger_vehicle-fleet-needs_for-industry_metro-tram[number]"/>
+<entry key="291" type="xstring" value="tra_passenger_vehicle-fleet-needs_for-industry_rail[number]"/>
+<entry key="292" type="xstring" value="tra_passenger_vehicle-fleet-needs_for-industry_aviation[number]"/>
+<entry key="293" type="xstring" value="tra_passenger_new-vehicles_for-industry_rail[%]"/>
+<entry key="294" type="xstring" value="tra_passenger_new-vehicles_for-industry_metro-tram[%]"/>
+<entry key="295" type="xstring" value="tra_passenger_new-vehicles_for-industry_aviation[%]"/>
+<entry key="296" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV[%]"/>
+<entry key="297" type="xstring" value="tra_passenger_new-vehicles_for-industry_2W[%]"/>
+<entry key="298" type="xstring" value="tra_passenger_new-vehicles_for-industry_bus[%]"/>
+<entry key="299" type="xstring" value="tra_passenger_new-vehicles_LDV_ICE-diesel[number]"/>
+<entry key="300" type="xstring" value="tra_passenger_new-vehicles_LDV_ICE-gasoline[number]"/>
+<entry key="301" type="xstring" value="tra_passenger_new-vehicles_LDV_ICE-gas[number]"/>
+<entry key="302" type="xstring" value="tra_passenger_new-vehicles_LDV_BEV[number]"/>
+<entry key="303" type="xstring" value="tra_passenger_new-vehicles_LDV_PHEV-diesel[number]"/>
+<entry key="304" type="xstring" value="tra_passenger_new-vehicles_LDV_PHEV-gasoline[number]"/>
+<entry key="305" type="xstring" value="tra_passenger_new-vehicles_LDV_FCEV[number]"/>
+<entry key="306" type="xstring" value="tra_passenger_new-vehicles_2W_ICE-diesel[number]"/>
+<entry key="307" type="xstring" value="tra_passenger_new-vehicles_2W_ICE-gasoline[number]"/>
+<entry key="308" type="xstring" value="tra_passenger_new-vehicles_2W_ICE-gas[number]"/>
+<entry key="309" type="xstring" value="tra_passenger_new-vehicles_2W_BEV[number]"/>
+<entry key="310" type="xstring" value="tra_passenger_new-vehicles_2W_FCEV[number]"/>
+<entry key="311" type="xstring" value="tra_passenger_new-vehicles_2W_PHEV[number]"/>
+<entry key="312" type="xstring" value="tra_passenger_new-vehicles_bus_ICE-diesel[number]"/>
+<entry key="313" type="xstring" value="tra_passenger_new-vehicles_bus_ICE-gas[number]"/>
+<entry key="314" type="xstring" value="tra_passenger_new-vehicles_bus_ICE-gasoline[number]"/>
+<entry key="315" type="xstring" value="tra_passenger_new-vehicles_bus_BEV[number]"/>
+<entry key="316" type="xstring" value="tra_passenger_new-vehicles_bus_FCEV[number]"/>
+<entry key="317" type="xstring" value="tra_passenger_new-vehicles_bus_PHEV-diesel[number]"/>
+<entry key="318" type="xstring" value="tra_passenger_new-vehicles_rail_ICE-diesel[number]"/>
+<entry key="319" type="xstring" value="tra_passenger_new-vehicles_rail_CEV[number]"/>
+<entry key="320" type="xstring" value="tra_passenger_new-vehicles_rail_FCEV[number]"/>
+<entry key="321" type="xstring" value="tra_passenger_new-vehicles_aviation_ICE[number]"/>
+<entry key="322" type="xstring" value="tra_passenger_new-vehicles_aviation_BEV[number]"/>
+<entry key="323" type="xstring" value="tra_passenger_new-vehicles_for-industry_rail_ICE-diesel[%]"/>
+<entry key="324" type="xstring" value="tra_passenger_new-vehicles_for-industry_rail_CEV[%]"/>
+<entry key="325" type="xstring" value="tra_passenger_new-vehicles_for-industry_rail_FCEV[%]"/>
+<entry key="326" type="xstring" value="tra_passenger_new-vehicles_for-industry_aviation_ICE[%]"/>
+<entry key="327" type="xstring" value="tra_passenger_new-vehicles_for-industry_aviation_BEV[%]"/>
+<entry key="328" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV_ICE-diesel[%]"/>
+<entry key="329" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV_ICE-gasoline[%]"/>
+<entry key="330" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV_ICE-gas[%]"/>
+<entry key="331" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV_BEV[%]"/>
+<entry key="332" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV_PHEV-diesel[%]"/>
+<entry key="333" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV_PHEV-gasoline[%]"/>
+<entry key="334" type="xstring" value="tra_passenger_new-vehicles_for-industry_LDV_FCEV[%]"/>
+<entry key="335" type="xstring" value="tra_passenger_new-vehicles_for-industry_2W_ICE-diesel[%]"/>
+<entry key="336" type="xstring" value="tra_passenger_new-vehicles_for-industry_2W_ICE-gasoline[%]"/>
+<entry key="337" type="xstring" value="tra_passenger_new-vehicles_for-industry_2W_ICE-gas[%]"/>
+<entry key="338" type="xstring" value="tra_passenger_new-vehicles_for-industry_2W_BEV[%]"/>
+<entry key="339" type="xstring" value="tra_passenger_new-vehicles_for-industry_2W_FCEV[%]"/>
+<entry key="340" type="xstring" value="tra_passenger_new-vehicles_for-industry_2W_PHEV[%]"/>
+<entry key="341" type="xstring" value="tra_passenger_new-vehicles_for-industry_bus_ICE-diesel[%]"/>
+<entry key="342" type="xstring" value="tra_passenger_new-vehicles_for-industry_bus_ICE-gas[%]"/>
+<entry key="343" type="xstring" value="tra_passenger_new-vehicles_for-industry_bus_ICE-gasoline[%]"/>
+<entry key="344" type="xstring" value="tra_passenger_new-vehicles_for-industry_bus_BEV[%]"/>
+<entry key="345" type="xstring" value="tra_passenger_new-vehicles_for-industry_bus_FCEV[%]"/>
+<entry key="346" type="xstring" value="tra_passenger_new-vehicles_for-industry_bus_PHEV-diesel[%]"/>
+<entry key="347" type="xstring" value="tra_passenger_remaining-vehicles_LDV_ICE-diesel[number]"/>
+<entry key="348" type="xstring" value="tra_passenger_remaining-vehicles_LDV_ICE-gasoline[number]"/>
+<entry key="349" type="xstring" value="tra_passenger_remaining-vehicles_LDV_BEV[number]"/>
+<entry key="350" type="xstring" value="tra_passenger_remaining-vehicles_LDV_PHEV-gasoline[number]"/>
+<entry key="351" type="xstring" value="tra_passenger_remaining-vehicles_LDV_PHEV-diesel[number]"/>
+<entry key="352" type="xstring" value="tra_passenger_remaining-vehicles_LDV_ICE-gas[number]"/>
+<entry key="353" type="xstring" value="tra_passenger_remaining-vehicles_LDV_FCEV[number]"/>
+<entry key="354" type="xstring" value="tra_passenger_remaining-vehicles_2W_ICE-diesel[number]"/>
+<entry key="355" type="xstring" value="tra_passenger_remaining-vehicles_2W_ICE-gasoline[number]"/>
+<entry key="356" type="xstring" value="tra_passenger_remaining-vehicles_2W_ICE-gas[number]"/>
+<entry key="357" type="xstring" value="tra_passenger_remaining-vehicles_2W_PHEV[number]"/>
+<entry key="358" type="xstring" value="tra_passenger_remaining-vehicles_2W_BEV[number]"/>
+<entry key="359" type="xstring" value="tra_passenger_remaining-vehicles_2W_FCEV[number]"/>
+<entry key="360" type="xstring" value="tra_passenger_remaining-vehicles_bus_ICE-diesel[number]"/>
+<entry key="361" type="xstring" value="tra_passenger_remaining-vehicles_bus_ICE-gasoline[number]"/>
+<entry key="362" type="xstring" value="tra_passenger_remaining-vehicles_bus_ICE-gas[number]"/>
+<entry key="363" type="xstring" value="tra_passenger_remaining-vehicles_bus_BEV[number]"/>
+<entry key="364" type="xstring" value="tra_passenger_remaining-vehicles_bus_PHEV-diesel[number]"/>
+<entry key="365" type="xstring" value="tra_passenger_remaining-vehicles_bus_FCEV[number]"/>
+<entry key="366" type="xstring" value="tra_passenger_remaining-vehicles_rail_CEV[number]"/>
+<entry key="367" type="xstring" value="tra_passenger_remaining-vehicles_rail_ICE-diesel[number]"/>
+<entry key="368" type="xstring" value="tra_passenger_remaining-vehicles_rail_FCEV[number]"/>
+<entry key="369" type="xstring" value="tra_passenger_remaining-vehicles_aviation_BEV[number]"/>
+<entry key="370" type="xstring" value="tra_passenger_remaining-vehicles_aviation_ICE[number]"/>
+<entry key="371" type="xstring" value="tra_passenger_vehicle-fleet_LDV_ICE-diesel[number]"/>
+<entry key="372" type="xstring" value="tra_passenger_vehicle-fleet_LDV_ICE-gasoline[number]"/>
+<entry key="373" type="xstring" value="tra_passenger_vehicle-fleet_LDV_BEV[number]"/>
+<entry key="374" type="xstring" value="tra_passenger_vehicle-fleet_LDV_PHEV-gasoline[number]"/>
+<entry key="375" type="xstring" value="tra_passenger_vehicle-fleet_LDV_PHEV-diesel[number]"/>
+<entry key="376" type="xstring" value="tra_passenger_vehicle-fleet_LDV_ICE-gas[number]"/>
+<entry key="377" type="xstring" value="tra_passenger_vehicle-fleet_LDV_FCEV[number]"/>
+<entry key="378" type="xstring" value="tra_passenger_vehicle-fleet_2W_ICE-diesel[number]"/>
+<entry key="379" type="xstring" value="tra_passenger_vehicle-fleet_2W_ICE-gasoline[number]"/>
+<entry key="380" type="xstring" value="tra_passenger_vehicle-fleet_2W_ICE-gas[number]"/>
+<entry key="381" type="xstring" value="tra_passenger_vehicle-fleet_2W_PHEV[number]"/>
+<entry key="382" type="xstring" value="tra_passenger_vehicle-fleet_2W_BEV[number]"/>
+<entry key="383" type="xstring" value="tra_passenger_vehicle-fleet_2W_FCEV[number]"/>
+<entry key="384" type="xstring" value="tra_passenger_vehicle-fleet_bus_ICE-diesel[number]"/>
+<entry key="385" type="xstring" value="tra_passenger_vehicle-fleet_bus_ICE-gasoline[number]"/>
+<entry key="386" type="xstring" value="tra_passenger_vehicle-fleet_bus_ICE-gas[number]"/>
+<entry key="387" type="xstring" value="tra_passenger_vehicle-fleet_bus_BEV[number]"/>
+<entry key="388" type="xstring" value="tra_passenger_vehicle-fleet_bus_PHEV-diesel[number]"/>
+<entry key="389" type="xstring" value="tra_passenger_vehicle-fleet_bus_FCEV[number]"/>
+<entry key="390" type="xstring" value="tra_passenger_vehicle-fleet_rail_CEV[number]"/>
+<entry key="391" type="xstring" value="tra_passenger_vehicle-fleet_rail_ICE-diesel[number]"/>
+<entry key="392" type="xstring" value="tra_passenger_vehicle-fleet_rail_FCEV[number]"/>
+<entry key="393" type="xstring" value="tra_passenger_vehicle-fleet_aviation_BEV[number]"/>
+<entry key="394" type="xstring" value="tra_passenger_vehicle-fleet_aviation_ICE[number]"/>
+<entry key="395" type="xstring" value="tra_passenger_LDV_ICE-diesel[vkm]"/>
+<entry key="396" type="xstring" value="tra_passenger_LDV_ICE-gasoline[vkm]"/>
+<entry key="397" type="xstring" value="tra_passenger_LDV_BEV[vkm]"/>
+<entry key="398" type="xstring" value="tra_passenger_LDV_PHEV-gasoline[vkm]"/>
+<entry key="399" type="xstring" value="tra_passenger_LDV_PHEV-diesel[vkm]"/>
+<entry key="400" type="xstring" value="tra_passenger_LDV_ICE-gas[vkm]"/>
+<entry key="401" type="xstring" value="tra_passenger_LDV_FCEV[vkm]"/>
+<entry key="402" type="xstring" value="tra_passenger_2W_ICE-diesel[vkm]"/>
+<entry key="403" type="xstring" value="tra_passenger_2W_ICE-gasoline[vkm]"/>
+<entry key="404" type="xstring" value="tra_passenger_2W_ICE-gas[vkm]"/>
+<entry key="405" type="xstring" value="tra_passenger_2W_PHEV[vkm]"/>
+<entry key="406" type="xstring" value="tra_passenger_2W_BEV[vkm]"/>
+<entry key="407" type="xstring" value="tra_passenger_2W_FCEV[vkm]"/>
+<entry key="408" type="xstring" value="tra_passenger_bus_ICE-diesel[vkm]"/>
+<entry key="409" type="xstring" value="tra_passenger_bus_ICE-gasoline[vkm]"/>
+<entry key="410" type="xstring" value="tra_passenger_bus_ICE-gas[vkm]"/>
+<entry key="411" type="xstring" value="tra_passenger_bus_BEV[vkm]"/>
+<entry key="412" type="xstring" value="tra_passenger_bus_PHEV-diesel[vkm]"/>
+<entry key="413" type="xstring" value="tra_passenger_bus_FCEV[vkm]"/>
+<entry key="414" type="xstring" value="tra_passenger_aviation_BEV[pkm]"/>
+<entry key="415" type="xstring" value="tra_passenger_aviation_ICE[pkm]"/>
+<entry key="416" type="xstring" value="tra_passenger_rail_CEV[pkm]"/>
+<entry key="417" type="xstring" value="tra_passenger_rail_ICE-diesel[pkm]"/>
+<entry key="418" type="xstring" value="tra_passenger_rail_FCEV[pkm]"/>
+<entry key="419" type="xstring" value="tra_passenger_energy-demand_LDV_BEV[TWh]"/>
+<entry key="420" type="xstring" value="tra_passenger_energy-demand_LDV_FCEV[TWh]"/>
+<entry key="421" type="xstring" value="tra_passenger_energy-demand_2W_BEV[TWh]"/>
+<entry key="422" type="xstring" value="tra_passenger_energy-demand_2W_FCEV[TWh]"/>
+<entry key="423" type="xstring" value="tra_passenger_energy-demand_bus_BEV[TWh]"/>
+<entry key="424" type="xstring" value="tra_passenger_energy-demand_bus_FCEV[TWh]"/>
+<entry key="425" type="xstring" value="tra_passenger_energy-demand_metro-tram[TWh]"/>
+<entry key="426" type="xstring" value="tra_passenger_energy-demand_rail_CEV[TWh]"/>
+<entry key="427" type="xstring" value="tra_passenger_energy-demand_rail_FCEV[TWh]"/>
+<entry key="428" type="xstring" value="tra_passenger_energy-demand_aviation_BEV[TWh]"/>
+<entry key="429" type="xstring" value="tra_passenger_energy-demand_2W_PHEV-elec[TWh]"/>
+<entry key="430" type="xstring" value="tra_passenger_energy-demand_bus_PHEV-elec[TWh]"/>
+<entry key="431" type="xstring" value="tra_passenger_energy-demand_LDV_PHEV-elec[TWh]"/>
+<entry key="432" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-bioethanol[TWh]"/>
+<entry key="433" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-biodiesel[TWh]"/>
+<entry key="434" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-biogas[TWh]"/>
+<entry key="435" type="xstring" value="tra_passenger_energy-demand_LDV_PHEV-biodiesel[TWh]"/>
+<entry key="436" type="xstring" value="tra_passenger_energy-demand_LDV_PHEV-bioethanol[TWh]"/>
+<entry key="437" type="xstring" value="tra_passenger_energy-demand_2W_ICE-biodiesel[TWh]"/>
+<entry key="438" type="xstring" value="tra_passenger_energy-demand_2W_ICE-bioethanol[TWh]"/>
+<entry key="439" type="xstring" value="tra_passenger_energy-demand_2W_ICE-biogas[TWh]"/>
+<entry key="440" type="xstring" value="tra_passenger_energy-demand_2W_PHEV_bio[TWh]"/>
+<entry key="441" type="xstring" value="tra_passenger_energy-demand_bus_ICE-biodiesel[TWh]"/>
+<entry key="442" type="xstring" value="tra_passenger_energy-demand_bus_ICE-bioethanol[TWh]"/>
+<entry key="443" type="xstring" value="tra_passenger_energy-demand_bus_ICE-biogas[TWh]"/>
+<entry key="444" type="xstring" value="tra_passenger_energy-demand_bus_PHEV-biodiesel[TWh]"/>
+<entry key="445" type="xstring" value="tra_passenger_energy-demand_rail_ICE-biodiesel[TWh]"/>
+<entry key="446" type="xstring" value="tra_passenger_energy-demand_aviation_ICE-biojetfuel[TWh]"/>
+<entry key="447" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-e-gasoline[TWh]"/>
+<entry key="448" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-e-diesel[TWh]"/>
+<entry key="449" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-e-gas[TWh]"/>
+<entry key="450" type="xstring" value="tra_passenger_energy-demand_LDV_PHEV-e-diesel[TWh]"/>
+<entry key="451" type="xstring" value="tra_passenger_energy-demand_LDV_PHEV-e-gasoline[TWh]"/>
+<entry key="452" type="xstring" value="tra_passenger_energy-demand_2W_ICE-e-diesel[TWh]"/>
+<entry key="453" type="xstring" value="tra_passenger_energy-demand_2W_ICE-e-gasoline[TWh]"/>
+<entry key="454" type="xstring" value="tra_passenger_energy-demand_2W_ICE-e-gas[TWh]"/>
+<entry key="455" type="xstring" value="tra_passenger_energy-demand_2W_PHEV_e[TWh]"/>
+<entry key="456" type="xstring" value="tra_passenger_energy-demand_bus_ICE-e-diesel[TWh]"/>
+<entry key="457" type="xstring" value="tra_passenger_energy-demand_bus_ICE-e-gasoline[TWh]"/>
+<entry key="458" type="xstring" value="tra_passenger_energy-demand_bus_ICE-e-gas[TWh]"/>
+<entry key="459" type="xstring" value="tra_passenger_energy-demand_bus_PHEV-e-diesel[TWh]"/>
+<entry key="460" type="xstring" value="tra_passenger_energy-demand_rail_ICE-e-diesel[TWh]"/>
+<entry key="461" type="xstring" value="tra_passenger_energy-demand_aviation_ICE_e-jetfuel[TWh]"/>
+<entry key="462" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-gasoline[TWh]"/>
+<entry key="463" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-diesel[TWh]"/>
+<entry key="464" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-gas[TWh]"/>
+<entry key="465" type="xstring" value="tra_passenger_energy-demand_LDV_PHEV-diesel[TWh]"/>
+<entry key="466" type="xstring" value="tra_passenger_energy-demand_LDV_PHEV-gasoline[TWh]"/>
+<entry key="467" type="xstring" value="tra_passenger_energy-demand_2W_ICE-diesel[TWh]"/>
+<entry key="468" type="xstring" value="tra_passenger_energy-demand_2W_ICE-gasoline[TWh]"/>
+<entry key="469" type="xstring" value="tra_passenger_energy-demand_2W_ICE-gas[TWh]"/>
+<entry key="470" type="xstring" value="tra_passenger_energy-demand_2W_PHEV[TWh]"/>
+<entry key="471" type="xstring" value="tra_passenger_energy-demand_bus_ICE-diesel[TWh]"/>
+<entry key="472" type="xstring" value="tra_passenger_energy-demand_bus_ICE-gasoline[TWh]"/>
+<entry key="473" type="xstring" value="tra_passenger_energy-demand_bus_ICE-gas[TWh]"/>
+<entry key="474" type="xstring" value="tra_passenger_energy-demand_bus_PHEV-diesel[TWh]"/>
+<entry key="475" type="xstring" value="tra_passenger_energy-demand_rail_ICE-diesel[TWh]"/>
+<entry key="476" type="xstring" value="tra_passenger_energy-demand_aviation_ICE[TWh]"/>
+<entry key="477" type="xstring" value="tra_passenger_energy-demand_LDV[TWh]"/>
+<entry key="478" type="xstring" value="tra_passenger_energy-demand_bus[TWh]"/>
+<entry key="479" type="xstring" value="tra_passenger_energy-demand_rail[TWh]"/>
+<entry key="480" type="xstring" value="tra_passenger_energy-demand_aviation[TWh]"/>
+<entry key="481" type="xstring" value="tra_passenger_energy-demand[TWh]"/>
+<entry key="482" type="xstring" value="tra_passenger_energy-demand_diesel[TWh]"/>
+<entry key="483" type="xstring" value="tra_passenger_energy-demand_gasoline[TWh]"/>
+<entry key="484" type="xstring" value="tra_passenger_energy-demand_gas[TWh]"/>
+<entry key="485" type="xstring" value="tra_passenger_energy-demand_biodiesel[TWh]"/>
+<entry key="486" type="xstring" value="tra_passenger_energy-demand_bioethanol[TWh]"/>
+<entry key="487" type="xstring" value="tra_passenger_energy-demand_biogas[TWh]"/>
+<entry key="488" type="xstring" value="tra_passenger_energy-demand_kerosene[TWh]"/>
+<entry key="489" type="xstring" value="tra_passenger_energy-demand_biojetfuel[TWh]"/>
+<entry key="490" type="xstring" value="tra_passenger_energy-demand_e-diesel[TWh]"/>
+<entry key="491" type="xstring" value="tra_passenger_energy-demand_e-gasoline[TWh]"/>
+<entry key="492" type="xstring" value="tra_passenger_energy-demand_e-gas[TWh]"/>
+<entry key="493" type="xstring" value="tra_passenger_energy-demand_e-jetfuel[TWh]"/>
+<entry key="494" type="xstring" value="tra_passenger_energy-demand_electricity[TWh]"/>
+<entry key="495" type="xstring" value="tra_passenger_energy-demand_hydrogen[TWh]"/>
+<entry key="496" type="xstring" value="cal_rate_jetfuel[%]"/>
+<entry key="497" type="xstring" value="cal_rate_biodiesel[%]"/>
+<entry key="498" type="xstring" value="cal_rate_biogas[%]"/>
+<entry key="499" type="xstring" value="cal_rate_bioethanol[%]"/>
+<entry key="500" type="xstring" value="cal_rate_electricity[%]"/>
+<entry key="501" type="xstring" value="cal_rate_diesel[%]"/>
+<entry key="502" type="xstring" value="cal_rate_gasoline[%]"/>
+<entry key="503" type="xstring" value="cal_rate_gas[%]"/>
+<entry key="504" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-diesel[TWh]_CO2emission"/>
+<entry key="505" type="xstring" value="tra_passenger_energy-demand_2W_ICE-diesel[TWh]_CO2emission"/>
+<entry key="506" type="xstring" value="tra_passenger_energy-demand_2W_PHEV[TWh]_CO2emission"/>
+<entry key="507" type="xstring" value="tra_passenger_energy-demand_bus_ICE-diesel[TWh]_CO2emission"/>
+<entry key="508" type="xstring" value="tra_passenger_energy-demand_rail_ICE-diesel[TWh]_CO2emission"/>
+<entry key="509" type="xstring" value="tra_passenger_energy-demand_diesel[TWh]_CO2emission"/>
+<entry key="510" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-diesel[TWh]_N2Oemission"/>
+<entry key="511" type="xstring" value="tra_passenger_energy-demand_2W_ICE-diesel[TWh]_N2Oemission"/>
+<entry key="512" type="xstring" value="tra_passenger_energy-demand_2W_PHEV[TWh]_N2Oemission"/>
+<entry key="513" type="xstring" value="tra_passenger_energy-demand_bus_ICE-diesel[TWh]_N2Oemission"/>
+<entry key="514" type="xstring" value="tra_passenger_energy-demand_rail_ICE-diesel[TWh]_N2Oemission"/>
+<entry key="515" type="xstring" value="tra_passenger_energy-demand_diesel[TWh]_N2Oemission"/>
+<entry key="516" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-diesel[TWh]_CH4emission"/>
+<entry key="517" type="xstring" value="tra_passenger_energy-demand_2W_ICE-diesel[TWh]_CH4emission"/>
+<entry key="518" type="xstring" value="tra_passenger_energy-demand_2W_PHEV[TWh]_CH4emission"/>
+<entry key="519" type="xstring" value="tra_passenger_energy-demand_bus_ICE-diesel[TWh]_CH4emission"/>
+<entry key="520" type="xstring" value="tra_passenger_energy-demand_rail_ICE-diesel[TWh]_CH4emission"/>
+<entry key="521" type="xstring" value="tra_passenger_energy-demand_diesel[TWh]_CH4emission"/>
+<entry key="522" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-gasoline[TWh]_CO2emission"/>
+<entry key="523" type="xstring" value="tra_passenger_energy-demand_2W_ICE-gasoline[TWh]_CO2emission"/>
+<entry key="524" type="xstring" value="tra_passenger_energy-demand_bus_ICE-gasoline[TWh]_CO2emission"/>
+<entry key="525" type="xstring" value="tra_passenger_energy-demand_gasoline[TWh]_CO2emission"/>
+<entry key="526" type="xstring" value="tra_passenger_energy-demand_LDV_ICE-gasoline[TWh]_N2Oemission"/>
+<entry key="527" type="xstring" value="tra_passenger_energy-demand_2W_ICE-gasoline[TWh]_N2Oemission"/>
+<entry key="528" type="xstring" value="tra_passenger_energy-demand_bus_ICE-gasoline[TWh]_N2Oemission"/>
+<entry key="529" type="xstring" value="tra_passenger_energy-demand_gasoline[TWh]_N2Oemission"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=".*energy-demand.*ICE-gasoline.*\[TWh]|.*energy-demand.*_gasoline.*\[TWh]"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Gasoline CH4 %%00013%%00010emissions"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="11799"/>
+<entry key="y-coordinate" type="xint" value="399"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory"/>
+<entry key="node-name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jep"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Math Expression (JEP)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jep.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 278"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="cac6b094-73fa-490b-bd33-aa67877c4444"/>
+</config>
+</config>

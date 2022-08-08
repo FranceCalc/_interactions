@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="110"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="lfs_pop_population[inhabitants]"/>
+<entry key="3" type="xstring" value="UN_low_95"/>
+<entry key="4" type="xstring" value="UN_high_95"/>
+<entry key="5" type="xstring" value="lfs_kcal-req_req[kcal/cap/day]"/>
+<entry key="6" type="xstring" value="lfs_fwaste_wine[kcal/cap/day]"/>
+<entry key="7" type="xstring" value="lfs_fwaste_beer[kcal/cap/day]"/>
+<entry key="8" type="xstring" value="lfs_fwaste_bev-fer[kcal/cap/day]"/>
+<entry key="9" type="xstring" value="lfs_fwaste_bev-alc[kcal/cap/day]"/>
+<entry key="10" type="xstring" value="lfs_fwaste_cereals[kcal/cap/day]"/>
+<entry key="11" type="xstring" value="lfs_fwaste_fruits[kcal/cap/day]"/>
+<entry key="12" type="xstring" value="lfs_fwaste_oilcrops[kcal/cap/day]"/>
+<entry key="13" type="xstring" value="lfs_fwaste_pulses[kcal/cap/day]"/>
+<entry key="14" type="xstring" value="lfs_fwaste_starch[kcal/cap/day]"/>
+<entry key="15" type="xstring" value="lfs_fwaste_coffee[kcal/cap/day]"/>
+<entry key="16" type="xstring" value="lfs_fwaste_stm[kcal/cap/day]"/>
+<entry key="17" type="xstring" value="lfs_fwaste_sugar[kcal/cap/day]"/>
+<entry key="18" type="xstring" value="lfs_fwaste_sweet[kcal/cap/day]"/>
+<entry key="19" type="xstring" value="lfs_fwaste_voil[kcal/cap/day]"/>
+<entry key="20" type="xstring" value="lfs_fwaste_veg[kcal/cap/day]"/>
+<entry key="21" type="xstring" value="lfs_fwaste_dfish[kcal/cap/day]"/>
+<entry key="22" type="xstring" value="lfs_fwaste_ffish[kcal/cap/day]"/>
+<entry key="23" type="xstring" value="lfs_fwaste_pfish[kcal/cap/day]"/>
+<entry key="24" type="xstring" value="lfs_fwaste_seafood[kcal/cap/day]"/>
+<entry key="25" type="xstring" value="lfs_fwaste_oth-aq-animals[kcal/cap/day]"/>
+<entry key="26" type="xstring" value="lfs_fwaste_egg[kcal/cap/day]"/>
+<entry key="27" type="xstring" value="lfs_fwaste_milk[kcal/cap/day]"/>
+<entry key="28" type="xstring" value="lfs_fwaste_offal[kcal/cap/day]"/>
+<entry key="29" type="xstring" value="lfs_fwaste_bov[kcal/cap/day]"/>
+<entry key="30" type="xstring" value="lfs_fwaste_sheep[kcal/cap/day]"/>
+<entry key="31" type="xstring" value="lfs_fwaste_pigs[kcal/cap/day]"/>
+<entry key="32" type="xstring" value="lfs_fwaste_poultry[kcal/cap/day]"/>
+<entry key="33" type="xstring" value="lfs_fwaste_oth-animals[kcal/cap/day]"/>
+<entry key="34" type="xstring" value="lfs_fwaste_afats[kcal/cap/day]"/>
+<entry key="35" type="xstring" value="lfs_fwaste_rice[kcal/cap/day]"/>
+<entry key="36" type="xstring" value="lfs_diet_fruits[kcal/cap/day]"/>
+<entry key="37" type="xstring" value="lfs_diet_sugar[kcal/cap/day]"/>
+<entry key="38" type="xstring" value="lfs_diet_sweet[kcal/cap/day]"/>
+<entry key="39" type="xstring" value="lfs_diet_veg[kcal/cap/day]"/>
+<entry key="40" type="xstring" value="lfs_diet_dfish[kcal/cap/day]"/>
+<entry key="41" type="xstring" value="lfs_diet_ffish[kcal/cap/day]"/>
+<entry key="42" type="xstring" value="lfs_diet_pfish[kcal/cap/day]"/>
+<entry key="43" type="xstring" value="lfs_diet_seafood[kcal/cap/day]"/>
+<entry key="44" type="xstring" value="lfs_diet_oth-aq-animals[kcal/cap/day]"/>
+<entry key="45" type="xstring" value="lfs_diet_bov[kcal/cap/day]"/>
+<entry key="46" type="xstring" value="lfs_diet_sheep[kcal/cap/day]"/>
+<entry key="47" type="xstring" value="lfs_diet_pigs[kcal/cap/day]"/>
+<entry key="48" type="xstring" value="lfs_diet_poultry[kcal/cap/day]"/>
+<entry key="49" type="xstring" value="lfs_diet_oth-animals[kcal/cap/day]"/>
+<entry key="50" type="xstring" value="share_afats[%]"/>
+<entry key="51" type="xstring" value="share_beer[%]"/>
+<entry key="52" type="xstring" value="share_bev-alc[%]"/>
+<entry key="53" type="xstring" value="share_bev-fer[%]"/>
+<entry key="54" type="xstring" value="share_cereals[%]"/>
+<entry key="55" type="xstring" value="share_coffee[%]"/>
+<entry key="56" type="xstring" value="share_egg[%]"/>
+<entry key="57" type="xstring" value="share_milk[%]"/>
+<entry key="58" type="xstring" value="share_offal[%]"/>
+<entry key="59" type="xstring" value="share_oilcrops[%]"/>
+<entry key="60" type="xstring" value="share_pulses[%]"/>
+<entry key="61" type="xstring" value="share_starch[%]"/>
+<entry key="62" type="xstring" value="share_stm[%]"/>
+<entry key="63" type="xstring" value="share_voil[%]"/>
+<entry key="64" type="xstring" value="share_wine[%]"/>
+<entry key="65" type="xstring" value="share_rice[%]"/>
+<entry key="66" type="xstring" value="lfs_floor-intensity_space-cap[m2/cap]"/>
+<entry key="67" type="xstring" value="frac-cool"/>
+<entry key="68" type="xstring" value="lfs_pkm_pkm[pkm/cap]"/>
+<entry key="69" type="xstring" value="factor_a"/>
+<entry key="70" type="xstring" value="factor_b"/>
+<entry key="71" type="xstring" value="nshift-share"/>
+<entry key="72" type="xstring" value="urb-share"/>
+<entry key="73" type="xstring" value="urb-current"/>
+<entry key="74" type="xstring" value="lfs_urbpop_urbpop[%]"/>
+<entry key="75" type="xstring" value="lfs_paperpack_paper-san[t/cap]"/>
+<entry key="76" type="xstring" value="lfs_paperpack_paper-print[t/cap]"/>
+<entry key="77" type="xstring" value="lfs_paperpack_plast-pack[t/cap]"/>
+<entry key="78" type="xstring" value="lfs_paperpack_paper-pack[t/cap]"/>
+<entry key="79" type="xstring" value="lfs_paperpack_aluminium-pack[t/cap]"/>
+<entry key="80" type="xstring" value="lfs_paperpack_glass-pack[t/cap]"/>
+<entry key="81" type="xstring" value="lfs_appliance-own_fridge[num]"/>
+<entry key="82" type="xstring" value="lfs_appliance-own_freezer[num]"/>
+<entry key="83" type="xstring" value="lfs_appliance-own_wmachine[num]"/>
+<entry key="84" type="xstring" value="lfs_appliance-own_dryer[num]"/>
+<entry key="85" type="xstring" value="lfs_appliance-own_dishwasher[num]"/>
+<entry key="86" type="xstring" value="lfs_appliance-own_tv[num]"/>
+<entry key="87" type="xstring" value="lfs_appliance-own_comp[num]"/>
+<entry key="88" type="xstring" value="lfs_appliance-own_phone[num]"/>
+<entry key="89" type="xstring" value="lfs_appliance-use_fridge[h]"/>
+<entry key="90" type="xstring" value="lfs_appliance-use_freezer[h]"/>
+<entry key="91" type="xstring" value="lfs_appliance-use_dishwasher[h]"/>
+<entry key="92" type="xstring" value="lfs_appliance-use_dryer[h]"/>
+<entry key="93" type="xstring" value="lfs_appliance-use_wmachine[h]"/>
+<entry key="94" type="xstring" value="lfs_appliance-use_tv[h]"/>
+<entry key="95" type="xstring" value="lfs_appliance-use_phone[h]"/>
+<entry key="96" type="xstring" value="lfs_appliance-use_comp[h]"/>
+<entry key="97" type="xstring" value="lfs_lighting_res[W/m2]"/>
+<entry key="98" type="xstring" value="lfs_heatcool-behaviour_degrees[C]"/>
+<entry key="99" type="xstring" value="lfs_household-size_hhsize[hab]"/>
+<entry key="100" type="xstring" value="lfs_product-substitution-rate_fridge[%]"/>
+<entry key="101" type="xstring" value="lfs_product-substitution-rate_freezer[%]"/>
+<entry key="102" type="xstring" value="lfs_product-substitution-rate_wmachine[%]"/>
+<entry key="103" type="xstring" value="lfs_product-substitution-rate_dryer[%]"/>
+<entry key="104" type="xstring" value="lfs_product-substitution-rate_dishwasher[%]"/>
+<entry key="105" type="xstring" value="lfs_product-substitution-rate_tv[%]"/>
+<entry key="106" type="xstring" value="lfs_product-substitution-rate_comp[%]"/>
+<entry key="107" type="xstring" value="lfs_product-substitution-rate_phone[%]"/>
+<entry key="108" type="xstring" value="lfs_product-substitution-rate_car[%]"/>
+<entry key="109" type="xstring" value="Age"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="34"/>
+<entry key="0" type="xstring" value="ots_lfs_pop_population[inhabitants]"/>
+<entry key="1" type="xstring" value="ots_lfs_kal-req_req[Kcal/cap/day]"/>
+<entry key="2" type="xstring" value="ots_lfs_diet_wine[kcal]"/>
+<entry key="3" type="xstring" value="ots_lfs_diet_beer[kcal]"/>
+<entry key="4" type="xstring" value="ots_lfs_diet_bev-fer[kcal]"/>
+<entry key="5" type="xstring" value="ots_lfs_diet_bev-alc[kcal]"/>
+<entry key="6" type="xstring" value="ots_lfs_diet_cereals[kcal]"/>
+<entry key="7" type="xstring" value="ots_lfs_diet_fruits[kcal]"/>
+<entry key="8" type="xstring" value="ots_lfs_diet_oilcrops[kcal]"/>
+<entry key="9" type="xstring" value="ots_lfs_diet_pulses[kcal]"/>
+<entry key="10" type="xstring" value="ots_lfs_diet_starch[kcal]"/>
+<entry key="11" type="xstring" value="ots_lfs_diet_coffee[kcal]"/>
+<entry key="12" type="xstring" value="ots_lfs_diet_stm[kcal]"/>
+<entry key="13" type="xstring" value="ots_lfs_diet_sugar[kcal]"/>
+<entry key="14" type="xstring" value="ots_lfs_diet_sweet[kcal]"/>
+<entry key="15" type="xstring" value="ots_lfs_diet_voil[kcal]"/>
+<entry key="16" type="xstring" value="ots_lfs_diet_veg[kcal]"/>
+<entry key="17" type="xstring" value="ots_lfs_diet_dfish[kcal]"/>
+<entry key="18" type="xstring" value="ots_lfs_diet_ffish[kcal]"/>
+<entry key="19" type="xstring" value="ots_lfs_diet_pfish[kcal]"/>
+<entry key="20" type="xstring" value="ots_lfs_diet_seafood[kcal]"/>
+<entry key="21" type="xstring" value="ots_lfs_diet_oth-aq-animals[kcal]"/>
+<entry key="22" type="xstring" value="ots_lfs_diet_egg[kcal]"/>
+<entry key="23" type="xstring" value="ots_lfs_diet_milk[kcal]"/>
+<entry key="24" type="xstring" value="ots_lfs_diet_offal[kcal]"/>
+<entry key="25" type="xstring" value="ots_lfs_diet_bov[kcal]"/>
+<entry key="26" type="xstring" value="ots_lfs_diet_sheep[kcal]"/>
+<entry key="27" type="xstring" value="ots_lfs_diet_pigs[kcal]"/>
+<entry key="28" type="xstring" value="ots_lfs_diet_poultry[kcal]"/>
+<entry key="29" type="xstring" value="ots_lfs_diet_oth-animals[kcal]"/>
+<entry key="30" type="xstring" value="ots_lfs_diet_afats[kcal]"/>
+<entry key="31" type="xstring" value="ots_lfs_diet_an-fats[kcal]"/>
+<entry key="32" type="xstring" value="ots_lfs_waste-food_waste[Kcal/cap/day]"/>
+<entry key="33" type="xstring" value="ots_kcal-req"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="Country|Years|Age|.*pkm.*|.*population.*|.*urbpop.*|.*factor.*|.*nshift.*|.*urb-share.*|.*urb-current.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="false"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Columns required to %%00013%%00010determine travel demand"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="232"/>
+<entry key="y-coordinate" type="xint" value="559"/>
+<entry key="width" type="xint" value="137"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2784, Cols: 19"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="437821b1-4e41-4c24-9455-6709bfdd9930"/>
+</config>
+</config>

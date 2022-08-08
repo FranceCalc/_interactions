@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="60"/>
+<entry key="0" type="xstring" value="subsector"/>
+<entry key="1" type="xstring" value="energycarrier_cal"/>
+<entry key="2" type="xstring" value="Austria+Sum(ratio)"/>
+<entry key="3" type="xstring" value="Belgium+Sum(ratio)"/>
+<entry key="4" type="xstring" value="Bulgaria+Sum(ratio)"/>
+<entry key="5" type="xstring" value="Croatia+Sum(ratio)"/>
+<entry key="6" type="xstring" value="Cyprus+Sum(ratio)"/>
+<entry key="7" type="xstring" value="Czech Republic+Sum(ratio)"/>
+<entry key="8" type="xstring" value="Denmark+Sum(ratio)"/>
+<entry key="9" type="xstring" value="Estonia+Sum(ratio)"/>
+<entry key="10" type="xstring" value="Finland+Sum(ratio)"/>
+<entry key="11" type="xstring" value="France+Sum(ratio)"/>
+<entry key="12" type="xstring" value="Germany+Sum(ratio)"/>
+<entry key="13" type="xstring" value="Greece+Sum(ratio)"/>
+<entry key="14" type="xstring" value="Hungary+Sum(ratio)"/>
+<entry key="15" type="xstring" value="Ireland+Sum(ratio)"/>
+<entry key="16" type="xstring" value="Italy+Sum(ratio)"/>
+<entry key="17" type="xstring" value="Latvia+Sum(ratio)"/>
+<entry key="18" type="xstring" value="Lithuania+Sum(ratio)"/>
+<entry key="19" type="xstring" value="Luxembourg+Sum(ratio)"/>
+<entry key="20" type="xstring" value="Malta+Sum(ratio)"/>
+<entry key="21" type="xstring" value="Netherlands+Sum(ratio)"/>
+<entry key="22" type="xstring" value="Poland+Sum(ratio)"/>
+<entry key="23" type="xstring" value="Portugal+Sum(ratio)"/>
+<entry key="24" type="xstring" value="Romania+Sum(ratio)"/>
+<entry key="25" type="xstring" value="Slovakia+Sum(ratio)"/>
+<entry key="26" type="xstring" value="Slovenia+Sum(ratio)"/>
+<entry key="27" type="xstring" value="Spain+Sum(ratio)"/>
+<entry key="28" type="xstring" value="Sweden+Sum(ratio)"/>
+<entry key="29" type="xstring" value="Switzerland+Sum(ratio)"/>
+<entry key="30" type="xstring" value="United Kingdom+Sum(ratio)"/>
+<entry key="31" type="xstring" value="standardized_subsector_Austria[TWhstd]"/>
+<entry key="32" type="xstring" value="standardized_subsector_Belgium[TWhstd]"/>
+<entry key="33" type="xstring" value="standardized_subsector_Bulgaria[TWhstd]"/>
+<entry key="34" type="xstring" value="standardized_subsector_Croatia[TWhstd]"/>
+<entry key="35" type="xstring" value="standardized_subsector_Cyprus[TWhstd]"/>
+<entry key="36" type="xstring" value="standardized_subsector_Czech Republic[TWhstd]"/>
+<entry key="37" type="xstring" value="standardized_subsector_Denmark[TWhstd]"/>
+<entry key="38" type="xstring" value="standardized_subsector_Estonia[TWhstd]"/>
+<entry key="39" type="xstring" value="standardized_subsector_Finland[TWhstd]"/>
+<entry key="40" type="xstring" value="standardized_subsector_France[TWhstd]"/>
+<entry key="41" type="xstring" value="standardized_subsector_Germany[TWhstd]"/>
+<entry key="42" type="xstring" value="standardized_subsector_Greece[TWhstd]"/>
+<entry key="43" type="xstring" value="standardized_subsector_Hungary[TWhstd]"/>
+<entry key="44" type="xstring" value="standardized_subsector_Ireland[TWhstd]"/>
+<entry key="45" type="xstring" value="standardized_subsector_Italy[TWhstd]"/>
+<entry key="46" type="xstring" value="standardized_subsector_Latvia[TWhstd]"/>
+<entry key="47" type="xstring" value="standardized_subsector_Lithuania[TWhstd]"/>
+<entry key="48" type="xstring" value="standardized_subsector_Luxembourg[TWhstd]"/>
+<entry key="49" type="xstring" value="standardized_subsector_Malta[TWhstd]"/>
+<entry key="50" type="xstring" value="standardized_subsector_Netherlands[TWhstd]"/>
+<entry key="51" type="xstring" value="standardized_subsector_Poland[TWhstd]"/>
+<entry key="52" type="xstring" value="standardized_subsector_Portugal[TWhstd]"/>
+<entry key="53" type="xstring" value="standardized_subsector_Romania[TWhstd]"/>
+<entry key="54" type="xstring" value="standardized_subsector_Slovakia[TWhstd]"/>
+<entry key="55" type="xstring" value="standardized_subsector_Slovenia[TWhstd]"/>
+<entry key="56" type="xstring" value="standardized_subsector_Spain[TWhstd]"/>
+<entry key="57" type="xstring" value="standardized_subsector_Sweden[TWhstd]"/>
+<entry key="58" type="xstring" value="standardized_subsector_Switzerland[TWhstd]"/>
+<entry key="59" type="xstring" value="standardized_subsector_United Kingdom[TWhstd]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="29"/>
+<entry key="0" type="xstring" value="Austria+ratio"/>
+<entry key="1" type="xstring" value="Belgium+ratio"/>
+<entry key="2" type="xstring" value="Bulgaria+ratio"/>
+<entry key="3" type="xstring" value="Croatia+ratio"/>
+<entry key="4" type="xstring" value="Cyprus+ratio"/>
+<entry key="5" type="xstring" value="Czech Republic+ratio"/>
+<entry key="6" type="xstring" value="Denmark+ratio"/>
+<entry key="7" type="xstring" value="Estonia+ratio"/>
+<entry key="8" type="xstring" value="Finland+ratio"/>
+<entry key="9" type="xstring" value="France+ratio"/>
+<entry key="10" type="xstring" value="Germany+ratio"/>
+<entry key="11" type="xstring" value="Greece+ratio"/>
+<entry key="12" type="xstring" value="Hungary+ratio"/>
+<entry key="13" type="xstring" value="Ireland+ratio"/>
+<entry key="14" type="xstring" value="Italy+ratio"/>
+<entry key="15" type="xstring" value="Latvia+ratio"/>
+<entry key="16" type="xstring" value="Lithuania+ratio"/>
+<entry key="17" type="xstring" value="Luxembourg+ratio"/>
+<entry key="18" type="xstring" value="Malta+ratio"/>
+<entry key="19" type="xstring" value="Netherlands+ratio"/>
+<entry key="20" type="xstring" value="Poland+ratio"/>
+<entry key="21" type="xstring" value="Portugal+ratio"/>
+<entry key="22" type="xstring" value="Romania+ratio"/>
+<entry key="23" type="xstring" value="Slovakia+ratio"/>
+<entry key="24" type="xstring" value="Slovenia+ratio"/>
+<entry key="25" type="xstring" value="Spain+ratio"/>
+<entry key="26" type="xstring" value="Sweden+ratio"/>
+<entry key="27" type="xstring" value="Switzerland+ratio"/>
+<entry key="28" type="xstring" value="United Kingdom+ratio"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="subs.*|energy.*|stand.*||"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 24, Cols: 31"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="203f6996-ad65-4f8e-9bca-ad04b86c40c4"/>
+</config>
+</config>

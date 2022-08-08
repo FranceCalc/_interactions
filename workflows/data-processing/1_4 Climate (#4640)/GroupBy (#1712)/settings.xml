@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="grouByColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="grouByColumns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Years"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="173"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="agr_emissions-CH4_crop_burnt-residues[MtC/yr]"/>
+<entry key="2" type="xstring" value="agr_emissions-CH4_crop_rice[MtC/yr]"/>
+<entry key="3" type="xstring" value="agr_emissions-CH4_liv_enteric_abp_dairy-milk[MtC/yr]"/>
+<entry key="4" type="xstring" value="agr_emissions-CH4_liv_enteric_abp_hens-egg[MtC/yr]"/>
+<entry key="5" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_bovine[MtC/yr]"/>
+<entry key="6" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_oth-animals[MtC/yr]"/>
+<entry key="7" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_pig[MtC/yr]"/>
+<entry key="8" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_poultry[MtC/yr]"/>
+<entry key="9" type="xstring" value="agr_emissions-CH4_liv_enteric_meat_sheep[MtC/yr]"/>
+<entry key="10" type="xstring" value="agr_emissions-CH4_liv_treated_abp_dairy-milk[MtC/yr]"/>
+<entry key="11" type="xstring" value="agr_emissions-CH4_liv_treated_abp_hens-egg[MtC/yr]"/>
+<entry key="12" type="xstring" value="agr_emissions-CH4_liv_treated_meat_bovine[MtC/yr]"/>
+<entry key="13" type="xstring" value="agr_emissions-CH4_liv_treated_meat_oth-animals[MtC/yr]"/>
+<entry key="14" type="xstring" value="agr_emissions-CH4_liv_treated_meat_pig[MtC/yr]"/>
+<entry key="15" type="xstring" value="agr_emissions-CH4_liv_treated_meat_poultry[MtC/yr]"/>
+<entry key="16" type="xstring" value="agr_emissions-CH4_liv_treated_meat_sheep[MtC/yr]"/>
+<entry key="17" type="xstring" value="agr_emissions-CO2_energy-demand_gas-ff-natural[MtC/yr]"/>
+<entry key="18" type="xstring" value="agr_emissions-CO2_energy-demand_liquid-ff-diesel[MtC/yr]"/>
+<entry key="19" type="xstring" value="agr_emissions-CO2_energy-demand_liquid-ff-fuel-oil[MtC/yr]"/>
+<entry key="20" type="xstring" value="agr_emissions-CO2_energy-demand_liquid-ff-gasoline[MtC/yr]"/>
+<entry key="21" type="xstring" value="agr_emissions-CO2_energy-demand_liquid-ff-lpg[MtC/yr]"/>
+<entry key="22" type="xstring" value="agr_emissions-CO2_energy-demand_solid-ff-coal[MtC/yr]"/>
+<entry key="23" type="xstring" value="agr_emissions-N2O_crop_burnt-residues[MtC/yr]"/>
+<entry key="24" type="xstring" value="agr_emissions-N2O_crop_fertilizer[MtC/yr]"/>
+<entry key="25" type="xstring" value="agr_emissions-N2O_crop_soil-residues[MtC/yr]"/>
+<entry key="26" type="xstring" value="agr_emissions-N2O_liv_applied_abp_dairy-milk[MtC/yr]"/>
+<entry key="27" type="xstring" value="agr_emissions-N2O_liv_applied_abp_hens-egg[MtC/yr]"/>
+<entry key="28" type="xstring" value="agr_emissions-N2O_liv_applied_meat_bovine[MtC/yr]"/>
+<entry key="29" type="xstring" value="agr_emissions-N2O_liv_applied_meat_oth-animals[MtC/yr]"/>
+<entry key="30" type="xstring" value="agr_emissions-N2O_liv_applied_meat_pig[MtC/yr]"/>
+<entry key="31" type="xstring" value="agr_emissions-N2O_liv_applied_meat_poultry[MtC/yr]"/>
+<entry key="32" type="xstring" value="agr_emissions-N2O_liv_applied_meat_sheep[MtC/yr]"/>
+<entry key="33" type="xstring" value="agr_emissions-N2O_liv_pasture_abp_dairy-milk[MtC/yr]"/>
+<entry key="34" type="xstring" value="agr_emissions-N2O_liv_pasture_abp_hens-egg[MtC/yr]"/>
+<entry key="35" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_bovine[MtC/yr]"/>
+<entry key="36" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_oth-animals[MtC/yr]"/>
+<entry key="37" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_pig[MtC/yr]"/>
+<entry key="38" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_poultry[MtC/yr]"/>
+<entry key="39" type="xstring" value="agr_emissions-N2O_liv_pasture_meat_sheep[MtC/yr]"/>
+<entry key="40" type="xstring" value="agr_emissions-N2O_liv_treated_abp_dairy-milk[MtC/yr]"/>
+<entry key="41" type="xstring" value="agr_emissions-N2O_liv_treated_abp_hens-egg[MtC/yr]"/>
+<entry key="42" type="xstring" value="agr_emissions-N2O_liv_treated_meat_bovine[MtC/yr]"/>
+<entry key="43" type="xstring" value="agr_emissions-N2O_liv_treated_meat_oth-animals[MtC/yr]"/>
+<entry key="44" type="xstring" value="agr_emissions-N2O_liv_treated_meat_pig[MtC/yr]"/>
+<entry key="45" type="xstring" value="agr_emissions-N2O_liv_treated_meat_poultry[MtC/yr]"/>
+<entry key="46" type="xstring" value="agr_emissions-N2O_liv_treated_meat_sheep[MtC/yr]"/>
+<entry key="47" type="xstring" value="amm_emissions-CH4_ammonia[MtC/yr]"/>
+<entry key="48" type="xstring" value="amm_emissions-CO2_ammonia[MtC/yr]"/>
+<entry key="49" type="xstring" value="amm_emissions-N2O_ammonia[MtC/yr]"/>
+<entry key="50" type="xstring" value="bdy_emissions-CH4[MtC/yr]"/>
+<entry key="51" type="xstring" value="bdy_emissions-CO2[MtC/yr]"/>
+<entry key="52" type="xstring" value="bdy_emissions-N2O[MtC/yr]"/>
+<entry key="53" type="xstring" value="bld_emissions-CH4_gas-ff-natural[MtC/yr]"/>
+<entry key="54" type="xstring" value="bld_emissions-CH4_heat-ambient[MtC/yr]"/>
+<entry key="55" type="xstring" value="bld_emissions-CH4_heat-geothermal[MtC/yr]"/>
+<entry key="56" type="xstring" value="bld_emissions-CH4_heat-solar[MtC/yr]"/>
+<entry key="57" type="xstring" value="bld_emissions-CH4_liquid-ff-heatingoil[MtC/yr]"/>
+<entry key="58" type="xstring" value="bld_emissions-CH4_solid-bio[MtC/yr]"/>
+<entry key="59" type="xstring" value="bld_emissions-CH4_solid-ff-coal[MtC/yr]"/>
+<entry key="60" type="xstring" value="bld_emissions-CO2_gas-ff-natural[MtC/yr]"/>
+<entry key="61" type="xstring" value="bld_emissions-CO2_heat-ambient[MtC/yr]"/>
+<entry key="62" type="xstring" value="bld_emissions-CO2_heat-geothermal[MtC/yr]"/>
+<entry key="63" type="xstring" value="bld_emissions-CO2_heat-solar[MtC/yr]"/>
+<entry key="64" type="xstring" value="bld_emissions-CO2_liquid-ff-heatingoil[MtC/yr]"/>
+<entry key="65" type="xstring" value="bld_emissions-CO2_solid-bio[MtC/yr]"/>
+<entry key="66" type="xstring" value="bld_emissions-CO2_solid-ff-coal[MtC/yr]"/>
+<entry key="67" type="xstring" value="bld_emissions-N2O_gas-ff-natural[MtC/yr]"/>
+<entry key="68" type="xstring" value="bld_emissions-N2O_heat-ambient[MtC/yr]"/>
+<entry key="69" type="xstring" value="bld_emissions-N2O_heat-geothermal[MtC/yr]"/>
+<entry key="70" type="xstring" value="bld_emissions-N2O_heat-solar[MtC/yr]"/>
+<entry key="71" type="xstring" value="bld_emissions-N2O_liquid-ff-heatingoil[MtC/yr]"/>
+<entry key="72" type="xstring" value="bld_emissions-N2O_solid-bio[MtC/yr]"/>
+<entry key="73" type="xstring" value="bld_emissions-N2O_solid-ff-coal[MtC/yr]"/>
+<entry key="74" type="xstring" value="dhg_emissions-CH4_gas-ff-natural[MtC/yr]"/>
+<entry key="75" type="xstring" value="dhg_emissions-CH4_heat-ambient[MtC/yr]"/>
+<entry key="76" type="xstring" value="dhg_emissions-CH4_heat-geothermal[MtC/yr]"/>
+<entry key="77" type="xstring" value="dhg_emissions-CH4_heat-solar[MtC/yr]"/>
+<entry key="78" type="xstring" value="dhg_emissions-CH4_liquid-ff-heatingoil[MtC/yr]"/>
+<entry key="79" type="xstring" value="dhg_emissions-CH4_solid-bio[MtC/yr]"/>
+<entry key="80" type="xstring" value="dhg_emissions-CH4_solid-ff-coal[MtC/yr]"/>
+<entry key="81" type="xstring" value="dhg_emissions-CO2_gas-ff-natural[MtC/yr]"/>
+<entry key="82" type="xstring" value="dhg_emissions-CO2_heat-ambient[MtC/yr]"/>
+<entry key="83" type="xstring" value="dhg_emissions-CO2_heat-geothermal[MtC/yr]"/>
+<entry key="84" type="xstring" value="dhg_emissions-CO2_heat-solar[MtC/yr]"/>
+<entry key="85" type="xstring" value="dhg_emissions-CO2_liquid-ff-heatingoil[MtC/yr]"/>
+<entry key="86" type="xstring" value="dhg_emissions-CO2_solid-bio[MtC/yr]"/>
+<entry key="87" type="xstring" value="dhg_emissions-CO2_solid-ff-coal[MtC/yr]"/>
+<entry key="88" type="xstring" value="dhg_emissions-N2O_gas-ff-natural[MtC/yr]"/>
+<entry key="89" type="xstring" value="dhg_emissions-N2O_heat-ambient[MtC/yr]"/>
+<entry key="90" type="xstring" value="dhg_emissions-N2O_heat-geothermal[MtC/yr]"/>
+<entry key="91" type="xstring" value="dhg_emissions-N2O_heat-solar[MtC/yr]"/>
+<entry key="92" type="xstring" value="dhg_emissions-N2O_liquid-ff-heatingoil[MtC/yr]"/>
+<entry key="93" type="xstring" value="dhg_emissions-N2O_solid-bio[MtC/yr]"/>
+<entry key="94" type="xstring" value="dhg_emissions-N2O_solid-ff-coal[MtC/yr]"/>
+<entry key="95" type="xstring" value="elc_emissions-CO2_fossil_total[MtC/yr]"/>
+<entry key="96" type="xstring" value="fos_emissions-CO2[MtC/yr]"/>
+<entry key="97" type="xstring" value="ind_emissions-CH4_aluminium[MtC/yr]"/>
+<entry key="98" type="xstring" value="ind_emissions-CH4_cement[MtC/yr]"/>
+<entry key="99" type="xstring" value="ind_emissions-CH4_chem[MtC/yr]"/>
+<entry key="100" type="xstring" value="ind_emissions-CH4_copper[MtC/yr]"/>
+<entry key="101" type="xstring" value="ind_emissions-CH4_fbt[MtC/yr]"/>
+<entry key="102" type="xstring" value="ind_emissions-CH4_glass[MtC/yr]"/>
+<entry key="103" type="xstring" value="ind_emissions-CH4_lime[MtC/yr]"/>
+<entry key="104" type="xstring" value="ind_emissions-CH4_mae[MtC/yr]"/>
+<entry key="105" type="xstring" value="ind_emissions-CH4_ois[MtC/yr]"/>
+<entry key="106" type="xstring" value="ind_emissions-CH4_paper[MtC/yr]"/>
+<entry key="107" type="xstring" value="ind_emissions-CH4_steel[MtC/yr]"/>
+<entry key="108" type="xstring" value="ind_emissions-CH4_textiles[MtC/yr]"/>
+<entry key="109" type="xstring" value="ind_emissions-CH4_tra-equip[MtC/yr]"/>
+<entry key="110" type="xstring" value="ind_emissions-CH4_wwp[MtC/yr]"/>
+<entry key="111" type="xstring" value="ind_emissions-CO2_aluminium[MtC/yr]"/>
+<entry key="112" type="xstring" value="ind_emissions-CO2_cement[MtC/yr]"/>
+<entry key="113" type="xstring" value="ind_emissions-CO2_chem[MtC/yr]"/>
+<entry key="114" type="xstring" value="ind_emissions-CO2_copper[MtC/yr]"/>
+<entry key="115" type="xstring" value="ind_emissions-CO2_fbt[MtC/yr]"/>
+<entry key="116" type="xstring" value="ind_emissions-CO2_glass[MtC/yr]"/>
+<entry key="117" type="xstring" value="ind_emissions-CO2_lime[MtC/yr]"/>
+<entry key="118" type="xstring" value="ind_emissions-CO2_mae[MtC/yr]"/>
+<entry key="119" type="xstring" value="ind_emissions-CO2_ois[MtC/yr]"/>
+<entry key="120" type="xstring" value="ind_emissions-CO2_paper[MtC/yr]"/>
+<entry key="121" type="xstring" value="ind_emissions-CO2_steel[MtC/yr]"/>
+<entry key="122" type="xstring" value="ind_emissions-CO2_textiles[MtC/yr]"/>
+<entry key="123" type="xstring" value="ind_emissions-CO2_tra-equip[MtC/yr]"/>
+<entry key="124" type="xstring" value="ind_emissions-CO2_wwp[MtC/yr]"/>
+<entry key="125" type="xstring" value="ind_emissions-N2O_aluminium[MtC/yr]"/>
+<entry key="126" type="xstring" value="ind_emissions-N2O_cement[MtC/yr]"/>
+<entry key="127" type="xstring" value="ind_emissions-N2O_chem[MtC/yr]"/>
+<entry key="128" type="xstring" value="ind_emissions-N2O_copper[MtC/yr]"/>
+<entry key="129" type="xstring" value="ind_emissions-N2O_fbt[MtC/yr]"/>
+<entry key="130" type="xstring" value="ind_emissions-N2O_glass[MtC/yr]"/>
+<entry key="131" type="xstring" value="ind_emissions-N2O_lime[MtC/yr]"/>
+<entry key="132" type="xstring" value="ind_emissions-N2O_mae[MtC/yr]"/>
+<entry key="133" type="xstring" value="ind_emissions-N2O_ois[MtC/yr]"/>
+<entry key="134" type="xstring" value="ind_emissions-N2O_paper[MtC/yr]"/>
+<entry key="135" type="xstring" value="ind_emissions-N2O_steel[MtC/yr]"/>
+<entry key="136" type="xstring" value="ind_emissions-N2O_textiles[MtC/yr]"/>
+<entry key="137" type="xstring" value="ind_emissions-N2O_tra-equip[MtC/yr]"/>
+<entry key="138" type="xstring" value="ind_emissions-N2O_wwp[MtC/yr]"/>
+<entry key="139" type="xstring" value="lus_land_emissions-CO2_forest[MtC/yr]"/>
+<entry key="140" type="xstring" value="tra_emissions-CH4_freight_HDV[MtC/yr]"/>
+<entry key="141" type="xstring" value="tra_emissions-CH4_freight_IWW[MtC/yr]"/>
+<entry key="142" type="xstring" value="tra_emissions-CH4_freight_aviation[MtC/yr]"/>
+<entry key="143" type="xstring" value="tra_emissions-CH4_freight_marine[MtC/yr]"/>
+<entry key="144" type="xstring" value="tra_emissions-CH4_freight_rail[MtC/yr]"/>
+<entry key="145" type="xstring" value="tra_emissions-CH4_passenger_2W[MtC/yr]"/>
+<entry key="146" type="xstring" value="tra_emissions-CH4_passenger_LDV[MtC/yr]"/>
+<entry key="147" type="xstring" value="tra_emissions-CH4_passenger_aviation[MtC/yr]"/>
+<entry key="148" type="xstring" value="tra_emissions-CH4_passenger_bus[MtC/yr]"/>
+<entry key="149" type="xstring" value="tra_emissions-CH4_passenger_metro-tram[MtC/yr]"/>
+<entry key="150" type="xstring" value="tra_emissions-CH4_passenger_rail[MtC/yr]"/>
+<entry key="151" type="xstring" value="tra_emissions-CO2_freight_HDV[MtC/yr]"/>
+<entry key="152" type="xstring" value="tra_emissions-CO2_freight_IWW[MtC/yr]"/>
+<entry key="153" type="xstring" value="tra_emissions-CO2_freight_aviation[MtC/yr]"/>
+<entry key="154" type="xstring" value="tra_emissions-CO2_freight_marine[MtC/yr]"/>
+<entry key="155" type="xstring" value="tra_emissions-CO2_freight_rail[MtC/yr]"/>
+<entry key="156" type="xstring" value="tra_emissions-CO2_passenger_2W[MtC/yr]"/>
+<entry key="157" type="xstring" value="tra_emissions-CO2_passenger_LDV[MtC/yr]"/>
+<entry key="158" type="xstring" value="tra_emissions-CO2_passenger_aviation[MtC/yr]"/>
+<entry key="159" type="xstring" value="tra_emissions-CO2_passenger_bus[MtC/yr]"/>
+<entry key="160" type="xstring" value="tra_emissions-CO2_passenger_metro-tram[MtC/yr]"/>
+<entry key="161" type="xstring" value="tra_emissions-CO2_passenger_rail[MtC/yr]"/>
+<entry key="162" type="xstring" value="tra_emissions-N2O_freight_HDV[MtC/yr]"/>
+<entry key="163" type="xstring" value="tra_emissions-N2O_freight_IWW[MtC/yr]"/>
+<entry key="164" type="xstring" value="tra_emissions-N2O_freight_aviation[MtC/yr]"/>
+<entry key="165" type="xstring" value="tra_emissions-N2O_freight_marine[MtC/yr]"/>
+<entry key="166" type="xstring" value="tra_emissions-N2O_freight_rail[MtC/yr]"/>
+<entry key="167" type="xstring" value="tra_emissions-N2O_passenger_2W[MtC/yr]"/>
+<entry key="168" type="xstring" value="tra_emissions-N2O_passenger_LDV[MtC/yr]"/>
+<entry key="169" type="xstring" value="tra_emissions-N2O_passenger_aviation[MtC/yr]"/>
+<entry key="170" type="xstring" value="tra_emissions-N2O_passenger_bus[MtC/yr]"/>
+<entry key="171" type="xstring" value="tra_emissions-N2O_passenger_metro-tram[MtC/yr]"/>
+<entry key="172" type="xstring" value="tra_emissions-N2O_passenger_rail[MtC/yr]"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="maxNoneNumericalVals_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="maxNoneNumericalVals" type="xint" value="10000"/>
+<config key="enableHilite_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableHilite" type="xboolean" value="false"/>
+<config key="sortInMemory_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="sortInMemory" type="xboolean" value="false"/>
+<config key="aggregationColumn">
+<config key="columnNames">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="columnTypes">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="aggregationMethod">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="inclMissingVals">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>
+<config key="aggregationOperatorSettings"/>
+<config key="patternAggregators">
+<config key="f_0">
+<entry key="inputPattern" type="xstring" value=".*emissions.*"/>
+<entry key="isRegularExpression" type="xboolean" value="true"/>
+<entry key="inclMissingVals" type="xboolean" value="false"/>
+<entry key="aggregationMethod" type="xstring" value="Sum_V2.5.2"/>
+</config>
+</config>
+<config key="dataTypeAggregators"/>
+<config key="columnNamePolicy_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
+<config key="retainOrder_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="retainOrder" type="xboolean" value="false"/>
+<config key="inMemory_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inMemory" type="xboolean" value="false"/>
+<config key="valueDelimiter_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="valueDelimiter" type="xstring" value=", "/>
+<config key="nodeVersion_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="nodeVersion" type="xint" value="1"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Calculate EUCalc total"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="960"/>
+<entry key="y-coordinate" type="xint" value="800"/>
+<entry key="width" type="xint" value="123"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.groupby.GroupByNodeFactory"/>
+<entry key="node-name" type="xstring" value="GroupBy"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="GroupBy"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 33, Cols: 223"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="54851372-a9e2-48c0-abac-3b1ced6b9ac1"/>
+</config>
+</config>

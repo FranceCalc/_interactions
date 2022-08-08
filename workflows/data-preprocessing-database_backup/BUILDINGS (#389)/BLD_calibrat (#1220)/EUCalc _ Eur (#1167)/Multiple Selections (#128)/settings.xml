@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="sector-code"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="CRF1A4A - Fuel combustion in commercial and institutional sector,CRF1A4B - Fuel combustion by households"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="sector-code"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="CRF1A4A - Fuel combustion in commercial and institutional sector,CRF1A4B - Fuel combustion by households"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="defaultValue">
+<config key="variable_value">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="CRF1A4 - Other fuel combustion sectors"/>
+<entry key="1" type="xstring" value="CRF1A4A - Fuel combustion in commercial and institutional sector"/>
+</config>
+</config>
+<entry key="label" type="xstring" value="Sector"/>
+<entry key="description" type="xstring" value="Enter Description"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="hideInDialog" type="xboolean" value="false"/>
+<entry key="required" type="xboolean" value="true"/>
+<entry key="parameterName" type="xstring" value="multiple-selection"/>
+<entry key="customCSS" type="xstring" value=""/>
+<entry key="flowvariablename" type="xstring" value="sector-code"/>
+<config key="possible_choices">
+<entry key="array-size" type="xint" value="172"/>
+<entry key="0" type="xstring" value="TOTXMEMO - All sectors and indirect CO2 (excluding memo items)"/>
+<entry key="1" type="xstring" value="TOTX4_MEMO - All sectors and indirect CO2 (excluding LULUCF and memo items)"/>
+<entry key="2" type="xstring" value="TOTX4_MEMONIA - All sectors and indirect CO2 (excluding LULUCF and memo items, including international aviation)"/>
+<entry key="3" type="xstring" value="CRF1-6XMEMO - All sectors (excluding memo items)"/>
+<entry key="4" type="xstring" value="CRF1-6X4_MEMO - All sectors (excluding LULUCF and memo items)"/>
+<entry key="5" type="xstring" value="CRF1-6X4_MEMONIA - All sectors (excluding LULUCF and memo items, including international aviation)"/>
+<entry key="6" type="xstring" value="CRF1 - Energy"/>
+<entry key="7" type="xstring" value="CRF1A - Fuel combustion - sectoral approach"/>
+<entry key="8" type="xstring" value="CRF1A1 - Fuel combustion in energy industries"/>
+<entry key="9" type="xstring" value="CRF1A1A - Fuel combustion in public electricity and heat production"/>
+<entry key="10" type="xstring" value="CRF1A1B - Fuel combustion in petroleum refining"/>
+<entry key="11" type="xstring" value="CRF1A1C - Fuel combustion in manufacture of solid fuels and other energy industries"/>
+<entry key="12" type="xstring" value="CRF1A2 - Fuel combustion in manufacturing industries and construction"/>
+<entry key="13" type="xstring" value="CRF1A2A - Fuel combustion in manufacture of iron and steel"/>
+<entry key="14" type="xstring" value="CRF1A2B - Fuel combustion in manufacture of non-ferrous metals"/>
+<entry key="15" type="xstring" value="CRF1A2C - Fuel combustion in manufacture of chemicals"/>
+<entry key="16" type="xstring" value="CRF1A2D - Fuel combustion in manufacture of pulp, paper and printing"/>
+<entry key="17" type="xstring" value="CRF1A2E - Fuel combustion in manufacture of food, beverages and tobacco"/>
+<entry key="18" type="xstring" value="CRF1A2F - Fuel combustion in manufacture of non-metallic mineral products"/>
+<entry key="19" type="xstring" value="CRF1A2G - Fuel combustion in other manufacturing industries and construction"/>
+<entry key="20" type="xstring" value="CRF1A3 - Fuel combustion in transport"/>
+<entry key="21" type="xstring" value="CRF1A3A - Fuel combustion in domestic aviation"/>
+<entry key="22" type="xstring" value="CRF1A3B - Fuel combustion in road transport"/>
+<entry key="23" type="xstring" value="CRF1A3B1 - Fuel combustion in cars"/>
+<entry key="24" type="xstring" value="CRF1A3B2 - Fuel combustion in light duty trucks"/>
+<entry key="25" type="xstring" value="CRF1A3B3 - Fuel combustion in heavy duty trucks and buses"/>
+<entry key="26" type="xstring" value="CRF1A3B4 - Fuel combustion in motorcycles"/>
+<entry key="27" type="xstring" value="CRF1A3B5 - Fuel combustion in other road transportation"/>
+<entry key="28" type="xstring" value="CRF1A3C - Fuel combustion in railways"/>
+<entry key="29" type="xstring" value="CRF1A3D - Fuel combustion in domestic navigation"/>
+<entry key="30" type="xstring" value="CRF1A3E - Fuel combustion in other transport"/>
+<entry key="31" type="xstring" value="CRF1A4 - Other fuel combustion sectors"/>
+<entry key="32" type="xstring" value="CRF1A4A - Fuel combustion in commercial and institutional sector"/>
+<entry key="33" type="xstring" value="CRF1A4B - Fuel combustion by households"/>
+<entry key="34" type="xstring" value="CRF1A4C - Fuel combustion in agriculture, forestry and fishing"/>
+<entry key="35" type="xstring" value="CRF1A5 - Other fuel combustion sectors n.e.c."/>
+<entry key="36" type="xstring" value="CRF1A5A - Stationary fuel combustion sectors n.e.c."/>
+<entry key="37" type="xstring" value="CRF1A5B - Mobile fuel combustion sectors n.e.c."/>
+<entry key="38" type="xstring" value="CRF1B - Fuels - fugitive emissions"/>
+<entry key="39" type="xstring" value="CRF1B1 - Solid fuels - fugitive emissions"/>
+<entry key="40" type="xstring" value="CRF1B2 - Oil, natural gas and other energy production - fugitive emissions"/>
+<entry key="41" type="xstring" value="CRF1C - Transport and storage of CO2 (memo item)"/>
+<entry key="42" type="xstring" value="CRF1D1 - International bunkers (memo item)"/>
+<entry key="43" type="xstring" value="CRF1D1A - International aviation (memo item)"/>
+<entry key="44" type="xstring" value="CRF1D1B - International navigation (memo item)"/>
+<entry key="45" type="xstring" value="CRF1D2 - Multilateral operations (memo item)"/>
+<entry key="46" type="xstring" value="CRF1D3 - Biomass - CO2 emissions (memo item)"/>
+<entry key="47" type="xstring" value="CRF2 - Industrial processes and product use"/>
+<entry key="48" type="xstring" value="CRF2A - Mineral industry"/>
+<entry key="49" type="xstring" value="CRF2A1 - Cement production"/>
+<entry key="50" type="xstring" value="CRF2A2 - Lime production"/>
+<entry key="51" type="xstring" value="CRF2A3 - Glass production"/>
+<entry key="52" type="xstring" value="CRF2A4 - Other process uses of carbonates"/>
+<entry key="53" type="xstring" value="CRF2B - Chemical industry"/>
+<entry key="54" type="xstring" value="CRF2B1 - Ammonia production"/>
+<entry key="55" type="xstring" value="CRF2B2 - Nitric acid production"/>
+<entry key="56" type="xstring" value="CRF2B3 - Adipic acid production"/>
+<entry key="57" type="xstring" value="CRF2B4 - Caprolactam, glyoxal and glyoxylic acid production"/>
+<entry key="58" type="xstring" value="CRF2B5 - Carbide production"/>
+<entry key="59" type="xstring" value="CRF2B6 - Titanium dioxide production"/>
+<entry key="60" type="xstring" value="CRF2B7 - Soda ash production"/>
+<entry key="61" type="xstring" value="CRF2B8 - Petrochemical and carbon black production"/>
+<entry key="62" type="xstring" value="CRF2B9 - Fluorochemical production"/>
+<entry key="63" type="xstring" value="CRF2B10 - Other chemical industry"/>
+<entry key="64" type="xstring" value="CRF2C - Metal industry"/>
+<entry key="65" type="xstring" value="CRF2C1 - Iron and steel production"/>
+<entry key="66" type="xstring" value="CRF2C2 - Ferroalloys production"/>
+<entry key="67" type="xstring" value="CRF2C3 - Aluminium production"/>
+<entry key="68" type="xstring" value="CRF2C4 - Magnesium production"/>
+<entry key="69" type="xstring" value="CRF2C5 - Lead production"/>
+<entry key="70" type="xstring" value="CRF2C6 - Zinc production"/>
+<entry key="71" type="xstring" value="CRF2C7 - Other metal industry"/>
+<entry key="72" type="xstring" value="CRF2D - Non-energy products from fuels and solvent use"/>
+<entry key="73" type="xstring" value="CRF2D1 - Lubricant use"/>
+<entry key="74" type="xstring" value="CRF2D2 - Paraffin wax use"/>
+<entry key="75" type="xstring" value="CRF2D3 - Other non-energy product use"/>
+<entry key="76" type="xstring" value="CRF2E - Electronics industry"/>
+<entry key="77" type="xstring" value="CRF2E1 - Integrated circuit or semiconductor production"/>
+<entry key="78" type="xstring" value="CRF2E2 - TFT flat panel display production"/>
+<entry key="79" type="xstring" value="CRF2E3 - Photovoltaic"/>
+<entry key="80" type="xstring" value="CRF2E4 - Heat transfer fluid"/>
+<entry key="81" type="xstring" value="CRF2E5 - Other electronics industry"/>
+<entry key="82" type="xstring" value="CRF2F - Product uses as substitutes for ozone depleting substances"/>
+<entry key="83" type="xstring" value="CRF2F1 - Refrigeration and air conditioning"/>
+<entry key="84" type="xstring" value="CRF2F2 - Foam blowing agent use"/>
+<entry key="85" type="xstring" value="CRF2F3 - Fire protection"/>
+<entry key="86" type="xstring" value="CRF2F4 - Aerosol use"/>
+<entry key="87" type="xstring" value="CRF2F5 - Solvent use"/>
+<entry key="88" type="xstring" value="CRF2F6 - Other applications of substitutes for ozone depleting substances"/>
+<entry key="89" type="xstring" value="CRF2G - Other product manufacture and use"/>
+<entry key="90" type="xstring" value="CRF2H - Other industrial process and product use"/>
+<entry key="91" type="xstring" value="CRF3 - Agriculture"/>
+<entry key="92" type="xstring" value="CRF31 - Livestock"/>
+<entry key="93" type="xstring" value="CRF3A - Enteric fermentation"/>
+<entry key="94" type="xstring" value="CRF3A1 - Enteric fermentation of cattle"/>
+<entry key="95" type="xstring" value="CRF3A2 - Enteric fermentation of sheep"/>
+<entry key="96" type="xstring" value="CRF3A3 - Enteric fermentation of swine"/>
+<entry key="97" type="xstring" value="CRF3A4 - Enteric fermentation of other livestock"/>
+<entry key="98" type="xstring" value="CRF3B - Manure management"/>
+<entry key="99" type="xstring" value="CRF3B1 - Cattle manure management"/>
+<entry key="100" type="xstring" value="CRF3B2 - Sheep manure management"/>
+<entry key="101" type="xstring" value="CRF3B3 - Swine manure management"/>
+<entry key="102" type="xstring" value="CRF3B4 - Other livestock manure management"/>
+<entry key="103" type="xstring" value="CRF3B5 - Manure management - indirect N2O emissions"/>
+<entry key="104" type="xstring" value="CRF3C - Rice cultivation"/>
+<entry key="105" type="xstring" value="CRF3C1 - Irrigated rice cultivation"/>
+<entry key="106" type="xstring" value="CRF3C2 - Rainfed rice cultivation"/>
+<entry key="107" type="xstring" value="CRF3C3 - Deep water rice cultivation"/>
+<entry key="108" type="xstring" value="CRF3C4 - Other rice cultivation"/>
+<entry key="109" type="xstring" value="CRF3D - Managed agricultural soils"/>
+<entry key="110" type="xstring" value="CRF3D1 - Managed agricultural soils - direct N2O emissions"/>
+<entry key="111" type="xstring" value="CRF3D2 - Managed agricultural soils - indirect N2O emissions"/>
+<entry key="112" type="xstring" value="CRF3E - Prescribed burning of savannas"/>
+<entry key="113" type="xstring" value="CRF3F - Field burning of agricultural residues"/>
+<entry key="114" type="xstring" value="CRF3F1 - Field burning of cereals residues"/>
+<entry key="115" type="xstring" value="CRF3F2 - Field burning of pulses residues"/>
+<entry key="116" type="xstring" value="CRF3F3 - Field burning of tubers and roots residues"/>
+<entry key="117" type="xstring" value="CRF3F4 - Field burning of sugar cane residues"/>
+<entry key="118" type="xstring" value="CRF3F5 - Field burning of other agricultural residues"/>
+<entry key="119" type="xstring" value="CRF3G - Liming"/>
+<entry key="120" type="xstring" value="CRF3H - Urea application"/>
+<entry key="121" type="xstring" value="CRF3I - Other carbon-containing fertilizers"/>
+<entry key="122" type="xstring" value="CRF3J - Other agriculture"/>
+<entry key="123" type="xstring" value="CRF4 - Land use, land use change, and forestry (LULUCF)"/>
+<entry key="124" type="xstring" value="CRF4A - Forest land"/>
+<entry key="125" type="xstring" value="CRF4A0 - Drainage and rewetting and other management of organic and mineral soils related to forest land - emissions and removals"/>
+<entry key="126" type="xstring" value="CRF4A1 - Unconverted forest land"/>
+<entry key="127" type="xstring" value="CRF4A2 - Land converted to forest land"/>
+<entry key="128" type="xstring" value="CRF4B - Cropland"/>
+<entry key="129" type="xstring" value="CRF4B0 - Drainage and rewetting and other management of organic and mineral soils related to cropland - emissions and removals"/>
+<entry key="130" type="xstring" value="CRF4B1 - Unconverted cropland"/>
+<entry key="131" type="xstring" value="CRF4B2 - Land converted to cropland"/>
+<entry key="132" type="xstring" value="CRF4C - Grassland"/>
+<entry key="133" type="xstring" value="CRF4C0 - Drainage and rewetting and other management of organic and mineral soils related to grassland - emissions and removals"/>
+<entry key="134" type="xstring" value="CRF4C1 - Unconverted grassland"/>
+<entry key="135" type="xstring" value="CRF4C2 - Land converted to grassland"/>
+<entry key="136" type="xstring" value="CRF4D - Wetlands"/>
+<entry key="137" type="xstring" value="CRF4D0 - Drainage and rewetting and other management of organic and mineral soils related to wetlands - emissions and removals"/>
+<entry key="138" type="xstring" value="CRF4D1 - Unconverted wetlands"/>
+<entry key="139" type="xstring" value="CRF4D2 - Land converted to wetlands"/>
+<entry key="140" type="xstring" value="CRF4E - Settlements"/>
+<entry key="141" type="xstring" value="CRF4E0 - Biomass burning in settlements"/>
+<entry key="142" type="xstring" value="CRF4E1 - Unconverted settlements"/>
+<entry key="143" type="xstring" value="CRF4E2 - Land converted to settlements"/>
+<entry key="144" type="xstring" value="CRF4F - Other land"/>
+<entry key="145" type="xstring" value="CRF4F2 - Land converted to other land"/>
+<entry key="146" type="xstring" value="CRF4F3 - Nitrogen mineralization and immobilization in other land - direct N2O emissions"/>
+<entry key="147" type="xstring" value="CRF4F4 - Biomass burning on other land"/>
+<entry key="148" type="xstring" value="CRF4G - Harvested wood products"/>
+<entry key="149" type="xstring" value="CRF4H - Other land use, land use change, and forestry"/>
+<entry key="150" type="xstring" value="CRF4Z - Managed soils - indirect N2O emissions"/>
+<entry key="151" type="xstring" value="CRF5 - Waste management"/>
+<entry key="152" type="xstring" value="CRF5A - Solid waste disposal"/>
+<entry key="153" type="xstring" value="CRF5A1 - Managed waste disposal sites"/>
+<entry key="154" type="xstring" value="CRF5A2 - Unmanaged waste disposal sites"/>
+<entry key="155" type="xstring" value="CRF5A3 - Uncategorized waste disposal sites"/>
+<entry key="156" type="xstring" value="CRF5B - Biological treatment of solid waste"/>
+<entry key="157" type="xstring" value="CRF5B1 - Waste composting"/>
+<entry key="158" type="xstring" value="CRF5B2 - Anaerobic digestion at biogas facilities"/>
+<entry key="159" type="xstring" value="CRF5C - Incineration and open burning of waste"/>
+<entry key="160" type="xstring" value="CRF5C1 - Waste incineration"/>
+<entry key="161" type="xstring" value="CRF5C2 - Open burning of waste"/>
+<entry key="162" type="xstring" value="CRF5D - Wastewater treatment and discharge"/>
+<entry key="163" type="xstring" value="CRF5D1 - Domestic wastewater"/>
+<entry key="164" type="xstring" value="CRF5D2 - Industrial wastewater"/>
+<entry key="165" type="xstring" value="CRF5D3 - Other wastewater"/>
+<entry key="166" type="xstring" value="CRF5E - Other disposal"/>
+<entry key="167" type="xstring" value="CRF5F1 - Long-term storage of carbon in waste disposal sites"/>
+<entry key="168" type="xstring" value="CRF5F2 - Annual change in total long-term carbon storage"/>
+<entry key="169" type="xstring" value="CRF5F3 - Annual change in total long-term carbon storage in harvested wood products HWP waste"/>
+<entry key="170" type="xstring" value="CRF6 - Other sectors"/>
+<entry key="171" type="xstring" value="CRF_INDCO2 - Indirect CO2"/>
+</config>
+<entry key="type" type="xstring" value="Twinlist"/>
+<entry key="limit_number_visible_options" type="xboolean" value="false"/>
+<entry key="number_visible_options" type="xint" value="10"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Sector/subsector/category selection"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-3257"/>
+<entry key="y-coordinate" type="xint" value="542"/>
+<entry key="width" type="xint" value="195"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.selection.multiple.MultipleSelectionQuickFormNodeFactory"/>
+<entry key="node-name" type="xstring" value="Multiple Selections"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Multiple Selections"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 1"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="aadcf41f-3237-44de-836a-72aff424c437"/>
+</config>
+</config>

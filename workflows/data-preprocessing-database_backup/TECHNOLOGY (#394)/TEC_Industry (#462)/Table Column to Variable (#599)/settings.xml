@@ -1,0 +1,2445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_BF-BOF_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_scrap-EAF_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hisarna_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_steel_hydrog-DRI_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_wet-kiln_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_dry-kiln_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_61">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_62">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_cement_geopolym_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_63">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_64">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_65">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_66">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.94"/>
+</config>
+<config key="Variable_67">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_68">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_69">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.94"/>
+</config>
+<config key="Variable_70">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_71">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ammonia_amm-tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.94"/>
+</config>
+<config key="Variable_72">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_73">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.17"/>
+</config>
+<config key="Variable_74">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.91"/>
+</config>
+<config key="Variable_75">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.43"/>
+</config>
+<config key="Variable_76">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.17"/>
+</config>
+<config key="Variable_77">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.91"/>
+</config>
+<config key="Variable_78">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.43"/>
+</config>
+<config key="Variable_79">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_80">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_chem_chem-tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.5"/>
+</config>
+<config key="Variable_81">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_82">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_83">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_84">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_85">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.8"/>
+</config>
+<config key="Variable_86">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_87">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_88">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_89">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_woodpulp_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_90">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_91">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_92">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_93">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_94">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_95">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_96">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_97">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_98">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_paper_recycled_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_99">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_100">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_101">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_102">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_103">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_104">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_105">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_106">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_107">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_prim_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_108">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_109">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_110">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_111">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_112">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_113">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_114">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_115">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_116">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_aluminium_sec_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_117">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_118">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_119">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_120">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_121">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_122">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_123">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_124">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_125">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_glass_glass_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_126">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_127">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_128">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_129">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_130">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_131">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_132">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_133">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_134">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_lime_lime_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_135">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_136">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_137">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_138">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_139">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_140">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_141">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_142">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_143">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_tra-equip_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_144">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_145">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_146">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_147">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_148">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_149">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_150">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_151">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_152">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_fbt_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_153">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_154">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_155">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_156">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_157">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_158">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_159">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_160">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_161">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_textiles_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_162">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_163">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_164">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_165">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_166">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_167">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_168">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_169">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_170">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_mae_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_171">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_172">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_173">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_174">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_175">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_176">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_177">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_178">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_179">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_wwp_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_180">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_181">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_182">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_183">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_184">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_185">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_186">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_187">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_188">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_ois_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_189">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_190">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_191">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_192">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_193">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_194">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_195">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_196">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_197">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-feedstock_copper_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_198">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.49"/>
+</config>
+<config key="Variable_199">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.744"/>
+</config>
+<config key="Variable_200">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.049"/>
+</config>
+<config key="Variable_201">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.617"/>
+</config>
+<config key="Variable_202">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_203">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_204">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_205">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_206">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_BF-BOF_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_207">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.816"/>
+</config>
+<config key="Variable_208">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.027"/>
+</config>
+<config key="Variable_209">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.014"/>
+</config>
+<config key="Variable_210">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.503"/>
+</config>
+<config key="Variable_211">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_212">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_213">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_214">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_215">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_scrap-EAF_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_216">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.431"/>
+</config>
+<config key="Variable_217">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.234"/>
+</config>
+<config key="Variable_218">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.039"/>
+</config>
+<config key="Variable_219">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.215"/>
+</config>
+<config key="Variable_220">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_221">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_222">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_223">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_224">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hisarna_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_225">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.705"/>
+</config>
+<config key="Variable_226">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_227">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.035"/>
+</config>
+<config key="Variable_228">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.522"/>
+</config>
+<config key="Variable_229">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_230">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_231">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_232">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_233">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_steel_hydrog-DRI_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.218"/>
+</config>
+<config key="Variable_234">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.140283"/>
+</config>
+<config key="Variable_235">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.539038"/>
+</config>
+<config key="Variable_236">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.001135"/>
+</config>
+<config key="Variable_237">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.001702"/>
+</config>
+<config key="Variable_238">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.578871"/>
+</config>
+<config key="Variable_239">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_240">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_241">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.582738"/>
+</config>
+<config key="Variable_242">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_wet-kiln_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_243">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.04162"/>
+</config>
+<config key="Variable_244">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.564"/>
+</config>
+<config key="Variable_245">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.017"/>
+</config>
+<config key="Variable_246">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.025"/>
+</config>
+<config key="Variable_247">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.133"/>
+</config>
+<config key="Variable_248">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_249">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_250">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1729"/>
+</config>
+<config key="Variable_251">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_dry-kiln_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_252">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.078"/>
+</config>
+<config key="Variable_253">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.442"/>
+</config>
+<config key="Variable_254">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.013"/>
+</config>
+<config key="Variable_255">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.02"/>
+</config>
+<config key="Variable_256">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.104"/>
+</config>
+<config key="Variable_257">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_258">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_259">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_260">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_cement_geopolym_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_261">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.859"/>
+</config>
+<config key="Variable_262">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_263">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_264">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.968"/>
+</config>
+<config key="Variable_265">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_266">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_267">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_268">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_269">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ammonia_amm-tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_270">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.574"/>
+</config>
+<config key="Variable_271">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_272">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.693"/>
+</config>
+<config key="Variable_273">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="5.049"/>
+</config>
+<config key="Variable_274">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.099"/>
+</config>
+<config key="Variable_275">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_276">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_277">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_278">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_chem_chem-tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_279">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.334278"/>
+</config>
+<config key="Variable_280">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_281">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_282">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.06"/>
+</config>
+<config key="Variable_283">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.977289"/>
+</config>
+<config key="Variable_284">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_285">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.19E-4"/>
+</config>
+<config key="Variable_286">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.116432"/>
+</config>
+<config key="Variable_287">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_woodpulp_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_288">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.498"/>
+</config>
+<config key="Variable_289">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.156"/>
+</config>
+<config key="Variable_290">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.124"/>
+</config>
+<config key="Variable_291">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.089"/>
+</config>
+<config key="Variable_292">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.134376"/>
+</config>
+<config key="Variable_293">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_294">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.19E-4"/>
+</config>
+<config key="Variable_295">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.066797"/>
+</config>
+<config key="Variable_296">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_paper_recycled_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_297">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="8.478632953"/>
+</config>
+<config key="Variable_298">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1072694718"/>
+</config>
+<config key="Variable_299">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03614077317"/>
+</config>
+<config key="Variable_300">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9681769156"/>
+</config>
+<config key="Variable_301">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.002366178752"/>
+</config>
+<config key="Variable_302">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_303">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_304">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_305">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_prim_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_306">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.8421376422"/>
+</config>
+<config key="Variable_307">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.03888297602"/>
+</config>
+<config key="Variable_308">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.05283463514"/>
+</config>
+<config key="Variable_309">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9029029677"/>
+</config>
+<config key="Variable_310">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.008191284405"/>
+</config>
+<config key="Variable_311">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_312">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_313">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_314">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_aluminium_sec_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_315">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.122632"/>
+</config>
+<config key="Variable_316">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_317">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.82"/>
+</config>
+<config key="Variable_318">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.762"/>
+</config>
+<config key="Variable_319">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_320">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_321">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_322">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_323">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_glass_glass_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_324">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.053392"/>
+</config>
+<config key="Variable_325">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.1"/>
+</config>
+<config key="Variable_326">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.142"/>
+</config>
+<config key="Variable_327">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.319"/>
+</config>
+<config key="Variable_328">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.035"/>
+</config>
+<config key="Variable_329">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_330">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_331">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_332">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_lime_lime_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_333">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.05373065092"/>
+</config>
+<config key="Variable_334">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.847499659E-4"/>
+</config>
+<config key="Variable_335">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.004612523468"/>
+</config>
+<config key="Variable_336">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.02799536977"/>
+</config>
+<config key="Variable_337">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.888984158E-4"/>
+</config>
+<config key="Variable_338">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.833501335E-5"/>
+</config>
+<config key="Variable_339">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.111101181E-6"/>
+</config>
+<config key="Variable_340">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_341">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_tra-equip_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_342">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.68"/>
+</config>
+<config key="Variable_343">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.02"/>
+</config>
+<config key="Variable_344">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.02"/>
+</config>
+<config key="Variable_345">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.12"/>
+</config>
+<config key="Variable_346">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.08"/>
+</config>
+<config key="Variable_347">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_348">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.02"/>
+</config>
+<config key="Variable_349">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_350">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_fbt_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_351">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.02095916531"/>
+</config>
+<config key="Variable_352">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.383504811E-4"/>
+</config>
+<config key="Variable_353">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.002975311539"/>
+</config>
+<config key="Variable_354">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.02500317637"/>
+</config>
+<config key="Variable_355">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.98391199E-4"/>
+</config>
+<config key="Variable_356">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_357">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="8.055862419E-6"/>
+</config>
+<config key="Variable_358">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_359">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_textiles_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_360">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1179370056"/>
+</config>
+<config key="Variable_361">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.001217860681"/>
+</config>
+<config key="Variable_362">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.01218745861"/>
+</config>
+<config key="Variable_363">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.07521465212"/>
+</config>
+<config key="Variable_364">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.001409106225"/>
+</config>
+<config key="Variable_365">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.249229486E-5"/>
+</config>
+<config key="Variable_366">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.113884171E-4"/>
+</config>
+<config key="Variable_367">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_368">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_mae_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_369">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.3"/>
+</config>
+<config key="Variable_370">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_371">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_372">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.24"/>
+</config>
+<config key="Variable_373">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.46"/>
+</config>
+<config key="Variable_374">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_375">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_376">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_377">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_wwp_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_378">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.4"/>
+</config>
+<config key="Variable_379">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_380">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_381">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="5.6"/>
+</config>
+<config key="Variable_382">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.4"/>
+</config>
+<config key="Variable_383">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_384">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_385">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_386">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_ois_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_387">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_electricity[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.652"/>
+</config>
+<config key="Variable_388">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_solid-ff-coal[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_389">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_liquid-ff-oil[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0472"/>
+</config>
+<config key="Variable_390">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_gas-ff-natural[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.5016"/>
+</config>
+<config key="Variable_391">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_solid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_392">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_liquid-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_393">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_gas-bio[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_394">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_solid-waste[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.5192"/>
+</config>
+<config key="Variable_395">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tec_energy_specific-excl-feedstock_copper_tech_hydrogen[TWh/Mt]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="column">
+<entry key="useRowID" type="xboolean" value="false"/>
+<entry key="columnName" type="xstring" value="specific-emission"/>
+</config>
+<config key="ignore missing_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ignore missing" type="xboolean" value="true"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="801"/>
+<entry key="y-coordinate" type="xint" value="280"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablecoltovariable.TableColumnToVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="Table Column to Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table Column to Variable"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="a37e04cd-4f3f-4ba8-bcdc-2ff87547ee8b"/>
+</config>
+</config>

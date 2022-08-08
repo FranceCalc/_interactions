@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="retained_columns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="retained_columns">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="140"/>
+<entry key="0" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Total[Gigawatt-hour]"/>
+<entry key="1" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Solid fossil fuels[Gigawatt-hour]"/>
+<entry key="2" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Anthracite[Gigawatt-hour]"/>
+<entry key="3" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coking coal[Gigawatt-hour]"/>
+<entry key="4" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other bituminous coal[Gigawatt-hour]"/>
+<entry key="5" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Sub-bituminous coal[Gigawatt-hour]"/>
+<entry key="6" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Lignite[Gigawatt-hour]"/>
+<entry key="7" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coke oven coke[Gigawatt-hour]"/>
+<entry key="8" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gas coke[Gigawatt-hour]"/>
+<entry key="9" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Patent fuel[Gigawatt-hour]"/>
+<entry key="10" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Brown coal briquettes[Gigawatt-hour]"/>
+<entry key="11" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coal tar[Gigawatt-hour]"/>
+<entry key="12" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Manufactured gases[Gigawatt-hour]"/>
+<entry key="13" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coke oven gas[Gigawatt-hour]"/>
+<entry key="14" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gas works gas[Gigawatt-hour]"/>
+<entry key="15" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blast furnace gas[Gigawatt-hour]"/>
+<entry key="16" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other recovered gases[Gigawatt-hour]"/>
+<entry key="17" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Peat and peat products[Gigawatt-hour]"/>
+<entry key="18" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Peat[Gigawatt-hour]"/>
+<entry key="19" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Peat products[Gigawatt-hour]"/>
+<entry key="20" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Oil shale and oil sands[Gigawatt-hour]"/>
+<entry key="21" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Natural gas[Gigawatt-hour]"/>
+<entry key="22" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Oil and petroleum products (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="23" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Crude oil[Gigawatt-hour]"/>
+<entry key="24" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Natural gas liquids[Gigawatt-hour]"/>
+<entry key="25" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Refinery feedstocks[Gigawatt-hour]"/>
+<entry key="26" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Additives and oxygenates (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="27" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other hydrocarbons[Gigawatt-hour]"/>
+<entry key="28" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Refinery gas[Gigawatt-hour]"/>
+<entry key="29" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Ethane[Gigawatt-hour]"/>
+<entry key="30" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Liquefied petroleum gases[Gigawatt-hour]"/>
+<entry key="31" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Naphtha[Gigawatt-hour]"/>
+<entry key="32" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Aviation gasoline[Gigawatt-hour]"/>
+<entry key="33" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Motor gasoline (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="34" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gasoline-type jet fuel[Gigawatt-hour]"/>
+<entry key="35" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Kerosene-type jet fuel (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="36" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other kerosene[Gigawatt-hour]"/>
+<entry key="37" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gas oil and diesel oil (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="38" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Fuel oil[Gigawatt-hour]"/>
+<entry key="39" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_White spirit and special boiling point industrial spirits[Gigawatt-hour]"/>
+<entry key="40" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Lubricants[Gigawatt-hour]"/>
+<entry key="41" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Paraffin waxes[Gigawatt-hour]"/>
+<entry key="42" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Petroleum coke[Gigawatt-hour]"/>
+<entry key="43" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Bitumen[Gigawatt-hour]"/>
+<entry key="44" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other oil products n.e.c.[Gigawatt-hour]"/>
+<entry key="45" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Renewables and biofuels[Gigawatt-hour]"/>
+<entry key="46" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Hydro[Gigawatt-hour]"/>
+<entry key="47" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Geothermal[Gigawatt-hour]"/>
+<entry key="48" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Wind[Gigawatt-hour]"/>
+<entry key="49" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Solar thermal[Gigawatt-hour]"/>
+<entry key="50" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Solar photovoltaic[Gigawatt-hour]"/>
+<entry key="51" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Tide, wave, ocean[Gigawatt-hour]"/>
+<entry key="52" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Ambient heat (heat pumps)[Gigawatt-hour]"/>
+<entry key="53" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Primary solid biofuels[Gigawatt-hour]"/>
+<entry key="54" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Charcoal[Gigawatt-hour]"/>
+<entry key="55" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Pure biogasoline[Gigawatt-hour]"/>
+<entry key="56" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blended biogasoline[Gigawatt-hour]"/>
+<entry key="57" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Pure biodiesels[Gigawatt-hour]"/>
+<entry key="58" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blended biodiesels[Gigawatt-hour]"/>
+<entry key="59" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Pure bio jet kerosene[Gigawatt-hour]"/>
+<entry key="60" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blended bio jet kerosene[Gigawatt-hour]"/>
+<entry key="61" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other liquid biofuels[Gigawatt-hour]"/>
+<entry key="62" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Biogases[Gigawatt-hour]"/>
+<entry key="63" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Industrial waste (non-renewable)[Gigawatt-hour]"/>
+<entry key="64" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Renewable municipal waste[Gigawatt-hour]"/>
+<entry key="65" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Non-renewable municipal waste[Gigawatt-hour]"/>
+<entry key="66" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Non-renewable waste[Gigawatt-hour]"/>
+<entry key="67" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Electricity[Gigawatt-hour]"/>
+<entry key="68" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Heat[Gigawatt-hour]"/>
+<entry key="69" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Nuclear heat[Gigawatt-hour]"/>
+<entry key="70" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Total[Gigawatt-hour]"/>
+<entry key="71" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Solid fossil fuels[Gigawatt-hour]"/>
+<entry key="72" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Anthracite[Gigawatt-hour]"/>
+<entry key="73" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coking coal[Gigawatt-hour]"/>
+<entry key="74" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other bituminous coal[Gigawatt-hour]"/>
+<entry key="75" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Sub-bituminous coal[Gigawatt-hour]"/>
+<entry key="76" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Lignite[Gigawatt-hour]"/>
+<entry key="77" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coke oven coke[Gigawatt-hour]"/>
+<entry key="78" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gas coke[Gigawatt-hour]"/>
+<entry key="79" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Patent fuel[Gigawatt-hour]"/>
+<entry key="80" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Brown coal briquettes[Gigawatt-hour]"/>
+<entry key="81" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coal tar[Gigawatt-hour]"/>
+<entry key="82" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Manufactured gases[Gigawatt-hour]"/>
+<entry key="83" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coke oven gas[Gigawatt-hour]"/>
+<entry key="84" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gas works gas[Gigawatt-hour]"/>
+<entry key="85" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blast furnace gas[Gigawatt-hour]"/>
+<entry key="86" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other recovered gases[Gigawatt-hour]"/>
+<entry key="87" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Peat and peat products[Gigawatt-hour]"/>
+<entry key="88" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Peat[Gigawatt-hour]"/>
+<entry key="89" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Peat products[Gigawatt-hour]"/>
+<entry key="90" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Oil shale and oil sands[Gigawatt-hour]"/>
+<entry key="91" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Natural gas[Gigawatt-hour]"/>
+<entry key="92" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Oil and petroleum products (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="93" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Crude oil[Gigawatt-hour]"/>
+<entry key="94" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Natural gas liquids[Gigawatt-hour]"/>
+<entry key="95" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Refinery feedstocks[Gigawatt-hour]"/>
+<entry key="96" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Additives and oxygenates (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="97" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other hydrocarbons[Gigawatt-hour]"/>
+<entry key="98" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Refinery gas[Gigawatt-hour]"/>
+<entry key="99" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Ethane[Gigawatt-hour]"/>
+<entry key="100" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Liquefied petroleum gases[Gigawatt-hour]"/>
+<entry key="101" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Naphtha[Gigawatt-hour]"/>
+<entry key="102" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Aviation gasoline[Gigawatt-hour]"/>
+<entry key="103" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Motor gasoline (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="104" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gasoline-type jet fuel[Gigawatt-hour]"/>
+<entry key="105" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Kerosene-type jet fuel (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="106" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other kerosene[Gigawatt-hour]"/>
+<entry key="107" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gas oil and diesel oil (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="108" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Fuel oil[Gigawatt-hour]"/>
+<entry key="109" type="xstring" value="ots_Final consumption - other sectors - households - energy use_White spirit and special boiling point industrial spirits[Gigawatt-hour]"/>
+<entry key="110" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Lubricants[Gigawatt-hour]"/>
+<entry key="111" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Paraffin waxes[Gigawatt-hour]"/>
+<entry key="112" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Petroleum coke[Gigawatt-hour]"/>
+<entry key="113" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Bitumen[Gigawatt-hour]"/>
+<entry key="114" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other oil products n.e.c.[Gigawatt-hour]"/>
+<entry key="115" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Renewables and biofuels[Gigawatt-hour]"/>
+<entry key="116" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Hydro[Gigawatt-hour]"/>
+<entry key="117" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Geothermal[Gigawatt-hour]"/>
+<entry key="118" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Wind[Gigawatt-hour]"/>
+<entry key="119" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Solar thermal[Gigawatt-hour]"/>
+<entry key="120" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Solar photovoltaic[Gigawatt-hour]"/>
+<entry key="121" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Tide, wave, ocean[Gigawatt-hour]"/>
+<entry key="122" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Ambient heat (heat pumps)[Gigawatt-hour]"/>
+<entry key="123" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Primary solid biofuels[Gigawatt-hour]"/>
+<entry key="124" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Charcoal[Gigawatt-hour]"/>
+<entry key="125" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Pure biogasoline[Gigawatt-hour]"/>
+<entry key="126" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blended biogasoline[Gigawatt-hour]"/>
+<entry key="127" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Pure biodiesels[Gigawatt-hour]"/>
+<entry key="128" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blended biodiesels[Gigawatt-hour]"/>
+<entry key="129" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Pure bio jet kerosene[Gigawatt-hour]"/>
+<entry key="130" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blended bio jet kerosene[Gigawatt-hour]"/>
+<entry key="131" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other liquid biofuels[Gigawatt-hour]"/>
+<entry key="132" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Biogases[Gigawatt-hour]"/>
+<entry key="133" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Industrial waste (non-renewable)[Gigawatt-hour]"/>
+<entry key="134" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Renewable municipal waste[Gigawatt-hour]"/>
+<entry key="135" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Non-renewable municipal waste[Gigawatt-hour]"/>
+<entry key="136" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Non-renewable waste[Gigawatt-hour]"/>
+<entry key="137" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Electricity[Gigawatt-hour]"/>
+<entry key="138" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Heat[Gigawatt-hour]"/>
+<entry key="139" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Nuclear heat[Gigawatt-hour]"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="value_columns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="value_columns">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="30"/>
+<entry key="0" type="xstring" value="Residential (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="1" type="xstring" value="Residential (ktoe)_Coke Oven Coke"/>
+<entry key="2" type="xstring" value="Residential (ktoe)_Derived heat"/>
+<entry key="3" type="xstring" value="Residential (ktoe)_Electricity"/>
+<entry key="4" type="xstring" value="Residential (ktoe)_Gas Works gas"/>
+<entry key="5" type="xstring" value="Residential (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="6" type="xstring" value="Residential (ktoe)_Gasoline (without biofuels)"/>
+<entry key="7" type="xstring" value="Residential (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="8" type="xstring" value="Residential (ktoe)_Natural gas"/>
+<entry key="9" type="xstring" value="Residential (ktoe)_Other Bituminous Coal"/>
+<entry key="10" type="xstring" value="Residential (ktoe)_Other Kerosene"/>
+<entry key="11" type="xstring" value="Residential (ktoe)_Patent Fuels"/>
+<entry key="12" type="xstring" value="Residential (ktoe)_Peat"/>
+<entry key="13" type="xstring" value="Residential (ktoe)_Solar thermal"/>
+<entry key="14" type="xstring" value="Residential (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+<entry key="15" type="xstring" value="Services (ktoe)_BKB (browncoal briquettes)"/>
+<entry key="16" type="xstring" value="Services (ktoe)_Coke Oven Coke"/>
+<entry key="17" type="xstring" value="Services (ktoe)_Derived heat"/>
+<entry key="18" type="xstring" value="Services (ktoe)_Electricity"/>
+<entry key="19" type="xstring" value="Services (ktoe)_Gas Works gas"/>
+<entry key="20" type="xstring" value="Services (ktoe)_Gas/Diesel oil (without biofuels)"/>
+<entry key="21" type="xstring" value="Services (ktoe)_Gasoline (without biofuels)"/>
+<entry key="22" type="xstring" value="Services (ktoe)_Liquified petroleum gas (LPG)"/>
+<entry key="23" type="xstring" value="Services (ktoe)_Natural gas"/>
+<entry key="24" type="xstring" value="Services (ktoe)_Other Bituminous Coal"/>
+<entry key="25" type="xstring" value="Services (ktoe)_Other Kerosene"/>
+<entry key="26" type="xstring" value="Services (ktoe)_Patent Fuels"/>
+<entry key="27" type="xstring" value="Services (ktoe)_Peat"/>
+<entry key="28" type="xstring" value="Services (ktoe)_Solar thermal"/>
+<entry key="29" type="xstring" value="Services (ktoe)_Solid biofuels (Wood &amp; Wood waste)"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="142"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Total[Gigawatt-hour]"/>
+<entry key="3" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Solid fossil fuels[Gigawatt-hour]"/>
+<entry key="4" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Anthracite[Gigawatt-hour]"/>
+<entry key="5" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coking coal[Gigawatt-hour]"/>
+<entry key="6" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other bituminous coal[Gigawatt-hour]"/>
+<entry key="7" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Sub-bituminous coal[Gigawatt-hour]"/>
+<entry key="8" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Lignite[Gigawatt-hour]"/>
+<entry key="9" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coke oven coke[Gigawatt-hour]"/>
+<entry key="10" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gas coke[Gigawatt-hour]"/>
+<entry key="11" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Patent fuel[Gigawatt-hour]"/>
+<entry key="12" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Brown coal briquettes[Gigawatt-hour]"/>
+<entry key="13" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coal tar[Gigawatt-hour]"/>
+<entry key="14" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Manufactured gases[Gigawatt-hour]"/>
+<entry key="15" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Coke oven gas[Gigawatt-hour]"/>
+<entry key="16" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gas works gas[Gigawatt-hour]"/>
+<entry key="17" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blast furnace gas[Gigawatt-hour]"/>
+<entry key="18" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other recovered gases[Gigawatt-hour]"/>
+<entry key="19" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Peat and peat products[Gigawatt-hour]"/>
+<entry key="20" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Peat[Gigawatt-hour]"/>
+<entry key="21" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Peat products[Gigawatt-hour]"/>
+<entry key="22" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Oil shale and oil sands[Gigawatt-hour]"/>
+<entry key="23" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Natural gas[Gigawatt-hour]"/>
+<entry key="24" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Oil and petroleum products (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="25" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Crude oil[Gigawatt-hour]"/>
+<entry key="26" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Natural gas liquids[Gigawatt-hour]"/>
+<entry key="27" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Refinery feedstocks[Gigawatt-hour]"/>
+<entry key="28" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Additives and oxygenates (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="29" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other hydrocarbons[Gigawatt-hour]"/>
+<entry key="30" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Refinery gas[Gigawatt-hour]"/>
+<entry key="31" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Ethane[Gigawatt-hour]"/>
+<entry key="32" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Liquefied petroleum gases[Gigawatt-hour]"/>
+<entry key="33" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Naphtha[Gigawatt-hour]"/>
+<entry key="34" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Aviation gasoline[Gigawatt-hour]"/>
+<entry key="35" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Motor gasoline (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="36" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gasoline-type jet fuel[Gigawatt-hour]"/>
+<entry key="37" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Kerosene-type jet fuel (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="38" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other kerosene[Gigawatt-hour]"/>
+<entry key="39" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Gas oil and diesel oil (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="40" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Fuel oil[Gigawatt-hour]"/>
+<entry key="41" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_White spirit and special boiling point industrial spirits[Gigawatt-hour]"/>
+<entry key="42" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Lubricants[Gigawatt-hour]"/>
+<entry key="43" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Paraffin waxes[Gigawatt-hour]"/>
+<entry key="44" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Petroleum coke[Gigawatt-hour]"/>
+<entry key="45" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Bitumen[Gigawatt-hour]"/>
+<entry key="46" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other oil products n.e.c.[Gigawatt-hour]"/>
+<entry key="47" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Renewables and biofuels[Gigawatt-hour]"/>
+<entry key="48" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Hydro[Gigawatt-hour]"/>
+<entry key="49" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Geothermal[Gigawatt-hour]"/>
+<entry key="50" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Wind[Gigawatt-hour]"/>
+<entry key="51" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Solar thermal[Gigawatt-hour]"/>
+<entry key="52" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Solar photovoltaic[Gigawatt-hour]"/>
+<entry key="53" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Tide, wave, ocean[Gigawatt-hour]"/>
+<entry key="54" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Ambient heat (heat pumps)[Gigawatt-hour]"/>
+<entry key="55" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Primary solid biofuels[Gigawatt-hour]"/>
+<entry key="56" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Charcoal[Gigawatt-hour]"/>
+<entry key="57" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Pure biogasoline[Gigawatt-hour]"/>
+<entry key="58" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blended biogasoline[Gigawatt-hour]"/>
+<entry key="59" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Pure biodiesels[Gigawatt-hour]"/>
+<entry key="60" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blended biodiesels[Gigawatt-hour]"/>
+<entry key="61" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Pure bio jet kerosene[Gigawatt-hour]"/>
+<entry key="62" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Blended bio jet kerosene[Gigawatt-hour]"/>
+<entry key="63" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Other liquid biofuels[Gigawatt-hour]"/>
+<entry key="64" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Biogases[Gigawatt-hour]"/>
+<entry key="65" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Industrial waste (non-renewable)[Gigawatt-hour]"/>
+<entry key="66" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Renewable municipal waste[Gigawatt-hour]"/>
+<entry key="67" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Non-renewable municipal waste[Gigawatt-hour]"/>
+<entry key="68" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Non-renewable waste[Gigawatt-hour]"/>
+<entry key="69" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Electricity[Gigawatt-hour]"/>
+<entry key="70" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Heat[Gigawatt-hour]"/>
+<entry key="71" type="xstring" value="ots_Final consumption - other sectors - commercial and public services - energy use_Nuclear heat[Gigawatt-hour]"/>
+<entry key="72" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Total[Gigawatt-hour]"/>
+<entry key="73" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Solid fossil fuels[Gigawatt-hour]"/>
+<entry key="74" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Anthracite[Gigawatt-hour]"/>
+<entry key="75" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coking coal[Gigawatt-hour]"/>
+<entry key="76" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other bituminous coal[Gigawatt-hour]"/>
+<entry key="77" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Sub-bituminous coal[Gigawatt-hour]"/>
+<entry key="78" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Lignite[Gigawatt-hour]"/>
+<entry key="79" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coke oven coke[Gigawatt-hour]"/>
+<entry key="80" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gas coke[Gigawatt-hour]"/>
+<entry key="81" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Patent fuel[Gigawatt-hour]"/>
+<entry key="82" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Brown coal briquettes[Gigawatt-hour]"/>
+<entry key="83" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coal tar[Gigawatt-hour]"/>
+<entry key="84" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Manufactured gases[Gigawatt-hour]"/>
+<entry key="85" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Coke oven gas[Gigawatt-hour]"/>
+<entry key="86" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gas works gas[Gigawatt-hour]"/>
+<entry key="87" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blast furnace gas[Gigawatt-hour]"/>
+<entry key="88" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other recovered gases[Gigawatt-hour]"/>
+<entry key="89" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Peat and peat products[Gigawatt-hour]"/>
+<entry key="90" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Peat[Gigawatt-hour]"/>
+<entry key="91" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Peat products[Gigawatt-hour]"/>
+<entry key="92" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Oil shale and oil sands[Gigawatt-hour]"/>
+<entry key="93" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Natural gas[Gigawatt-hour]"/>
+<entry key="94" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Oil and petroleum products (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="95" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Crude oil[Gigawatt-hour]"/>
+<entry key="96" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Natural gas liquids[Gigawatt-hour]"/>
+<entry key="97" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Refinery feedstocks[Gigawatt-hour]"/>
+<entry key="98" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Additives and oxygenates (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="99" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other hydrocarbons[Gigawatt-hour]"/>
+<entry key="100" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Refinery gas[Gigawatt-hour]"/>
+<entry key="101" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Ethane[Gigawatt-hour]"/>
+<entry key="102" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Liquefied petroleum gases[Gigawatt-hour]"/>
+<entry key="103" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Naphtha[Gigawatt-hour]"/>
+<entry key="104" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Aviation gasoline[Gigawatt-hour]"/>
+<entry key="105" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Motor gasoline (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="106" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gasoline-type jet fuel[Gigawatt-hour]"/>
+<entry key="107" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Kerosene-type jet fuel (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="108" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other kerosene[Gigawatt-hour]"/>
+<entry key="109" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Gas oil and diesel oil (excluding biofuel portion)[Gigawatt-hour]"/>
+<entry key="110" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Fuel oil[Gigawatt-hour]"/>
+<entry key="111" type="xstring" value="ots_Final consumption - other sectors - households - energy use_White spirit and special boiling point industrial spirits[Gigawatt-hour]"/>
+<entry key="112" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Lubricants[Gigawatt-hour]"/>
+<entry key="113" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Paraffin waxes[Gigawatt-hour]"/>
+<entry key="114" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Petroleum coke[Gigawatt-hour]"/>
+<entry key="115" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Bitumen[Gigawatt-hour]"/>
+<entry key="116" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other oil products n.e.c.[Gigawatt-hour]"/>
+<entry key="117" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Renewables and biofuels[Gigawatt-hour]"/>
+<entry key="118" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Hydro[Gigawatt-hour]"/>
+<entry key="119" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Geothermal[Gigawatt-hour]"/>
+<entry key="120" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Wind[Gigawatt-hour]"/>
+<entry key="121" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Solar thermal[Gigawatt-hour]"/>
+<entry key="122" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Solar photovoltaic[Gigawatt-hour]"/>
+<entry key="123" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Tide, wave, ocean[Gigawatt-hour]"/>
+<entry key="124" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Ambient heat (heat pumps)[Gigawatt-hour]"/>
+<entry key="125" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Primary solid biofuels[Gigawatt-hour]"/>
+<entry key="126" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Charcoal[Gigawatt-hour]"/>
+<entry key="127" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Pure biogasoline[Gigawatt-hour]"/>
+<entry key="128" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blended biogasoline[Gigawatt-hour]"/>
+<entry key="129" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Pure biodiesels[Gigawatt-hour]"/>
+<entry key="130" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blended biodiesels[Gigawatt-hour]"/>
+<entry key="131" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Pure bio jet kerosene[Gigawatt-hour]"/>
+<entry key="132" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Blended bio jet kerosene[Gigawatt-hour]"/>
+<entry key="133" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Other liquid biofuels[Gigawatt-hour]"/>
+<entry key="134" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Biogases[Gigawatt-hour]"/>
+<entry key="135" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Industrial waste (non-renewable)[Gigawatt-hour]"/>
+<entry key="136" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Renewable municipal waste[Gigawatt-hour]"/>
+<entry key="137" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Non-renewable municipal waste[Gigawatt-hour]"/>
+<entry key="138" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Non-renewable waste[Gigawatt-hour]"/>
+<entry key="139" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Electricity[Gigawatt-hour]"/>
+<entry key="140" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Heat[Gigawatt-hour]"/>
+<entry key="141" type="xstring" value="ots_Final consumption - other sectors - households - energy use_Nuclear heat[Gigawatt-hour]"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="ots.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="enable-hiliting_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enable-hiliting" type="xboolean" value="false"/>
+<config key="missing-values_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="missing-values" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="From vectors%%00013%%00010to columns"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="893"/>
+<entry key="y-coordinate" type="xint" value="624"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.unpivot2.Unpivot2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Unpivoting"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Unpivoting"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 109760, Cols: 5"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="9c3f2cf4-90fd-49e5-9d33-b3ea14bed9f7"/>
+</config>
+</config>

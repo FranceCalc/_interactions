@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="baseyear"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2015"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_wetland_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="125.0"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_forest_biomass[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="72.273"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_settlement_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_other_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_unmanaged_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="51.5"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_natural-prairies_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="81.5"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_forest_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="99.75"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_pasture_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="81.5"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_cropland_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="51.5"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_unit[tC/ha]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tC/ha"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_biomass[years]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="50.0"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_soil[years]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="20.0"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_unit[years]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="years"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conversion_CtoCO2[tCO2/tC]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.6666666666666665"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conversion_unit[tCO2/tC]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tCO2/tC"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-N2O_fire[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CH4_fire[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CO2_fire[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-N2O_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CH4_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CO2_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_unit[t/m3]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="t/m3"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_agroforestry[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.85"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_agroforestry[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.1100000000000003"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.3"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.575"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.075"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.9875"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-7.3"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-7.3"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.725"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-3.225"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.3125"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.3"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.575"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.075"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.9875"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.575"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.725"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.575"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.075"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.225"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.075"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.9875"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.3125"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.9875"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-1.5"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_rem_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_rem_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_rem_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_rem_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_rem_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_rem_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.4125"/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-0.9125"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9125"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.4125"/>
+</config>
+<config key="Variable_61">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_unit[tC/ha]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tC/ha"/>
+</config>
+<config key="Variable_62">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_grassland_hedges[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_63">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_grassland_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.75"/>
+</config>
+<config key="Variable_64">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_no-till[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_65">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_cover-crop[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.16"/>
+</config>
+<config key="Variable_66">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_hedges[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_67">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.75"/>
+</config>
+<config key="Variable_68">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_unit[tC/ha]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tC/ha"/>
+</config>
+<config key="Variable_69">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="baseyear"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2015"/>
+</config>
+<config key="Variable_70">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_wetland_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="125.0"/>
+</config>
+<config key="Variable_71">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_forest_biomass[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="72.273"/>
+</config>
+<config key="Variable_72">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_settlement_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_73">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_other_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_74">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_unmanaged_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="51.5"/>
+</config>
+<config key="Variable_75">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_natural-prairies_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="81.5"/>
+</config>
+<config key="Variable_76">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_forest_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="99.75"/>
+</config>
+<config key="Variable_77">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_pasture_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="81.5"/>
+</config>
+<config key="Variable_78">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_cropland_soil[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="51.5"/>
+</config>
+<config key="Variable_79">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-stock_unit[tC/ha]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tC/ha"/>
+</config>
+<config key="Variable_80">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_biomass[years]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="50.0"/>
+</config>
+<config key="Variable_81">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_soil[years]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="20.0"/>
+</config>
+<config key="Variable_82">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="carbon-lifetime_unit[years]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="years"/>
+</config>
+<config key="Variable_83">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conversion_CtoCO2[tCO2/tC]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.6666666666666665"/>
+</config>
+<config key="Variable_84">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="conversion_unit[tCO2/tC]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tCO2/tC"/>
+</config>
+<config key="Variable_85">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-N2O_fire[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_86">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CH4_fire[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_87">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CO2_fire[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_88">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-N2O_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_89">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CH4_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_90">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_ef_emissions-CO2_burnt[t/m3]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_91">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="fst_unit[t/m3]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="t/m3"/>
+</config>
+<config key="Variable_92">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_agroforestry[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.85"/>
+</config>
+<config key="Variable_93">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_agroforestry[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.1100000000000003"/>
+</config>
+<config key="Variable_94">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.3"/>
+</config>
+<config key="Variable_95">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_96">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.575"/>
+</config>
+<config key="Variable_97">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.075"/>
+</config>
+<config key="Variable_98">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.9875"/>
+</config>
+<config key="Variable_99">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-7.3"/>
+</config>
+<config key="Variable_100">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-7.3"/>
+</config>
+<config key="Variable_101">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.725"/>
+</config>
+<config key="Variable_102">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-3.225"/>
+</config>
+<config key="Variable_103">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.3125"/>
+</config>
+<config key="Variable_104">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_105">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="7.3"/>
+</config>
+<config key="Variable_106">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.575"/>
+</config>
+<config key="Variable_107">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.075"/>
+</config>
+<config key="Variable_108">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.9875"/>
+</config>
+<config key="Variable_109">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.575"/>
+</config>
+<config key="Variable_110">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="4.725"/>
+</config>
+<config key="Variable_111">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.575"/>
+</config>
+<config key="Variable_112">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.075"/>
+</config>
+<config key="Variable_113">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="3.225"/>
+</config>
+<config key="Variable_114">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.075"/>
+</config>
+<config key="Variable_115">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.9875"/>
+</config>
+<config key="Variable_116">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.3125"/>
+</config>
+<config key="Variable_117">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-4.9875"/>
+</config>
+<config key="Variable_118">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Variable_119">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-1.5"/>
+</config>
+<config key="Variable_120">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_rem_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_121">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_rem_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_122">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_rem_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_123">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_settlement_rem_settlement[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_124">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_wetland_rem_wetland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_125">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_other_rem_other[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_126">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_cropland_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-2.4125"/>
+</config>
+<config key="Variable_127">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_grassland_to_forest[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="-0.9125"/>
+</config>
+<config key="Variable_128">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.9125"/>
+</config>
+<config key="Variable_129">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_forest_to_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.4125"/>
+</config>
+<config key="Variable_130">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ef_lulucf_unit[tC/ha]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tC/ha"/>
+</config>
+<config key="Variable_131">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_grassland_hedges[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_132">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_grassland_grassland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.75"/>
+</config>
+<config key="Variable_133">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_no-till[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_134">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_cover-crop[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.16"/>
+</config>
+<config key="Variable_135">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_hedges[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.1"/>
+</config>
+<config key="Variable_136">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_cropland_cropland[tC/ha]"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="2.75"/>
+</config>
+<config key="Variable_137">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="agr-carbon-stock_unit[tC/ha]"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tC/ha"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="variable-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="374"/>
+<entry key="0" type="xstring" value="baseyear"/>
+<entry key="1" type="xstring" value="name"/>
+<entry key="2" type="xstring" value="mod_tri"/>
+<entry key="3" type="xstring" value="agr-carbon-stock_unit[tC/ha]"/>
+<entry key="4" type="xstring" value="agr-carbon-stock_cropland_land[tC/ha]"/>
+<entry key="5" type="xstring" value="agr-carbon-stock_cropland_hedges[tC/ha]"/>
+<entry key="6" type="xstring" value="agr-carbon-stock_cropland_cover-crop[tC/ha]"/>
+<entry key="7" type="xstring" value="agr-carbon-stock_cropland_no-till[tC/ha]"/>
+<entry key="8" type="xstring" value="agr-carbon-stock_grassland_land[tC/ha]"/>
+<entry key="9" type="xstring" value="agr-carbon-stock_grassland_hedges[tC/ha]"/>
+<entry key="10" type="xstring" value="load_unit[h]"/>
+<entry key="11" type="xstring" value="load_hours-per-year[h]"/>
+<entry key="12" type="xstring" value="load_hours-per-year-twh[h]"/>
+<entry key="13" type="xstring" value="ef_lulucf_unit[tC/ha]"/>
+<entry key="14" type="xstring" value="ef_lulucf_forest_to_cropland[tC/ha]"/>
+<entry key="15" type="xstring" value="ef_lulucf_forest_to_grassland[tC/ha]"/>
+<entry key="16" type="xstring" value="ef_lulucf_grassland_to_forest[tC/ha]"/>
+<entry key="17" type="xstring" value="ef_lulucf_cropland_to_forest[tC/ha]"/>
+<entry key="18" type="xstring" value="ef_lulucf_other_rem_other[tC/ha]"/>
+<entry key="19" type="xstring" value="ef_lulucf_wetland_rem_wetland[tC/ha]"/>
+<entry key="20" type="xstring" value="ef_lulucf_settlement_rem_settlement[tC/ha]"/>
+<entry key="21" type="xstring" value="ef_lulucf_cropland_rem_cropland[tC/ha]"/>
+<entry key="22" type="xstring" value="ef_lulucf_grassland_rem_grassland[tC/ha]"/>
+<entry key="23" type="xstring" value="ef_lulucf_forest_rem_forest[tC/ha]"/>
+<entry key="24" type="xstring" value="ef_lulucf_cropland_to_grassland[tC/ha]"/>
+<entry key="25" type="xstring" value="ef_lulucf_grassland_to_cropland[tC/ha]"/>
+<entry key="26" type="xstring" value="ef_lulucf_settlement_to_forest[tC/ha]"/>
+<entry key="27" type="xstring" value="ef_lulucf_wetland_to_forest[tC/ha]"/>
+<entry key="28" type="xstring" value="ef_lulucf_other_to_forest[tC/ha]"/>
+<entry key="29" type="xstring" value="ef_lulucf_settlement_to_grassland[tC/ha]"/>
+<entry key="30" type="xstring" value="ef_lulucf_wetland_to_grassland[tC/ha]"/>
+<entry key="31" type="xstring" value="ef_lulucf_other_to_grassland[tC/ha]"/>
+<entry key="32" type="xstring" value="ef_lulucf_settlement_to_cropland[tC/ha]"/>
+<entry key="33" type="xstring" value="ef_lulucf_wetland_to_cropland[tC/ha]"/>
+<entry key="34" type="xstring" value="ef_lulucf_other_to_cropland[tC/ha]"/>
+<entry key="35" type="xstring" value="ef_lulucf_forest_to_settlement[tC/ha]"/>
+<entry key="36" type="xstring" value="ef_lulucf_grassland_to_settlement[tC/ha]"/>
+<entry key="37" type="xstring" value="ef_lulucf_cropland_to_settlement[tC/ha]"/>
+<entry key="38" type="xstring" value="ef_lulucf_wetland_to_settlement[tC/ha]"/>
+<entry key="39" type="xstring" value="ef_lulucf_other_to_settlement[tC/ha]"/>
+<entry key="40" type="xstring" value="ef_lulucf_forest_to_wetland[tC/ha]"/>
+<entry key="41" type="xstring" value="ef_lulucf_grassland_to_wetland[tC/ha]"/>
+<entry key="42" type="xstring" value="ef_lulucf_cropland_to_wetland[tC/ha]"/>
+<entry key="43" type="xstring" value="ef_lulucf_settlement_to_wetland[tC/ha]"/>
+<entry key="44" type="xstring" value="ef_lulucf_other_to_wetland[tC/ha]"/>
+<entry key="45" type="xstring" value="ef_lulucf_forest_to_other[tC/ha]"/>
+<entry key="46" type="xstring" value="ef_lulucf_grassland_to_other[tC/ha]"/>
+<entry key="47" type="xstring" value="ef_lulucf_cropland_to_other[tC/ha]"/>
+<entry key="48" type="xstring" value="ef_lulucf_settlement_to_other[tC/ha]"/>
+<entry key="49" type="xstring" value="ef_lulucf_wetland_to_other[tC/ha]"/>
+<entry key="50" type="xstring" value="ef_lulucf_cropland_agroforestry[tC/ha]"/>
+<entry key="51" type="xstring" value="ef_lulucf_grassland_agroforestry[tC/ha]"/>
+<entry key="52" type="xstring" value="fst_unit[t/m3]"/>
+<entry key="53" type="xstring" value="fst_ef_emissions-CO2_burnt[t/m3]"/>
+<entry key="54" type="xstring" value="fst_ef_emissions-CH4_burnt[t/m3]"/>
+<entry key="55" type="xstring" value="fst_ef_emissions-N2O_burnt[t/m3]"/>
+<entry key="56" type="xstring" value="fst_ef_emissions-CO2_fire[t/m3]"/>
+<entry key="57" type="xstring" value="fst_ef_emissions-CH4_fire[t/m3]"/>
+<entry key="58" type="xstring" value="fst_ef_emissions-N2O_fire[t/m3]"/>
+<entry key="59" type="xstring" value="conversion_unit[tCO2/tC]"/>
+<entry key="60" type="xstring" value="conversion_CtoCO2[tCO2/tC]"/>
+<entry key="61" type="xstring" value="carbon-lifetime_unit[years]"/>
+<entry key="62" type="xstring" value="carbon-lifetime_soil[years]"/>
+<entry key="63" type="xstring" value="carbon-lifetime_biomass[years]"/>
+<entry key="64" type="xstring" value="carbon-stock_unit[tC/ha]"/>
+<entry key="65" type="xstring" value="carbon-stock_cropland_soil[tC/ha]"/>
+<entry key="66" type="xstring" value="carbon-stock_pasture_soil[tC/ha]"/>
+<entry key="67" type="xstring" value="carbon-stock_forest_soil[tC/ha]"/>
+<entry key="68" type="xstring" value="carbon-stock_natural-prairies_soil[tC/ha]"/>
+<entry key="69" type="xstring" value="carbon-stock_unmanaged_soil[tC/ha]"/>
+<entry key="70" type="xstring" value="carbon-stock_other_soil[tC/ha]"/>
+<entry key="71" type="xstring" value="carbon-stock_settlement_soil[tC/ha]"/>
+<entry key="72" type="xstring" value="carbon-stock_forest_biomass[tC/ha]"/>
+<entry key="73" type="xstring" value="carbon-stock_wetland_soil[tC/ha]"/>
+<entry key="74" type="xstring" value="ef_unit[tCO2/t]"/>
+<entry key="75" type="xstring" value="ef_liming[tCO2/t]"/>
+<entry key="76" type="xstring" value="ef_urea[tCO2/t]"/>
+<entry key="77" type="xstring" value="ibp_liv_unit[kcal/lsu]"/>
+<entry key="78" type="xstring" value="ibp_liv_bovine_brf_fdk_afat[kcal/lsu]"/>
+<entry key="79" type="xstring" value="ibp_liv_sheep_brf_fdk_afat[kcal/lsu]"/>
+<entry key="80" type="xstring" value="ibp_liv_pig_brf_fdk_afat[kcal/lsu]"/>
+<entry key="81" type="xstring" value="ibp_liv_poultry_brf_fdk_afat[kcal/lsu]"/>
+<entry key="82" type="xstring" value="ibp_liv_bovine_brf_fdk_offal[kcal/lsu]"/>
+<entry key="83" type="xstring" value="ibp_liv_sheep_brf_fdk_offal[kcal/lsu]"/>
+<entry key="84" type="xstring" value="ibp_liv_pig_brf_fdk_offal[kcal/lsu]"/>
+<entry key="85" type="xstring" value="ibp_liv_poultry_brf_fdk_offal[kcal/lsu]"/>
+<entry key="86" type="xstring" value="ibp_liv_oth-animals_brf_fdk_afat[kcal/lsu]"/>
+<entry key="87" type="xstring" value="ibp_liv_oth-animals_brf_fdk_offal[kcal/lsu]"/>
+<entry key="88" type="xstring" value="efficiency_liv_unit[%]"/>
+<entry key="89" type="xstring" value="efficiency_liv_meat_bovine[%]"/>
+<entry key="90" type="xstring" value="efficiency_liv_meat_sheep[%]"/>
+<entry key="91" type="xstring" value="efficiency_liv_meat_pig[%]"/>
+<entry key="92" type="xstring" value="efficiency_liv_meat_poultry[%]"/>
+<entry key="93" type="xstring" value="efficiency_liv_meat_oth-animals[%]"/>
+<entry key="94" type="xstring" value="efficiency_liv_abp_hens-egg[%]"/>
+<entry key="95" type="xstring" value="efficiency_liv_abp_dairy-milk[%]"/>
+<entry key="96" type="xstring" value="ibp_aps_unit[%]"/>
+<entry key="97" type="xstring" value="ibp_aps_algae_brf_crop_algae[%]"/>
+<entry key="98" type="xstring" value="ibp_aps_algae_brf_fdk_voil[%]"/>
+<entry key="99" type="xstring" value="ibp_aps_insect_brf_fdk_voil[%]"/>
+<entry key="100" type="xstring" value="ibp_aps_insect_brf_crop_insect[%]"/>
+<entry key="101" type="xstring" value="ibp_aps_insect_brf_fdk_manure[%]"/>
+<entry key="102" type="xstring" value="ibp_bev_unit[%]"/>
+<entry key="103" type="xstring" value="ibp_bev_wine_brf_fdk_marc[%]"/>
+<entry key="104" type="xstring" value="ibp_bev_wine_brf_fdk_lees[%]"/>
+<entry key="105" type="xstring" value="ibp_bev_wine_brf_crop_grape[%]"/>
+<entry key="106" type="xstring" value="ibp_bev_beer_brf_fdk_yeast[%]"/>
+<entry key="107" type="xstring" value="ibp_bev_beer_brf_fdk_cereal[%]"/>
+<entry key="108" type="xstring" value="ibp_bev_beer_brf_crop_cereal[%]"/>
+<entry key="109" type="xstring" value="ibp_bev_bev-alc_brf_crop_fruit[%]"/>
+<entry key="110" type="xstring" value="ibp_bev_bev-fer_brf_crop_cereal[%]"/>
+<entry key="111" type="xstring" value="liquid_tec_unit[kcal/TWh]"/>
+<entry key="112" type="xstring" value="liquid_tec_biodiesel_btl_fdk_lgn[kcal/TWh]"/>
+<entry key="113" type="xstring" value="liquid_tec_biojetkerosene_btl_fdk_lgn[kcal/TWh]"/>
+<entry key="114" type="xstring" value="liquid_tec_biogasoline_ezm_fdk_lgn[kcal/TWh]"/>
+<entry key="115" type="xstring" value="liquid_tec_biodiesel_hvo_fdk_oil[kcal/TWh]"/>
+<entry key="116" type="xstring" value="liquid_tec_biojetkerosene_hvo_fdk_oil[kcal/TWh]"/>
+<entry key="117" type="xstring" value="liquid_tec_biodiesel_est_fdk_oil[kcal/TWh]"/>
+<entry key="118" type="xstring" value="liquid_tec_biogasoline_fer_fdk_eth[kcal/TWh]"/>
+<entry key="119" type="xstring" value="ibp_bio_conv_unit[kcal/kcal]"/>
+<entry key="120" type="xstring" value="ibp_bio_conv_voil_oilcrop_brf_cakes[kcal/kcal]"/>
+<entry key="121" type="xstring" value="ibp_bio_conv_eth_cereal_brf_ddgs[kcal/kcal]"/>
+<entry key="122" type="xstring" value="ibp_bio_conv_eth_sugarcrop_brf_pulp[kcal/kcal]"/>
+<entry key="123" type="xstring" value="gas_tec_unit[kcal/TWh]"/>
+<entry key="124" type="xstring" value="gas_tec_gas_energycrop[kcal/TWh]"/>
+<entry key="125" type="xstring" value="lbp_unit[t/kcal]"/>
+<entry key="126" type="xstring" value="lbp_bovine_split_c1_afats[t/kcal]"/>
+<entry key="127" type="xstring" value="lbp_bovine_split_c1_proteins[t/kcal]"/>
+<entry key="128" type="xstring" value="lbp_bovine_split_c2_afats[t/kcal]"/>
+<entry key="129" type="xstring" value="lbp_bovine_split_c2_proteins[t/kcal]"/>
+<entry key="130" type="xstring" value="lbp_bovine_split_c3_afats[t/kcal]"/>
+<entry key="131" type="xstring" value="lbp_bovine_split_c3_proteins[t/kcal]"/>
+<entry key="132" type="xstring" value="lbp_sheep_split_c1_afats[t/kcal]"/>
+<entry key="133" type="xstring" value="lbp_sheep_split_c1_proteins[t/kcal]"/>
+<entry key="134" type="xstring" value="lbp_sheep_split_c2_afats[t/kcal]"/>
+<entry key="135" type="xstring" value="lbp_sheep_split_c2_proteins[t/kcal]"/>
+<entry key="136" type="xstring" value="lbp_sheep_split_c3_afats[t/kcal]"/>
+<entry key="137" type="xstring" value="lbp_sheep_split_c3_proteins[t/kcal]"/>
+<entry key="138" type="xstring" value="lbp_pig_split_c2_afats[t/kcal]"/>
+<entry key="139" type="xstring" value="lbp_pig_split_c2_proteins[t/kcal]"/>
+<entry key="140" type="xstring" value="lbp_pig_split_c3_afats[t/kcal]"/>
+<entry key="141" type="xstring" value="lbp_pig_split_c3_proteins[t/kcal]"/>
+<entry key="142" type="xstring" value="lbp_poultry_split_c1_afats[t/kcal]"/>
+<entry key="143" type="xstring" value="lbp_poultry_split_c1_proteins[t/kcal]"/>
+<entry key="144" type="xstring" value="lbp_poultry_split_c2_afats[t/kcal]"/>
+<entry key="145" type="xstring" value="lbp_poultry_split_c2_proteins[t/kcal]"/>
+<entry key="146" type="xstring" value="lbp_poultry_split_c3_afats[t/kcal]"/>
+<entry key="147" type="xstring" value="lbp_poultry_split_c3_proteins[t/kcal]"/>
+<entry key="148" type="xstring" value="lbp_oth-animals_split_c1_afats[t/kcal]"/>
+<entry key="149" type="xstring" value="lbp_oth-animals_split_c1_proteins[t/kcal]"/>
+<entry key="150" type="xstring" value="lbp_oth-animals_split_c2_afats[t/kcal]"/>
+<entry key="151" type="xstring" value="lbp_oth-animals_split_c2_proteins[t/kcal]"/>
+<entry key="152" type="xstring" value="lbp_oth-animals_split_c3_afats[t/kcal]"/>
+<entry key="153" type="xstring" value="lbp_oth-animals_split_c3_proteins[t/kcal]"/>
+<entry key="154" type="xstring" value="residues_yields_unit[%]"/>
+<entry key="155" type="xstring" value="residues_yields_cereal[%]"/>
+<entry key="156" type="xstring" value="residues_yields_oilcrops[%]"/>
+<entry key="157" type="xstring" value="ecf_unit[kcal/t]"/>
+<entry key="158" type="xstring" value="ecf_energycrop[kcal/t]"/>
+<entry key="159" type="xstring" value="land_alloc_unit[%]"/>
+<entry key="160" type="xstring" value="land_alloc_algae_feed[%]"/>
+<entry key="161" type="xstring" value="land_alloc_algae_energy[%]"/>
+<entry key="162" type="xstring" value="land_alloc_insect_feed[%]"/>
+<entry key="163" type="xstring" value="land_alloc_insect_energy[%]"/>
+<entry key="164" type="xstring" value="cf_fst_bio_unit[Mm3/TWh]"/>
+<entry key="165" type="xstring" value="cf_fst_bio_wood-fuel[Mm3/TWh]"/>
+<entry key="166" type="xstring" value="cf_fst_mat_unit[kt/Mm3]"/>
+<entry key="167" type="xstring" value="cf_fst_mat_pulp[kt/Mm3]"/>
+<entry key="168" type="xstring" value="cf_fst_mat_sawlogs[kt/Mm3]"/>
+<entry key="169" type="xstring" value="cf_fst_mat_other-wood[kt/Mm3]"/>
+<entry key="170" type="xstring" value="ef_fertilizer_unit[Mt/t]"/>
+<entry key="171" type="xstring" value="ef_fertilizer_N2O-emission[Mt/t]"/>
+<entry key="172" type="xstring" value="ibp_processed_unit[%]"/>
+<entry key="173" type="xstring" value="ibp_processed_voil_to_oilcrop[%]"/>
+<entry key="174" type="xstring" value="ibp_processed_sweet_to_sugarcrop[%]"/>
+<entry key="175" type="xstring" value="ibp_processed_sugar_to_sugarcrop[%]"/>
+<entry key="176" type="xstring" value="ibp_processed_cake_to_oilcrop[%]"/>
+<entry key="177" type="xstring" value="ibp_processed_molasse_to_sugarcrop[%]"/>
+<entry key="178" type="xstring" value="ibp_feed_unit[%]"/>
+<entry key="179" type="xstring" value="ibp_feed_voil_to_oilcrop[%]"/>
+<entry key="180" type="xstring" value="ibp_feed_cake_to_oilcrop[%]"/>
+<entry key="181" type="xstring" value="ibp_feed_molasse_to_sugarcrop[%]"/>
+<entry key="182" type="xstring" value="ibp_feed_sugar_to_sugarcrop[%]"/>
+<entry key="183" type="xstring" value="ibp_pro_unit[%]"/>
+<entry key="184" type="xstring" value="ibp_pro_voil_feed_crop_oilcrop[%]"/>
+<entry key="185" type="xstring" value="ibp_pro_cake_feed_crop_oilcrop[%]"/>
+<entry key="186" type="xstring" value="ibp_pro_sugar_feed_crop_sugarcrop[%]"/>
+<entry key="187" type="xstring" value="ibp_pro_sweet_feed_crop_sugarcrop[%]"/>
+<entry key="188" type="xstring" value="ibp_pro_molasse_feed_crop_sugarcrop[%]"/>
+<entry key="189" type="xstring" value="ibp_pro_fish-meals_feed_fish_ffish[%]"/>
+<entry key="190" type="xstring" value="ibp_pro_voil_food_crop_oilcrop[%]"/>
+<entry key="191" type="xstring" value="ibp_pro_sugar_food_crop_sugarcrop[%]"/>
+<entry key="192" type="xstring" value="ibp_pro_sweet_food_crop_sugarcrop[%]"/>
+<entry key="193" type="xstring" value="ibp_bio_unit[TWh/TWh]"/>
+<entry key="194" type="xstring" value="ibp_bio_ethanol_fer_brf_cake_sgr[TWh/TWh]"/>
+<entry key="195" type="xstring" value="ibp_bio_biodiesel_hvo_brf_cake[TWh/TWh]"/>
+<entry key="196" type="xstring" value="ibp_bio_biodiesel_est_brf_crop_oil[TWh/TWh]"/>
+<entry key="197" type="xstring" value="ibp_bio_biodisel_btx_brf_crop_lgn[TWh/TWh]"/>
+<entry key="198" type="xstring" value="ibp_bio_biodiesel_hvo_brf_crop_oil[TWh/TWh]"/>
+<entry key="199" type="xstring" value="ibp_bio_biodiesel_est_brf_crop_oil.1[TWh/TWh]"/>
+<entry key="200" type="xstring" value="ibp_bio_ethanol_ezm_brf_crop_lgn[TWh/TWh]"/>
+<entry key="201" type="xstring" value="ibp_bio_ethanol_fer_brf_crop_sgr[TWh/TWh]"/>
+<entry key="202" type="xstring" value="ibp_bio_biodiesel_btx_brf_fdk_bionaphta[TWh/TWh]"/>
+<entry key="203" type="xstring" value="ibp_bio_biodiesel_hvo_brf_fdk_bionaphta[TWh/TWh]"/>
+<entry key="204" type="xstring" value="ibp_bio_biodiesel_hvo_brf_fdk_propane[TWh/TWh]"/>
+<entry key="205" type="xstring" value="ibp_bio_biodiesel_est_brf_fdk_glycerin[TWh/TWh]"/>
+<entry key="206" type="xstring" value="ibp_bio_ethanol_ezm_brf_fdk_lignin[TWh/TWh]"/>
+<entry key="207" type="xstring" value="bp_bev_unit[%]"/>
+<entry key="208" type="xstring" value="bp_bev_wine_marc[%]"/>
+<entry key="209" type="xstring" value="bp_bev_wine_lees[%]"/>
+<entry key="210" type="xstring" value="bp_bev_wine_grappes-crop[%]"/>
+<entry key="211" type="xstring" value="bp_bev_beer_barley-crop[%]"/>
+<entry key="212" type="xstring" value="bp_bev_beer_cereal-meals[%]"/>
+<entry key="213" type="xstring" value="bp_bev_beer_yees[%]"/>
+<entry key="214" type="xstring" value="bp_bev_bev-fer_barley-crop[%]"/>
+<entry key="215" type="xstring" value="bp_bev_bev-alc_fruits-crop[%]"/>
+<entry key="216" type="xstring" value="pgai_unit[%]"/>
+<entry key="217" type="xstring" value="pgai_young_low[%]"/>
+<entry key="218" type="xstring" value="pgai_mature_low[%]"/>
+<entry key="219" type="xstring" value="pgai_young_medium[%]"/>
+<entry key="220" type="xstring" value="pgai_mature_medium[%]"/>
+<entry key="221" type="xstring" value="soil-emission-factors_unit[tCO2e/ha/an]"/>
+<entry key="222" type="xstring" value="soil-emission-factors_cropland_conv[tCO2e/ha/an]"/>
+<entry key="223" type="xstring" value="soil-emission-factors_cropland_ca[tCO2e/ha/an]"/>
+<entry key="224" type="xstring" value="soil-emission-factors_forest_young[tCO2e/ha/an]"/>
+<entry key="225" type="xstring" value="soil-emission-factors_forest_mature[tCO2e/ha/an]"/>
+<entry key="226" type="xstring" value="soil-emission-factors_grassland_young[tCO2e/ha/an]"/>
+<entry key="227" type="xstring" value="soil-emission-factors_grassland_mature[tCO2e/ha/an]"/>
+<entry key="228" type="xstring" value="biomass-emission-factors_unit[tCO2e/ha/an]"/>
+<entry key="229" type="xstring" value="biomass-emission-factors_cropland_conv[tCO2e/ha/an]"/>
+<entry key="230" type="xstring" value="biomass-emission-factors_cropland_ca[tCO2e/ha/an]"/>
+<entry key="231" type="xstring" value="biomass-emission-factors_forest_young[tCO2e/ha/an]"/>
+<entry key="232" type="xstring" value="biomass-emission-factors_forest_mature[tCO2e/ha/an]"/>
+<entry key="233" type="xstring" value="biomass-emission-factors_grassland_young[tCO2e/ha/an]"/>
+<entry key="234" type="xstring" value="biomass-emission-factors_grassland_mature[tCO2e/ha/an]"/>
+<entry key="235" type="xstring" value="forest_unit[%]"/>
+<entry key="236" type="xstring" value="forest_growth[%]"/>
+<entry key="237" type="xstring" value="biorefinery_yield_unit[tons/TWh]"/>
+<entry key="238" type="xstring" value="biorefinery_yield_btx_bionaphta[tons/TWh]"/>
+<entry key="239" type="xstring" value="biorefinery_yield_hvo_bionaphta[tons/TWh]"/>
+<entry key="240" type="xstring" value="biorefinery_yield_est_glycerin[tons/TWh]"/>
+<entry key="241" type="xstring" value="biorefinery_yield_ezm_lignin[tons/TWh]"/>
+<entry key="242" type="xstring" value="bioenergy_yield_unit[TWh/TWh]"/>
+<entry key="243" type="xstring" value="bioenergy_yield_btx_lgn[TWh/TWh]"/>
+<entry key="244" type="xstring" value="bioenergy_yield_hvo_oil[TWh/TWh]"/>
+<entry key="245" type="xstring" value="bioenergy_yield_est_oil[TWh/TWh]"/>
+<entry key="246" type="xstring" value="bioenergy_yield_ezm_lgn[TWh/TWh]"/>
+<entry key="247" type="xstring" value="bioenergy_yield_fer_sgr[TWh/TWh]"/>
+<entry key="248" type="xstring" value="bioenergy_yield_btx_bionaphta[TWh/TWh]"/>
+<entry key="249" type="xstring" value="bioenergy_yield_hvo_bionaphta[TWh/TWh]"/>
+<entry key="250" type="xstring" value="bioenergy_yield_hvo_propane[TWh/TWh]"/>
+<entry key="251" type="xstring" value="bioenergy_yield_est_glycerin[TWh/TWh]"/>
+<entry key="252" type="xstring" value="bioenergy_yield_ezm_lignin[TWh/TWh]"/>
+<entry key="253" type="xstring" value="meals-yield_unit[%]"/>
+<entry key="254" type="xstring" value="meals-yield_algae-crop[%]"/>
+<entry key="255" type="xstring" value="meals-yield_algae-voil[%]"/>
+<entry key="256" type="xstring" value="meals-yield_insect-crop[%]"/>
+<entry key="257" type="xstring" value="meals-yield_insect-oil[%]"/>
+<entry key="258" type="xstring" value="meals-yield_insect-manure[%]"/>
+<entry key="259" type="xstring" value="meals-yield_cereal-crop[%]"/>
+<entry key="260" type="xstring" value="meals-yield_oilcrops-crop[%]"/>
+<entry key="261" type="xstring" value="meals-yield_cereal-ethanol[%]"/>
+<entry key="262" type="xstring" value="meals-yield_oilcrops-voil[%]"/>
+<entry key="263" type="xstring" value="biorefinery_bp_unit[tons/tons]"/>
+<entry key="264" type="xstring" value="biorefinery_bp_biomass_algae[tons/tons]"/>
+<entry key="265" type="xstring" value="biorefinery_bp_oil_algae[tons/tons]"/>
+<entry key="266" type="xstring" value="biorefinery_bp_biomass_insect[tons/tons]"/>
+<entry key="267" type="xstring" value="biorefinery_bp_oil_insect[tons/tons]"/>
+<entry key="268" type="xstring" value="biorefinery_bp_manure_insect[tons/tons]"/>
+<entry key="269" type="xstring" value="biorefinery_bp_oil-meals_oilcrops[tons/tons]"/>
+<entry key="270" type="xstring" value="biorefinery_bp_grains_oilcrops[tons/tons]"/>
+<entry key="271" type="xstring" value="biorefinery_bp_grains_cereals[tons/tons]"/>
+<entry key="272" type="xstring" value="biorefinery_bp_fodder_cereals[tons/tons]"/>
+<entry key="273" type="xstring" value="biorefinery_bp_fodder_oilcrops[tons/tons]"/>
+<entry key="274" type="xstring" value="shouse_unit[tons/#]"/>
+<entry key="275" type="xstring" value="shouse_bov_afats[tons/#]"/>
+<entry key="276" type="xstring" value="shouse_sheep_afats[tons/#]"/>
+<entry key="277" type="xstring" value="shouse_pigs_afats[tons/#]"/>
+<entry key="278" type="xstring" value="shouse_poultry_afats[tons/#]"/>
+<entry key="279" type="xstring" value="shouse_oth-animals_afats[tons/#]"/>
+<entry key="280" type="xstring" value="shouse_bov_offal[tons/#]"/>
+<entry key="281" type="xstring" value="shouse_sheep_offal[tons/#]"/>
+<entry key="282" type="xstring" value="shouse_pigs_offal[tons/#]"/>
+<entry key="283" type="xstring" value="shouse_poultry_offal[tons/#]"/>
+<entry key="284" type="xstring" value="shouse_oth-animals_offal[tons/#]"/>
+<entry key="285" type="xstring" value="shouse_bov_manure[tons/#]"/>
+<entry key="286" type="xstring" value="shouse_sheep_manure[tons/#]"/>
+<entry key="287" type="xstring" value="shouse_pigs_manure[tons/#]"/>
+<entry key="288" type="xstring" value="shouse_poultry_manure[tons/#]"/>
+<entry key="289" type="xstring" value="shouse_oth-animals_manure[tons/#]"/>
+<entry key="290" type="xstring" value="shouse_dairy_feed[tons/#]"/>
+<entry key="291" type="xstring" value="shouse_bov_feed[tons/#]"/>
+<entry key="292" type="xstring" value="shouse_sheep_feed[tons/#]"/>
+<entry key="293" type="xstring" value="shouse_pigs_feed[tons/#]"/>
+<entry key="294" type="xstring" value="shouse_poultry_feed[tons/#]"/>
+<entry key="295" type="xstring" value="shouse_oth-animals_feed[tons/#]"/>
+<entry key="296" type="xstring" value="conv-factors_lsu_unit[lsu/#]"/>
+<entry key="297" type="xstring" value="conv-factors_lsu_bov[lsu/#]"/>
+<entry key="298" type="xstring" value="conv-factors_lsu_sheep[lsu/#]"/>
+<entry key="299" type="xstring" value="conv-factors_lsu_pigs[lsu/#]"/>
+<entry key="300" type="xstring" value="conv-factors_lsu_poultry[lsu/#]"/>
+<entry key="301" type="xstring" value="conv-factors_lsu_oth-animals[lsu/#]"/>
+<entry key="302" type="xstring" value="conv-factors_energy_unit[#/#]"/>
+<entry key="303" type="xstring" value="conv-factors_energy_koe/TWh[#/#]"/>
+<entry key="304" type="xstring" value="conv-factors_food_unit[kcal/tonnes]"/>
+<entry key="305" type="xstring" value="conv-factors_food_bov[kcal/tonnes]"/>
+<entry key="306" type="xstring" value="conv-factors_food_sheep[kcal/tonnes]"/>
+<entry key="307" type="xstring" value="conv-factors_food_pigs[kcal/tonnes]"/>
+<entry key="308" type="xstring" value="conv-factors_food_poultry[kcal/tonnes]"/>
+<entry key="309" type="xstring" value="conv-factors_food_oth-animals[kcal/tonnes]"/>
+<entry key="310" type="xstring" value="conv-factors_food_offal[kcal/tonnes]"/>
+<entry key="311" type="xstring" value="conv-factors_food_egg[kcal/tonnes]"/>
+<entry key="312" type="xstring" value="conv-factors_food_milk[kcal/tonnes]"/>
+<entry key="313" type="xstring" value="conv-factors_food_afats[kcal/tonnes]"/>
+<entry key="314" type="xstring" value="conv-factors_food_stm[kcal/tonnes]"/>
+<entry key="315" type="xstring" value="conv-factors_food_tea[kcal/tonnes]"/>
+<entry key="316" type="xstring" value="conv-factors_food_coffee[kcal/tonnes]"/>
+<entry key="317" type="xstring" value="conv-factors_food_wine[kcal/tonnes]"/>
+<entry key="318" type="xstring" value="conv-factors_food_beer[kcal/tonnes]"/>
+<entry key="319" type="xstring" value="conv-factors_food_bev-fer[kcal/tonnes]"/>
+<entry key="320" type="xstring" value="conv-factors_food_bev-alc[kcal/tonnes]"/>
+<entry key="321" type="xstring" value="conv-factors_food_cereals[kcal/tonnes]"/>
+<entry key="322" type="xstring" value="conv-factors_food_fruits[kcal/tonnes]"/>
+<entry key="323" type="xstring" value="conv-factors_food_oilcrops[kcal/tonnes]"/>
+<entry key="324" type="xstring" value="conv-factors_food_pulses[kcal/tonnes]"/>
+<entry key="325" type="xstring" value="conv-factors_food_starch[kcal/tonnes]"/>
+<entry key="326" type="xstring" value="conv-factors_food_sweet[kcal/tonnes]"/>
+<entry key="327" type="xstring" value="conv-factors_food_sugar[kcal/tonnes]"/>
+<entry key="328" type="xstring" value="conv-factors_food_voil[kcal/tonnes]"/>
+<entry key="329" type="xstring" value="conv-factors_food_veg[kcal/tonnes]"/>
+<entry key="330" type="xstring" value="conv-factors_food_wheat[kcal/tonnes]"/>
+<entry key="331" type="xstring" value="conv-factors_food_rye[kcal/tonnes]"/>
+<entry key="332" type="xstring" value="conv-factors_food_barley[kcal/tonnes]"/>
+<entry key="333" type="xstring" value="conv-factors_food_sugarcrops[kcal/tonnes]"/>
+<entry key="334" type="xstring" value="conv-factors_food_maize[kcal/tonnes]"/>
+<entry key="335" type="xstring" value="conv-factors_food_oats[kcal/tonnes]"/>
+<entry key="336" type="xstring" value="conv-factors_food_brans[kcal/tonnes]"/>
+<entry key="337" type="xstring" value="conv-factors_food_dfish[kcal/tonnes]"/>
+<entry key="338" type="xstring" value="conv-factors_food_ffish[kcal/tonnes]"/>
+<entry key="339" type="xstring" value="conv-factors_food_pfish[kcal/tonnes]"/>
+<entry key="340" type="xstring" value="conv-factors_food_seafood[kcal/tonnes]"/>
+<entry key="341" type="xstring" value="conv-factors_food_oth-aq-animals[kcal/tonnes]"/>
+<entry key="342" type="xstring" value="conv-factors_food_fish-meals[kcal/tonnes]"/>
+<entry key="343" type="xstring" value="conv-factors_food_algae-meals[kcal/tonnes]"/>
+<entry key="344" type="xstring" value="conv-factors_food_insect-meals[kcal/tonnes]"/>
+<entry key="345" type="xstring" value="conv-factors_food_oil-meals[kcal/tonnes]"/>
+<entry key="346" type="xstring" value="conv-factors_food_grains[kcal/tonnes]"/>
+<entry key="347" type="xstring" value="conv-factors_food_fodder[kcal/tonnes]"/>
+<entry key="348" type="xstring" value="conv-factors_food_cake[kcal/tonnes]"/>
+<entry key="349" type="xstring" value="conv-factors_food_grapes[kcal/tonnes]"/>
+<entry key="350" type="xstring" value="conv-factors_food_molasses[kcal/tonnes]"/>
+<entry key="351" type="xstring" value="conv-factors_crop_unit[TWh/tons]"/>
+<entry key="352" type="xstring" value="conv-factors_crop_soyabean[TWh/tons]"/>
+<entry key="353" type="xstring" value="conv-factors_crop_palm[TWh/tons]"/>
+<entry key="354" type="xstring" value="conv-factors_crop_sunflower[TWh/tons]"/>
+<entry key="355" type="xstring" value="conv-factors_crop_rapeseed[TWh/tons]"/>
+<entry key="356" type="xstring" value="conv-factors_crop_uco[TWh/tons]"/>
+<entry key="357" type="xstring" value="conv-factors_crop_afats[TWh/tons]"/>
+<entry key="358" type="xstring" value="conv-factors_crop_maize[TWh/tons]"/>
+<entry key="359" type="xstring" value="conv-factors_crop_sugar-crops[TWh/tons]"/>
+<entry key="360" type="xstring" value="conv-factors_crop_wheat[TWh/tons]"/>
+<entry key="361" type="xstring" value="conv-factors_crop_sugar_oth[TWh/tons]"/>
+<entry key="362" type="xstring" value="datafile-pop"/>
+<entry key="363" type="xstring" value="datafile-cp"/>
+<entry key="364" type="xstring" value="mod_agr"/>
+<entry key="365" type="xstring" value="datafolder"/>
+<entry key="366" type="xstring" value="workspace_path"/>
+<entry key="367" type="xstring" value="module (index)"/>
+<entry key="368" type="xstring" value="module"/>
+<entry key="369" type="xstring" value="match-making (index)"/>
+<entry key="370" type="xstring" value="match-making"/>
+<entry key="371" type="xstring" value="link"/>
+<entry key="372" type="xstring" value="country-list"/>
+<entry key="373" type="xstring" value="table_name"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="|Country|Years|.*base.*|carbon-stock_.*|carbon-lifetime.*|conversion.*|fst_.*|ef_lulucf.*|agr-carbon.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+</config>
+<entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+<entry key="sub-node-description" type="xstring" value="The module will aim at accessing conversion routes and technologies for biomass into different energy carriers. Bioenergy yields are affected by three factors: crop yield, energy content of the crops and conversion technologies. This module will be influenced by the development of WP4 modules in relation to biomass resources."/>
+<config key="port-names">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="4.1 Land-use"/>
+<entry key="1" type="xstring" value="4.3 Agriculture"/>
+<entry key="2" type="xstring" value="Calibration"/>
+<entry key="3" type="xstring" value="4.5 Biodiversity"/>
+</config>
+<config key="port-descriptions">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="4.1 Land-use"/>
+<entry key="1" type="xstring" value="4.3 Agriculture"/>
+<entry key="2" type="xstring" value="Calibration"/>
+<entry key="3" type="xstring" value=""/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+<entry key="node-name" type="xstring" value="WrappedNode Input"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings">
+<config key="port_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="name" type="xstring" value="WrappedNode Input"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 321"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 18"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 754, Cols: 29"/>
+<entry key="port_dir_location" type="xstring" value="port_3"/>
+</config>
+<config key="port_4">
+<entry key="index" type="xint" value="4"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_4"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="821529b7-5a68-4676-b658-8b3be4f01b05"/>
+</config>
+</config>

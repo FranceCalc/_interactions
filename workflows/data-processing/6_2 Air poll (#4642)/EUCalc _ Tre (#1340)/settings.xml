@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="string-input-444">
+<entry key="string" type="xstring" value="air_exposure_agr_livestock"/>
+</config>
+<config key="string-input-445">
+<entry key="string" type="xstring" value="air_exposure-production_agr_livestock_(.*)\[.*"/>
+</config>
+<config key="string-input-446">
+<entry key="string" type="xstring" value="agr_liv-population_(.*)\[.*"/>
+</config>
+<config key="string-input-460">
+<entry key="string" type="xstring" value="ug/m3"/>
+</config>
+<config key="single-selection-463">
+<entry key="variable_value" type="xstring" value="Product"/>
+</config>
+<config key="column-filter-652">
+<config key="columns">
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xstring" value="air_exposure-production_agr_livestock_abp_dairy-milk[ug/m3/LSU]"/>
+<entry key="1" type="xstring" value="air_exposure-production_agr_livestock_abp_hens-egg[ug/m3/LSU]"/>
+<entry key="2" type="xstring" value="air_exposure-production_agr_livestock_meat_bovine[ug/m3/LSU]"/>
+<entry key="3" type="xstring" value="air_exposure-production_agr_livestock_meat_oth-animals[ug/m3/LSU]"/>
+<entry key="4" type="xstring" value="air_exposure-production_agr_livestock_meat_pig[ug/m3/LSU]"/>
+<entry key="5" type="xstring" value="air_exposure-production_agr_livestock_meat_poultry[ug/m3/LSU]"/>
+<entry key="6" type="xstring" value="air_exposure-production_agr_livestock_meat_sheep[ug/m3/LSU]"/>
+<entry key="7" type="xstring" value="agr_liv-population_abp_dairy-milk[lsu]"/>
+<entry key="8" type="xstring" value="agr_liv-population_abp_hens-egg[lsu]"/>
+<entry key="9" type="xstring" value="agr_liv-population_meat_bovine[lsu]"/>
+<entry key="10" type="xstring" value="agr_liv-population_meat_pig[lsu]"/>
+<entry key="11" type="xstring" value="agr_liv-population_meat_poultry[lsu]"/>
+<entry key="12" type="xstring" value="agr_liv-population_meat_sheep[lsu]"/>
+<entry key="13" type="xstring" value="agr_liv-population_meat_oth-animals[lsu]"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="36"/>
+<entry key="0" type="xstring" value="Country"/>
+<entry key="1" type="xstring" value="Years"/>
+<entry key="2" type="xstring" value="air_exposure-production_agr_livestock_abp_dairy-milk[ug/m3/LSU]"/>
+<entry key="3" type="xstring" value="air_exposure-production_agr_livestock_abp_hens-egg[ug/m3/LSU]"/>
+<entry key="4" type="xstring" value="air_exposure-production_agr_livestock_meat_bovine[ug/m3/LSU]"/>
+<entry key="5" type="xstring" value="air_exposure-production_agr_livestock_meat_oth-animals[ug/m3/LSU]"/>
+<entry key="6" type="xstring" value="air_exposure-production_agr_livestock_meat_pig[ug/m3/LSU]"/>
+<entry key="7" type="xstring" value="air_exposure-production_agr_livestock_meat_poultry[ug/m3/LSU]"/>
+<entry key="8" type="xstring" value="air_exposure-production_agr_livestock_meat_sheep[ug/m3/LSU]"/>
+<entry key="9" type="xstring" value="air_exposure-production_agr_fertilizer_appl_nitrogen[ug/m3/t]"/>
+<entry key="10" type="xstring" value="Country_source"/>
+<entry key="11" type="xstring" value="agr_liv-population_abp_dairy-milk[lsu]"/>
+<entry key="12" type="xstring" value="agr_liv-population_abp_hens-egg[lsu]"/>
+<entry key="13" type="xstring" value="agr_liv-population_meat_bovine[lsu]"/>
+<entry key="14" type="xstring" value="agr_liv-population_meat_pig[lsu]"/>
+<entry key="15" type="xstring" value="agr_liv-population_meat_poultry[lsu]"/>
+<entry key="16" type="xstring" value="agr_liv-population_meat_sheep[lsu]"/>
+<entry key="17" type="xstring" value="agr_liv-population_meat_oth-animals[lsu]"/>
+<entry key="18" type="xstring" value="agr_input-use_nitrogen[t]"/>
+<entry key="19" type="xstring" value="agr_input-use_phosphate[t]"/>
+<entry key="20" type="xstring" value="agr_input-use_potash[t]"/>
+<entry key="21" type="xstring" value="agr_input-use_pesticide[t]"/>
+<entry key="22" type="xstring" value="agr_energy-demand_electricity[TWh]"/>
+<entry key="23" type="xstring" value="agr_energy-demand_bioenergy-solid-wood[TWh]"/>
+<entry key="24" type="xstring" value="agr_energy-demand_heat[TWh]"/>
+<entry key="25" type="xstring" value="agr_energy-demand_oth[TWh]"/>
+<entry key="26" type="xstring" value="agr_energy-demand_bioenergy-liquid_biodiesels[TWh]"/>
+<entry key="27" type="xstring" value="agr_energy-demand_bioenergy-gas_biogas[TWh]"/>
+<entry key="28" type="xstring" value="agr_energy-demand_bioenergy-liquid_ethanol[TWh]"/>
+<entry key="29" type="xstring" value="agr_energy-demand_liquid-ff-lpg[TWh]"/>
+<entry key="30" type="xstring" value="agr_energy-demand_bioenergy-liquid_oth[TWh]"/>
+<entry key="31" type="xstring" value="air_exposure_agr_gas-ff-natural[ug/m3]"/>
+<entry key="32" type="xstring" value="air_exposure_agr_liquid-ff-diesel[ug/m3]"/>
+<entry key="33" type="xstring" value="air_exposure_agr_liquid-ff-oil[ug/m3]"/>
+<entry key="34" type="xstring" value="air_exposure_agr_liquid-ff-gasoline[ug/m3]"/>
+<entry key="35" type="xstring" value="air_exposure_agr_solid-ff-coal[ug/m3]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="air_exposure-production_agr_livestock_(.*)\[.*|agr_liv-population_(.*)\[.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Multiply exposure factor %%00013%%00010with livestock population%%00013%%00010air_exposure_agr_livestock_(animal)[ug/m3] =%%00013%%00010air_exposure-production_agr_livestock_(animal)[ug/m3/lsu]%%00013%%00010* agr_liv-population_(animal)[lsu]"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="2497"/>
+<entry key="y-coordinate" type="xint" value="2899"/>
+<entry key="width" type="xint" value="327"/>
+<entry key="height" type="xint" value="75"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" value="Execute an operation on two groups of columns, matching them one-to-one using a capture group defined in the regex expressions."/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="650"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="443"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-08-26 12:47:07"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Tree%20parallel%20operation"/>
+</config>
+<entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;444&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;445&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;446&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;454&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;460&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;463&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;359&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]}]}"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

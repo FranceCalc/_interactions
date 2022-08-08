@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import numpy as np%%00010%%00010fl_need_c = input_table_2.copy()%%00010init_str = input_table_1.copy()%%00010init_str.sort_index(inplace=True)%%00010%%00010fl_need_c['VRE_rat_c'] = fl_need_c['Fly_used_g']/fl_need_c['Fly_used_g'].sum()%%00010%%00010# Build up storage technology tables and initial values (initial storage capacities from2015)%%00010# Different boundaries set by storage lever levels already have been %%00010# reduced from input electricity to their output in the previous node %%00010# (controlled by round_trip parameter) %%00010# Of course used storage capacity also have to convert to their gross%%00010# value to calculate necessary investments, as there are loss capacities %%00010%%00010st_Ptx=init_str.loc[:, ['Years', 'Ptx', 'Rt_Ptx[Percent]', 'lifespan_Ptx']].copy()%%00010st_PHS=init_str.loc[:, ['Years', 'PHS', 'Rt_PHS[Percent]', 'lifespan_PHS']].copy()%%00010st_CAES=init_str.loc[:,['Years', 'CAES', 'Rt_CAES[Percent]', 'lifespan_CAES']].copy()%%00010st_Fly=init_str.loc[:, ['Years', 'Flywheel', 'Rt_Fly[Percent]', 'lifespan_Fly']].copy()%%00010st_Bat=init_str.loc[:, ['Years', 'Battery', 'Rt_Bat[Percent]', 'lifespan_Bat']].copy()%%00010%%00010lt_Ptx=st_Ptx['lifespan_Ptx'][0]%%00010lt_CAES=st_CAES['lifespan_CAES'][0]%%00010lt_Fly=st_Fly['lifespan_Fly'][0]%%00010lt_Bat=st_Bat['lifespan_Bat'][0]%%00010%%00010# fl_need_c.set_index (['Country', 'Years'])%%00010%%00010def PHS_inv(ser, ind_calc, initial_cap):%%00010%%00009# initial_cap %%00010%%00009# initial storage capacity%%00010%%00010%%00009# Yearly storage needs for the given technology for the period 2020:2050%%00010%%00009ser_ind=ser.index%%00010%%00009a=pd.Series(ser.values, index=ind_calc)%%00010%%00009#print(a, a.index, ser_ind)%%00010%%00009# inserting initial storage capacity%%00010%%00009a[0]=initial_cap%%00010%%00009a.sort_index(inplace=True)%%00010%%00010%%00009# initialize capacity need for the whoole period neglecting the lifetime of%%00010%%00009# given storage technology%%00010%%00009nom_capacity = pd.Series(0.0, a.index)%%00010%%00010%%00009# set capacity need for the whole pwriod%%00010%%00009for i, e in a.iteritems():%%00010%%00009%%00009%%00010%%00009%%00009#print('i', i, max(a[:i+1]))%%00010%%00009%%00009nom_capacity[i] = max(a[:i+1])%%00010%%00009%%00009#print(i, 'b[i]', b[i])%%00010%%00009%%00009%%00010%%00009# yearly investment need or the whoole period neglecting the lifetime of%%00010%%00009# given storage technology%%00010%%00009inv_new= nom_capacity.diff()[1:]%%00010%%00009#print(inv_new, nom_capacity)%%00010%%00009# output of new investments and working nominal capacity%%00010%%00009st_invest=pd.DataFrame([inv_new, nom_capacity[1:]])%%00010%%00010%%00009return st_invest%%00010%%00009%%00010%%00009%%00010%%00010def stor_inv(ser, ind_calc, life_t, initial_cap):%%00010%%00010%%00009# initial_cap %%00010%%00009# initial storage capacity%%00010%%00010%%00009life_t=int(life_t)%%00010%%00009# lifetime of storage technology%%00010%%00010%%00009# index for lifetime%%00010%%00009life_t_ind=life_t//5%%00010%%00009#print('life_t_ind', type(life_t))%%00010%%00010%%00009# index for initial capacity lifetime (50 % of the newly invested ones's %%00010%%00009# rounded to the five year period)%%00010%%00009life_t_init=int(np.ceil(life_t/10))%%00010%%00009#print('life_t_init', life_t_init, type(life_t_init))%%00010%%00010%%00009# Yearly storage needs for the given technology for the period 2020:2050%%00010%%00010%%00009ser_ind=ser.index%%00010%%00009a=pd.Series(ser.values, index=ind_calc)%%00010%%00009#print(a, a.index, ser_ind)%%00010%%00009# inserting initial storage capacity%%00010%%00009a[0]=initial_cap%%00010%%00009a.sort_index(inplace=True)%%00010%%00010%%00009# calculating with investment taking into account shutdown after technology's%%00010%%00009# lifetime%%00010%%00009# Initialization%%00010%%00009inv = pd.Series(0.0, a[1:].index)%%00010%%00009out = pd.Series(0.0, a[1:].index)%%00010%%00009#print(out)%%00010%%00009#print(life_t_init, type(life_t_init))%%00010%%00009# Handling exsisting storage capacity (before 2015)%%00010%%00009out[life_t_init]=-1*initial_cap%%00010%%00010%%00009# Calculating new investment needs and shotdowns%%00010%%00009for i in inv.index:%%00010    # Summation over years%%00010%%00009%%00009inv[i]=max(a[i]-initial_cap-inv[:i-1].sum()-out[:i].sum(), 0)%%00010%%00009%%00009out[i+life_t_ind]=-1*inv[i]%%00010%%00010%%00009inv_new=inv[0:7]%%00010%%00009# Calculating nominal invested/shutdown capacities %%00010%%00009# based on investments/shutdowns%%00010%%00009invested_cap=inv.rolling(7, min_periods=1).sum()[0:7]%%00010%%00009out_cap=out.rolling(7, min_periods=1).sum()[0:7]%%00010%%00010%%00009# Calculating yearly nominal capacity%%00010%%00009nom_capacity=invested_cap+out_cap+initial_cap%%00010%%00009nom_capacity.clip(lower=0, inplace=True)%%00010%%00009#print(out_cap)%%00010%%00009# output of new investments and working nominal capacity%%00010%%00009st_invest=pd.DataFrame([inv_new, nom_capacity])%%00010%%00009%%00010%%00009return st_invest%%00010%%00009%%00010# Initialization of data output%%00010# warning!!  units concerns to output values%%00010# during the calculations theunit is TWh%%00010fl_need_c['str_new-capacity_Ptx[GW]']=0.0%%00010fl_need_c['nom_cap_Ptx[kW]']=0.0%%00010%%00010fl_need_c['str_new-capacity_CAES[GW]']=0.0%%00010fl_need_c['nom_cap_CAES[kW]']=0.0%%00010%%00010fl_need_c['str_new-capacity_flywheel[GW]']=0.0%%00010fl_need_c['nom_cap_flywheel[kW]']=0.0%%00010%%00010fl_need_c['str_new-capacity_battery[GW]']=0.0%%00010fl_need_c['nom_cap_battery[kW]']=0.0%%00010%%00010fl_need_c['str_new-capacity_PHS[GW]']=0.0%%00010fl_need_c['nom_cap_PHS[kW]']=0.0%%00010%%00010%%00010# inexing in the function form 1 (0 is the preliminary time period i.e. 2015)%%00010ind_calc=[1,2,3,4,5,6,7]%%00010%%00010# Country level capacity calculations%%00010# Initial values originated from 2015%%00010# Timelife from technical data%%00010%%00010splitting = fl_need_c.groupby('Country')%%00010for group_name, group in splitting:%%00010%%00010%%00009#print(group_name, group.index)%%00010%%00009%%00010%%00009initial_Ptx=st_Ptx.loc[group_name, 'Ptx']%%00010%%00009initial_CAES=st_CAES.loc[group_name, 'CAES']%%00010%%00009initial_Fly=st_Fly.loc[group_name, 'Flywheel']%%00010%%00009initial_Bat=st_Bat.loc[group_name, 'Battery']%%00010%%00009initial_PHS=st_PHS.loc[group_name, 'PHS']%%00010%%00009%%00010%%00009#print(initial_cap)%%00010%%00009#print(group.loc[:, ['Ptx_new_inv','Ptx_nom_cap']].shape, group.index)%%00010%%00009# Ptx%%00010%%00009fl_need_c.loc[group.index, ['str_new-capacity_Ptx[GW]','nom_cap_Ptx[kW]']] =%%00009\%%00010%%00009np.transpose(stor_inv(group['Ptx_used_g'], ind_calc, lt_Ptx, initial_Ptx).values)%%00010%%00009# CAES%%00010%%00009fl_need_c.loc[group.index, ['str_new-capacity_CAES[GW]','nom_cap_CAES[kW]']] =%%00009\%%00010%%00009np.transpose(stor_inv(group['CAES_used_g'], ind_calc, lt_CAES, initial_CAES).values)%%00010%%00009# Flywheel%%00010%%00009fl_need_c.loc[group.index, ['str_new-capacity_flywheel[GW]','nom_cap_flywheel[kW]']] =%%00009\%%00010%%00009np.transpose(stor_inv(group['Fly_used_g'], ind_calc, lt_Fly, initial_Fly).values)%%00010%%00009# battery%%00010%%00009fl_need_c.loc[group.index, ['str_new-capacity_battery[GW]','nom_cap_battery[kW]']] =%%00009\%%00010%%00009np.transpose(stor_inv(group['Bat_used_g'], ind_calc, lt_Bat, initial_Bat).values)%%00010%%00009%%00010%%00009fl_need_c.loc[group.index, ['str_new-capacity_PHS[GW]','nom_cap_PHS[kW]']] =%%00009\%%00010%%00009np.transpose(PHS_inv(group['PHS_used_g'], ind_calc, initial_PHS).values)%%00010%%00009%%00010# conversion units for cost calculations%%00010%%00010# Capex costs are based on invested storage in energy units (from TWh to MWh)%%00010# Calculating with a maximum 85% usage of nominal capacities%%00010# In case of Ptx energy is expressed in H equivalent value%%00010Ptx_prod=8/7%%00010Cap_fact=1/0.85%%00010fl_need_c.loc[:, 'str_new-capacity_Ptx[GW]']=fl_need_c.loc[:, 'str_new-capacity_Ptx[GW]']*Ptx_prod%%00010fl_need_c.loc[:, ['str_new-capacity_Ptx[GW]', 'str_new-capacity_CAES[GW]', 'str_new-capacity_flywheel[GW]', 'str_new-capacity_battery[GW]', 'str_new-capacity_PHS[GW]']]=\%%00010fl_need_c.loc[:, ['str_new-capacity_Ptx[GW]', 'str_new-capacity_CAES[GW]', 'str_new-capacity_flywheel[GW]', 'str_new-capacity_battery[GW]', 'str_new-capacity_PHS[GW]']]\%%00010*Cap_fact*2/8.76%%00010%%00010# Opex costs are based on operating capacities (from TWh to kW)%%00010fl_need_c.loc[:, 'nom_cap_Ptx[kW]']=fl_need_c.loc[:, 'nom_cap_Ptx[kW]']*Ptx_prod%%00010fl_need_c.loc[:, ['nom_cap_Ptx[kW]', 'nom_cap_CAES[kW]', 'nom_cap_flywheel[kW]', 'nom_cap_battery[kW]', 'nom_cap_PHS[kW]']]=\%%00010fl_need_c.loc[:, ['nom_cap_Ptx[kW]', 'nom_cap_CAES[kW]', 'nom_cap_flywheel[kW]', 'nom_cap_battery[kW]', 'nom_cap_PHS[kW]']]\%%00010*Cap_fact*2/8.76*(10**6)%%00010%%00010%%00010output_table=fl_need_c%%00010%%00010"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Gather all storage technology%%00013%%00010and nat gas need in country level%%00013%%00010into one table"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="3412"/>
+<entry key="y-coordinate" type="xint" value="639"/>
+<entry key="width" type="xint" value="179"/>
+<entry key="height" type="xint" value="45"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170931"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170931"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 203, Cols: 20"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="beda00f5-9e35-4c4d-bdd7-368161eed56e"/>
+</config>
+</config>
