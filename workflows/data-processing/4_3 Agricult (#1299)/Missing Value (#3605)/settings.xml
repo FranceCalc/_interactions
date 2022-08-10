@@ -55,11 +55,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Column &quot;agr_bioenergy-capacity_liq_other-liquid-biofuel[TWh]&quot; still contains missing values.%%00010Column &quot;agr_biomass-hierarchy_sdb-mix_solid-biofuel[%]&quot; still contains missing values.%%00010Column &quot;agr_biomass-hierarchy_biomass-mix_digestor_manure[%]_1&quot; still contains missing values.%%00010Column &quot;agr_biomass-hierarchy_biomass-mix_digestor_energycrop[%]_1&quot; still contains missing values.%%00010Column &quot;agr_biomass-hierarchy_biomass-mix_digestor_bio-waste[%]_1&quot; still contains missing values.%%00010Column &quot;agr_biomass-hierarchy_biomass-mix_liquid_oil_voil[%]_1&quot; still contains missing values.%%00010Column &quot;agr_biomass-hierarchy_biomass-mix_liquid_eth_cereal[%]_1&quot; still contains missing values.%%00010Column &quot;agr_biomass-hierarchy_biomass-mix_liquid_eth_sugarcrop[%]_1&quot; still contains missing values.%%00010Column &quot;agr_climate-smart-crop_energy-demand_bioenergy-liquid_ethanol[ktoe/ha]&quot; still contains missing values.%%00010Column &quot;agr_climate-smart-crop_matrix_cropland_rem_cropland[%]&quot; still contains missing values.%%00010Column &quot;agr_climate-smart-crop_matrix_grassland_rem_grassland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_cropland_to_forest[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_grassland_to_forest[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_forest_to_cropland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_grassland_to_cropland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_cropland_to_grassland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_forest_to_grassland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_forest_rem_forest[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_cropland_rem_cropland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_grassland_rem_grassland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_wetland_rem_wetland[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_settlement_rem_settlement[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_matrix_other_rem_other[%]&quot; still contains missing values.%%00010Column &quot;agr_land-man_fct_cropland_to_grassland[#]&quot; still contains missing values.%%00010Column &quot;agr_land-man_fct_grassland_to_cropland[#]&quot; still contains missing values.%%00010Column &quot;agr_climate-smart-forestry_faws-share[%]&quot; still contains missing values."/>
-</config>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"/>
 <entry key="node-name" type="xstring" value="Missing Value"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -72,28 +68,20 @@
 <entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Missing Value"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 1076"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
-<entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: "/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="43155d42-b821-4882-bb24-4b1795efcb12"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

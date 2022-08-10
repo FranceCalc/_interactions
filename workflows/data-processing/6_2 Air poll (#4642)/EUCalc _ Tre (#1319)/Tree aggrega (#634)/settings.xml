@@ -1,140 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure-production_ind_(.*)\[.*|ind_material-production_(.*)\[.*"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure_ind_feedstock"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure-production_ind_(.*)\[.*"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ug/m3"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_(.*)\[.*"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure-production_ind_aluminium_sec[ug/m3/Mt],ind_material-production_aluminium_sec[Mt],air_exposure-production_ind_cement_dry-kiln[ug/m3/Mt],ind_material-production_cement_dry-kiln[Mt],air_exposure-production_ind_cement_geopolym[ug/m3/Mt],ind_material-production_cement_geopolym[Mt],air_exposure-production_ind_cement_wet-kiln[ug/m3/Mt],ind_material-production_cement_wet-kiln[Mt],air_exposure-production_ind_chemicals_chem-tech[ug/m3/Mt],ind_material-production_chemicals_chem-tech[Mt],air_exposure-production_ind_copper_tech[ug/m3/Mt],ind_material-production_copper_tech[Mt],air_exposure-production_ind_glass_glass[ug/m3/Mt],ind_material-production_glass_glass[Mt],air_exposure-production_ind_lime_lime[ug/m3/Mt],ind_material-production_lime_lime[Mt],air_exposure-production_ind_paper_recycled[ug/m3/Mt],ind_material-production_paper_recycled[Mt],air_exposure-production_ind_paper_woodpulp[ug/m3/Mt],ind_material-production_paper_woodpulp[Mt],air_exposure-production_ind_steel_BF-BOF[ug/m3/Mt],ind_material-production_steel_BF-BOF[Mt],air_exposure-production_ind_steel_hisarna[ug/m3/Mt],ind_material-production_steel_hisarna[Mt],air_exposure-production_ind_steel_hydrog-DRI[ug/m3/Mt],ind_material-production_steel_hydrog-DRI[Mt],air_exposure-production_ind_steel_scrap-EAF[ug/m3/Mt],ind_material-production_steel_scrap-EAF[Mt],air_exposure-production_ind_aluminium_prim[ug/m3/Mt],ind_material-production_aluminium_prim[Mt],"/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure_ind_feedstock_aluminium_sec[ug/m3],air_exposure_ind_feedstock_cement_dry-kiln[ug/m3],air_exposure_ind_feedstock_cement_geopolym[ug/m3],air_exposure_ind_feedstock_cement_wet-kiln[ug/m3],air_exposure_ind_feedstock_chemicals_chem-tech[ug/m3],air_exposure_ind_feedstock_copper_tech[ug/m3],air_exposure_ind_feedstock_glass_glass[ug/m3],air_exposure_ind_feedstock_lime_lime[ug/m3],air_exposure_ind_feedstock_paper_recycled[ug/m3],air_exposure_ind_feedstock_paper_woodpulp[ug/m3],air_exposure_ind_feedstock_steel_BF-BOF[ug/m3],air_exposure_ind_feedstock_steel_hisarna[ug/m3],air_exposure_ind_feedstock_steel_hydrog-DRI[ug/m3],air_exposure_ind_feedstock_steel_scrap-EAF[ug/m3],air_exposure_ind_feedstock_aluminium_prim[ug/m3],"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure-production_ind_(.*)\[.*|ind_material-production_(.*)\[.*"/>
-</config>
-<config key="Variable_12">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure_ind_feedstock"/>
-</config>
-<config key="Variable_13">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure-production_ind_(.*)\[.*"/>
-</config>
-<config key="Variable_14">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_15">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_16">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_17">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_18">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ug/m3"/>
-</config>
-<config key="Variable_19">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_(.*)\[.*"/>
-</config>
-<config key="Variable_20">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure-production_ind_aluminium_sec[ug/m3/Mt],ind_material-production_aluminium_sec[Mt],air_exposure-production_ind_cement_dry-kiln[ug/m3/Mt],ind_material-production_cement_dry-kiln[Mt],air_exposure-production_ind_cement_geopolym[ug/m3/Mt],ind_material-production_cement_geopolym[Mt],air_exposure-production_ind_cement_wet-kiln[ug/m3/Mt],ind_material-production_cement_wet-kiln[Mt],air_exposure-production_ind_chemicals_chem-tech[ug/m3/Mt],ind_material-production_chemicals_chem-tech[Mt],air_exposure-production_ind_copper_tech[ug/m3/Mt],ind_material-production_copper_tech[Mt],air_exposure-production_ind_glass_glass[ug/m3/Mt],ind_material-production_glass_glass[Mt],air_exposure-production_ind_lime_lime[ug/m3/Mt],ind_material-production_lime_lime[Mt],air_exposure-production_ind_paper_recycled[ug/m3/Mt],ind_material-production_paper_recycled[Mt],air_exposure-production_ind_paper_woodpulp[ug/m3/Mt],ind_material-production_paper_woodpulp[Mt],air_exposure-production_ind_steel_BF-BOF[ug/m3/Mt],ind_material-production_steel_BF-BOF[Mt],air_exposure-production_ind_steel_hisarna[ug/m3/Mt],ind_material-production_steel_hisarna[Mt],air_exposure-production_ind_steel_hydrog-DRI[ug/m3/Mt],ind_material-production_steel_hydrog-DRI[Mt],air_exposure-production_ind_steel_scrap-EAF[ug/m3/Mt],ind_material-production_steel_scrap-EAF[Mt],air_exposure-production_ind_aluminium_prim[ug/m3/Mt],ind_material-production_aluminium_prim[Mt],"/>
-</config>
-<config key="Variable_21">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="air_exposure_ind_feedstock_aluminium_sec[ug/m3],air_exposure_ind_feedstock_cement_dry-kiln[ug/m3],air_exposure_ind_feedstock_cement_geopolym[ug/m3],air_exposure_ind_feedstock_cement_wet-kiln[ug/m3],air_exposure_ind_feedstock_chemicals_chem-tech[ug/m3],air_exposure_ind_feedstock_copper_tech[ug/m3],air_exposure_ind_feedstock_glass_glass[ug/m3],air_exposure_ind_feedstock_lime_lime[ug/m3],air_exposure_ind_feedstock_paper_recycled[ug/m3],air_exposure_ind_feedstock_paper_woodpulp[ug/m3],air_exposure_ind_feedstock_steel_BF-BOF[ug/m3],air_exposure_ind_feedstock_steel_hisarna[ug/m3],air_exposure_ind_feedstock_steel_hydrog-DRI[ug/m3],air_exposure_ind_feedstock_steel_scrap-EAF[ug/m3],air_exposure_ind_feedstock_aluminium_prim[ug/m3],"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -155,7 +22,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="virtual-in-ID" type="xint" value="598"/>
 <config key="inports">
 <config key="inport_0">

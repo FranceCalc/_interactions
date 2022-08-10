@@ -49,7 +49,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Outer workflow does not have input data, execute it first"/>
+</config>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="WrappedNode Input"/>
@@ -118,75 +122,48 @@
 </config>
 </config>
 <entry key="name" type="xstring" value="WrappedNode Input"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 203, Cols: 9"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 232, Cols: 90"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_3">
 <entry key="index" type="xint" value="3"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 54"/>
-<entry key="port_dir_location" type="xstring" value="port_3"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_4">
 <entry key="index" type="xint" value="4"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 16"/>
-<entry key="port_dir_location" type="xstring" value="port_4"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_5">
 <entry key="index" type="xint" value="5"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 232, Cols: 214"/>
-<entry key="port_dir_location" type="xstring" value="port_5"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_6">
 <entry key="index" type="xint" value="6"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 232, Cols: 13"/>
-<entry key="port_dir_location" type="xstring" value="port_6"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_7">
 <entry key="index" type="xint" value="7"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 203, Cols: 8"/>
-<entry key="port_dir_location" type="xstring" value="port_7"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_8">
 <entry key="index" type="xint" value="8"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 131"/>
-<entry key="port_dir_location" type="xstring" value="port_8"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_9">
 <entry key="index" type="xint" value="9"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 957, Cols: 39"/>
-<entry key="port_dir_location" type="xstring" value="port_9"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7b392572-3ff8-4040-a76b-4ef90b0554e6"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

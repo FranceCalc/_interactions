@@ -1,140 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy\-(.*)_(.*)\[GW\]|min_energytech_energy\-(.*)_(.*)\[kg/GW\]"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy_total"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy\-(.*)_(.*)\[GW\]"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="kg"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energytech_energy\-(.*)_(.*)\[kg/GW\]"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy-battery_dir[GW],min_energytech_energy-battery_aluminium[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_copper[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_graphite[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_lithium[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_manganese[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_nickel[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_aluminium[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_copper[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_graphite[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_lithium[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_manganese[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_nickel[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_aluminium[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_copper[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_graphite[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_lithium[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_manganese[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_nickel[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_aluminium[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_copper[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_steel[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_manganese[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_nickel[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_aluminium[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_copper[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_steel[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_nickel[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_aluminium[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_copper[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_steel[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_manganese[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_nickel[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_aluminium[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_copper[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_steel[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_manganese[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_nickel[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_aluminium[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_copper[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_steel[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_manganese[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_nickel[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_lead[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_aluminium[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_copper[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_steel[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_nickel[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_aluminium[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_copper[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_steel[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_nickel[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_lead[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_aluminium[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_copper[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_steel[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_manganese[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_nickel[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_aluminium[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_copper[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_steel[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_manganese[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_nickel[kg/GW],min_energy-oil_dir[GW],min_energytech_energy-oil_aluminium[kg/GW],min_energy-oil_dir[GW],min_energytech_energy-oil_copper[kg/GW],min_energy-oil_dir[GW],min_energytech_energy-oil_steel[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_aluminium[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_copper[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_steel[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_manganese[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_nickel[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_aluminium[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_copper[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_steel[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_manganese[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_nickel[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_aluminium[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_copper[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_steel[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_lead[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_aluminium[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_copper[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_steel[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_lead[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_aluminium[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_copper[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_steel[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_lead[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_aluminium[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_copper[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_steel[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_lead[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_aluminium[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_copper[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_steel[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_lead[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_aluminium[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_copper[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_steel[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_lead[kg/GW],"/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy_total_battery_dir_aluminium[kg],min_energy_total_battery_dir_copper[kg],min_energy_total_battery_dir_graphite[kg],min_energy_total_battery_dir_lithium[kg],min_energy_total_battery_dir_manganese[kg],min_energy_total_battery_dir_nickel[kg],min_energy_total_battery_indir_aluminium[kg],min_energy_total_battery_indir_copper[kg],min_energy_total_battery_indir_graphite[kg],min_energy_total_battery_indir_lithium[kg],min_energy_total_battery_indir_manganese[kg],min_energy_total_battery_indir_nickel[kg],min_energy_total_battery_exp_aluminium[kg],min_energy_total_battery_exp_copper[kg],min_energy_total_battery_exp_graphite[kg],min_energy_total_battery_exp_lithium[kg],min_energy_total_battery_exp_manganese[kg],min_energy_total_battery_exp_nickel[kg],min_energy_total_coal_dir_aluminium[kg],min_energy_total_coal_dir_copper[kg],min_energy_total_coal_dir_steel[kg],min_energy_total_coal_dir_manganese[kg],min_energy_total_coal_dir_nickel[kg],min_energy_total_csp_dir_aluminium[kg],min_energy_total_csp_dir_copper[kg],min_energy_total_csp_dir_steel[kg],min_energy_total_csp_dir_nickel[kg],min_energy_total_gas_dir_aluminium[kg],min_energy_total_gas_dir_copper[kg],min_energy_total_gas_dir_steel[kg],min_energy_total_gas_dir_manganese[kg],min_energy_total_gas_dir_nickel[kg],min_energy_total_geo_dir_aluminium[kg],min_energy_total_geo_dir_copper[kg],min_energy_total_geo_dir_steel[kg],min_energy_total_geo_dir_manganese[kg],min_energy_total_geo_dir_nickel[kg],min_energy_total_hydro_dir_aluminium[kg],min_energy_total_hydro_dir_copper[kg],min_energy_total_hydro_dir_steel[kg],min_energy_total_hydro_dir_manganese[kg],min_energy_total_hydro_dir_nickel[kg],min_energy_total_hydro_dir_lead[kg],min_energy_total_marine_dir_aluminium[kg],min_energy_total_marine_dir_copper[kg],min_energy_total_marine_dir_steel[kg],min_energy_total_marine_dir_nickel[kg],min_energy_total_nuclear_dir_aluminium[kg],min_energy_total_nuclear_dir_copper[kg],min_energy_total_nuclear_dir_steel[kg],min_energy_total_nuclear_dir_nickel[kg],min_energy_total_nuclear_dir_lead[kg],min_energy_total_off-wind_dir_aluminium[kg],min_energy_total_off-wind_dir_copper[kg],min_energy_total_off-wind_dir_steel[kg],min_energy_total_off-wind_dir_manganese[kg],min_energy_total_off-wind_dir_nickel[kg],min_energy_total_off-wind_exp_aluminium[kg],min_energy_total_off-wind_exp_copper[kg],min_energy_total_off-wind_exp_steel[kg],min_energy_total_off-wind_exp_manganese[kg],min_energy_total_off-wind_exp_nickel[kg],min_energy_total_oil_dir_aluminium[kg],min_energy_total_oil_dir_copper[kg],min_energy_total_oil_dir_steel[kg],min_energy_total_on-wind_dir_aluminium[kg],min_energy_total_on-wind_dir_copper[kg],min_energy_total_on-wind_dir_steel[kg],min_energy_total_on-wind_dir_manganese[kg],min_energy_total_on-wind_dir_nickel[kg],min_energy_total_on-wind_exp_aluminium[kg],min_energy_total_on-wind_exp_copper[kg],min_energy_total_on-wind_exp_steel[kg],min_energy_total_on-wind_exp_manganese[kg],min_energy_total_on-wind_exp_nickel[kg],min_energy_total_pv-csi_dir_aluminium[kg],min_energy_total_pv-csi_dir_copper[kg],min_energy_total_pv-csi_dir_steel[kg],min_energy_total_pv-csi_dir_lead[kg],min_energy_total_pv-csi_indir_aluminium[kg],min_energy_total_pv-csi_indir_copper[kg],min_energy_total_pv-csi_indir_steel[kg],min_energy_total_pv-csi_indir_lead[kg],min_energy_total_pv-csi_exp_aluminium[kg],min_energy_total_pv-csi_exp_copper[kg],min_energy_total_pv-csi_exp_steel[kg],min_energy_total_pv-csi_exp_lead[kg],min_energy_total_pv-thinfilm_dir_aluminium[kg],min_energy_total_pv-thinfilm_dir_copper[kg],min_energy_total_pv-thinfilm_dir_steel[kg],min_energy_total_pv-thinfilm_dir_lead[kg],min_energy_total_pv-thinfilm_indir_aluminium[kg],min_energy_total_pv-thinfilm_indir_copper[kg],min_energy_total_pv-thinfilm_indir_steel[kg],min_energy_total_pv-thinfilm_indir_lead[kg],min_energy_total_pv-thinfilm_exp_aluminium[kg],min_energy_total_pv-thinfilm_exp_copper[kg],min_energy_total_pv-thinfilm_exp_steel[kg],min_energy_total_pv-thinfilm_exp_lead[kg],"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy\-(.*)_(.*)\[GW\]|min_energytech_energy\-(.*)_(.*)\[kg/GW\]"/>
-</config>
-<config key="Variable_12">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy_total"/>
-</config>
-<config key="Variable_13">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy\-(.*)_(.*)\[GW\]"/>
-</config>
-<config key="Variable_14">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_15">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_16">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_17">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_18">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="kg"/>
-</config>
-<config key="Variable_19">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energytech_energy\-(.*)_(.*)\[kg/GW\]"/>
-</config>
-<config key="Variable_20">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy-battery_dir[GW],min_energytech_energy-battery_aluminium[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_copper[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_graphite[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_lithium[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_manganese[kg/GW],min_energy-battery_dir[GW],min_energytech_energy-battery_nickel[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_aluminium[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_copper[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_graphite[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_lithium[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_manganese[kg/GW],min_energy-battery_indir[GW],min_energytech_energy-battery_nickel[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_aluminium[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_copper[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_graphite[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_lithium[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_manganese[kg/GW],min_energy-battery_exp[GW],min_energytech_energy-battery_nickel[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_aluminium[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_copper[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_steel[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_manganese[kg/GW],min_energy-coal_dir[GW],min_energytech_energy-coal_nickel[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_aluminium[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_copper[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_steel[kg/GW],min_energy-csp_dir[GW],min_energytech_energy-csp_nickel[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_aluminium[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_copper[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_steel[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_manganese[kg/GW],min_energy-gas_dir[GW],min_energytech_energy-gas_nickel[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_aluminium[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_copper[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_steel[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_manganese[kg/GW],min_energy-geo_dir[GW],min_energytech_energy-geo_nickel[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_aluminium[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_copper[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_steel[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_manganese[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_nickel[kg/GW],min_energy-hydro_dir[GW],min_energytech_energy-hydro_lead[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_aluminium[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_copper[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_steel[kg/GW],min_energy-marine_dir[GW],min_energytech_energy-marine_nickel[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_aluminium[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_copper[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_steel[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_nickel[kg/GW],min_energy-nuclear_dir[GW],min_energytech_energy-nuclear_lead[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_aluminium[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_copper[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_steel[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_manganese[kg/GW],min_energy-off-wind_dir[GW],min_energytech_energy-off-wind_nickel[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_aluminium[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_copper[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_steel[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_manganese[kg/GW],min_energy-off-wind_exp[GW],min_energytech_energy-off-wind_nickel[kg/GW],min_energy-oil_dir[GW],min_energytech_energy-oil_aluminium[kg/GW],min_energy-oil_dir[GW],min_energytech_energy-oil_copper[kg/GW],min_energy-oil_dir[GW],min_energytech_energy-oil_steel[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_aluminium[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_copper[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_steel[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_manganese[kg/GW],min_energy-on-wind_dir[GW],min_energytech_energy-on-wind_nickel[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_aluminium[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_copper[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_steel[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_manganese[kg/GW],min_energy-on-wind_exp[GW],min_energytech_energy-on-wind_nickel[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_aluminium[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_copper[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_steel[kg/GW],min_energy-pv-csi_dir[GW],min_energytech_energy-pv-csi_lead[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_aluminium[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_copper[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_steel[kg/GW],min_energy-pv-csi_indir[GW],min_energytech_energy-pv-csi_lead[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_aluminium[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_copper[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_steel[kg/GW],min_energy-pv-csi_exp[GW],min_energytech_energy-pv-csi_lead[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_aluminium[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_copper[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_steel[kg/GW],min_energy-pv-thinfilm_dir[GW],min_energytech_energy-pv-thinfilm_lead[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_aluminium[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_copper[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_steel[kg/GW],min_energy-pv-thinfilm_indir[GW],min_energytech_energy-pv-thinfilm_lead[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_aluminium[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_copper[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_steel[kg/GW],min_energy-pv-thinfilm_exp[GW],min_energytech_energy-pv-thinfilm_lead[kg/GW],"/>
-</config>
-<config key="Variable_21">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_energy_total_battery_dir_aluminium[kg],min_energy_total_battery_dir_copper[kg],min_energy_total_battery_dir_graphite[kg],min_energy_total_battery_dir_lithium[kg],min_energy_total_battery_dir_manganese[kg],min_energy_total_battery_dir_nickel[kg],min_energy_total_battery_indir_aluminium[kg],min_energy_total_battery_indir_copper[kg],min_energy_total_battery_indir_graphite[kg],min_energy_total_battery_indir_lithium[kg],min_energy_total_battery_indir_manganese[kg],min_energy_total_battery_indir_nickel[kg],min_energy_total_battery_exp_aluminium[kg],min_energy_total_battery_exp_copper[kg],min_energy_total_battery_exp_graphite[kg],min_energy_total_battery_exp_lithium[kg],min_energy_total_battery_exp_manganese[kg],min_energy_total_battery_exp_nickel[kg],min_energy_total_coal_dir_aluminium[kg],min_energy_total_coal_dir_copper[kg],min_energy_total_coal_dir_steel[kg],min_energy_total_coal_dir_manganese[kg],min_energy_total_coal_dir_nickel[kg],min_energy_total_csp_dir_aluminium[kg],min_energy_total_csp_dir_copper[kg],min_energy_total_csp_dir_steel[kg],min_energy_total_csp_dir_nickel[kg],min_energy_total_gas_dir_aluminium[kg],min_energy_total_gas_dir_copper[kg],min_energy_total_gas_dir_steel[kg],min_energy_total_gas_dir_manganese[kg],min_energy_total_gas_dir_nickel[kg],min_energy_total_geo_dir_aluminium[kg],min_energy_total_geo_dir_copper[kg],min_energy_total_geo_dir_steel[kg],min_energy_total_geo_dir_manganese[kg],min_energy_total_geo_dir_nickel[kg],min_energy_total_hydro_dir_aluminium[kg],min_energy_total_hydro_dir_copper[kg],min_energy_total_hydro_dir_steel[kg],min_energy_total_hydro_dir_manganese[kg],min_energy_total_hydro_dir_nickel[kg],min_energy_total_hydro_dir_lead[kg],min_energy_total_marine_dir_aluminium[kg],min_energy_total_marine_dir_copper[kg],min_energy_total_marine_dir_steel[kg],min_energy_total_marine_dir_nickel[kg],min_energy_total_nuclear_dir_aluminium[kg],min_energy_total_nuclear_dir_copper[kg],min_energy_total_nuclear_dir_steel[kg],min_energy_total_nuclear_dir_nickel[kg],min_energy_total_nuclear_dir_lead[kg],min_energy_total_off-wind_dir_aluminium[kg],min_energy_total_off-wind_dir_copper[kg],min_energy_total_off-wind_dir_steel[kg],min_energy_total_off-wind_dir_manganese[kg],min_energy_total_off-wind_dir_nickel[kg],min_energy_total_off-wind_exp_aluminium[kg],min_energy_total_off-wind_exp_copper[kg],min_energy_total_off-wind_exp_steel[kg],min_energy_total_off-wind_exp_manganese[kg],min_energy_total_off-wind_exp_nickel[kg],min_energy_total_oil_dir_aluminium[kg],min_energy_total_oil_dir_copper[kg],min_energy_total_oil_dir_steel[kg],min_energy_total_on-wind_dir_aluminium[kg],min_energy_total_on-wind_dir_copper[kg],min_energy_total_on-wind_dir_steel[kg],min_energy_total_on-wind_dir_manganese[kg],min_energy_total_on-wind_dir_nickel[kg],min_energy_total_on-wind_exp_aluminium[kg],min_energy_total_on-wind_exp_copper[kg],min_energy_total_on-wind_exp_steel[kg],min_energy_total_on-wind_exp_manganese[kg],min_energy_total_on-wind_exp_nickel[kg],min_energy_total_pv-csi_dir_aluminium[kg],min_energy_total_pv-csi_dir_copper[kg],min_energy_total_pv-csi_dir_steel[kg],min_energy_total_pv-csi_dir_lead[kg],min_energy_total_pv-csi_indir_aluminium[kg],min_energy_total_pv-csi_indir_copper[kg],min_energy_total_pv-csi_indir_steel[kg],min_energy_total_pv-csi_indir_lead[kg],min_energy_total_pv-csi_exp_aluminium[kg],min_energy_total_pv-csi_exp_copper[kg],min_energy_total_pv-csi_exp_steel[kg],min_energy_total_pv-csi_exp_lead[kg],min_energy_total_pv-thinfilm_dir_aluminium[kg],min_energy_total_pv-thinfilm_dir_copper[kg],min_energy_total_pv-thinfilm_dir_steel[kg],min_energy_total_pv-thinfilm_dir_lead[kg],min_energy_total_pv-thinfilm_indir_aluminium[kg],min_energy_total_pv-thinfilm_indir_copper[kg],min_energy_total_pv-thinfilm_indir_steel[kg],min_energy_total_pv-thinfilm_indir_lead[kg],min_energy_total_pv-thinfilm_exp_aluminium[kg],min_energy_total_pv-thinfilm_exp_copper[kg],min_energy_total_pv-thinfilm_exp_steel[kg],min_energy_total_pv-thinfilm_exp_lead[kg],"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -155,7 +22,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="virtual-in-ID" type="xint" value="598"/>
 <config key="inports">
 <config key="inport_0">

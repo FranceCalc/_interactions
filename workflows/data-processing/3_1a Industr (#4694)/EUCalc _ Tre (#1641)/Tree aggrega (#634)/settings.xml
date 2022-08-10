@@ -1,140 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_(.*)\[.*|tec_emission-factor-process_CH4_(.*)\[.*"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_CH4-emissions_process"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_(.*)\[.*"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*"/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Mt"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="tec_emission-factor-process_CH4_(.*)\[.*"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_fbt_tech[Mt],tec_emission-factor-process_CH4_fbt_tech[Mt/Mt],ind_material-production_tra-equip_tech[Mt],tec_emission-factor-process_CH4_tra-equip_tech[Mt/Mt],ind_material-production_textiles_tech[Mt],tec_emission-factor-process_CH4_textiles_tech[Mt/Mt],ind_material-production_mae_tech[Mt],tec_emission-factor-process_CH4_mae_tech[Mt/Mt],ind_material-production_wwp_tech[Mt],tec_emission-factor-process_CH4_wwp_tech[Mt/Mt],ind_material-production_ois_tech[Mt],tec_emission-factor-process_CH4_ois_tech[Mt/Mt],ind_material-production_aluminium_prim[Mt],tec_emission-factor-process_CH4_aluminium_prim[Mt/Mt],ind_material-production_aluminium_sec[Mt],tec_emission-factor-process_CH4_aluminium_sec[Mt/Mt],ind_material-production_cement_dry-kiln[Mt],tec_emission-factor-process_CH4_cement_dry-kiln[Mt/Mt],ind_material-production_cement_wet-kiln[Mt],tec_emission-factor-process_CH4_cement_wet-kiln[Mt/Mt],ind_material-production_cement_geopolym[Mt],tec_emission-factor-process_CH4_cement_geopolym[Mt/Mt],ind_material-production_chem_chem-tech[Mt],tec_emission-factor-process_CH4_chem_chem-tech[Mt/Mt],ind_material-production_copper_tech[Mt],tec_emission-factor-process_CH4_copper_tech[Mt/Mt],ind_material-production_glass_glass[Mt],tec_emission-factor-process_CH4_glass_glass[Mt/Mt],ind_material-production_lime_lime[Mt],tec_emission-factor-process_CH4_lime_lime[Mt/Mt],ind_material-production_paper_woodpulp[Mt],tec_emission-factor-process_CH4_paper_woodpulp[Mt/Mt],ind_material-production_paper_recycled[Mt],tec_emission-factor-process_CH4_paper_recycled[Mt/Mt],ind_material-production_steel_BF-BOF[Mt],tec_emission-factor-process_CH4_steel_BF-BOF[Mt/Mt],ind_material-production_steel_scrap-EAF[Mt],tec_emission-factor-process_CH4_steel_scrap-EAF[Mt/Mt],ind_material-production_steel_hisarna[Mt],tec_emission-factor-process_CH4_steel_hisarna[Mt/Mt],ind_material-production_steel_hydrog-DRI[Mt],tec_emission-factor-process_CH4_steel_hydrog-DRI[Mt/Mt],"/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_CH4-emissions_process_fbt_tech[Mt],ind_CH4-emissions_process_tra-equip_tech[Mt],ind_CH4-emissions_process_textiles_tech[Mt],ind_CH4-emissions_process_mae_tech[Mt],ind_CH4-emissions_process_wwp_tech[Mt],ind_CH4-emissions_process_ois_tech[Mt],ind_CH4-emissions_process_aluminium_prim[Mt],ind_CH4-emissions_process_aluminium_sec[Mt],ind_CH4-emissions_process_cement_dry-kiln[Mt],ind_CH4-emissions_process_cement_wet-kiln[Mt],ind_CH4-emissions_process_cement_geopolym[Mt],ind_CH4-emissions_process_chem_chem-tech[Mt],ind_CH4-emissions_process_copper_tech[Mt],ind_CH4-emissions_process_glass_glass[Mt],ind_CH4-emissions_process_lime_lime[Mt],ind_CH4-emissions_process_paper_woodpulp[Mt],ind_CH4-emissions_process_paper_recycled[Mt],ind_CH4-emissions_process_steel_BF-BOF[Mt],ind_CH4-emissions_process_steel_scrap-EAF[Mt],ind_CH4-emissions_process_steel_hisarna[Mt],ind_CH4-emissions_process_steel_hydrog-DRI[Mt],"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_(.*)\[.*|tec_emission-factor-process_CH4_(.*)\[.*"/>
-</config>
-<config key="Variable_12">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_CH4-emissions_process"/>
-</config>
-<config key="Variable_13">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_(.*)\[.*"/>
-</config>
-<config key="Variable_14">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*"/>
-</config>
-<config key="Variable_15">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_16">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_17">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_18">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Mt"/>
-</config>
-<config key="Variable_19">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="tec_emission-factor-process_CH4_(.*)\[.*"/>
-</config>
-<config key="Variable_20">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_material-production_fbt_tech[Mt],tec_emission-factor-process_CH4_fbt_tech[Mt/Mt],ind_material-production_tra-equip_tech[Mt],tec_emission-factor-process_CH4_tra-equip_tech[Mt/Mt],ind_material-production_textiles_tech[Mt],tec_emission-factor-process_CH4_textiles_tech[Mt/Mt],ind_material-production_mae_tech[Mt],tec_emission-factor-process_CH4_mae_tech[Mt/Mt],ind_material-production_wwp_tech[Mt],tec_emission-factor-process_CH4_wwp_tech[Mt/Mt],ind_material-production_ois_tech[Mt],tec_emission-factor-process_CH4_ois_tech[Mt/Mt],ind_material-production_aluminium_prim[Mt],tec_emission-factor-process_CH4_aluminium_prim[Mt/Mt],ind_material-production_aluminium_sec[Mt],tec_emission-factor-process_CH4_aluminium_sec[Mt/Mt],ind_material-production_cement_dry-kiln[Mt],tec_emission-factor-process_CH4_cement_dry-kiln[Mt/Mt],ind_material-production_cement_wet-kiln[Mt],tec_emission-factor-process_CH4_cement_wet-kiln[Mt/Mt],ind_material-production_cement_geopolym[Mt],tec_emission-factor-process_CH4_cement_geopolym[Mt/Mt],ind_material-production_chem_chem-tech[Mt],tec_emission-factor-process_CH4_chem_chem-tech[Mt/Mt],ind_material-production_copper_tech[Mt],tec_emission-factor-process_CH4_copper_tech[Mt/Mt],ind_material-production_glass_glass[Mt],tec_emission-factor-process_CH4_glass_glass[Mt/Mt],ind_material-production_lime_lime[Mt],tec_emission-factor-process_CH4_lime_lime[Mt/Mt],ind_material-production_paper_woodpulp[Mt],tec_emission-factor-process_CH4_paper_woodpulp[Mt/Mt],ind_material-production_paper_recycled[Mt],tec_emission-factor-process_CH4_paper_recycled[Mt/Mt],ind_material-production_steel_BF-BOF[Mt],tec_emission-factor-process_CH4_steel_BF-BOF[Mt/Mt],ind_material-production_steel_scrap-EAF[Mt],tec_emission-factor-process_CH4_steel_scrap-EAF[Mt/Mt],ind_material-production_steel_hisarna[Mt],tec_emission-factor-process_CH4_steel_hisarna[Mt/Mt],ind_material-production_steel_hydrog-DRI[Mt],tec_emission-factor-process_CH4_steel_hydrog-DRI[Mt/Mt],"/>
-</config>
-<config key="Variable_21">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_CH4-emissions_process_fbt_tech[Mt],ind_CH4-emissions_process_tra-equip_tech[Mt],ind_CH4-emissions_process_textiles_tech[Mt],ind_CH4-emissions_process_mae_tech[Mt],ind_CH4-emissions_process_wwp_tech[Mt],ind_CH4-emissions_process_ois_tech[Mt],ind_CH4-emissions_process_aluminium_prim[Mt],ind_CH4-emissions_process_aluminium_sec[Mt],ind_CH4-emissions_process_cement_dry-kiln[Mt],ind_CH4-emissions_process_cement_wet-kiln[Mt],ind_CH4-emissions_process_cement_geopolym[Mt],ind_CH4-emissions_process_chem_chem-tech[Mt],ind_CH4-emissions_process_copper_tech[Mt],ind_CH4-emissions_process_glass_glass[Mt],ind_CH4-emissions_process_lime_lime[Mt],ind_CH4-emissions_process_paper_woodpulp[Mt],ind_CH4-emissions_process_paper_recycled[Mt],ind_CH4-emissions_process_steel_BF-BOF[Mt],ind_CH4-emissions_process_steel_scrap-EAF[Mt],ind_CH4-emissions_process_steel_hisarna[Mt],ind_CH4-emissions_process_steel_hydrog-DRI[Mt],"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -155,7 +22,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="virtual-in-ID" type="xint" value="598"/>
 <config key="inports">
 <config key="inport_0">

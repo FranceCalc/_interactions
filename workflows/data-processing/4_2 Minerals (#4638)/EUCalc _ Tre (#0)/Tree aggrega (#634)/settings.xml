@@ -1,140 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*_(.*)\[num\]|ind_product\-net\-import_(.*)\[%\]"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_prod"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*_(.*)\[num\]"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="num"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_product\-net\-import_(.*)\[%\]"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="tra_other-subways[num],ind_product-net-import_other-subways[%],tra_2W-ICE[num],ind_product-net-import_2W-ICE[%],tra_HDVH-ICE[num],ind_product-net-import_HDVH-ICE[%],tra_HDVL-ICE[num],ind_product-net-import_HDVL-ICE[%],tra_HDVM-ICE[num],ind_product-net-import_HDVM-ICE[%],tra_LDV-ICE[num],ind_product-net-import_LDV-ICE[%],tra_bus-ICE[num],ind_product-net-import_bus-ICE[%],tra_2W-PHEV[num],ind_product-net-import_2W-PHEV[%],tra_HDVH-PHEV[num],ind_product-net-import_HDVH-PHEV[%],tra_HDVL-PHEV[num],ind_product-net-import_HDVL-PHEV[%],tra_HDVM-PHEV[num],ind_product-net-import_HDVM-PHEV[%],tra_LDV-PHEV[num],ind_product-net-import_LDV-PHEV[%],tra_bus-PHEV[num],ind_product-net-import_bus-PHEV[%],tra_2W-EV[num],ind_product-net-import_2W-EV[%],tra_HDVH-EV[num],ind_product-net-import_HDVH-EV[%],tra_HDVL-EV[num],ind_product-net-import_HDVL-EV[%],tra_HDVM-EV[num],ind_product-net-import_HDVM-EV[%],tra_LDV-EV[num],ind_product-net-import_LDV-EV[%],tra_bus-EV[num],ind_product-net-import_bus-EV[%],tra_2W-FCEV[num],ind_product-net-import_2W-FCEV[%],tra_HDVH-FCEV[num],ind_product-net-import_HDVH-FCEV[%],tra_HDVL-FCEV[num],ind_product-net-import_HDVL-FCEV[%],tra_HDVM-FCEV[num],ind_product-net-import_HDVM-FCEV[%],tra_LDV-FCEV[num],ind_product-net-import_LDV-FCEV[%],tra_bus-FCEV[num],ind_product-net-import_bus-FCEV[%],tra_other-ships[num],ind_product-net-import_other-ships[%],tra_other-planes[num],ind_product-net-import_other-planes[%],tra_other-trains[num],ind_product-net-import_other-trains[%],tra_electronics-computer[num],ind_product-net-import_electronics-computer[%],tra_dom-appliance-dishwasher[num],ind_product-net-import_dom-appliance-dishwasher[%],tra_dom-appliance-dryer[num],ind_product-net-import_dom-appliance-dryer[%],tra_dom-appliance-freezer[num],ind_product-net-import_dom-appliance-freezer[%],tra_dom-appliance-fridge[num],ind_product-net-import_dom-appliance-fridge[%],tra_electronics-phone[num],ind_product-net-import_electronics-phone[%],tra_electronics-tv[num],ind_product-net-import_electronics-tv[%],tra_dom-appliance-wmachine[num],ind_product-net-import_dom-appliance-wmachine[%],"/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_prod_other-subways[num],min_prod_2W-ICE[num],min_prod_HDVH-ICE[num],min_prod_HDVL-ICE[num],min_prod_HDVM-ICE[num],min_prod_LDV-ICE[num],min_prod_bus-ICE[num],min_prod_2W-PHEV[num],min_prod_HDVH-PHEV[num],min_prod_HDVL-PHEV[num],min_prod_HDVM-PHEV[num],min_prod_LDV-PHEV[num],min_prod_bus-PHEV[num],min_prod_2W-EV[num],min_prod_HDVH-EV[num],min_prod_HDVL-EV[num],min_prod_HDVM-EV[num],min_prod_LDV-EV[num],min_prod_bus-EV[num],min_prod_2W-FCEV[num],min_prod_HDVH-FCEV[num],min_prod_HDVL-FCEV[num],min_prod_HDVM-FCEV[num],min_prod_LDV-FCEV[num],min_prod_bus-FCEV[num],min_prod_other-ships[num],min_prod_other-planes[num],min_prod_other-trains[num],min_prod_electronics-computer[num],min_prod_dom-appliance-dishwasher[num],min_prod_dom-appliance-dryer[num],min_prod_dom-appliance-freezer[num],min_prod_dom-appliance-fridge[num],min_prod_electronics-phone[num],min_prod_electronics-tv[num],min_prod_dom-appliance-wmachine[num],"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*_(.*)\[num\]|ind_product\-net\-import_(.*)\[%\]"/>
-</config>
-<config key="Variable_12">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_prod"/>
-</config>
-<config key="Variable_13">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*_(.*)\[num\]"/>
-</config>
-<config key="Variable_14">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_15">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_16">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_17">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_18">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="num"/>
-</config>
-<config key="Variable_19">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ind_product\-net\-import_(.*)\[%\]"/>
-</config>
-<config key="Variable_20">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="tra_other-subways[num],ind_product-net-import_other-subways[%],tra_2W-ICE[num],ind_product-net-import_2W-ICE[%],tra_HDVH-ICE[num],ind_product-net-import_HDVH-ICE[%],tra_HDVL-ICE[num],ind_product-net-import_HDVL-ICE[%],tra_HDVM-ICE[num],ind_product-net-import_HDVM-ICE[%],tra_LDV-ICE[num],ind_product-net-import_LDV-ICE[%],tra_bus-ICE[num],ind_product-net-import_bus-ICE[%],tra_2W-PHEV[num],ind_product-net-import_2W-PHEV[%],tra_HDVH-PHEV[num],ind_product-net-import_HDVH-PHEV[%],tra_HDVL-PHEV[num],ind_product-net-import_HDVL-PHEV[%],tra_HDVM-PHEV[num],ind_product-net-import_HDVM-PHEV[%],tra_LDV-PHEV[num],ind_product-net-import_LDV-PHEV[%],tra_bus-PHEV[num],ind_product-net-import_bus-PHEV[%],tra_2W-EV[num],ind_product-net-import_2W-EV[%],tra_HDVH-EV[num],ind_product-net-import_HDVH-EV[%],tra_HDVL-EV[num],ind_product-net-import_HDVL-EV[%],tra_HDVM-EV[num],ind_product-net-import_HDVM-EV[%],tra_LDV-EV[num],ind_product-net-import_LDV-EV[%],tra_bus-EV[num],ind_product-net-import_bus-EV[%],tra_2W-FCEV[num],ind_product-net-import_2W-FCEV[%],tra_HDVH-FCEV[num],ind_product-net-import_HDVH-FCEV[%],tra_HDVL-FCEV[num],ind_product-net-import_HDVL-FCEV[%],tra_HDVM-FCEV[num],ind_product-net-import_HDVM-FCEV[%],tra_LDV-FCEV[num],ind_product-net-import_LDV-FCEV[%],tra_bus-FCEV[num],ind_product-net-import_bus-FCEV[%],tra_other-ships[num],ind_product-net-import_other-ships[%],tra_other-planes[num],ind_product-net-import_other-planes[%],tra_other-trains[num],ind_product-net-import_other-trains[%],tra_electronics-computer[num],ind_product-net-import_electronics-computer[%],tra_dom-appliance-dishwasher[num],ind_product-net-import_dom-appliance-dishwasher[%],tra_dom-appliance-dryer[num],ind_product-net-import_dom-appliance-dryer[%],tra_dom-appliance-freezer[num],ind_product-net-import_dom-appliance-freezer[%],tra_dom-appliance-fridge[num],ind_product-net-import_dom-appliance-fridge[%],tra_electronics-phone[num],ind_product-net-import_electronics-phone[%],tra_electronics-tv[num],ind_product-net-import_electronics-tv[%],tra_dom-appliance-wmachine[num],ind_product-net-import_dom-appliance-wmachine[%],"/>
-</config>
-<config key="Variable_21">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="min_prod_other-subways[num],min_prod_2W-ICE[num],min_prod_HDVH-ICE[num],min_prod_HDVL-ICE[num],min_prod_HDVM-ICE[num],min_prod_LDV-ICE[num],min_prod_bus-ICE[num],min_prod_2W-PHEV[num],min_prod_HDVH-PHEV[num],min_prod_HDVL-PHEV[num],min_prod_HDVM-PHEV[num],min_prod_LDV-PHEV[num],min_prod_bus-PHEV[num],min_prod_2W-EV[num],min_prod_HDVH-EV[num],min_prod_HDVL-EV[num],min_prod_HDVM-EV[num],min_prod_LDV-EV[num],min_prod_bus-EV[num],min_prod_2W-FCEV[num],min_prod_HDVH-FCEV[num],min_prod_HDVL-FCEV[num],min_prod_HDVM-FCEV[num],min_prod_LDV-FCEV[num],min_prod_bus-FCEV[num],min_prod_other-ships[num],min_prod_other-planes[num],min_prod_other-trains[num],min_prod_electronics-computer[num],min_prod_dom-appliance-dishwasher[num],min_prod_dom-appliance-dryer[num],min_prod_dom-appliance-freezer[num],min_prod_dom-appliance-fridge[num],min_prod_electronics-phone[num],min_prod_electronics-tv[num],min_prod_dom-appliance-wmachine[num],"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -155,7 +22,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="virtual-in-ID" type="xint" value="598"/>
 <config key="inports">
 <config key="inport_0">

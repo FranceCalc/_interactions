@@ -52,12 +52,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 2030, Cols: 9"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 70, Cols: 9"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2ded8857-159e-4663-8efa-e9ba3da9b02c"/>
+<entry key="file_store_id" type="xstring" value="704165a0-abaf-4936-8565-336f33450af5"/>
 </config>
 </config>

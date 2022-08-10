@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="variable-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="283"/>
+                <entry key="0" type="xstring" value="db_schema"/>
+                <entry key="1" type="xstring" value="db_table_cube_output"/>
+                <entry key="2" type="xstring" value="db_table_output"/>
+                <entry key="3" type="xstring" value="db_port"/>
+                <entry key="4" type="xstring" value="db_host"/>
+                <entry key="5" type="xstring" value="test_mode"/>
+                <entry key="6" type="xstring" value="country_filter"/>
+                <entry key="7" type="xstring" value="disable_graphics"/>
+                <entry key="8" type="xstring" value="module"/>
+                <entry key="9" type="xstring" value="baseyear"/>
+                <entry key="10" type="xstring" value="RowID"/>
+                <entry key="11" type="xstring" value="lever_biodiversity"/>
+                <entry key="12" type="xstring" value="lever_water-man"/>
+                <entry key="13" type="xstring" value="lever_8"/>
+                <entry key="14" type="xstring" value="lever_7"/>
+                <entry key="15" type="xstring" value="lever_material-net-import"/>
+                <entry key="16" type="xstring" value="lever_product-net-import"/>
+                <entry key="17" type="xstring" value="lever_food-net-import"/>
+                <entry key="18" type="xstring" value="lever_household-size"/>
+                <entry key="19" type="xstring" value="lever_pop"/>
+                <entry key="20" type="xstring" value="lever_3"/>
+                <entry key="21" type="xstring" value="lever_climate-smart-livestock"/>
+                <entry key="22" type="xstring" value="lever_land-man"/>
+                <entry key="23" type="xstring" value="lever_min-practices"/>
+                <entry key="24" type="xstring" value="lever_biomass-hierarchy"/>
+                <entry key="25" type="xstring" value="lever_alt-protein"/>
+                <entry key="26" type="xstring" value="lever_fst-practices"/>
+                <entry key="27" type="xstring" value="lever_climate-smart-fisheries"/>
+                <entry key="28" type="xstring" value="lever_climate-smart-crop"/>
+                <entry key="29" type="xstring" value="lever_bal-strat"/>
+                <entry key="30" type="xstring" value="lever_capacity_RES_other"/>
+                <entry key="31" type="xstring" value="lever_2"/>
+                <entry key="32" type="xstring" value="lever_capacity_RES_solar"/>
+                <entry key="33" type="xstring" value="lever_capacity_RES_wind"/>
+                <entry key="34" type="xstring" value="lever_capacity_nuclear"/>
+                <entry key="35" type="xstring" value="lever_ccs"/>
+                <entry key="36" type="xstring" value="lever_capacity_fossil"/>
+                <entry key="37" type="xstring" value="lever_cc"/>
+                <entry key="38" type="xstring" value="lever_energy-carrier-mix"/>
+                <entry key="39" type="xstring" value="lever_technology-development"/>
+                <entry key="40" type="xstring" value="lever_technology-share"/>
+                <entry key="41" type="xstring" value="lever_material-switch"/>
+                <entry key="42" type="xstring" value="lever_material-efficiency"/>
+                <entry key="43" type="xstring" value="lever_appliance-efficiency"/>
+                <entry key="44" type="xstring" value="lever_nonres-floorarea"/>
+                <entry key="45" type="xstring" value="lever_heatcool-efficiency"/>
+                <entry key="46" type="xstring" value="lever_heatcool-technology-fuel"/>
+                <entry key="47" type="xstring" value="lever_district-heating-share"/>
+                <entry key="48" type="xstring" value="lever_building-insulation"/>
+                <entry key="49" type="xstring" value="lever_freight_utilization-rate"/>
+                <entry key="50" type="xstring" value="lever_freight_load-factor"/>
+                <entry key="51" type="xstring" value="lever_freight_modal-share"/>
+                <entry key="52" type="xstring" value="lever_freight_technology-share_new"/>
+                <entry key="53" type="xstring" value="lever_freight_vehicle-efficiency_new"/>
+                <entry key="54" type="xstring" value="lever_passenger_technology-share_new"/>
+                <entry key="55" type="xstring" value="lever_passenger_veh-efficiency_new"/>
+                <entry key="56" type="xstring" value="lever_freight_tkm"/>
+                <entry key="57" type="xstring" value="lever_appliance-own"/>
+                <entry key="58" type="xstring" value="lever_datause"/>
+                <entry key="59" type="xstring" value="lever_fwaste"/>
+                <entry key="60" type="xstring" value="lever_1"/>
+                <entry key="61" type="xstring" value="lever_paperpack"/>
+                <entry key="62" type="xstring" value="lever_diet"/>
+                <entry key="63" type="xstring" value="lever_kcal-req"/>
+                <entry key="64" type="xstring" value="lever_urbpop"/>
+                <entry key="65" type="xstring" value="lever_lighting"/>
+                <entry key="66" type="xstring" value="lever_appliance-use"/>
+                <entry key="67" type="xstring" value="lever_heatcool-behaviour"/>
+                <entry key="68" type="xstring" value="lever_floor-intensity"/>
+                <entry key="69" type="xstring" value="lever_passenger_utilization-rate"/>
+                <entry key="70" type="xstring" value="lever_passenger_occupancy"/>
+                <entry key="71" type="xstring" value="lever_passenger_modal-share"/>
+                <entry key="72" type="xstring" value="lever_pkm"/>
+                <entry key="73" type="xstring" value="CO2-emissionfactor_unit[Gt/EJ]"/>
+                <entry key="74" type="xstring" value="CO2-emissionfactor_HDVL_ICE-diesel[Gt/EJ]"/>
+                <entry key="75" type="xstring" value="CO2-emissionfactor_HDVL_ICE-gasoline[Gt/EJ]"/>
+                <entry key="76" type="xstring" value="CO2-emissionfactor_HDVL_ICE-gas[Gt/EJ]"/>
+                <entry key="77" type="xstring" value="CO2-emissionfactor_HDVL_PHEV-diesel[Gt/EJ]"/>
+                <entry key="78" type="xstring" value="CO2-emissionfactor_HDVL_PHEV-gasoline[Gt/EJ]"/>
+                <entry key="79" type="xstring" value="CO2-emissionfactor_HDVL_CEV[Gt/EJ]"/>
+                <entry key="80" type="xstring" value="CO2-emissionfactor_HDVL_FCEV[Gt/EJ]"/>
+                <entry key="81" type="xstring" value="CO2-emissionfactor_HDVL_BEV[Gt/EJ]"/>
+                <entry key="82" type="xstring" value="CO2-emissionfactor_HDVM_ICE-diesel[Gt/EJ]"/>
+                <entry key="83" type="xstring" value="CO2-emissionfactor_HDVM_ICE-gasoline[Gt/EJ]"/>
+                <entry key="84" type="xstring" value="CO2-emissionfactor_HDVM_ICE-gas[Gt/EJ]"/>
+                <entry key="85" type="xstring" value="CO2-emissionfactor_HDVM_PHEV-diesel[Gt/EJ]"/>
+                <entry key="86" type="xstring" value="CO2-emissionfactor_HDVM_PHEV-gasoline[Gt/EJ]"/>
+                <entry key="87" type="xstring" value="CO2-emissionfactor_HDVM_CEV[Gt/EJ]"/>
+                <entry key="88" type="xstring" value="CO2-emissionfactor_HDVM_FCEV[Gt/EJ]"/>
+                <entry key="89" type="xstring" value="CO2-emissionfactor_HDVM_BEV[Gt/EJ]"/>
+                <entry key="90" type="xstring" value="CO2-emissionfactor_HDVH_ICE-diesel[Gt/EJ]"/>
+                <entry key="91" type="xstring" value="CO2-emissionfactor_HDVH_ICE-gasoline[Gt/EJ]"/>
+                <entry key="92" type="xstring" value="CO2-emissionfactor_HDVH_ICE-gas[Gt/EJ]"/>
+                <entry key="93" type="xstring" value="CO2-emissionfactor_HDVH_PHEV-diesel[Gt/EJ]"/>
+                <entry key="94" type="xstring" value="CO2-emissionfactor_HDVH_PHEV-gasoline[Gt/EJ]"/>
+                <entry key="95" type="xstring" value="CO2-emissionfactor_HDVH_CEV[Gt/EJ]"/>
+                <entry key="96" type="xstring" value="CO2-emissionfactor_HDVH_FCEV[Gt/EJ]"/>
+                <entry key="97" type="xstring" value="CO2-emissionfactor_HDVH_BEV[Gt/EJ]"/>
+                <entry key="98" type="xstring" value="CO2-emissionfactor_rail_ICE[Gt/EJ]"/>
+                <entry key="99" type="xstring" value="CO2-emissionfactor_marine_ICE[Gt/EJ]"/>
+                <entry key="100" type="xstring" value="CO2-emissionfactor_IWW_ICE[Gt/EJ]"/>
+                <entry key="101" type="xstring" value="CO2-emissionfactor_aviation_ICE[Gt/EJ]"/>
+                <entry key="102" type="xstring" value="CO2-emissionfactor_rail_CEV[Gt/EJ]"/>
+                <entry key="103" type="xstring" value="CO2-emissionfactor_metro-tram[Gt/EJ]"/>
+                <entry key="104" type="xstring" value="CO2-emissionfactor_rail_FCEV[Gt/EJ]"/>
+                <entry key="105" type="xstring" value="CO2-emissionfactor_marine_BEV[Gt/EJ]"/>
+                <entry key="106" type="xstring" value="CO2-emissionfactor_IWW_BEV[Gt/EJ]"/>
+                <entry key="107" type="xstring" value="CO2-emissionfactor_aviation_BEV[Gt/EJ]"/>
+                <entry key="108" type="xstring" value="CO2-emissionfactor_marine_FCEV[Gt/EJ]"/>
+                <entry key="109" type="xstring" value="CO2-emissionfactor_IWW_FCEV[Gt/EJ]"/>
+                <entry key="110" type="xstring" value="CO2-emissionfactor_LDV_ICE-diesel[Gt/EJ]"/>
+                <entry key="111" type="xstring" value="CO2-emissionfactor_LDV_ICE-gasoline[Gt/EJ]"/>
+                <entry key="112" type="xstring" value="CO2-emissionfactor_LDV_ICE-gas[Gt/EJ]"/>
+                <entry key="113" type="xstring" value="CO2-emissionfactor_LDV_PHEV-diesel[Gt/EJ]"/>
+                <entry key="114" type="xstring" value="CO2-emissionfactor_LDV_PHEV-gasoline[Gt/EJ]"/>
+                <entry key="115" type="xstring" value="CO2-emissionfactor_Unnamed: 42[Gt/EJ]"/>
+                <entry key="116" type="xstring" value="CO2-emissionfactor_LDV_FCEV[Gt/EJ]"/>
+                <entry key="117" type="xstring" value="CO2-emissionfactor_LDV_BEV[Gt/EJ]"/>
+                <entry key="118" type="xstring" value="CO2-emissionfactor_2W_ICE-diesel[Gt/EJ]"/>
+                <entry key="119" type="xstring" value="CO2-emissionfactor_2W_ICE-gasoline[Gt/EJ]"/>
+                <entry key="120" type="xstring" value="CO2-emissionfactor_2W_ICE-gas[Gt/EJ]"/>
+                <entry key="121" type="xstring" value="CO2-emissionfactor_2W_PHEV[Gt/EJ]"/>
+                <entry key="122" type="xstring" value="CO2-emissionfactor_2W_FCEV[Gt/EJ]"/>
+                <entry key="123" type="xstring" value="CO2-emissionfactor_2W_BEV[Gt/EJ]"/>
+                <entry key="124" type="xstring" value="CO2-emissionfactor_bus_ICE-diesel[Gt/EJ]"/>
+                <entry key="125" type="xstring" value="CO2-emissionfactor_bus_ICE-gasoline[Gt/EJ]"/>
+                <entry key="126" type="xstring" value="CO2-emissionfactor_bus_ICE-gas[Gt/EJ]"/>
+                <entry key="127" type="xstring" value="CO2-emissionfactor_bus_PHEV[Gt/EJ]"/>
+                <entry key="128" type="xstring" value="CO2-emissionfactor_bus_FCEV[Gt/EJ]"/>
+                <entry key="129" type="xstring" value="CO2-emissionfactor_bus_BEV[Gt/EJ]"/>
+                <entry key="130" type="xstring" value="soil-emission-factors_unit[tCO2e/ha/an]"/>
+                <entry key="131" type="xstring" value="soil-emission-factors_cropland_conv[tCO2e/ha/an]"/>
+                <entry key="132" type="xstring" value="soil-emission-factors_cropland_ca[tCO2e/ha/an]"/>
+                <entry key="133" type="xstring" value="soil-emission-factors_forest_young[tCO2e/ha/an]"/>
+                <entry key="134" type="xstring" value="soil-emission-factors_forest_mature[tCO2e/ha/an]"/>
+                <entry key="135" type="xstring" value="soil-emission-factors_grassland_young[tCO2e/ha/an]"/>
+                <entry key="136" type="xstring" value="soil-emission-factors_grassland_mature[tCO2e/ha/an]"/>
+                <entry key="137" type="xstring" value="biomass-emission-factors_unit[tCO2e/ha/an]"/>
+                <entry key="138" type="xstring" value="biomass-emission-factors_cropland_conv[tCO2e/ha/an]"/>
+                <entry key="139" type="xstring" value="biomass-emission-factors_cropland_ca[tCO2e/ha/an]"/>
+                <entry key="140" type="xstring" value="biomass-emission-factors_forest_young[tCO2e/ha/an]"/>
+                <entry key="141" type="xstring" value="biomass-emission-factors_forest_mature[tCO2e/ha/an]"/>
+                <entry key="142" type="xstring" value="biomass-emission-factors_grassland_young[tCO2e/ha/an]"/>
+                <entry key="143" type="xstring" value="biomass-emission-factors_grassland_mature[tCO2e/ha/an]"/>
+                <entry key="144" type="xstring" value="forest_unit[%]"/>
+                <entry key="145" type="xstring" value="forest_growth[%]"/>
+                <entry key="146" type="xstring" value="biorefinery_yield_unit[tons/TWh]"/>
+                <entry key="147" type="xstring" value="biorefinery_yield_btx_bionaphta[tons/TWh]"/>
+                <entry key="148" type="xstring" value="biorefinery_yield_hvo_bionaphta[tons/TWh]"/>
+                <entry key="149" type="xstring" value="biorefinery_yield_est_glycerin[tons/TWh]"/>
+                <entry key="150" type="xstring" value="biorefinery_yield_ezm_lignin[tons/TWh]"/>
+                <entry key="151" type="xstring" value="bioenergy_yield_unit[TWh/TWh]"/>
+                <entry key="152" type="xstring" value="bioenergy_yield_btx_lgn[TWh/TWh]"/>
+                <entry key="153" type="xstring" value="bioenergy_yield_hvo_oil[TWh/TWh]"/>
+                <entry key="154" type="xstring" value="bioenergy_yield_est_oil[TWh/TWh]"/>
+                <entry key="155" type="xstring" value="bioenergy_yield_ezm_lgn[TWh/TWh]"/>
+                <entry key="156" type="xstring" value="bioenergy_yield_fer_sgr[TWh/TWh]"/>
+                <entry key="157" type="xstring" value="bioenergy_yield_btx_bionaphta[TWh/TWh]"/>
+                <entry key="158" type="xstring" value="bioenergy_yield_hvo_bionaphta[TWh/TWh]"/>
+                <entry key="159" type="xstring" value="bioenergy_yield_hvo_propane[TWh/TWh]"/>
+                <entry key="160" type="xstring" value="bioenergy_yield_est_glycerin[TWh/TWh]"/>
+                <entry key="161" type="xstring" value="bioenergy_yield_ezm_lignin[TWh/TWh]"/>
+                <entry key="162" type="xstring" value="meals-yield_unit[%]"/>
+                <entry key="163" type="xstring" value="meals-yield_algae-crop[%]"/>
+                <entry key="164" type="xstring" value="meals-yield_algae-voil[%]"/>
+                <entry key="165" type="xstring" value="meals-yield_insect-crop[%]"/>
+                <entry key="166" type="xstring" value="meals-yield_insect-oil[%]"/>
+                <entry key="167" type="xstring" value="meals-yield_insect-manure[%]"/>
+                <entry key="168" type="xstring" value="meals-yield_cereal-crop[%]"/>
+                <entry key="169" type="xstring" value="meals-yield_oilcrops-crop[%]"/>
+                <entry key="170" type="xstring" value="meals-yield_cereal-ethanol[%]"/>
+                <entry key="171" type="xstring" value="meals-yield_oilcrops-voil[%]"/>
+                <entry key="172" type="xstring" value="residues_yields_unit[%]"/>
+                <entry key="173" type="xstring" value="residues_yields_cereal[%]"/>
+                <entry key="174" type="xstring" value="residues_yields_oilcrops[%]"/>
+                <entry key="175" type="xstring" value="biorefinery_bp_unit[tons/tons]"/>
+                <entry key="176" type="xstring" value="biorefinery_bp_biomass_algae[tons/tons]"/>
+                <entry key="177" type="xstring" value="biorefinery_bp_oil_algae[tons/tons]"/>
+                <entry key="178" type="xstring" value="biorefinery_bp_biomass_insect[tons/tons]"/>
+                <entry key="179" type="xstring" value="biorefinery_bp_oil_insect[tons/tons]"/>
+                <entry key="180" type="xstring" value="biorefinery_bp_manure_insect[tons/tons]"/>
+                <entry key="181" type="xstring" value="biorefinery_bp_oil-meals_oilcrops[tons/tons]"/>
+                <entry key="182" type="xstring" value="biorefinery_bp_grains_oilcrops[tons/tons]"/>
+                <entry key="183" type="xstring" value="biorefinery_bp_grains_cereals[tons/tons]"/>
+                <entry key="184" type="xstring" value="biorefinery_bp_fodder_cereals[tons/tons]"/>
+                <entry key="185" type="xstring" value="biorefinery_bp_fodder_oilcrops[tons/tons]"/>
+                <entry key="186" type="xstring" value="bp_bev_unit[%]"/>
+                <entry key="187" type="xstring" value="bp_bev_wine_marc[%]"/>
+                <entry key="188" type="xstring" value="bp_bev_wine_lees[%]"/>
+                <entry key="189" type="xstring" value="bp_bev_wine_grappes-crop[%]"/>
+                <entry key="190" type="xstring" value="bp_bev_beer_barley-crop[%]"/>
+                <entry key="191" type="xstring" value="bp_bev_beer_cereal-meals[%]"/>
+                <entry key="192" type="xstring" value="bp_bev_beer_yees[%]"/>
+                <entry key="193" type="xstring" value="bp_bev_bev-fer_barley-crop[%]"/>
+                <entry key="194" type="xstring" value="bp_bev_bev-alc_fruits-crop[%]"/>
+                <entry key="195" type="xstring" value="shouse_unit[tons/#]"/>
+                <entry key="196" type="xstring" value="shouse_bov_afats[tons/#]"/>
+                <entry key="197" type="xstring" value="shouse_sheep_afats[tons/#]"/>
+                <entry key="198" type="xstring" value="shouse_pigs_afats[tons/#]"/>
+                <entry key="199" type="xstring" value="shouse_poultry_afats[tons/#]"/>
+                <entry key="200" type="xstring" value="shouse_oth-animals_afats[tons/#]"/>
+                <entry key="201" type="xstring" value="shouse_bov_offal[tons/#]"/>
+                <entry key="202" type="xstring" value="shouse_sheep_offal[tons/#]"/>
+                <entry key="203" type="xstring" value="shouse_pigs_offal[tons/#]"/>
+                <entry key="204" type="xstring" value="shouse_poultry_offal[tons/#]"/>
+                <entry key="205" type="xstring" value="shouse_oth-animals_offal[tons/#]"/>
+                <entry key="206" type="xstring" value="shouse_bov_manure[tons/#]"/>
+                <entry key="207" type="xstring" value="shouse_sheep_manure[tons/#]"/>
+                <entry key="208" type="xstring" value="shouse_pigs_manure[tons/#]"/>
+                <entry key="209" type="xstring" value="shouse_poultry_manure[tons/#]"/>
+                <entry key="210" type="xstring" value="shouse_oth-animals_manure[tons/#]"/>
+                <entry key="211" type="xstring" value="shouse_dairy_feed[tons/#]"/>
+                <entry key="212" type="xstring" value="shouse_bov_feed[tons/#]"/>
+                <entry key="213" type="xstring" value="shouse_sheep_feed[tons/#]"/>
+                <entry key="214" type="xstring" value="shouse_pigs_feed[tons/#]"/>
+                <entry key="215" type="xstring" value="shouse_poultry_feed[tons/#]"/>
+                <entry key="216" type="xstring" value="shouse_oth-animals_feed[tons/#]"/>
+                <entry key="217" type="xstring" value="conv-factors_lsu_unit[lsu/#]"/>
+                <entry key="218" type="xstring" value="conv-factors_lsu_bov[lsu/#]"/>
+                <entry key="219" type="xstring" value="conv-factors_lsu_sheep[lsu/#]"/>
+                <entry key="220" type="xstring" value="conv-factors_lsu_pigs[lsu/#]"/>
+                <entry key="221" type="xstring" value="conv-factors_lsu_poultry[lsu/#]"/>
+                <entry key="222" type="xstring" value="conv-factors_lsu_oth-animals[lsu/#]"/>
+                <entry key="223" type="xstring" value="conv-factors_energy_unit[#/#]"/>
+                <entry key="224" type="xstring" value="conv-factors_energy_koe/TWh[#/#]"/>
+                <entry key="225" type="xstring" value="conv-factors_food_unit[kcal/tonnes]"/>
+                <entry key="226" type="xstring" value="conv-factors_food_bov[kcal/tonnes]"/>
+                <entry key="227" type="xstring" value="conv-factors_food_sheep[kcal/tonnes]"/>
+                <entry key="228" type="xstring" value="conv-factors_food_pigs[kcal/tonnes]"/>
+                <entry key="229" type="xstring" value="conv-factors_food_poultry[kcal/tonnes]"/>
+                <entry key="230" type="xstring" value="conv-factors_food_oth-animals[kcal/tonnes]"/>
+                <entry key="231" type="xstring" value="conv-factors_food_offal[kcal/tonnes]"/>
+                <entry key="232" type="xstring" value="conv-factors_food_egg[kcal/tonnes]"/>
+                <entry key="233" type="xstring" value="conv-factors_food_milk[kcal/tonnes]"/>
+                <entry key="234" type="xstring" value="conv-factors_food_afats[kcal/tonnes]"/>
+                <entry key="235" type="xstring" value="conv-factors_food_stm[kcal/tonnes]"/>
+                <entry key="236" type="xstring" value="conv-factors_food_tea[kcal/tonnes]"/>
+                <entry key="237" type="xstring" value="conv-factors_food_coffee[kcal/tonnes]"/>
+                <entry key="238" type="xstring" value="conv-factors_food_wine[kcal/tonnes]"/>
+                <entry key="239" type="xstring" value="conv-factors_food_beer[kcal/tonnes]"/>
+                <entry key="240" type="xstring" value="conv-factors_food_bev-fer[kcal/tonnes]"/>
+                <entry key="241" type="xstring" value="conv-factors_food_bev-alc[kcal/tonnes]"/>
+                <entry key="242" type="xstring" value="conv-factors_food_cereals[kcal/tonnes]"/>
+                <entry key="243" type="xstring" value="conv-factors_food_fruits[kcal/tonnes]"/>
+                <entry key="244" type="xstring" value="conv-factors_food_oilcrops[kcal/tonnes]"/>
+                <entry key="245" type="xstring" value="conv-factors_food_pulses[kcal/tonnes]"/>
+                <entry key="246" type="xstring" value="conv-factors_food_starch[kcal/tonnes]"/>
+                <entry key="247" type="xstring" value="conv-factors_food_sweet[kcal/tonnes]"/>
+                <entry key="248" type="xstring" value="conv-factors_food_sugar[kcal/tonnes]"/>
+                <entry key="249" type="xstring" value="conv-factors_food_voil[kcal/tonnes]"/>
+                <entry key="250" type="xstring" value="conv-factors_food_veg[kcal/tonnes]"/>
+                <entry key="251" type="xstring" value="conv-factors_food_wheat[kcal/tonnes]"/>
+                <entry key="252" type="xstring" value="conv-factors_food_rye[kcal/tonnes]"/>
+                <entry key="253" type="xstring" value="conv-factors_food_barley[kcal/tonnes]"/>
+                <entry key="254" type="xstring" value="conv-factors_food_sugarcrops[kcal/tonnes]"/>
+                <entry key="255" type="xstring" value="conv-factors_food_maize[kcal/tonnes]"/>
+                <entry key="256" type="xstring" value="conv-factors_food_oats[kcal/tonnes]"/>
+                <entry key="257" type="xstring" value="conv-factors_food_brans[kcal/tonnes]"/>
+                <entry key="258" type="xstring" value="conv-factors_food_dfish[kcal/tonnes]"/>
+                <entry key="259" type="xstring" value="conv-factors_food_ffish[kcal/tonnes]"/>
+                <entry key="260" type="xstring" value="conv-factors_food_pfish[kcal/tonnes]"/>
+                <entry key="261" type="xstring" value="conv-factors_food_seafood[kcal/tonnes]"/>
+                <entry key="262" type="xstring" value="conv-factors_food_oth-aq-animals[kcal/tonnes]"/>
+                <entry key="263" type="xstring" value="conv-factors_food_fish-meals[kcal/tonnes]"/>
+                <entry key="264" type="xstring" value="conv-factors_food_algae-meals[kcal/tonnes]"/>
+                <entry key="265" type="xstring" value="conv-factors_food_insect-meals[kcal/tonnes]"/>
+                <entry key="266" type="xstring" value="conv-factors_food_oil-meals[kcal/tonnes]"/>
+                <entry key="267" type="xstring" value="conv-factors_food_grains[kcal/tonnes]"/>
+                <entry key="268" type="xstring" value="conv-factors_food_fodder[kcal/tonnes]"/>
+                <entry key="269" type="xstring" value="conv-factors_food_cake[kcal/tonnes]"/>
+                <entry key="270" type="xstring" value="conv-factors_food_grapes[kcal/tonnes]"/>
+                <entry key="271" type="xstring" value="conv-factors_food_molasses[kcal/tonnes]"/>
+                <entry key="272" type="xstring" value="conv-factors_crop_unit[TWh/tons]"/>
+                <entry key="273" type="xstring" value="conv-factors_crop_soyabean[TWh/tons]"/>
+                <entry key="274" type="xstring" value="conv-factors_crop_palm[TWh/tons]"/>
+                <entry key="275" type="xstring" value="conv-factors_crop_sunflower[TWh/tons]"/>
+                <entry key="276" type="xstring" value="conv-factors_crop_rapeseed[TWh/tons]"/>
+                <entry key="277" type="xstring" value="conv-factors_crop_uco[TWh/tons]"/>
+                <entry key="278" type="xstring" value="conv-factors_crop_afats[TWh/tons]"/>
+                <entry key="279" type="xstring" value="conv-factors_crop_maize[TWh/tons]"/>
+                <entry key="280" type="xstring" value="conv-factors_crop_sugar-crops[TWh/tons]"/>
+                <entry key="281" type="xstring" value="conv-factors_crop_wheat[TWh/tons]"/>
+                <entry key="282" type="xstring" value="conv-factors_crop_sugar_oth[TWh/tons]"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+        <config key="port-names">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Port 1"/>
+        </config>
+        <config key="port-descriptions">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value=""/>
+        </config>
+        <entry key="sub-node-description" type="xstring" value=""/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Component does not have input data, execute upstream nodes first"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Component Input"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202112011542"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202112011542"/>
+    <config key="factory_settings">
+        <config key="port_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Component Input"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

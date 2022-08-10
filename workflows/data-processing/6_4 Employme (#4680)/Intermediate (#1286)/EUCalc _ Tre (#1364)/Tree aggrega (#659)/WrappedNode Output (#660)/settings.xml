@@ -32,7 +32,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
 <entry key="node-name" type="xstring" value="WrappedNode Output"/>
@@ -54,10 +54,10 @@
 </config>
 <entry key="name" type="xstring" value="WrappedNode Output"/>
 <entry key="hasContent" type="xboolean" value="false"/>
-<entry key="isInactive" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="505bc186-7efa-4a8a-ada6-19766c8345d7"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

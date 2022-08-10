@@ -23,10 +23,6 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Not all contained nodes are executed:%%00010EUCalc - Graph Visualization 0:1197:0: IDLE (start)%%00010  Pivoting 0:1197:0:505 (EXECUTED)%%00010  Generic JavaScript View 0:1197:0:515 (IDLE)%%00010  String To Number 0:1197:0:516 (IDLE)%%00010  WrappedNode Input 0:1197:0:517 (EXECUTED)%%00010  WrappedNode Output 0:1197:0:518 (EXECUTED)%%00010  GroupBy 0:1197:0:520 (EXECUTED)%%00010  Unpivoting 0:1197:0:522 (EXECUTED)%%00010  Sorter 0:1197:0:525 (EXECUTED)%%00010  Column Rename (Regex) 0:1197:0:526 (EXECUTED)%%00010  IF Switch 0:1197:0:529 (EXECUTED)%%00010  End IF 0:1197:0:530 (EXECUTED)%%00010  IF Switch 0:1197:0:531 (EXECUTED)%%00010  End IF 0:1197:0:532 (IDLE)%%00010  Extract Column Header 0:1197:0:534 (EXECUTED)%%00010  Transpose 0:1197:0:536 (EXECUTED)%%00010  Rule Engine 0:1197:0:538 (EXECUTED)%%00010  Table Column to Variable 0:1197:0:540 (EXECUTED)%%00010  Sorter 0:1197:0:542 (EXECUTED)%%00010  GroupBy 0:1197:0:543 (EXECUTED)%%00010  RowID 0:1197:0:544 (EXECUTED)%%00010  String Manipulation (Variable) 0:1197:0:545 (EXECUTED)%%00010  Column Rename (Regex) 0:1197:0:546 (EXECUTED)%%00010  Column Rename (Regex) 0:1197:0:547 (IDLE)%%00010EUCalc - Graph Visualization 0:1197:0(end)%%00010"/>
-</config>
 <entry key="virtual-in-ID" type="xint" value="517"/>
 <config key="inports">
 <config key="inport_0">
